@@ -6,7 +6,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-SUBFOLDER_NAME = "healthy.foodie.gloria"
+SUBFOLDER_NAME = "rdhuanhuan"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
 MAX_WORKERS = 4
 
