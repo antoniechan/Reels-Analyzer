@@ -6,7 +6,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-SUBFOLDER_NAME = "rd.grace.f"
+SUBFOLDER_NAME = "healthy.foodie.gloria"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
 MAX_WORKERS = 4
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
     extract_from_file_or_dir(f"./reelsData/{SUBFOLDER_NAME}.json", "video_urls.txt")
 
-    if os.path.exists("video_urls.txt"):
+    if os.path.exists("video_urls.txt") & os.path.exists(f"./reelsData/{SUBFOLDER_NAME}.json"):
         batch_download_from_file("video_urls.txt", custom_subfolder=SUBFOLDER_NAME)
     else:
-        print(f"找不到檔案 {URL_FILE}，請先執行抽取 URL 的程式。")
+        print(f"找不到檔案，請先執行抽取 URL 的程式。")
