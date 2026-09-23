@@ -6,34 +6,44 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-SUBFOLDER_NAME = "rdhuanhuan"
+SUBFOLDER_NAME = "healthy.foodie.gloria"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
 MAX_WORKERS = 4
 
-def extract_urls_from_data(data):
-    """遞迴或遍歷提取所有 videoUrl"""
-    urls = []
+
+def extract_media_from_data(data):
+    """
+    遞迴提取包含 videoUrl 或 audioUrl 的物件
+    以 dict 形式儲存: {'videoUrl': '...', 'audioUrl': '...'}
+    """
+    media_list = []
+
     if isinstance(data, list):
         for item in data:
-            urls.extend(extract_urls_from_data(item))
+            media_list.extend(extract_media_from_data(item))
     elif isinstance(data, dict):
-        if "videoUrl" in data and data["videoUrl"]:
-            urls.append(data["videoUrl"])
-        # 若 JSON 結構有巢狀層級，繼續往下找
-        for key, value in data.items():
+        has_video = bool(data.get("videoUrl"))
+        has_audio = bool(data.get("audioUrl"))
+
+        # 當該節點包含影片或音訊時，擷取該項目
+        if has_video or has_audio:
+            media_list.append({
+                "videoUrl": data.get("videoUrl"),
+                "audioUrl": data.get("audioUrl")
+            })
+
+        # 遞迴遍歷子節點
+        for value in data.values():
             if isinstance(value, (dict, list)):
-                urls.extend(extract_urls_from_data(value))
-    return urls
+                media_list.extend(extract_media_from_data(value))
+
+    return media_list
 
 
-def extract_from_file_or_dir(input_path, output_file="urls.txt"):
-    """
-    從指定檔案或資料夾讀取 JSON 並匯出 videoUrl
-    :param input_path: JSON 檔案路徑 或 包含 JSON 的資料夾路徑
-    :param output_file: 匯出的 txt 檔名
-    """
+def extract_from_file_or_dir(input_path, output_file="media_urls.json"):
+    """從指定檔案或資料夾讀取 JSON 並匯出 media 清單"""
     path = Path(input_path)
-    all_urls = []
+    all_media = []
 
     if path.is_file():
         json_files = [path]
@@ -41,32 +51,39 @@ def extract_from_file_or_dir(input_path, output_file="urls.txt"):
         json_files = list(path.glob("*.json"))
     else:
         print(f"錯誤：找不到路徑 {input_path}")
-        return
+        return False
 
     for file in json_files:
         try:
             with open(file, "r", encoding="utf-8") as f:
                 content = json.load(f)
-                urls = extract_urls_from_data(content)
-                all_urls.extend(urls)
-                print(f"已從 {file.name} 擷取到 {len(urls)} 個連結")
+                items = extract_media_from_data(content)
+                all_media.extend(items)
+                print(f"已從 {file.name} 擷取到 {len(items)} 筆媒體資料")
         except Exception as e:
             print(f"解析 {file.name} 時出錯: {e}")
 
-    # 去除重複項（若需要保留順序可改用 list(dict.fromkeys(all_urls))）
-    unique_urls = list(dict.fromkeys(all_urls))
+    # 去重（以 videoUrl 與 audioUrl 組合去重）
+    seen = set()
+    unique_media = []
+    for item in all_media:
+        key = (item.get("videoUrl"), item.get("audioUrl"))
+        if key not in seen:
+            seen.add(key)
+            unique_media.append(item)
 
-    # 寫入文字檔
+    # 儲存為 JSON 以保留成對資訊
     with open(output_file, "w", encoding="utf-8") as out:
-        for url in unique_urls:
-            out.write(url + "\n")
+        json.dump(unique_media, out, indent=2, ensure_ascii=False)
 
-    print(f"\n完成！從 {input_path} 共取得 {len(unique_urls)} 個唯一 videoUrl，已寫入至 {output_file}")
+    print(f"\n完成！共取得 {len(unique_media)} 筆唯一媒體資料，已寫入至 {output_file}")
+    return True
 
-def download_video(url, index, total, target_dir):
-    """下載單個影片到指定子資料夾"""
-    filename = f"video_{index:03d}.mp4"
-    file_path = os.path.join(target_dir, filename)
+
+def download_file(url, file_path, desc_label):
+    """通用單檔下載函式（支援進度條）"""
+    if not url:
+        return True, "無連結，略過"
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -80,7 +97,7 @@ def download_video(url, index, total, target_dir):
         chunk_size = 1024 * 1024
 
         with open(file_path, "wb") as f, tqdm(
-                desc=filename,
+                desc=desc_label,
                 total=total_size,
                 unit="B",
                 unit_scale=True,
@@ -92,53 +109,69 @@ def download_video(url, index, total, target_dir):
                     f.write(chunk)
                     bar.update(len(chunk))
 
-        return True, f"✅ 下載完成: {filename}"
+        return True, f"✅ 下載完成: {os.path.basename(file_path)}"
     except Exception as e:
-        return False, f"❌ 下載失敗 (第 {index} 部): {e}"
+        return False, f"❌ 下載失敗: {os.path.basename(file_path)} ({e})"
 
 
-def batch_download_from_file(url_file_path, custom_subfolder=None):
-    # 決定子資料夾名稱：未指定就用時間戳記 (例如: batch_20260921_110000)
-    if not custom_subfolder:
-        subfolder_name = f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    else:
-        subfolder_name = custom_subfolder
+def download_media_pair(item, index, total, target_dir):
+    """同時處理單一項目的影片與音訊下載"""
+    results = []
 
-    # 組合出完整路徑: downloaded_videos/batch_xxxxxx/
+    # 1. 下載影片
+    if item.get("videoUrl"):
+        video_filename = f"video_{index:03d}.mp4"
+        v_path = os.path.join(target_dir, video_filename)
+        v_ok, v_msg = download_file(item["videoUrl"], v_path, video_filename)
+        results.append((v_ok, v_msg))
+
+    # 2. 下載音訊（若 Instagram/Reels 音訊為 m4a/aac，可視需要將副檔名改為 .m4a 或 .mp3）
+    if item.get("audioUrl"):
+        audio_filename = f"video_{index:03d}.mp3"
+        a_path = os.path.join(target_dir, audio_filename)
+        a_ok, a_msg = download_file(item["audioUrl"], a_path, audio_filename)
+        results.append((a_ok, a_msg))
+
+    all_success = all(ok for ok, _ in results)
+    msgs = "\n".join(msg for _, msg in results)
+    return all_success, msgs
+
+
+def batch_download_from_file(media_file_path, custom_subfolder=None):
+    subfolder_name = custom_subfolder or f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     target_dir = os.path.join(BASE_DOWNLOAD_DIR, subfolder_name)
-
-    # 建立目錄 (包含父層與子層)
     os.makedirs(target_dir, exist_ok=True)
-    print(f"📁 影片儲存路徑: {target_dir}")
+    print(f"📁 檔案儲存路徑: {target_dir}")
 
-    with open(url_file_path, "r", encoding="utf-8") as f:
-        urls = [line.strip() for line in f if line.strip()]
+    with open(media_file_path, "r", encoding="utf-8") as f:
+        media_items = json.load(f)
 
-    total_videos = len(urls)
-    print(f"共讀取到 {total_videos} 個影片連結，開始下載...\n")
+    total_items = len(media_items)
+    print(f"共讀取到 {total_items} 筆項目，開始下載...\n")
 
     success_count = 0
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        future_to_url = {
-            executor.submit(download_video, url, i + 1, total_videos, target_dir): i
-            for i, url in enumerate(urls)
+        future_to_index = {
+            executor.submit(download_media_pair, item, i + 1, total_items, target_dir): i
+            for i, item in enumerate(media_items)
         }
 
-        for future in as_completed(future_to_url):
+        for future in as_completed(future_to_index):
             success, msg = future.result()
             print(msg)
             if success:
                 success_count += 1
 
-    print(f"\n全部任務結束！成功: {success_count}/{total_videos}，儲存於: {target_dir}")
+    print(f"\n全部任務結束！成功處理: {success_count}/{total_items} 組，儲存於: {target_dir}")
 
 
 if __name__ == "__main__":
-    # 將 'data.json' 改為你的 JSON 檔案路徑，或填入資料夾路徑（例如：'./json_folder')
+    json_path = f"./reelsData/{SUBFOLDER_NAME}.json"
+    temp_media_file = "media_urls.json"
 
-    extract_from_file_or_dir(f"./reelsData/{SUBFOLDER_NAME}.json", "video_urls.txt")
-
-    if os.path.exists("video_urls.txt") & os.path.exists(f"./reelsData/{SUBFOLDER_NAME}.json"):
-        batch_download_from_file("video_urls.txt", custom_subfolder=SUBFOLDER_NAME)
+    if os.path.exists(json_path):
+        success = extract_from_file_or_dir(json_path, temp_media_file)
+        if success and os.path.exists(temp_media_file):
+            batch_download_from_file(temp_media_file, custom_subfolder=SUBFOLDER_NAME)
     else:
-        print(f"找不到檔案，請先執行抽取 URL 的程式。")
+        print(f"錯誤：找不到來源檔案 {json_path}")
