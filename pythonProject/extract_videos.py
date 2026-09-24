@@ -6,14 +6,16 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-# CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "test"
+SUBFOLDER_NAME = "minichen921"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
-
-# DO NOT AMEND THE FOLLOWING
 MAX_WORKERS = 4
 
+
 def extract_media_from_data(data):
+    """
+    遞迴提取包含 videoUrl 或 audioUrl 的物件
+    以 dict 形式儲存: {'videoUrl': '...', 'audioUrl': '...'}
+    """
     media_list = []
 
     if isinstance(data, list):
@@ -23,12 +25,14 @@ def extract_media_from_data(data):
         has_video = bool(data.get("videoUrl"))
         has_audio = bool(data.get("audioUrl"))
 
+        # 當該節點包含影片或音訊時，擷取該項目
         if has_video or has_audio:
             media_list.append({
                 "videoUrl": data.get("videoUrl"),
                 "audioUrl": data.get("audioUrl")
             })
 
+        # 遞迴遍歷子節點
         for value in data.values():
             if isinstance(value, (dict, list)):
                 media_list.extend(extract_media_from_data(value))
@@ -37,6 +41,7 @@ def extract_media_from_data(data):
 
 
 def extract_from_file_or_dir(input_path, output_file="media_urls.json"):
+    """從指定檔案或資料夾讀取 JSON 並匯出 media 清單"""
     path = Path(input_path)
     all_media = []
 
@@ -58,6 +63,7 @@ def extract_from_file_or_dir(input_path, output_file="media_urls.json"):
         except Exception as e:
             print(f"解析 {file.name} 時出錯: {e}")
 
+    # 去重（以 videoUrl 與 audioUrl 組合去重）
     seen = set()
     unique_media = []
     for item in all_media:
@@ -66,6 +72,7 @@ def extract_from_file_or_dir(input_path, output_file="media_urls.json"):
             seen.add(key)
             unique_media.append(item)
 
+    # 儲存為 JSON 以保留成對資訊
     with open(output_file, "w", encoding="utf-8") as out:
         json.dump(unique_media, out, indent=2, ensure_ascii=False)
 
@@ -74,6 +81,7 @@ def extract_from_file_or_dir(input_path, output_file="media_urls.json"):
 
 
 def download_file(url, file_path, desc_label):
+    """通用單檔下載函式（支援進度條）"""
     if not url:
         return True, "無連結，略過"
 
@@ -101,20 +109,23 @@ def download_file(url, file_path, desc_label):
                     f.write(chunk)
                     bar.update(len(chunk))
 
-        return True, f"下載完成: {os.path.basename(file_path)}"
+        return True, f"✅ 下載完成: {os.path.basename(file_path)}"
     except Exception as e:
-        return False, f"下載失敗: {os.path.basename(file_path)} ({e})"
+        return False, f"❌ 下載失敗: {os.path.basename(file_path)} ({e})"
 
 
 def download_media_pair(item, index, total, target_dir):
+    """同時處理單一項目的影片與音訊下載"""
     results = []
 
+    # 1. 下載影片
     if item.get("videoUrl"):
         video_filename = f"video_{index:03d}.mp4"
         v_path = os.path.join(target_dir, video_filename)
         v_ok, v_msg = download_file(item["videoUrl"], v_path, video_filename)
         results.append((v_ok, v_msg))
 
+    # 2. 下載音訊（若 Instagram/Reels 音訊為 m4a/aac，可視需要將副檔名改為 .m4a 或 .mp3）
     if item.get("audioUrl"):
         audio_filename = f"video_{index:03d}.mp3"
         a_path = os.path.join(target_dir, audio_filename)
@@ -130,7 +141,7 @@ def batch_download_from_file(media_file_path, custom_subfolder=None):
     subfolder_name = custom_subfolder or f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     target_dir = os.path.join(BASE_DOWNLOAD_DIR, subfolder_name)
     os.makedirs(target_dir, exist_ok=True)
-    print(f"檔案儲存路徑: {target_dir}")
+    print(f"📁 檔案儲存路徑: {target_dir}")
 
     with open(media_file_path, "r", encoding="utf-8") as f:
         media_items = json.load(f)
