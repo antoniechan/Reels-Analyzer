@@ -1,21 +1,25 @@
 import json
+import os
 
-ORIGINAL_FILE = 'temp.json'
+# CHANGE THE FILE NAME
 SAVED_FILE = 'zimi_rd'
 
-# 1. Load the original Apify JSON data
-# Replace 'apify_output.json' with your actual file path
-with open(ORIGINAL_FILE, 'r', encoding='utf-8') as file:
-    data = json.load(file)
+# DO NOT AMEND THE FOLLOWING
+ORIGINAL_FILE = 'temp.json'
+output_dir = 'reelsData'
+output_path = os.path.join(output_dir, f'{SAVED_FILE}.json')
 
-# 2. Sort the data in descending order of timestamp
-# key=lambda x: x['timestamp'] extracts the timestamp from each post dictionary
-# reverse=True ensures it sorts from newest (highest) to oldest (lowest)
-data.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
+if os.path.exists(output_path):
+    print(f"⚠檔案 '{output_path}' 已經存在，為避免覆蓋已取消儲存操作。")
+else:
+    with open(ORIGINAL_FILE, 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-# 3. Save the sorted data to a new JSON file
-output_path = f'reelsData\\{SAVED_FILE}.json'
-with open(output_path, 'w', encoding='utf-8') as file:
-    json.dump(data, file, indent=4, ensure_ascii=False)
+    data.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
 
-print("JSON file successfully sorted in descending order!")
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(output_path, 'w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+
+    print(f"成功將排序後的資料儲存至 '{output_path}'！")
