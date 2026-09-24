@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "zimi_rd"
+SUBFOLDER_NAME = "rita_wang_health"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
 
 # DO NOT AMEND THE FOLLOWING

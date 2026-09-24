@@ -2,7 +2,7 @@ import json
 import os
 
 # CHANGE THE FILE NAME
-SAVED_FILE = 'zimi_rd'
+SAVED_FILE = 'rita_wang_health'
 
 # DO NOT AMEND THE FOLLOWING
 ORIGINAL_FILE = 'temp.json'
