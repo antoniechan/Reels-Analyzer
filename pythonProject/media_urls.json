@@ -1,66 +1,1028 @@
 [
   {
-    "videoUrl": "https://scontent-mxp1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOMi7WaszabuEhuw6M2waucWnseuGMvi1t_7QTS1Jdfk7fTqawAljreF9g2cfSdUQdkY0kSbPfTK4QHHjhSUe4oDsXqlShkYTyvI10.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-mxp1-1.cdninstagram.com&_nc_ohc=jMQuVkOZNZ8Q7kNvwHNpq_-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDc2NDE4NDEzMDQ2OTE4MSwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=88f8ed7e5c31c7d0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NTQ5ODQ0Q0I3MTRBMjhBOTNBODM0OThFMkQ2MDM4NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M0NEY1N0EyNjk0QUY4MDQ5QjE3OURGN0VDMzhFNTlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb69O3rgcD2EBUCKAJDMywXQEZzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=rgxwU0tvtMQJMHnz-twvOw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKSZnyq_7tOqSBLmFCo0rc2oPKblB2RDFHyt4nef2TTRg&oe=6AB6945C",
-    "audioUrl": "https://scontent-mxp1-1.cdninstagram.com/o1/v/t2/f2/m78/AQM1YwDVBriMsOIABmvaN_sFMorZ40JH3H40nEi50RJLxaKUwOX4p9-4M9D9hOdkHBA-zKwr9gwfLR7uFf5LeBPjH46103KG7OIdBng.mp4?_nc_cat=107&_nc_sid=9ca052&_nc_ht=scontent-mxp1-1.cdninstagram.com&_nc_ohc=_QV2hoA0uBEQ7kNvwFr60lt&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo0NzY0MTg0MTMwNDY5MTgxLCJhc3NldF9hZ2VfZGF5cyI6NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ0LCJiaXRyYXRlIjo1NjM4OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=rgxwU0tvtMQJMHnz-twvOw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJ0bUym2_2FBSZEIbQ0Yf8tKi7SUgERtTRC8mFckPSiAQ&oe=6AB69BB4"
+    "videoUrl": "https://instagram.flba3-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQOcmi-E9Lb8Z8TAgVO1rA9OzOQ2-VfBejKNg3HTyWpMzniaNIKviWOghy0p20dq18a4OHIoiQBnUQ3HlSXJe41FC-JwkdTyg_PLuEQ.mp4?_nc_cat=110&_nc_oc=AdoHVGarWEe52BuphB8PAY1kLyX4G69G9vODDLscOP2fNbY0001-Q6dSsGOt9WMcCU0ydPY9YDS2o6ceQg8UHufC&_nc_sid=5e9851&_nc_ht=instagram.flba3-2.fna.fbcdn.net&_nc_ohc=h9a3trquZugQ7kNvwHrUG-F&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjI5NjY5MzUzMTA3OTQzNiwiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7af2774633ef50fa&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMDQ4QjY2NDU5Rjk2NjYwN0VCQUIzNjUyNjZGOUZCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk4NDgwMEU1RTMzNTkzMEM3MzVFRkVFNTA5Q0M0OUI3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaYzJ-hlLWUCBUCKAJDMywXQGNZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=m1bdZ_HIPQFmXxW2fmp8TQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKdfN4DRAhZCG9nCnd1qkVYXYtsOW9OmaifZjdzW-dczA&oe=6AB7AC9B",
+    "timestamp": "2026-09-22T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 33157,
+    "videoDuration": 154.805984,
+    "likesCount": 717,
+    "commentsCount": 1,
+    "caption": "肺活量不好的後果，不僅僅是影響增肌減脂效果那麼簡單！#苗振 #davidmiao #肺活量 #增肌減脂 #健身",
+    "audioUrl": "https://instagram.flba3-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNbCVNZ52gLVYm27HZNsrRVILnitVORcxtoGM_2aYx15bToj7ZZHqTzox3KbiOHDH0_zUnGRFyTuIxDnCNeCNCrQ1AWBcVgCDNjpAk.mp4?_nc_cat=102&_nc_oc=AdrP3lkHPKg1PRk8DazjL09Fr-z_SfxUI7hG_o_E-vuV_GPyCYSRMFNk-TBGsmbFWAUoyjmKMWIS9O3yTYE1-Upo&_nc_sid=9ca052&_nc_ht=instagram.flba3-1.fna.fbcdn.net&_nc_ohc=fImIgGvlxEAQ7kNvwGex8q0&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyMjk2NjkzNTMxMDc5NDM2LCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE1NCwiYml0cmF0ZSI6NTA4ODgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=m1bdZ_HIPQFmXxW2fmp8TQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIIgQmb3UUG3ODwbbRSX6-xBekTpRwNIQt7quIRJNOB3Q&oe=6AB7975B",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 1.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://instagram.ffab1-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQOAblLEvMxtsq_ocwRWagvTxA0DcMKr98bq51sWhmM6zKGOni69MFgOvYbH3x-Q_eu2sR12SnnTfS1tsJMJm21joUgpezg4KWwO2AY.mp4?_nc_cat=108&_nc_oc=AdrdQLyw0FO3mfpq5gPvSE6GUXQtNIpEsZ1Dm-e8qdx0Li-uZCkzd3QVnHYE9TOpnNpIZ5wwtEQHqTcEd7cGh9f3&_nc_sid=5e9851&_nc_ht=instagram.ffab1-2.fna.fbcdn.net&_nc_ohc=WTcxfUrrHRcQ7kNvwF_VfsV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ2MDI0MjI4NTk0Nzk1MywiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=96196baefaf04cde&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83MDQwMEE5M0YzRjVDMEIxMDNEODI3MjhBNkJBRENCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVENEQ1RUFDRDQyMjJDMzlEQUMyQkI2NTFGRkRBMjk5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbisOvrpIWYBRUCKAJDMywXQEj3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=eI2RbjPAw18ejtcLhKhwiw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLZxotNQzjvU10cYZfLhWf8_WEubukPzQGuoyQJAfoN7Q&oe=6AB68FFD",
-    "audioUrl": "https://instagram.ffab1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNFLw1uVRnYULZ5YAHjED3EMgAbottjDTbPzgIKM-CSVuaLpADRd-_1LSgapwXK1R_lfvm4EV_3xEy3OIRrYpy2GvHHLjn-OSjdLDA.mp4?_nc_cat=109&_nc_oc=AdoCg7pHKt5p6axOtc7tMTbszJgZkhLdmN5w0_juu3L2p_XIrjbBSFrvp_b59toUVQdZnSQeWDIVwfuvZNJEH0ov&_nc_sid=9ca052&_nc_ht=instagram.ffab1-1.fna.fbcdn.net&_nc_ohc=8TV7fKluMXQQ7kNvwHq-mgp&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMxLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNDYwMjQyMjg1OTQ3OTUzLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ5LCJiaXRyYXRlIjo0OTMwMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=eI2RbjPAw18ejtcLhKhwiw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLNOcg4wkcR9xUpkCpeP5NWb59iz60YQJ3XlevPwGcLXg&oe=6AB67DA2"
+    "videoUrl": "https://scontent-lga3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMnaIYmZdBKxl47zyggxszEEWndSQGoGndhna8Tf1qX7Wn0lnYIpU-H2fQl4tEDVJ9OZ3YnmaPGptdfMf4ant3yv9YnyckD47Prf7A.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ohc=P4JAT51fXgcQ7kNvwFPKB-L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM5ODc3MTQ2MjQzNzczNSwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=37b743d43e68eaca&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ENjQwMzQwMjFEN0Y4MUMyQjQzMkMyMTdBNUUzRTQ4OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIzNEUzQjAzODcxOUM1NUNERTIwRjZEM0UwMTI1RDk5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbO7Z_Cm4v8BBUCKAJDMywXQExqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=1QFVj6yd8T3i03bn4r9jzw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLJ2ZX-ww9GVeWo19aPr3fDM0CCM_lbFQVHwjAgdeKddw&oe=6AB7BE14",
+    "timestamp": "2026-09-21T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 32931,
+    "videoDuration": 56.841,
+    "likesCount": 270,
+    "commentsCount": 0,
+    "caption": "你是好腳還是爛腳？關鍵是看能否滿足這10個條件！ #苗振 #davidmiao #足踝功能 #運動康復  #健身",
+    "audioUrl": "https://scontent-lga3-3.cdninstagram.com/o1/v/t2/f2/m78/AQPNlv7_jJlxhz5plGVe_utfUfYyd_w4idjtFogmmRIhTADvNQjbqlb_uQT-8dMwlZcXRu5xWB5tgogQkftIeiA9tOKklJSg4uI14O0.mp4?_nc_cat=104&_nc_sid=9ca052&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_ohc=iNFlBZE8CgkQ7kNvwFQ35Ps&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzk4NzcxNDYyNDM3NzM1LCJhc3NldF9hZ2VfZGF5cyI6MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU2LCJiaXRyYXRlIjo1MjAwNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1QFVj6yd8T3i03bn4r9jzw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLfpbkjMujwvm7S5tugI0iWAIyzpXJT48dGFzq2sAFD4g&oe=6AB79FB5",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-lhr11-1.cdninstagram.com/o1/v/t2/f2/m86/AQMOF5irbbrtVykIgLUVNzAiUfOOu7J51lS63XKKAdSrXpDMnhp_GC3-RVXbmDkWuzj4eaTB7B1xK0l5v9pm0rbU92NMNtQ7XkVCADk.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_ohc=g-KmJwiIAjoQ7kNvwGAH780&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjg5NzQzNTQwMDYyMDcwMiwiYXNzZXRfYWdlX2RheXMiOjEzLCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=83e27b00db10ccf5&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQTQ1NDUyNzc3M0FFNkIzOTBFQkRDNzY4OEQ0MTE5MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNDY3QUNENkFBQjlBOEZCQkZCMzZBN0Q1NEM0Mjg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa8qoL998ylChUCKAJDMywXQEFiDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=wVUYC5P1j98NnDuFGnANBA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQK0pn9tpxC4NrD1pVywSRSwcri81JsoYl1q8bI7Lwp9Gg&oe=6AB69989",
-    "audioUrl": "https://scontent-lhr6-2.cdninstagram.com/o1/v/t2/f2/m78/AQMkpPUrrcqFCDsbJ03LFOU1vYLMty_g1AWeS-17pyi1T7m_Mv-cShA1AA2skGQcbcck61wLeyt4-zXTW8_JW_saU8-4MhFC0Vdb_XI.mp4?_nc_cat=105&_nc_sid=9ca052&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_ohc=KSR7i2D2X8AQ7kNvwH_0hqr&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyODk3NDM1NDAwNjIwNzAyLCJhc3NldF9hZ2VfZGF5cyI6MTMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozNCwiYml0cmF0ZSI6NjA0NjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=wVUYC5P1j98NnDuFGnANBA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKZtfeXRIAxjUyHuRQn_UJMY1a4SGhnZ8Qf28crSir2eQ&oe=6AB6905A"
+    "videoUrl": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQMB3TIQp-DWwpl79PSl3YUGvoE9iS2ZvPvEvbsldSDv87LmTElHnuWFeSToOIK4Fh7VmLZCPTnM1nPv2ff2crBvMmTF4XUnrQNLI2s.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=fFizNp7LRYUQ7kNvwGezYEu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MzY0OTUyODYzNjYxOTcsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=18460a3e45bf37e6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85NzQwNUJBRUZGRDIyNEI1MkU0QzdENEZBMkFEMDBBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0UxNEE1OTVFRUYzMkQxNUI3NzYzNDM1OUNCRURBMkIwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbqv_ngt8ncPxUCKAJDMywXQFzCHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=kviVVnciEyFR69-79U7snA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKay1DH8nDxxFfqg9dTB5vs2FNsp7rgVirPFVbGcm7ORg&oe=6AB7B0DE",
+    "timestamp": "2026-09-20T08:49:17.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 27733,
+    "videoDuration": 115.101318,
+    "likesCount": 536,
+    "commentsCount": 0,
+    "caption": "網球肘與高爾夫球肘讓你很苦惱？多練這兩塊肌肉就能幫到你！#苗振 #davidmiao #運動康復 #健身 #功能性訓練",
+    "audioUrl": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m78/AQO20o2EeRtEz5sofduM2NjnkbgZbIJ7gzx0aYrqgBFzC2MABUS_h4amP363qxqEIFp-B0htQZUkE0BDzvDM6hMgUyroN4CMnZWn6b4.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=0S95gP3tbN8Q7kNvwGmiqy8&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzkzNjQ5NTI4NjM2NjE5NywiYXNzZXRfYWdlX2RheXMiOjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMTUsImJpdHJhdGUiOjUzMjg3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=kviVVnciEyFR69-79U7snA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJKgqExYbqyRQuu_5oYqdYDr3a-8fYdWEH-AjGRqX17dA&oe=6AB79D94",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQNoHgY3Lu5RlZAERbold-TCPXJXDMogEgJrKDZquwR0rd_xjW4KF_kMkAw9fZotqbxXon7v_uMHc585ClpM5WPvak04l9YrfuW2hUQ.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=15-8QNt3TbcQ7kNvwESQFW1&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODQ5MjEzOTQ0MzU4MDE0LCJhc3NldF9hZ2VfZGF5cyI6MjkwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ca948eec5b63000a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NDQ0NjZFNjM4MTU4RUNGQjFBMTFGMTIzNzk2MDU4OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82NDU1MDc3Mzg1NTY1MzBfNzMyMDc3ODE0MjY1MDI0NDg2Mi5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm_JHv9-CWggMVAigCQzMsF0BAkQYk3S8bGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=nXkfM46ZAQKtNDUFJFIDfg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKJjoaDL9XWP4CWSm2zMFM90Pl1pQ5lRYJdukMnOB5Q9A&oe=6AB6A965",
-    "audioUrl": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMz8sm5mG_15ZD4dHmULIqCNJT277Rg6hMH7VfyNwPawW41LCQKQbxJ46NxJmD-sgS56NDsCQsBqb870yPR9-g.mp4?_nc_cat=107&_nc_sid=9ca052&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=N98_s5yTx_EQ7kNvwHShOo6&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo4NDkyMTM5NDQzNTgwMTQsImFzc2V0X2FnZV9kYXlzIjoyOTAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozMywiYml0cmF0ZSI6Njk4MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=nXkfM46ZAQKtNDUFJFIDfg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIyJRpDkgu_fCynW6pbJcA7b3d3n9udKaCIlc080UfZWw&oe=6AB6B13D"
+    "videoUrl": "https://instagram.fgba1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQO517jTpZr1VMZgSGiFXJADvij1ZxQyvL-b-XPg4weeZp4hR_U7R4QXjMg40MzwaVffuH2Cce2xbVXS40Df44cYfMRDnEHdhGls-JI.mp4?_nc_cat=105&_nc_oc=AdqUyu3CsWqd0wS9iCC_VJ7PAPW3hYlmirtwfNtHK58xty3-E8fUhtD03WeywF7Mh_Y&_nc_sid=5e9851&_nc_ht=instagram.fgba1-1.fna.fbcdn.net&_nc_ohc=TGB7Qg9WKekQ7kNvwGWAJfG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MzYxOTA5OTkzNjYxOTcsImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8655548739b549ad&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CRTQ2NkEyREFGMkMyNDM0RkYwNUFCRjgwNDY2MjRBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QzNEMwNDRFNTU4NDkzRjdFRTJCQjhCM0I1MDE1RDlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbqqKDS3LfcPxUCKAJDMywXQGALtkWhysEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZK--X-IQFieqr7o0Q3NRlQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQK3Yffe45HoK8qQh__CcgxpZz5aSiphfbOCxQnHf5nRFA&oe=6AB7B076",
+    "timestamp": "2026-09-18T09:08:37.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 81145,
+    "videoDuration": 128.383133,
+    "likesCount": 1368,
+    "commentsCount": 20,
+    "caption": "翼狀肩胛骨的前因後果，如果家裡有小朋友，就更加要留意本期內容！ #苗振  #davidmiao #翼狀肩胛 #體態管理 #運動康復",
+    "audioUrl": "https://instagram.fgba1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPUfgKfpnjmt-okaF5XkdqD91R7lDVMveX9lStHkDt_cDHeWs_kWeKEZynm9-Xf3xLSjg7EJ6blLVYfPO7bbpOUgb7rEoQqiElDlZI.mp4?_nc_cat=100&_nc_oc=AdrEpYfYanjMn_QH3ZBsKweo1-vNMoCT3uQ3Fgs5wJxML26x9WH36fzAO-9ka0-VhyY&_nc_sid=9ca052&_nc_ht=instagram.fgba1-1.fna.fbcdn.net&_nc_ohc=-kGNnOlcD4EQ7kNvwGev-Vv&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzkzNjE5MDk5OTM2NjE5NywiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjgsImJpdHJhdGUiOjUyODk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ZK--X-IQFieqr7o0Q3NRlQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQI5mmotGxrGrWoN0iPytnLTK7zefg-j7q5YZQURWP2hIA&oe=6AB7AE41",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://instagram.fpoz6-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNLRC_tQVuti4FVKkgyvPgfFa59t0B4Vr90m7dbDwEdiJfhG8gVFKcjalRQ9fFNcnmqPWPJ0GB7LCIAwQkoiGMQ74jbo5SkYdscsUI.mp4?_nc_cat=101&_nc_oc=AdqszNUezlPXTuP6XjSzYM1riRmhlR_O1VjB99mLDkt5V0N86NFL-cTvKc6pipZodFs&_nc_sid=5e9851&_nc_ht=instagram.fpoz6-1.fna.fbcdn.net&_nc_ohc=KMXnKn2b6doQ7kNvwHzr3Kh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcwMDY5NjM1NzY3MjcxMywiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=27aca05eca359f1f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MDQ0MjkxMTVCQTMzNUEwQ0REMkI2NDY1NjBBMTY4MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzYwNDc4RjM1MUIwREY2QTJFNzc2NUM5REY2RjU0NkJBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaS3Kikx7GFBhUCKAJDMywXQEBd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=sfa20DDgRUKVYsQVVKuvrg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIK0FGCkMf7d9yJfkUgxeOBpKS5_YHeaIAtRuhz-uyekQ&oe=6AB6A8C6",
-    "audioUrl": "https://instagram.fpoz6-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPRfg_lzaKvZ-kotg0NY09W5b31-bGQM8W39OJi69BPI_LQPBwqskZxAPHaFKetXr1Ato8FudW7tuONDQq_aEY7olfpPqoGz9sZlVo.mp4?_nc_cat=108&_nc_oc=Adq3pUSRr3n8F4uX5Op3FkDRK1p_mqkzLqkENDBqs0BTiMQUl2tT9vg78xfWg-MzFOA&_nc_sid=9ca052&_nc_ht=instagram.fpoz6-1.fna.fbcdn.net&_nc_ohc=67pR5SnrsykQ7kNvwGxYTtw&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzAwNjk2MzU3NjcyNzEzLCJhc3NldF9hZ2VfZGF5cyI6MjAsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozMiwiYml0cmF0ZSI6NjU5NDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=sfa20DDgRUKVYsQVVKuvrg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLxrMTy3kpHkcb3PMv_4GGFP8XH0HkS9-rj8_fJlW7sqw&oe=6AB6A479"
+    "videoUrl": "https://scontent-cdg4-2.cdninstagram.com/o1/v/t2/f2/m86/AQMPr3s2rDlOpiqVYKCozcc6n1Yp-TazaA9Qrd-I3K2GAZEN2CaFRjO_INsBZOP_Xo2aervgwom9PezDjpLsIcqPKzSMULURJum7yw8.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_ohc=S1jr8sGVPt0Q7kNvwEmiCpK&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjI5NzA3MjI2NDM4NjUxNSwiYXNzZXRfYWdlX2RheXMiOjksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=eac82f5f04ea8541&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BMzQwRDdBQ0M3RDQyN0Y1NUZDOTRGQzdFNkJBMThBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzY1NEY3N0M3REVFRTA4Q0FCNkNDRDcxNkY4OUJENkFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam37yFmsuUCBUCKAJDMywXQGUVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=YEBzyGWBhXbtuIgaOsWCLw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIN3ONLxgydW5Dvqn_Z_CWMV71RiRlpZDTZD8rPL79VRg&oe=6AB7A255",
+    "timestamp": "2026-09-16T09:02:07.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 40035,
+    "videoDuration": 168.668304,
+    "likesCount": 995,
+    "commentsCount": 6,
+    "caption": "長期過度減少脂肪的攝入？這很有可能會傷害你的大腦！ #苗振  #davidmiao #減脂飲食 #健身 #脂肪",
+    "audioUrl": "https://scontent-cdg4-1.cdninstagram.com/o1/v/t2/f2/m78/AQOeo1F80__21CXXKuqi5294M42Rhp8gCpZOM0y-xZvh45HOmi4qhHRGX6KPMs5ReGzNx9wl0y5ZzY8pw8UwXD1b0Qn72H9QKi41gK8.mp4?_nc_cat=104&_nc_sid=9ca052&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_ohc=rEDbQ-gwP-4Q7kNvwFy4npL&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyMjk3MDcyMjY0Mzg2NTE1LCJhc3NldF9hZ2VfZGF5cyI6OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2OCwiYml0cmF0ZSI6NTU4MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=YEBzyGWBhXbtuIgaOsWCLw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLvp5SfVwN-UzYaQcZH4IIWbilE05q2R6CQaJA6Rhf2Ug&oe=6AB79EB9",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://instagram.fein1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQOeiVJM8tFrbUeGMCtwCcxXu_8cqeM9KBNFbtWwXAs3bDL7VpVzddqeHTm1N_rfQo0Fcg6Hk6tIgO0xxZMZkUx9C1wTrhGnMpFJGvA.mp4?_nc_cat=101&_nc_oc=AdrR9Jh6qMPsWZ6xb8JSiPDl9_40qcWK5a7_t_sEo6CySBBTEkaimb5A9S8l03C-CZs&_nc_sid=5e9851&_nc_ht=instagram.fein1-1.fna.fbcdn.net&_nc_ohc=wrOSSnbafacQ7kNvwG6c-W2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjc3NTA0MzQ3OTUzODQ0MiwiYXNzZXRfYWdlX2RheXMiOjg2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8126bc3b0cee3800&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNzQ3Mjc5MTM3QkM0RUVBNjUxNjEwNTFCNkRDQzVCOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FGNDMxQjAzQjIzMDk4MTE5RTBDMjI2ODJBQzIxQjkxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaUrKyN5fjtCRUCKAJDMywXQFP90vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=rTCLmbBOes3r66aQPh4eBw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLRCRFWoB_LN0fEsTQHHYruRDj8eL1WvtmVEJgQLTMOzA&oe=6AB68116",
-    "audioUrl": "https://instagram.fein1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNtM_RU3IF_0WME_DXHiiEU9P_-zJ645a1PPrLklWiU2LALcKAM0Xnf4sH_HCXbcyp1ARcLWsNQlAXEePVqucFZPzehMxzdiOWIWLU.mp4?_nc_cat=111&_nc_oc=AdrHR7Paru1co9-171qPl0K1UMZ6DVFF4LMkWCkn9_DGzNTe1TXK-rGlg5mMwzEXbE0&_nc_sid=9ca052&_nc_ht=instagram.fein1-1.fna.fbcdn.net&_nc_ohc=ZTU2dDo7a9oQ7kNvwH47CLq&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyNzc1MDQzNDc5NTM4NDQyLCJhc3NldF9hZ2VfZGF5cyI6ODYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3OSwiYml0cmF0ZSI6NTM2NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rTCLmbBOes3r66aQPh4eBw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL5rQbzqs5EVx5lK7eojkcN_IXn9ZIOdmC7lZVsh4dkEw&oe=6AB692AC"
+    "videoUrl": "https://instagram.faju1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNrcjHJTrFv5JB26IiVo2bxRxvMU3tuUStKYoXl90zdOFw-aIpJPXSDYdvxabsBOGkRImYRXzmOKmeGN1jixMipVTTcayqXClAHDzo.mp4?_nc_cat=108&_nc_oc=Adr3TwsxDutDLbhacQYq0lLu7cBdd5--BQ--Q8NDnzDAwojsj0VKk1dDJ-JBXPO0EZU&_nc_sid=5e9851&_nc_ht=instagram.faju1-1.fna.fbcdn.net&_nc_ohc=QEs826f2RzAQ7kNvwFqo9iR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDQ4MjQ1MzI1MjAxMzMwNCwiYXNzZXRfYWdlX2RheXMiOjEwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=fb102c285b5720d0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xRjQzQTU4MThDNURBNjIwRDAxMkJEQTVENzE3RTlCQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJDNDQ1OEEzQzEyM0I4QkQ5ODBGRjdDNDhFNjEwRjgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw8_ecj7H2DxUCKAJDMywXQGSwAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=dgrLbt8LmYtSE-6_s0tjMA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIbH0JQYnygJ3Uf8FwTpucsl-rx-a459qidymxHfR_Puw&oe=6AB7B16D",
+    "timestamp": "2026-09-14T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 30977,
+    "videoDuration": 165.510391,
+    "likesCount": 588,
+    "commentsCount": 1,
+    "caption": "只說一遍，千萬不要過度壓低脂肪的攝入！ #苗振 #davidmiao #減脂飲食 #脂肪 #健身",
+    "audioUrl": "https://instagram.faju1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQOmrhVENinqnNq4KWkKa3bhbsFcwnoV7aE8XP3M4zOxBzKaW8vZKT_LwVd8Ypo_Dd0fcFu5XpWrO0ad1ltMXe-vfv_N5jQisdvriRU.mp4?_nc_cat=105&_nc_oc=Adpd46uzDd582EUjDaDkVKjpQo4t6fhyWwiD6AhMF56H2HYrenPGpjp8Ppr2aAmhhjk&_nc_sid=9ca052&_nc_ht=instagram.faju1-1.fna.fbcdn.net&_nc_ohc=JVHUPMecvg8Q7kNvwFoaxlc&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo0NDgyNDUzMjUyMDEzMzA0LCJhc3NldF9hZ2VfZGF5cyI6MTAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjUsImJpdHJhdGUiOjU1Mzk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=dgrLbt8LmYtSE-6_s0tjMA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLQL1j604liZMTVI_MwvcVLtpisg7bexLpcK2RFj10Bug&oe=6AB7C73A",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m86/AQN4HqkRqBLdwlNaVs9OIrHSnnxROgtR-TZjL3POfvhvAhrMmvHaCeiv3RS-zjbEuRQZFtTF65ohlia5WLSNGSuMN7opwA1D9adjTtI.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=GOtBG3cI9KQQ7kNvwGbMwZd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3NDAyMDYwOTEzNjIwMiwiYXNzZXRfYWdlX2RheXMiOjEyNSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjg5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=78690613e7c57298&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85QTRFM0UyNjhBQTM4MjNENzQ1MjY5OTAxQjBDREU5QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzBGNDlCNDJEQjdCQkUyQzFGRjExRjI2QzMwRTQwQ0JDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaU2ZyOnbToAxUCKAJDMywXQFZzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=B9SiWXEyosH4I19H1ByJwg&_nc_ss=7a22e&_nc_zt=28&_nc_enc=QU_Jyqtx-yxhmbh4e7j2wov5xUWBwA0iT6kbStyfuwBzQ6wS7h4t9b1giEWRV8jSGNNMUGil3DxvXrFSE_6fs3sLAnpy5XgmqI9vusKPEImVFoiHzhkTAgJfuyg&oh=00_AQJJFJ6Ox2bpIeSqh2hVeEyq2rDKLvdoGpY3OW-bF-iMHA&oe=6AB687C8",
-    "audioUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m78/AQNhGKhWMzpQaT8zJFENL0bp8vbEkhmUXsf4fRvWQYE60G7RDbdC-990RGbjvIEDM2-IMMd3pUb7ERS_butZgFSOXArlrGIz8RpPM-Y.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=wHhKoRMbUyQQ7kNvwHI22SM&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDc0MDIwNjA5MTM2MjAyLCJhc3NldF9hZ2VfZGF5cyI6MTI1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6ODksImJpdHJhdGUiOjQ5NDExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=B9SiWXEyosH4I19H1ByJwg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQL8IbJ4XYuF4wGmW2H_MyScth9-YVgjQEAUcGHsCuCe3Q&oe=6AB6A64C"
+    "videoUrl": "https://instagram.fbne4-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMUNYoXWbki14hzsl6_SyasnA5n6rfaiXeJzjqByRyldj526aC6kXZGb-tYPv6yKlcZYOQTicjZ0nYA-mkcQ-xSZwwMVmgpe61Fypk.mp4?_nc_cat=106&_nc_oc=AdqJ-kJo_HmUTesRzOI2dDimgaZug1XLjuTM3O9vXohMX9MQxHVxNEVVC2jt8SIZxZU&_nc_sid=5e9851&_nc_ht=instagram.fbne4-1.fna.fbcdn.net&_nc_ohc=ie8SvbcuuhUQ7kNvwGWmuvS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTgzMDM5NTg2ODEzMDk2OSwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2297cb179979dcbc&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQjQwQkEwRDQxRTYwRUVCRjVFNTc0OENFRjk5NjNBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQxNEE3MjMyQTlGQzg4OUQxRUU1QUE4OTRENDQyOEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACayuqX4h6_ABhUCKAJDMywXQGYZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=hsYcLAoBXSt_sM-mn8KlrA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJBoUOtoru5tZOY-hF7Du16IGEIC0sNAlSadJQ5gCVk9Q&oe=6AB79C67",
+    "timestamp": "2026-09-12T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 46164,
+    "videoDuration": 176.818497,
+    "likesCount": 813,
+    "commentsCount": 0,
+    "caption": "為什麼有些人一停掉有氧運動，體重卻快速反彈？#苗振 #davidmiao #有氧運動 #減脂 #健身",
+    "audioUrl": "https://instagram.fbne4-2.fna.fbcdn.net/o1/v/t2/f2/m78/AQNTd8co-8Bpw2Sdlqq-E04xbfZ5GDYArd2Z0BZu9tf8qRVDvDj9Mv5KRetLKhGE_by0Rzh-2N-iEP0qfpOQxxLOvw8PPd-HCTUN9os.mp4?_nc_cat=103&_nc_oc=Adp_yLvzFUE0t6WZKtovul4sUQ6wEbl3iVS1EXsmoNqhUtBsBNFQzoPB2TIVqE_jyIo&_nc_sid=9ca052&_nc_ht=instagram.fbne4-2.fna.fbcdn.net&_nc_ohc=OdsXIhRmg-4Q7kNvwEygg91&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxODMwMzk1ODY4MTMwOTY5LCJhc3NldF9hZ2VfZGF5cyI6MTQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzYsImJpdHJhdGUiOjUxODE5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=hsYcLAoBXSt_sM-mn8KlrA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIyHQSbmy6k4Ijqc7dyCvtcCi-N9abZtqZhI7Nhu-96pg&oe=6AB7B928",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-gmp1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPPjJMf73X7IxTMXmVZFeD7gKFTvhYCJQal1P9HAlToM8BnLNGOn7akILpaBw1Q4so2D-eC2jLB7G6se15xQM3F6us39DGn9RW0omE.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=zl2DkQ3dVL8Q7kNvwFhNxLr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI2NTA0ODYwNTUwMDMxMywiYXNzZXRfYWdlX2RheXMiOjk5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6ODYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=198e6c960495070b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNzQzNDQ3MjBDQTZFMkU2NTIzMDQ5NDdFRDFFM0U4MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0YxNEU5MkMwQ0ZGNTExMTQzNDY3QTYxNkIzRkVDQ0E5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACayjonMwqO_BBUCKAJDMywXQFWCHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=YIEseE57_EiS8hgwg9I7LQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLkBgdrOZS9CA15_jX7JYWQGNDGvchRv8EJc57P2PPV0w&oe=6AB6A7FC",
-    "audioUrl": "https://scontent-gmp1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMnV0JVE04LSqqhhxaow35twA2dTirBP6Hl_BzQgdDywq0gkGddPo4GQbg_pbYuzUlLAhAPokYsUonE9x55AaqbgyR3RyfzrtMOPmU.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=W1AMvIC3nKsQ7kNvwGyiK3y&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMjY1MDQ4NjA1NTAwMzEzLCJhc3NldF9hZ2VfZGF5cyI6OTksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4NiwiYml0cmF0ZSI6NDk1ODQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=YIEseE57_EiS8hgwg9I7LQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLhM--V0jMRHJADmJSHOF7P8c7ZvLGNTcRyObuhLxtOwg&oe=6AB698D5"
+    "videoUrl": "https://scontent-lga3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMdyobUkP6y3dxc77vOvMaERN0aijybKwt1157vUHFbnpz4Hs2D8A-prqzW9Yj6w8FSd3CF9NrsJMpwLiU-C891P4NiKYlXInOUrg0.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ohc=4kUjuvRXs2cQ7kNvwEoWT-N&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDYyMDgwODc2MTUzMjA2MCwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTEyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=78a91971da76dda&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FRjQ0MzUyMjc4NkM0QzdBM0U3RTQ2MkJGMEQzNDI4QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E1NDY3N0QwMDQ0NTc5QzYxMjk2MjQ0NzNDNjUzQjgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa4-vKMvKa1EBUCKAJDMywXQFwZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=LlTFlf_4V5DrxlmHCOTknQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKTEAirHn8WiXLKPP0-jm4zQdIsc2J8ksurM6mzkHvT3Q&oe=6AB7B3D7",
+    "timestamp": "2026-09-11T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 46719,
+    "videoDuration": 112.406349,
+    "likesCount": 1042,
+    "commentsCount": 0,
+    "caption": "運動鍛煉對於身體來講，一定都會有好處嗎？ #苗振  #davidmiao  #運動康復  #健身 #運動",
+    "audioUrl": "https://scontent-lga3-2.cdninstagram.com/o1/v/t2/f2/m78/AQPllLnOAAZaa-5gyxig9OoQldldzpOXapjPnWikLCPqa5iUs-zOKAADtjErPHexTrYaK0RO9Qt6pq-dVbr8_z4BBs79YKJN97TI3As.mp4?_nc_cat=107&_nc_sid=9ca052&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ohc=tkYvyVYtsUQQ7kNvwHu6hyx&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo0NjIwODA4NzYxNTMyMDYwLCJhc3NldF9hZ2VfZGF5cyI6MTQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMTIsImJpdHJhdGUiOjU5MTk1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=LlTFlf_4V5DrxlmHCOTknQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLoB_8XYKdAKVqEab_AiRzCL1Ke87lH-SyYKvnuPuWVvA&oe=6AB7B5B0",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m86/AQNxSoaeep7ktLGir_4w85l27BRig3yHCOHIeGUFbNlXzw0PKZvusu298eegw-Sx55hyEnMl2ku0XpFfLD5s6iYLwVPAduaGBNXFTxk.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=4da-Yu5mPoYQ7kNvwEUrB3N&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjE2NDE3NzUwOTc2NjAsImFzc2V0X2FnZV9kYXlzIjoxNDksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=75175329bd46f76b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GRTQ3NzY0N0RENERFNkU3QkM3OTYyQkMwQTVGNjM4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NFNDEzNTVFMkIwOEEwRDI0Nzc2RDMzNjFENDNEMkE4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb4nLPZk4HoPxUCKAJDMywXQFVxBiTdLxsYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=GNCQDeb418dYHNNpymNs9g&_nc_ss=7a22e&_nc_zt=28&_nc_enc=QbMzNUafwznge2Ps6i4ny-HPIL8KE3wxaR69Fg1U7O1S3Uh-tOfqEkqaxxu0SSpy9xB3wVgI9gbEhu9MkUcm7GuZLR76D9Q4Qb5tbNzPpfJ0ex4hcHij42Khd5c&oh=00_AQL4ku1CemPi1x4gkKoCGdfcz3_4K4bY1lVO6Zp6h96L9Q&oe=6AB6A858",
-    "audioUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m78/AQMOKv9Koru2Atl4MVm8A2OhfNFi0SYxGTEcSCH-n0ZeVJ0m8xx1cnMM-bTUB7clGs4ndERvAgDCpeyykkTARDOJ03fAChh7JBlrDtA.mp4?_nc_cat=101&_nc_sid=9ca052&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=Q3QHx6gEiD0Q7kNvwHzvXuu&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzk2MTY0MTc3NTA5NzY2MCwiYXNzZXRfYWdlX2RheXMiOjE0OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjg1LCJiaXRyYXRlIjo1MDAxMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=GNCQDeb418dYHNNpymNs9g&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLyqxNTtQz3_nqOMLhOpeg73_nMmevBvQjS1_PZNP08ZQ&oe=6AB682E2"
+    "videoUrl": "https://instagram.fcia5-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQM3ESuzwxfY7eXCPK3OXDa3VNZCVsqRycPrX-G4D0UXZCNe7slQR_-sLEjpvTZWjRcPEUnBSO-yQBCZCn1Z5ic1Mgq_EyYp9gOZJ4U.mp4?_nc_cat=107&_nc_oc=AdohiqjH6q8C5STQ4YSO6zD6nhEyq_outkntomE-jMBjDvj96cAfZhb7IcoE4tlfoag&_nc_sid=5e9851&_nc_ht=instagram.fcia5-1.fna.fbcdn.net&_nc_ohc=59v7szoC5XoQ7kNvwEkox73&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDUxMjc3MjEzMjMyODg5OSwiYXNzZXRfYWdlX2RheXMiOjE1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=cfa744168507df6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMjQ5Qzc2RTk4Q0FFOTJBMjJGNzE0QjBEMjAzRUFCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRENEI2N0VGOTFGODlCMzlCQjczRTQ1Rjg3OTI0QTk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaG17K-9JWEEBUCKAJDMywXQGZpmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=efVFo9JtH-Izy_KfZMIh7A&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLxshBMICUcODCLDRjIJG8aaOHvAFPc59NW7L833uGACw&oe=6AB7952C",
+    "timestamp": "2026-09-09T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 56258,
+    "videoDuration": 179.30304,
+    "likesCount": 1177,
+    "commentsCount": 10,
+    "caption": "別人用16+8飲食能瘦，你卻瘦不了？原因就在這！ #苗振 #davidmiao #減脂飲食 #健身 #身材管理",
+    "audioUrl": "https://instagram.fcia5-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQMV5t7E5MxG81-kNVCqAdnoDYmyQZoQxUf8taCDPwhxQp22G7f9vVMmfeSICemo2VhsBgHVd9a_4zwD6KxSuUxWyfpvqn51TABWNVg.mp4?_nc_cat=110&_nc_oc=AdpIei7xtiWnlkRB1QTAybCYG8MyErQMoiJAkNu8Ga5dCLfCTdzq-Gw_IINJaWpXsys&_nc_sid=9ca052&_nc_ht=instagram.fcia5-1.fna.fbcdn.net&_nc_ohc=tpBnR9zGxRsQ7kNvwHfk7b7&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo0NTEyNzcyMTMyMzI4ODk5LCJhc3NldF9hZ2VfZGF5cyI6MTUsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzksImJpdHJhdGUiOjUxNjk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=efVFo9JtH-Izy_KfZMIh7A&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLRClJPjBH40BhasVENx95sqJ9jOrrXXgV4b1U7ll687w&oe=6AB7A107",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-syd2-1.cdninstagram.com/o1/v/t2/f2/m86/AQM6cssfEEV-gB-wWFRoqazP1Ii8ovBxv_Bor06yvfhCW09AOB8uPqOrt7V33n0YRatwSO2N3ABzbpVo2tOYsPaaj_vkOsfJn8FR_Pg.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-syd2-1.cdninstagram.com&_nc_ohc=NgrMsRSJERkQ7kNvwH65wFp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjAzMjMzMjkwOTc2NjAsImFzc2V0X2FnZV9kYXlzIjoxNTcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b94d4b59e917c5e1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjQ2NkFCNDAxQzM5OTlFOTRBRjY1OTE1ODE0MzQ4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkzNDY5OTc1QTY1N0E5RUUxODZBM0QyOUFFMEQ3NUE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb4_qfBtLTnPxUCKAJDMywXQEUiDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=OgSHnP5PMM1KvH9ANSsLwA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLXAtHGmvErs6zN4s9qU6bsG6qA32rEr9zsOMItSaHq-A&oe=6AB696F8",
-    "audioUrl": "https://scontent-syd2-1.cdninstagram.com/o1/v/t2/f2/m78/AQOtj5KpyC0A5mAsaYSL5RHcL55HK86a8wFL6y-hp3hScFsCK6VITOI0qTgRPNQbffqcX59E7UDDiuRs7_ThqTvz14xyLmiZ6yt2P-U.mp4?_nc_cat=100&_nc_sid=9ca052&_nc_ht=scontent-syd2-1.cdninstagram.com&_nc_ohc=RrdvLYvZ4IwQ7kNvwFIhldp&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzk2MDMyMzMyOTA5NzY2MCwiYXNzZXRfYWdlX2RheXMiOjE1NywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQyLCJiaXRyYXRlIjo2NTkzMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=OgSHnP5PMM1KvH9ANSsLwA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKJTcGeBALOqZaQ1AE-zcnxVldT6VvnupzcaVklCsjXFA&oe=6AB68FF9"
+    "videoUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPzsV8RZNDdeEgawf-uPyH_2YWLZqQcBU5X-rtjVe_vcT3hVCZc82Rjtbx_ZsNwFoQPr5Q7hq6Frypn_60_ecAGLZsMUxXjTITwqnw.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=Z-5teahq4CIQ7kNvwFgBBX4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTM5MDc0NTM4NjM5NDg5LCJhc3NldF9hZ2VfZGF5cyI6MTYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8318000dcb065701&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NTRGMjMyQTE2RkRDMTE3NTYyNjYwMEFEM0FDNDBCMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E2NDIxMDBGNTc0QkQzNzdBQ0ZBNENERUUyNUMzRTg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaCwtjEqoWrAxUCKAJDMywXQGSFT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=u_Afy8Stvmi8jort9t8kRw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQKjrAYGpvYXY0vdkrhT6YPpIkQncq9SB_1nCVHl6vs-Gg&oe=6AB7C555",
+    "timestamp": "2026-09-08T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 24253,
+    "videoDuration": 164.186844,
+    "likesCount": 425,
+    "commentsCount": 3,
+    "caption": "兩塊硬幣，就能改善肘關節內側疼痛 #苗振 #davidmiao #疼痛缓解  #運動康復 #健身",
+    "audioUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m78/AQN1P6QG5bfE8_gO97jGYYgfFeaC4ZsCaWPgfgGNJHKOPn1bR3FNyztTzjLZ3b7qJpXGiATJMteseYNsp6fI5o5V7_B66a6oI9ko1r4.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=T9c52N_C9QQQ7kNvwEXm2yy&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5MzkwNzQ1Mzg2Mzk0ODksImFzc2V0X2FnZV9kYXlzIjoxNiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2NCwiYml0cmF0ZSI6NjU2NjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=u_Afy8Stvmi8jort9t8kRw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQK_hsEf42Y4mgrU_fru1oKXQypujbkYM9JEtM_coKH2_A&oe=6AB7BB99",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://instagram.fyyc2-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMhBE_b_Llp6v_dSrQqfvF0q1Q7PprnMIafr4el0vTIWl4U1e94evFHVjs55pA6ehJkU6nrXVR7J-ZMZrqEYqLh4hIw3NBeg_KhGDA.mp4?_nc_cat=109&_nc_oc=Ado7KNGjrHXgUbYd37tECWzOd7_jvBa-jPuMrrtyfoLoxyX3EbIFFxfoqaIJ4zW266c&_nc_sid=5e9851&_nc_ht=instagram.fyyc2-1.fna.fbcdn.net&_nc_ohc=PcUylDp3sI0Q7kNvwGxggYq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjkwOTE3MDg3MjYyNDQ4NywiYXNzZXRfYWdlX2RheXMiOjMwMSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1239b76d4105dacc&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xODQzRURCMUYzMkVEODlERTg3QzFDM0Y1NEVBQ0RCQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjMxOTkzNjU1NDI5MjUxXzMyNDY5MTc4MTY3NzgzNDM3MzYubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJs6VoYeE-KoKFQIoAkMzLBdATKqfvnbItBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=iYc9z_PeZevpwgoahagleg&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIcAiDBc6DBoSnI5gbTjTOvytfMV41wZIooEySKqI_SDA&oe=6AB6A466",
-    "audioUrl": "https://instagram.fyyc2-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNP45J_unz0mqsPJxVmb5-5ms5B5AgcZxFlerbdjsyobdBb2PW1vyns3n0Sbu2xlAkZ_y84xK0VCK8sp5bTq3SJ.mp4?_nc_cat=111&_nc_oc=AdpCzgpyuX1_Gg-k1YQIuFbk2Uh7EXa7cfDzhL6XutC5M7aoaWq1pNkKrVEYamaco8Q&_nc_sid=9ca052&_nc_ht=instagram.fyyc2-1.fna.fbcdn.net&_nc_ohc=NcahUKvlyI8Q7kNvwED1XzJ&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyOTA5MTcwODcyNjI0NDg3LCJhc3NldF9hZ2VfZGF5cyI6MzAxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTcsImJpdHJhdGUiOjQ5ODU5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=iYc9z_PeZevpwgoahagleg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLfn43-dkjYFSb9La_7HGzYgKkXqo4ctf2fCdg-XBjb5Q&oe=6AB683AB"
+    "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQMTBeRaAK0VslpIE_FAgkD6lVVwgrBRrDrz7YgmMbNG0hLedQcM8wfxoqkfwHllyjjQezdl8bh6ptQgWoIneYe1LqZLtsiRmkfM9fA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=88Ii7UxFSpkQ7kNvwG6dQZF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTYyNjkxMDMyNTQ4NTQwNywiYXNzZXRfYWdlX2RheXMiOjE3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=fb185ee2ae328c37&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82QTQ0NzNFMjkwODc3QjJDMEY2Q0IyNTZCQjY2QUVCNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MwNEQ1MzU1RUNEMDgwQUVENjhFRDVFMDI1OENDNEJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa-vcHA0urjBRUCKAJDMywXQGT8zMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=kee6RHgywmAP6E8sXDNicA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIB-9YMH2hVPGuvQBv-WbaHS2wrIC9Mxu1NbKKY9PQvew&oe=6AB79D0B",
+    "timestamp": "2026-09-07T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 70719,
+    "videoDuration": 167.902039,
+    "likesCount": 1355,
+    "commentsCount": 4,
+    "caption": "胸式呼吸和腹式呼吸，哪種呼吸方式才是正確的？#苗振 #davidmiao #呼吸 #運動康復 #健身",
+    "audioUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m78/AQOzToejUL56XHH6543Ko7FSC5SCEW7pi4jgIJBjxGIjIPaNkSmYXdCZcc2iKcUUL4-78tPBbzK4aqgQDbsQvy1JCgJRONcfTkPjtKw.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=rRecJxGM2CoQ7kNvwHevbe3&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNjI2OTEwMzI1NDg1NDA3LCJhc3NldF9hZ2VfZGF5cyI6MTcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjcsImJpdHJhdGUiOjU4MzEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=kee6RHgywmAP6E8sXDNicA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIe8vK29GBtb2MsWgF8q7kuhpLC47yhkQeh9nGkifL30w&oe=6AB79CF9",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-phl2-1.cdninstagram.com/o1/v/t2/f2/m367/AQMMk6cCf_AhBuKKCqdPgXZGEaSf59JSIO222Y-4cuS3GsXcPfhGyEt4FB7_vo18vzxScUswAOeO5Mg-K5nlpqQ4EnUgb-0sFnVRt_M.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_ohc=pzhu9XDOmTkQ7kNvwF1CcL9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODQwOTUzMDQ1NDk0ODM0LCJhc3NldF9hZ2VfZGF5cyI6Mjg3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=faf3344fecc31d94&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8zMjQ0OEEzREFFNjQ4RTY3NzQ2ODQyOEREMzU2NzA4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yNzAzNjIyOTYzMzQ1NDEyXzY0MTQwMDgwNjM4MzQxMTA5NDUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuSw5bj0tf4CFQIoAkMzLBdARHMzMzMzMxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=eAFPXYMSrX34O-xQAeRvxg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJCEqgqkx2Vm3lAM_0KlrqfA45JZ0iRmjnO1bXoxmlv0w&oe=6ABA9AEC",
-    "audioUrl": "https://scontent-phl2-1.cdninstagram.com/o1/v/t2/f2/m86/AQPdEAxNLMznjqMZl0lxsfJYNtwrqMUwN0k24DgzPRgRIlwQ3vKPPn7xWyfLHcg1yrRyJwwJU04bndjUDkoN4vYT.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_ohc=H3H2tTASNncQ7kNvwH741mj&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo4NDA5NTMwNDU0OTQ4MzQsImFzc2V0X2FnZV9kYXlzIjoyODcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0MCwiYml0cmF0ZSI6NTAzNzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=eAFPXYMSrX34O-xQAeRvxg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKq9qZCXaH88G5Twm8RbnCpmoHZF1dVaSlg0HzTjTxPUA&oe=6AB67D97"
+    "videoUrl": "https://instagram.frec38-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQPBmASroX3p8gTJ5kIB_GP8bn97L2X74GLbz7DzulUxB1jTSALIJ7Fa_HTsabf-G7GfXLBgd7iQPKWpxaW4yILwN7tEBXokNkMv5Wk.mp4?_nc_cat=111&_nc_oc=Adp4pj3QNmgROtsPcAsHDD-9RHDtxgr_yPI0L8cjElgN_QZdsfnLVLYbOBjZUHy7Tbs&_nc_sid=5e9851&_nc_ht=instagram.frec38-1.fna.fbcdn.net&_nc_ohc=jzEboljz_HUQ7kNvwG-dE7K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjc2NjU3NTUwOTMxMDY0MzYsImFzc2V0X2FnZV9kYXlzIjoyMCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=2eec40e8c878a652&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82QzRCMkY2NjI0QTNBQzZBMUVCOTU0RkJDOEM3ODk5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RENDBDOTUzOEE0QTkzOEU4MTc3MzBCNERFMTYzOTlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI_KOM8vakYhUCKAJDMywXQGAgAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=IrT5s1lR0nE4DZwZSGtr2A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLCssVkkCD92YlZB6i7WFPwlm88LeT2tzZy0kmYGA8jpw&oe=6AB79558",
+    "timestamp": "2026-09-06T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 73472,
+    "videoDuration": 129.008621,
+    "likesCount": 1473,
+    "commentsCount": 6,
+    "caption": "長期蹺二郎腿，是如何毀掉你的健康？#苗振 #davidmiao #體態管理 #運動康復 #健身",
+    "audioUrl": "https://instagram.frec38-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNo2sqXJCkjwDDts8SbnnH9LBXLY494J7sroLC78-y9SFW2EAWfN6dQWgujjXRKgb1kt2UfHx8xrfzP4qYhS8lx_rcF5NKnQQaCYJo.mp4?_nc_cat=103&_nc_oc=AdrWmHFhKK7zB5LPxSisMSpLqN7V5DjAQ59TqZbB4a7MUvGM33GCs0cbYNy4bmtPXOQ&_nc_sid=9ca052&_nc_ht=instagram.frec38-1.fna.fbcdn.net&_nc_ohc=7M8YoxonSuIQ7kNvwHLceHx&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyNzY2NTc1NTA5MzEwNjQzNiwiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI5LCJiaXRyYXRlIjo1ODI3NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=IrT5s1lR0nE4DZwZSGtr2A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLhN855SS2vF80jFvMNK4vcTZMs1loQ42c73a9bIbJFaw&oe=6AB7C5E0",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m86/AQNsOmYXEfsMQjxiHpsm0MntVosWkBF7PeB2sVK_EVenyhXWXAR_frxVWeKqGlcpupox7C_Y2KjlgJvkhMNleBMvoRn5M5JfTu1s0K4.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=aPE3A3FbF80Q7kNvwGcpNt5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI0NzM0NjAzMzgxMTU1MywiYXNzZXRfYWdlX2RheXMiOjM4NiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjQyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=ea12ca9edbe08c13&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FRTQ3OEJDOEIxQjIzRDg4RkZGRTQzNEU3QTFDRTZBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDAzMzg4NTExODE4MDc0XzM1MjU5NjUxNjIzMjE1MTQ4NzEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsKBj5SMnbcEFQIoAkMzLBdARXMzMzMzMxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdlrMEBAA&_nc_gid=H8uKjquggiyBLLeCS4AVjA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJwq_4Rfimy64Jhn7-yPYA7X3Sk5C2l2HvUFu30aT0iYw&oe=6AB6AA16",
-    "audioUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m86/AQNroDa4sirpP4tFp29m7tlI7_fZrnCcmTrhoRSw9z5M2HSsGK52Z5e5obCOSerzBFpyKzQ2qQhhS3_pZH6ANIYD.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=BDEw2y8FGzYQ7kNvwFyAOH8&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMjQ3MzQ2MDMzODExNTUzLCJhc3NldF9hZ2VfZGF5cyI6Mzg2LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6NDIsImJpdHJhdGUiOjUxOTk2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=H8uKjquggiyBLLeCS4AVjA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLIhDNO9cHgaFnsOLY9NifrtICbSP91R3gh4ZIf1Pz_SA&oe=6AB69DD8"
+    "videoUrl": "https://instagram.fmex4-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQO6ITdnw1kvsL02czqZhB5axFGNMOMXWGhiymPzWtUrONSe5rBdEFR9VTyKNCA7-1jjjeXkzt_sWeSpk4Z0-cVrXH6Q4cRXkmbdmTQ.mp4?_nc_cat=110&_nc_oc=Adosl1mJ_ppm_TwckwWYUNwlPwvQngmUMumAqpJ-Ww99FHxa-Y-hq_zxJkl_8hStAok&_nc_sid=5e9851&_nc_ht=instagram.fmex4-2.fna.fbcdn.net&_nc_ohc=Wy6Vei3T3uwQ7kNvwGfOteP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc3NDE3NzI1MzY5NjY1OCwiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2f0a4e8aa863547f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84ODQwNTgwODYwQTRGRDZCQkI2NjhGODYwNkUwMEE4Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJFNDkzRDQzNkJGRTQ0N0JGOTUwREQ2NTM0MzcxRjhCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACakks3P2uamBhUCKAJDMywXQGB5mZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=TfeKOUN_SmPJJkRkozEq9A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLAm_H7s1akHX4t6exhdf_djA7Hf6ro1yeTR1ujuVn5fg&oe=6AB7C0F7",
+    "timestamp": "2026-09-05T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 29281,
+    "videoDuration": 131.818237,
+    "likesCount": 637,
+    "commentsCount": 0,
+    "caption": "健身前吃碳水還是健身後吃？哪種方式才適合自己  #苗振  #davidmiao #碳水 #減脂飲食 #健身",
+    "audioUrl": "https://instagram.fmex4-2.fna.fbcdn.net/o1/v/t2/f2/m78/AQMfIY99tbly9Zxr8ZFfBq0kzMUnLdA_9kkVvEi_rwQ5EUytpdlifWA5B5A4JrfTEUQmODGLSMG-fdFXohByjPYw0-EP5DR1V5BGq4M.mp4?_nc_cat=104&_nc_oc=AdqmCyJe3Q6hX_wTWKmFbajJ1Hr8SUTW_EpDPZe2xMQlQjbwrc1chPmWl4Pa5ppR8k8&_nc_sid=9ca052&_nc_ht=instagram.fmex4-2.fna.fbcdn.net&_nc_ohc=YSP4OOBU96kQ7kNvwFxzXpM&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzc0MTc3MjUzNjk2NjU4LCJhc3NldF9hZ2VfZGF5cyI6MjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMzEsImJpdHJhdGUiOjUxMzQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=TfeKOUN_SmPJJkRkozEq9A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQILR96mgar1apM8ni7MANuXHyw0ov1MizVarL3tjocH8Q&oe=6AB7B511",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-nrt1-1.cdninstagram.com/o1/v/t16/f2/m69/AQNBzNLjQAMWv4vc3JNngANFPcYU0jTCJsdq9dpYLMKG0NPNIdL__g7uIFDUD9sDBEeUJuvb9k1Aj31Mf4GMytD3.mp4?strext=1&_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-nrt1-1.cdninstagram.com&_nc_ohc=udcFMJc9894Q7kNvwFWbodd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NTE5NzAwOTkwOTc2NjAsImFzc2V0X2FnZV9kYXlzIjoyMDIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=6d396009582e50d4&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRDJEZmlZa0dLU3ctbElEQUZWUDV1ZTJlakpiYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJDNDU0OEQ1MDExQ0I0NjU1MTM5QTQ0OTgxRkE5MDk0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb4wLOMmM7jPxUCKAJDMywXQEi3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=TgHrmdj6Z4PTOhg04uiP3w&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLiOee7qWngjjCIRi95XNll5i23uPTUruzviZaUiMTQ-w&oe=6ABAA638",
-    "audioUrl": "https://scontent-nrt1-2.cdninstagram.com/o1/v/t2/f2/m78/AQPvGwiSJOC88Zc9kN9RTKqs8AUhbRkLBkx6mHxacpRuF42snqBI5QyaL6HgtGOGQJCMZjYEo8ucUlPMC1VhN6DxkGxSfq8dT95GOHc.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_ohc=RXVNMT-bnhAQ7kNvwEEpdLK&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzk1MTk3MDA5OTA5NzY2MCwiYXNzZXRfYWdlX2RheXMiOjIwMiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ5LCJiaXRyYXRlIjo1MjQzNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=TgHrmdj6Z4PTOhg04uiP3w&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKKQJS6MipU8FXW3Du0j4TMUr2av9VcuipOwq7qbVOMHQ&oe=6AB6821F"
+    "videoUrl": "https://scontent-fra5-1.cdninstagram.com/o1/v/t2/f2/m86/AQNpFvhPuZ55iolItcCRYrPcZFAQBSGEp7ZrTAcOSdu4n47Jw9LifQg_LZ2l0vEa6AJ10tOCNHCEdlIY0vhHKH-9ckmravqtDN5m9kE.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_ohc=RpbODJsMufYQ7kNvwF1zbOW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc3NDE2NTE5MDI4MjExNywiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTYxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2a437c7fb5f18577&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zMjQ2MTZFNzAzMDIxRjAyNDU4MDA4NTZEQkRCNEU5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M0NDg4REU1MjlGMkMxRThGNkM3MDVFMDI4NTczRUI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaKroTfgOamBhUCKAJDMywXQGQ8zMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=uTFQBxB2AbmAcx1Mh9sJYQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLHdzIX9WjPBz1uFA1w1m0lbPmPRIp7oPtNS7KKZxYwmQ&oe=6AB7BFCF",
+    "timestamp": "2026-09-04T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 33604,
+    "videoDuration": 161.911285,
+    "likesCount": 791,
+    "commentsCount": 3,
+    "caption": "不管是肩峰下撞擊還是肩周炎，練呼吸都能改善  #苗振  #davidmiao #肩周炎 #運動康復 #健身",
+    "audioUrl": "https://scontent-fra3-1.cdninstagram.com/o1/v/t2/f2/m78/AQN_ogMizec9uZnRBVtyhWfUSf2cWWMY77FckHuiGbKSdnsREmifsJPMWoP6cfYSEmB8kyiqrct_kHxlY48axSU-ZwgCUXCj5Dgs8ro.mp4?_nc_cat=101&_nc_sid=9ca052&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_ohc=LnuhoMYmaNQQ7kNvwF9J7KS&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzc0MTY1MTkwMjgyMTE3LCJhc3NldF9hZ2VfZGF5cyI6MjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjEsImJpdHJhdGUiOjY0NDAwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=uTFQBxB2AbmAcx1Mh9sJYQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLtYMHs73rtYFp_T7BAPLw_qjX19vPDXuy_vpT4UG3mFw&oe=6AB7AA56",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://instagram.fman4-2.fna.fbcdn.net/o1/v/t2/f2/m412/AQM49wwWlkEQ163eFWtH3FsQJ9fi0D-UnGKfx1DmBWWvgm-S0ptKSd3h88a7LY6RM83UTS4VzpoHJXdBUELJQofpJXMQ5xNwLkRlP5kWtKIebg.mp4?_nc_cat=107&_nc_oc=Adp_mv037QFjhjQA4En_VboIIATtThMF08qq2MHKr_AyaFYNJ4dNVkrmodPwzR8TuVg&_nc_sid=5e9851&_nc_ht=instagram.fman4-2.fna.fbcdn.net&_nc_ohc=cqoGNbeAclEQ7kNvwE-6GZ_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTA4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl8xMDgwcCIsInhwdl9hc3NldF9pZCI6MjE3Mzc5OTU5NjQwMjc1NiwiYXNzZXRfYWdlX2RheXMiOjQzMywidmlfdXNlY2FzZV9pZCI6MTA4MjcsImR1cmF0aW9uX3MiOjQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1871c9a80569c437&_nc_vs=HBksFQIYRWZiX3Blcm1hbmVudC81MzQ3RkZDMTEyNUQ3QjYxN0NFQkM0RjNFODQ5MEI5RF9tdF8wX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDSkQ1aDV0S0JlRkhiQUNBQTdlM3hZSk1EOHFicV9FQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaIoY2M5cPcBxUCKAJDMywXQEbEOVgQYk4YGmRhc2hfaDI2NC1iYXNpYy1nZW4yXzEwODBwEQB1_gdllqkBAA&_nc_gid=uRTy0Im6s29e0zOcjjHPaw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQILjuvHhG7ULAb6A6kPciBYxLLm26T0rklWAN-caHANfw&oe=6ABAA361",
-    "audioUrl": "https://instagram.fman4-1.fna.fbcdn.net/o1/v/t16/f2/m69/AQO3280PV4CXtpCrpYonhIpmzPjyT1zZE9lsnLEj1N1JwzQIN-pEGOLMsAQhrqsNP0eJjhqXQDbkCQhQvJhjlqF5.mp4?strext=1&_nc_cat=101&_nc_oc=AdqtD8S43awwKA7R0fYUcpRfMKs8cW3jaCfiIsEiiNBOYL3FdikNvtLy8xNl_wP4LmY&_nc_sid=9ca052&_nc_ht=instagram.fman4-1.fna.fbcdn.net&_nc_ohc=-Q6phcLae-EQ7kNvwGlhQ08&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyMTczNzk5NTk2NDAyNzU2LCJhc3NldF9hZ2VfZGF5cyI6NDMzLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NDUsImJpdHJhdGUiOjUyMDkyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=uRTy0Im6s29e0zOcjjHPaw&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL16jHLLG4TiAy10JLyNSTiFK4Tn3U76fQKCekD3KZAzA&oe=6ABA9403"
+    "videoUrl": "https://scontent-mad1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM3ZGp-_B9AUkbCA2NItz-STGlov0nh-33BWzDvjSqDargI03MJBKbGTY_i3Xx1MjkNNnGNWo0D9zrQpIoLNqYX9pfzZ6h5wA2UdNY.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_ohc=hLOSd20E_swQ7kNvwHgL6CB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA5MzQzMzQwNjQ5NTcxOCwiYXNzZXRfYWdlX2RheXMiOjIxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=ba7924f5f59e10d0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BOTQ5ODhBRkZERjMzMjFEMjU3MDYwNERBN0MwNkM5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y1NEFGNTgzNzYzMzhGRDg1NzcwNjVGRkREQUE2QkFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbM77zcmZ7xAxUCKAJDMywXQGYgAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=7P7UEfxYVCPd7wDHR_2n6Q&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJD_AjNcoqe4Vg59qTTpKSFBLbajyPiq-W3mg-8IKDmog&oe=6AB7C9CB",
+    "timestamp": "2026-09-03T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 18632,
+    "videoDuration": 177.004257,
+    "likesCount": 252,
+    "commentsCount": 0,
+    "caption": "總說自己是X型腿，但你真的是X型腿嗎？ #苗振  #davidmiao #X型腿 #運動康復 #健身",
+    "audioUrl": "https://scontent-mad1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPpqxI0lnhlYBkcxpne-PKff5M_b0R-YRJIWI6jYrBF386FxvNzrqJ0VpWipxeLJXYjjlNn5vSUSwhLsJ3Y14PgLGMpTM0zzG1Mxo4.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_ohc=zv4Vt3dOas0Q7kNvwGKXaiH&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDkzNDMzNDA2NDk1NzE4LCJhc3NldF9hZ2VfZGF5cyI6MjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzcsImJpdHJhdGUiOjU3NzQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=7P7UEfxYVCPd7wDHR_2n6Q&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKA_dt45CVYZdzrut_vTVSMJll3eZN2F17sdS-S-llB7w&oe=6AB7C54B",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   },
   {
-    "videoUrl": "https://scontent-atl3-1.cdninstagram.com/o1/v/t2/f2/m412/AQPVJmm7T38RFqbWllWPQxCQ0GwgzyXwHY-p05zJ63I8_IElrWlzekUsEtUJy_8-kNLF9ZAwxN6OnhAbXPmnr1aCZsxu3Wyp7B8pLXQH7mRF6Q.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_ohc=Gp8vDeusho4Q7kNvwFLa3EX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTA4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl8xMDgwcCIsInhwdl9hc3NldF9pZCI6MTMwOTUwNDgwMDcxNDUwNSwiYXNzZXRfYWdlX2RheXMiOjM1MCwidmlfdXNlY2FzZV9pZCI6MTA4MjcsImR1cmF0aW9uX3MiOjQ5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c082e1fcc13e6b0&_nc_vs=HBksFQIYRWZiX3Blcm1hbmVudC9CMTREQjk3MDI2OERCQUUwMDA2QkJGRTU5Mjg4NEU4Ml9tdF8wX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dJOGVjaUVQUktudzA5a0NBTUtlNWVGQVE1MVVic3RUQVFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSvNOHm7_TBBUCKAJDMywXQEiqn752yLQYGmRhc2hfaDI2NC1iYXNpYy1nZW4yXzEwODBwEQB1_gdllqkBAA&_nc_gid=bnzjYee4uHVv5VAknqhQsA&_nc_zt=28&_nc_ss=7a22e&oh=00_AQKdl1MaI5UvY25bpB9DK4r0N_rmHPC0DhTqGFfxRaTVDw&oe=6ABA8F5D",
-    "audioUrl": "https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m69/AQPokGabtDgXVLIXUrScOPIkRtPHPYdj1vQ-QVv8beKID8mAf98CPfvjodZj8dYPuzLY3cJ7lSmnMcV-h5KZ7grc.mp4?strext=1&_nc_cat=105&_nc_sid=9ca052&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_ohc=oa1hcdLFiI4Q7kNvwEjsBQ2&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzA5NTA0ODAwNzE0NTA1LCJhc3NldF9hZ2VfZGF5cyI6MzUwLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NDksImJpdHJhdGUiOjU1NjI5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=bnzjYee4uHVv5VAknqhQsA&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJl6_S-3as2pvhDkdQNJeZMDXK0aW_xBKiRXDeYrpU-nw&oe=6ABA878F"
+    "videoUrl": "https://instagram.fbjx1-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQNU86VG4ZVnoJ_qd-wOJNgARMK59ZhbUIpUS-9OjQRa4sRQgijG9LwtAlXvdMR7t2Mmy4TFT_n_IGsPEQwhmLjHowS4V9-XOLeD3mI.mp4?_nc_cat=108&_nc_oc=AdpykhkWlZampZu4wh5Nvju72rakhq7xPtly7u5nn8BIEv4oWR-DZO3ZAG3ovg8YvRQdqawH4pgxuKg7Mzx3UVvv&_nc_sid=9ca052&_nc_ht=instagram.fbjx1-1.fna.fbcdn.net&_nc_ohc=MdunLpAG33sQ7kNvwGOgNVC&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDY2ODkwOTk5MTQyNjA3LCJhc3NldF9hZ2VfZGF5cyI6MjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjYsImJpdHJhdGUiOjEyOTY2MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=09eYlJoWngLR37xSZvarCA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIX3atLEz1tc4RsPfbuj3NiQdZM4YyIYqUpqSBhUIve3w&oe=6ABBA6ED",
+    "timestamp": "2026-09-02T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 98152,
+    "videoDuration": 126.454422,
+    "likesCount": 2672,
+    "commentsCount": 11,
+    "caption": "青菜和肉類哪個更好消化？只有5%的人能答對 #苗振 #davidmiao #減脂飲食 #碳水 #健身",
+    "audioUrl": "https://instagram.fbjx1-3.fna.fbcdn.net/o1/v/t2/f2/m78/AQP1V5umwg9kPg0W43Ncaybp5Z-K7Ne69N6Y1rtXWlH6nlWurQCG83pvqJYgimdIF1fpkBdzanEqBA7iGWgW00jTwrwrAYAOvrOBTdI.mp4?_nc_cat=111&_nc_oc=AdrzPD2PvVOxxjmqD-U5d0Z5OVlnvoaHnBlbyXANPCGLAm3U1BkwWFx_P65tOyCexaIQIcHnhWE_G5tIw2mLA1DA&_nc_sid=9ca052&_nc_ht=instagram.fbjx1-3.fna.fbcdn.net&_nc_ohc=t3nlz8Rxev0Q7kNvwHZKtMp&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDY2ODkwOTk5MTQyNjA3LCJhc3NldF9hZ2VfZGF5cyI6MjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjYsImJpdHJhdGUiOjUxMTIzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=09eYlJoWngLR37xSZvarCA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIZTc3D7UKKTAnRh5ei1Jrk0HcpKvdQOpLYEDlZsbcELA&oe=6AB7C8C0",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-lga3-1.cdninstagram.com/o1/v/t2/f2/m86/AQM4qTeE4LhojeJD_ppR5J4ZcyIlU8A1j0XixlBy5xuiFBoVJDXlk31MLPIDc_unIijqATPHo1J0IFmWDYRegq3U4GirqVlW0-Kzs4c.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ohc=Nuv5saFM8mQQ7kNvwE_Blqd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc1OTczMDI4ODY3NDgzMCwiYXNzZXRfYWdlX2RheXMiOjIzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTczLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=6d8e5e199490ae7d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GOTQ0RkUzQTk2NTJENzgzQUYyQjAxQjE3M0M4NTM5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdBNDU2RTgxNDQxREVCNkYwRDY1QUNGMTVBRjIwNEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacoI6s5J2gBhUCKAJDMywXQGW5mZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=8EsuOzbANz9x4zHwA5ZDfQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJyi50EYX2Tu5GNjyV36gF2P5yQh27pp6rZSHw4bNvnDg&oe=6AB7A7DF",
+    "timestamp": "2026-09-01T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 66982,
+    "videoDuration": 173.823135,
+    "likesCount": 1435,
+    "commentsCount": 9,
+    "caption": "把基本功練好，只用3根手指也能100公斤做組！ #苗振 #davidmiao #手指 #健身教學 #運動",
+    "audioUrl": "https://scontent-lga3-1.cdninstagram.com/o1/v/t2/f2/m78/AQOg9FJ9CURUaqNcZuQ3vkkooeHrGoIE-2B3WGqg-wa58Mbywh0SPGFqDUZ1NHDkBmS80t3YwEtTsBTOdCLp0KV9xXiQSRAFyuXH1co.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_ohc=t2FoqfRzWusQ7kNvwFEKzrK&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzU5NzMwMjg4Njc0ODMwLCJhc3NldF9hZ2VfZGF5cyI6MjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzMsImJpdHJhdGUiOjY2MTk0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=8EsuOzbANz9x4zHwA5ZDfQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQI5QwRryj4mnI7Aak3WWLgHinKIsj-rEL7Btw4CHxVwYQ&oe=6AB7A350",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fcun1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQM_kEYZm4alkxzdu7I37hhmfrdrZ7BEbqJ7WeaZdczYToExkzYMPlV5UIwbke-DtfvJzzc5nJBJw33w3Bk1gJEjR04UKtXENFnvGJo.mp4?_nc_cat=109&_nc_oc=AdppbqqnaypDjLuYTpUkfQLd4Ssv-by1z7EnrU2Q8o35XJAePrOGWUJGM6fgIwyRptk&_nc_sid=5e9851&_nc_ht=instagram.fcun1-1.fna.fbcdn.net&_nc_ohc=SCsKFlBN4a0Q7kNvwHpLmlD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA1ODQ5OTk5NjkyMzUyNCwiYXNzZXRfYWdlX2RheXMiOjI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=ca41de0e10de23b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81QzQwNDkyMEI0QUJEQUM2M0NEMThFQUQ2Q0JDM0E4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUzNDBEREUyQzQ0NUExMjVDRUJFNDVERjk0MzJGREE4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI2v3E56zhAxUCKAJDMywXQGZYgxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=3BMmj9PvH5phXk9UUxE3TQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL2arzrRoaXlXWJmL8bct4X398Dw3lNkqkmCz--O6sXeQ&oe=6AB7976E",
+    "timestamp": "2026-08-31T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 130910,
+    "videoDuration": 178.768982,
+    "likesCount": 3049,
+    "commentsCount": 26,
+    "caption": "如果你正在長期節食，我建議你停下來 #davidmiao #苗振 #減脂 #健身 #飲食健康",
+    "audioUrl": "https://instagram.fcun1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQMBHW6YLCT3N9Pykv6ZSftM_3K-DkVCeviYw75NjoFfFjnIwKneNXRMlX4DklcoP7uQjDGLI_bM9bO3vY29umAKBAhUaoQTYQgI4Yg.mp4?_nc_cat=109&_nc_oc=AdrNLRf9DdRBPNnNbQHk0kev3nMMllX2pYEa7LXzdfYX9mKqYVzkzMIjiYlPi0jWzF8&_nc_sid=9ca052&_nc_ht=instagram.fcun1-1.fna.fbcdn.net&_nc_ohc=XcMqnkgMNCUQ7kNvwGFhpf5&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDU4NDk5OTk2OTIzNTI0LCJhc3NldF9hZ2VfZGF5cyI6MjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzgsImJpdHJhdGUiOjUxMzE3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=3BMmj9PvH5phXk9UUxE3TQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQI222gSi0sxHaAL4ehaFPG9imUiwYlrFGzbtYbtikQKkQ&oe=6AB7A22A",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fmel16-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQOA1AuliJ7gTciYwpfth695hv43AVIuMCthOa_p9XlcEi3fGR8ghpUKIfSqAXkNbyNU_PMxsNhV_tvDVKDQEwQt5YBQf9IuuqkBSFM.mp4?_nc_cat=106&_nc_oc=Adp1lOU5aJp7iADDKsuY8S2bl0djMwU7J6-J1wljkKuXmN-PVoKVua8ypYdwtNnFzN4&_nc_sid=5e9851&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_ohc=wddEs2hCC_0Q7kNvwEKTJNp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA4MDcxNzY5MTE0NjQ0MywiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTQ1LCJ3YXRjaF90aW1lX3MiOjkxNzc4MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=66b000fbc30bdfdd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNTQ2RTZDODk4NDlBQjVERDBFQzU2N0YxODBEMTBCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc1NEJEQjgzNUQ2RDcxQTBGOEIxQjA5OTM0QTZGRkI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaWw6qhhrrrAxUCKAJDMywXQGI1T987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=1-bt0tE10MoaS4TFjU2oQA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIL7Lnj0RT42KEKzOwoTtnZvNuC49J6u2SSe017y0P85w&oe=6AB798FB",
+    "timestamp": "2026-08-29T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 44148,
+    "videoDuration": 145.680542,
+    "likesCount": 893,
+    "commentsCount": 0,
+    "caption": "很多博主都在推薦生酮飲食，但它的壞處卻沒人願意講 #苗振 #生酮飲食 #減脂 #增肌 #健身",
+    "audioUrl": "https://instagram.fmel16-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPypTGdnGja2yIAZU-9nhiKgpq6852X4nmaAHo_3bV9tZDYzQ85eBLLWSAexBdO4R9d-J09d1iZErEpH9_Ag349tfi1ycyLkIAQiNQ.mp4?_nc_cat=103&_nc_oc=AdqWdkJmXFheuA0jlBIJBwxMydfg15Rr2cRwFNXdgV7xdPq80oztppEzcH-IFawMLwY&_nc_sid=9ca052&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_ohc=0M_4NVFy5VAQ7kNvwGysyPR&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDgwNzE3NjkxMTQ2NDQzLCJhc3NldF9hZ2VfZGF5cyI6MjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNDUsIndhdGNoX3RpbWVfcyI6OTE3NzgxLCJiaXRyYXRlIjo1MzQxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=1-bt0tE10MoaS4TFjU2oQA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLwwo4TsTH2sxwZNUVaxl15bUok9yDglSxAOvfwvIivcg&oe=6AB7C91C",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 1.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fpoz4-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQNgoWsxnxlQyo3LLFJgUDI7ZQKqwyz2HOUDvrVtAcWFeigZD7tW4APd1SvdWYxrPumvpOQrhc1r-Hl3pjpKMv8yB3zTpI-IsjnEv_0B7ATL3w.mp4?_nc_cat=111&_nc_oc=AdrxrXxYTVLgLZyLOQmBMssm6JkV3BMiV-G97-Cktr8EoF1SzgRrudu1XDpJaVkWpSc&_nc_sid=9ca052&_nc_ht=instagram.fpoz4-1.fna.fbcdn.net&_nc_ohc=Wk0S0c4fkUUQ7kNvwEk9I53&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfdnA5LWJhc2ljLWdlbjJfMTA4MHAiLCJ2aWRlb19pZCI6bnVsbCwib2lsX3VybGdlbl9hcHBfaWQiOjkzNjYxOTc0MzM5MjQ1OSwiY2xpZW50X25hbWUiOiJpZyIsInhwdl9hc3NldF9pZCI6MTA5ODE1NzY3OTM4OTU3NywiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTA4LCJiaXRyYXRlIjoxMTU5MjgwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=eTIgcX-3x4oMGq0bCGneWA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKNI540QA-egCx_yGKzRpKIQFWvjeFiNfKAe69OmzFUWA&oe=6ABB98ED",
+    "timestamp": "2026-08-28T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 54635,
+    "videoDuration": 108.784035,
+    "likesCount": 880,
+    "commentsCount": 5,
+    "caption": "有高爾夫球肘的人，本期教學將能幫到你 #davidmiao #苗振 #高爾夫球肘 #運動康復 #健身教學",
+    "audioUrl": "https://instagram.fpoz4-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQMXsnHovdj-zBRNa6yLxXq352SQ0xh412yyBlEGsaRRIZriNmjFNZMQXww7CJzrMSmUi8JJUh0S6zAQdZ7BMU_kwk7uM4zg10DH3SY.mp4?_nc_cat=110&_nc_oc=AdphoREdZWcpLu0jOp4Gy45B6XNBwo2OY6yFKjXdPfKaraf0sbh9Lhvildu0bOAxHtE&_nc_sid=9ca052&_nc_ht=instagram.fpoz4-1.fna.fbcdn.net&_nc_ohc=bxIszLu9IZEQ7kNvwEdjs1H&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDk4MTU3Njc5Mzg5NTc3LCJhc3NldF9hZ2VfZGF5cyI6MjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMDgsImJpdHJhdGUiOjY1NTk0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=eTIgcX-3x4oMGq0bCGneWA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIhZU2WmQ9CRb2WulhLn3QiaZRbJbtqNo8YWdilb2MGsA&oe=6AB7B87B",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-lhr6-1.cdninstagram.com/o1/v/t2/f2/m86/AQObNLitoSLmCXa8SVYnutH6-IK5WGx4LgGge3sVNS5KHDYYdCzzeDsLrk_5RfvGuPO34701N6Xxg71i0_SP2a-a_wLjZVKY8KJuhsU.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-lhr6-1.cdninstagram.com&_nc_ohc=48NenpEj2JIQ7kNvwH15YWN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM2ODkxMzk2ODU1NzA0MSwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTA4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c20ad8be8067dbe8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DQzQxMEVDNjEyNEZFRTEyNjVDRDQwODIyNjVDNTQ4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlENDI3QTQ3Q0MwMDk1RERENzJENTU3QkVEQkFGNDk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbir5fto8HuBBUCKAJDMywXQFsszMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zjQyEQJIgRtvUIy7hYzKag&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIQnyjgT1wH4B1ms_SQnxy-yEkclU_C2yyI2ASuz8quAg&oe=6AB7BA67",
+    "timestamp": "2026-08-26T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 63858,
+    "videoDuration": 108.714378,
+    "likesCount": 1261,
+    "commentsCount": 8,
+    "caption": "健身前的碳水，請問你吃對了嗎？  #苗振  #davidmiao #碳水 #健身 #減脂",
+    "audioUrl": "https://scontent-lhr6-1.cdninstagram.com/o1/v/t2/f2/m78/AQPzfXHNRvJGxxXgIhvJPjv0oV-IacCv4IZippdPXGqNcxQoOyXGysyqJz_Zfcm60iiCGzGh-PWdZ_tgLmXSNaMN_XiK-FF6rJ09VNc.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-lhr6-1.cdninstagram.com&_nc_ohc=P91NWaEEQR8Q7kNvwH745_F&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzY4OTEzOTY4NTU3MDQxLCJhc3NldF9hZ2VfZGF5cyI6MjksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMDgsImJpdHJhdGUiOjUzNjI4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=zjQyEQJIgRtvUIy7hYzKag&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIsGnR9bGKHd92Z0-kM6u64KSfdXlnMBJUNZI_LoQoSvw&oe=6AB79D25",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fntr6-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQOApC2ye59L1yYEdfH2VbnUcPIY3IwaDKT6IhAJB2c7CvVNrIs9tCu-Z0vJ0StZT5HeVUkT-aru7jDQGO-VZcMLqgVq28nqxWNRhEQ.mp4?_nc_cat=107&_nc_oc=AdpaceaZOTgo8jId1DoLMpXKFKIcqKSl4pb3PqTEFKabm6XsrfrsXy68sKDUpAxa7kG_tEQBULEyDR8plribd4b0&_nc_sid=5e9851&_nc_ht=instagram.fntr6-1.fna.fbcdn.net&_nc_ohc=ssJKlYV20R8Q7kNvwEHPz4k&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM4MTY2ODY0MDgzODU4NiwiYXNzZXRfYWdlX2RheXMiOjMxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=fe68d9cf3cb1f7f5&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BMTREODY2MDFBOUY4RjgyNEIzRDZDN0I1NTdGRkI4QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRFNDQ1NDg1N0Y3MDg1QUMyQjg4QjI5MjZFMTBEOTk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb0zsbI2af0BBUCKAJDMywXQGUVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=twan5XoskVqQkBGQbkOLDg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLccHA-XlQgiM1JlzeT0SJ7eArxTP7wCl6Zx3dKRUmE1A&oe=6AB7A7A8",
+    "timestamp": "2026-08-24T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 89623,
+    "videoDuration": 168.668304,
+    "likesCount": 2613,
+    "commentsCount": 17,
+    "caption": "只想瘦20斤，但不想運動，如何實現？#苗振 #davidmiao #減脂 #健身 #變瘦",
+    "audioUrl": "https://instagram.fntr6-3.fna.fbcdn.net/o1/v/t2/f2/m78/AQMJNU1E4ziZ9V1ZLfdpDlr8D1O4Ej4nKk40y3p_D-o6x7NDLne04UfptkmD3W1km88JTfezOuxjtRDUnLts2H8lI_bj7bX9BMBN1Ng.mp4?_nc_cat=111&_nc_oc=AdrqRLY3h59hPR2uFi70gIaI6wEw6bMKjgyXQMLOqrc6In7PNnEuEGbBiVK2RZdpMbzyTCoouFsnRpSoVOUZzWjf&_nc_sid=9ca052&_nc_ht=instagram.fntr6-3.fna.fbcdn.net&_nc_ohc=GodWvUB5US8Q7kNvwFslTyI&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmV4cGVyaW1lbnRhbC1DMy5kYXNoX2xuX2hlYWFjX3ZicjNfYXVkaW8iLCJ2aWRlb19pZCI6bnVsbCwib2lsX3VybGdlbl9hcHBfaWQiOjkzNjYxOTc0MzM5MjQ1OSwiY2xpZW50X25hbWUiOiJpZyIsInhwdl9hc3NldF9pZCI6MTM4MTY2ODY0MDgzODU4NiwiYXNzZXRfYWdlX2RheXMiOjMxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY4LCJiaXRyYXRlIjo1MjA2MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=twan5XoskVqQkBGQbkOLDg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQK6f9K0JzrDnVvjXURomz6dHK9f1AETnoUnoqUGjDwb2g&oe=6AB79A54",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-mad1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMIWjXGf-mSrT97mqVjQpuO8F1V4WQZy14YdwvpkidR32yu3JiqS3z41416dEQKf6xg492t_dJ7e9N0VpPtatMpXX4rWL6Dw3PDASA.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_ohc=B7TvZZGfGloQ7kNvwGRMRjB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTczNDA2MjY0NzgyOTUyMSwiYXNzZXRfYWdlX2RheXMiOjM0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=12f9941fbb18dc25&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNDRCNzNFQ0I3NDQyNjZBNEY3OUUwMTBBNDQ2Q0ZBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NFNDg0MzY5MjQ5Nzg5NEExNTkwRkVEQkY0M0JEM0E3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaikKPC3ceUBhUCKAJDMywXQGMiHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jOaghtT_TSn4i63iFFeddg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLfe2lhDaaz5Y_HMT9oobji0N1qzTILAp7nG8gQIyCghQ&oe=6AB7AD20",
+    "timestamp": "2026-08-23T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 98473,
+    "videoDuration": 153.087708,
+    "likesCount": 2470,
+    "commentsCount": 24,
+    "caption": "體重大的人減脂，這3種有氧運動千萬不能碰！ #davidmiao  #苗振 #減脂 #有氧運動  #健身",
+    "audioUrl": "https://scontent-mad1-1.cdninstagram.com/o1/v/t2/f2/m78/AQNYrvwkx_3FTC0cv1gfCXjdN8aH1iDBsyZctB0RzNrQDoak1lAPjbaBgVigWTTYvftRnm73cVNIEunl6pnFr2fFQ32ax1BzH99UvVI.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_ohc=Ns7Way71IvcQ7kNvwFXKRaG&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzM0MDYyNjQ3ODI5NTIxLCJhc3NldF9hZ2VfZGF5cyI6MzQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNTMsImJpdHJhdGUiOjYwMjMzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=jOaghtT_TSn4i63iFFeddg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJciETjhKGqIWjUrHCEb_L-dN5_3RwWQ1vxrZ5g9tg8uA&oe=6AB7B4E0",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fcpe1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMXY9EVHCIPtCRk1QmdTkpGqMGPO4LzNnXIbFmX7rViMYoqiElxPvI5zGtB5fdpl6kj2zi-xXJbramwrg7oOd2OboZNyKTFqXW9aj0.mp4?_nc_cat=109&_nc_oc=AdoN41p4RKNgTNWN0lwOBJHyD9ohIe3ukUqoX_H93D4eZI0PQIE3dtEjg9sKOSBhbb8&_nc_sid=5e9851&_nc_ht=instagram.fcpe1-1.fna.fbcdn.net&_nc_ohc=0Baz2d-fVyUQ7kNvwEDMZ-K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTUzMTE5MzUxODI4MDU2MiwiYXNzZXRfYWdlX2RheXMiOjM0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=e1e7a90e09518982&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zRDQ0MjNGMTEwQkEwMkY0MUU0QzAwMjU4MjE4Mjk4Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0UxNDRCNDA3NzY0MUYyNkEyMzcwRjYwM0M5NEJCNEIzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbkverbmKe4BRUCKAJDMywXQGZIgxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=gENuilhzMeusYjHXI-eq3g&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKSdTJ6CowchEmfR6p6XD3_bmJoycP4O3Q1ceshmowKAw&oe=6AB79CF6",
+    "timestamp": "2026-08-22T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 52346,
+    "videoDuration": 178.281357,
+    "likesCount": 1058,
+    "commentsCount": 3,
+    "caption": "改善腿部水腫，比你想象中還要簡單 #davidmiao #苗振 #瘦腿 #健身 #運動康復",
+    "audioUrl": "https://instagram.fcpe1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQO1Ljs7-qwAM1VRdMd0LHPXGxOqasfRzg_ymciPNsLrQJXuRS9Pifx7lgVcvi3wjGYiNuAJ6uoC5CzqiQFwHzdAxpwV9cJnF5pBVtU.mp4?_nc_cat=111&_nc_oc=AdoVMg8TO5lDbrUYAb3EOYrxW_GHPH7JBJsQcncbkB3S9HopX1M0_DBsPjX707dTLP4&_nc_sid=9ca052&_nc_ht=instagram.fcpe1-1.fna.fbcdn.net&_nc_ohc=UozAnI7sqbQQ7kNvwEkZfiS&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNTMxMTkzNTE4MjgwNTYyLCJhc3NldF9hZ2VfZGF5cyI6MzQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzgsImJpdHJhdGUiOjU1MjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=gENuilhzMeusYjHXI-eq3g&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLUjS79NyVEXYG7IQjcgfqavR7TOEGLvif47nhm0RhCRQ&oe=6AB7BF64",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fmad20-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMJEHBwy6r4vWeQFkE8QQdUudYfR-u66Vw8DobZPoM6BMKOAAAtV4hN08H5vBg_igOGPmYMQWr4G1WOWgQbTBTIJpiFrRD2tLctEIs.mp4?_nc_cat=109&_nc_oc=AdobMj11cL0rtc_yDeb5J1vfAPQ0DqmMbz6ZAE6BnEddDBibe4lugvqhnTs4gakNuXY&_nc_sid=5e9851&_nc_ht=instagram.fmad20-1.fna.fbcdn.net&_nc_ohc=oWSQLsA2aHAQ7kNvwHzcvqw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjU0NzcyNDIzMjM5NTY2OSwiYXNzZXRfYWdlX2RheXMiOjM3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTcwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f321649415a17e4f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wRDQ3MjFENDk0MzVENTlDRjkxNTlENDNENDY4MDA5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RGNDRBRjVGREI3NzE5MzVCQUU5NDU1OUE3ODBFMEJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaqrtzdiMmGCRUCKAJDMywXQGVZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=kCqoWAwBf0HAeYcnHcsRKQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJ_Vp2Jit2SnNrtDsk5oTpN_VXKOLcHva9JUqtFa2a3AA&oe=6AB7AB06",
+    "timestamp": "2026-08-18T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 128135,
+    "videoDuration": 170.804535,
+    "likesCount": 3872,
+    "commentsCount": 27,
+    "caption": "碳水的正確吃法，讓你訓練效率事半功倍！#davidmiao #苗振 #碳水 #健身 #減脂",
+    "audioUrl": "https://instagram.fmad20-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPVCHHeM0PUB-LESM1N20U3gpQHUaLLwgpJg-PYwEIvH3fuUyGSqU2iLAKj7MdxGCTUUAX-jl5L8svQbO1HdIusrpqGoUQDqSao2L4.mp4?_nc_cat=104&_nc_oc=Adqsa9LzZVY8VWjFDXbVTR8LLzgAPa1Q9U9t3wZ5tBaHVsn6zGxXpCHklyN_L5b-zUs&_nc_sid=9ca052&_nc_ht=instagram.fmad20-1.fna.fbcdn.net&_nc_ohc=11S4bUEodbgQ7kNvwGU1kI5&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyNTQ3NzI0MjMyMzk1NjY5LCJhc3NldF9hZ2VfZGF5cyI6MzcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzAsImJpdHJhdGUiOjUzOTQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=kCqoWAwBf0HAeYcnHcsRKQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJpmaaRyNtQl10qOWovrFm9xtt-4ddRnpbwX6wBX35SvA&oe=6AB7BE19",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fper9-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQOIdzfLdRXeN0bDf_DT44Bnq3N3Bav_23dMCzdkVicvq4TovD-vQJYhLXVBJAGt59TW3WW8M_arvlwTndYB5DUz1ncOeKMZG7AQluQ.mp4?_nc_cat=111&_nc_oc=AdrNb72_cQEDoB2YX5v1L24u5BcWQMjPZQXMqG8SYYUlwkMSP4tWHsrzNfxY1skvfoJ-47zzc5jNvKHadPSckQJF&_nc_sid=5e9851&_nc_ht=instagram.fper9-1.fna.fbcdn.net&_nc_ohc=0k1YCM2vI-oQ7kNvwEjsLmh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcxMTgxODUzMzQyNTE5MiwiYXNzZXRfYWdlX2RheXMiOjQxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7c7fec6c69c3d483&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MzQxMzM5NEVEODU5QzUwRDMyREJEQUNGMzg1MEZCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkwNDREMDg4RTNCMDRBQjlEMDJEQUUxNjA3RTA4QTg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQwNb5-biKBhUCKAJDMywXQEO3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4hTG79UMPwoOz_1ttUIanQ&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJWUg4DofSAA49nFExpKGjRD5qY9x2yfh9455KuEAPwlA&oe=6AB7B318",
+    "timestamp": "2026-08-16T10:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 88393,
+    "videoDuration": 39.449253,
+    "likesCount": 1750,
+    "commentsCount": 9,
+    "caption": "睡眠質量，比睡眠時間更重要！ #davidmiao #苗振 #睡眠 #運動康復 #訪談",
+    "audioUrl": "https://instagram.fper9-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQO8X42nqRH959gdre0VXLNJlNBmrWfprGfKI1fCdjeDsduH6VbJkbfJy0p0kf3tnbmI9yMX0RIqzgA-OD6BTWpxo8rNBCosvZ6bJVY.mp4?_nc_cat=100&_nc_oc=AdrZTGpH7PONQh9DVRex3L6DLwJAZzMp9Rh2DMnCG24fYwZBJ6WdjoJTCu13WXAQP4EiZloa1CKG_XUwlVOoIlGH&_nc_sid=9ca052&_nc_ht=instagram.fper9-1.fna.fbcdn.net&_nc_ohc=fc1REwig4NoQ7kNvwGyFgpZ&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzExODE4NTMzNDI1MTkyLCJhc3NldF9hZ2VfZGF5cyI6NDEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozOSwiYml0cmF0ZSI6NjI3NzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=4hTG79UMPwoOz_1ttUIanQ&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQI5CdaWnW4uHwsH199h3Yj22aA9ZeDnwe8bFlbv4XZDvg&oe=6AB7C541",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 1.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.ffco2-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNQCvDX3f6ircmIa2Pzg2RB5BA6_xK0L4p02gTyVxnMmgVXNrd-0-X542NaWsWwCwZlmN352aIT_nZ3q9Gq8V050ZtSU9y6rG1_Fp4.mp4?_nc_cat=101&_nc_oc=AdoXymqT5rut-jPVOAJgEOTp6tIhCVBbNhCWdU8LvJ3zzPN1DU7_i-vwbo_qfABDPOQ&_nc_sid=5e9851&_nc_ht=instagram.ffco2-1.fna.fbcdn.net&_nc_ohc=KcGcGYOSzocQ7kNvwEN036L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA0ODA0OTg1NTgxNjcwMCwiYXNzZXRfYWdlX2RheXMiOjQyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c274dc5de3971a94&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MTQzNDMwQUY0QjJEMTNDNjFGOTczMkI5NDVFNTM5RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0IzNDdCNDgxRDFBQ0IyM0YwMzFBRTlBRkNEOUMyRTgwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb4j5vCmKyjBxUCKAJDMywXQGXVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jXO4qYy9uDL7GH3zm_OZ2A&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLHPCu3e5I9g1s6BSZsiMBcbpvJ9Dlyajp0DoVMF9i5Dw&oe=6AB7BD5E",
+    "timestamp": "2026-08-15T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 125358,
+    "videoDuration": 174.682266,
+    "likesCount": 3169,
+    "commentsCount": 10,
+    "caption": "吃錯碳水，等於白健身！#davidmiao #苗振 #減脂飲食 #碳水 #健身",
+    "audioUrl": "https://instagram.ffco2-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQN44vfxc1KmMwbuU6jO_vxnyvAFHkN0-8zyA81PcKM2ThR0C5idBBBA4z3RltMGK1wkr1FJl__Q1xhqDashzAjPmcZY-O149J097WM.mp4?_nc_cat=102&_nc_oc=AdoT7jT3lys_XtQoEPHpKzYWTYc8W8q8UBWAtT88-jTk2BShmU8mPgGzFNjg8oYw3kQ&_nc_sid=9ca052&_nc_ht=instagram.ffco2-1.fna.fbcdn.net&_nc_ohc=g6vxVwbACakQ7kNvwH8cTbv&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyMDQ4MDQ5ODU1ODE2NzAwLCJhc3NldF9hZ2VfZGF5cyI6NDIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzQsImJpdHJhdGUiOjYzMzQzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=jXO4qYy9uDL7GH3zm_OZ2A&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJVIVhUT6Z-Z1UN7TRsH9RS53mLxDn-b3gFs7mUhjYQfA&oe=6AB7B0AF",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-lhr6-2.cdninstagram.com/o1/v/t2/f2/m86/AQNFmeXCErie47z9FVu03H3mlGTUOWI10SOWtcHDdEVdVq3F6i2DQUKzmb4j0RGlL6U6uzLr-fdmEIn_Lf6XM9aGUPimLLX17v-TzWU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_ohc=oZXYPAnVRJsQ7kNvwH5adjo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc4OTE1NTE4NDk4NzEwLCJhc3NldF9hZ2VfZGF5cyI6NDMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7832757b37d67&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xODQ5RDYwMjAyRDg1MkVGNkQ1Q0E2MDZDRjhFNDU5QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzU2NDc1QTdEMkU5MjkzMUQ3MzRGMDdDOTAxNEI2M0E3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACasnvb7sJS9AxUCKAJDMywXQGUjMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=c0JVlU2LqEgMPgOokGDjUA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIzqZLzbxHOi3mKYQWWhHqhujZ99z5JA5-cbURUrLm1yg&oe=6AB7AD46",
+    "timestamp": "2026-08-14T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 59511,
+    "videoDuration": 169.109482,
+    "likesCount": 1070,
+    "commentsCount": 10,
+    "caption": "頸部後方肌肉為什麼會這麼緊？一招就能測出原因！#davidmiao #苗振 #肌肉緊張 #運動康復 #健身",
+    "audioUrl": "https://scontent-lhr11-1.cdninstagram.com/o1/v/t2/f2/m78/AQMw8ZDqXmaS8Am4lB06i3ayqqfrRBupWsrBvqf5gJI1v7ULjaZG2Zhd1L1YDvmhrhQkLNyppe9DxJvAOdd2O_g2Wx5lREgfT49HTms.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_ohc=EtXLBgy7zGcQ7kNvwHL-0RT&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5Nzg5MTU1MTg0OTg3MTAsImFzc2V0X2FnZV9kYXlzIjo0MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2OSwiYml0cmF0ZSI6NzM4MzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=c0JVlU2LqEgMPgOokGDjUA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKuuVKOr3vg2rPDQNzYOGu91HwMXu8qLSGpp0I1YiNo6A&oe=6AB7B720",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m86/AQMJnvnifoYT7Rhh4SWLzZT4kDNsfkvdLaSkDqbmXIeNxfAB0IIci6tptujbJpaCq9lGhUeCAirgucCiA9WwPozfBG7XLizEmMXup9k.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=-55blojVussQ7kNvwFQDe1m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjgzMzIyNjI0NjYzOTE3OTksImFzc2V0X2FnZV9kYXlzIjo0MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEzMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d25b2912fa686859&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQTRFMkI5QjQ3OTcxMTRGMTI2NDZENkU2QzcxRThBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EyNDI0Q0QwODM2NzAxQzlEM0U4MzIxM0UyNzQ2REExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuu_D_3ILUZBUCKAJDMywXQGC-6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Mw-8wwnRQiiiT_1V1xlJ8A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIrFDCf4eIyIKz0EM2IgJ1tCyUuyEqw5aIf5pxh1vX5LA&oe=6AB79471",
+    "timestamp": "2026-08-13T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 40233,
+    "videoDuration": 133.977692,
+    "likesCount": 648,
+    "commentsCount": 0,
+    "caption": "想突破訓練極限？甚至超過體重的兩倍？這個細節非常關鍵！ #davidmiao #苗振 #力量訓練 #健身教學 #肌肉",
+    "audioUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m78/AQP_j1WeyWZt4ie7uzesNlRJ6-P9T1ORntfXA4SEnLktCCR_YuZGrSPoF1St-Txw5khUYm7lY3hAf8jZIasMe6V25kuYBWARQYuQgZA.mp4?_nc_cat=107&_nc_sid=9ca052&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=y6qen_G5ko4Q7kNvwGbkdZi&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyODMzMjI2MjQ2NjM5MTc5OSwiYXNzZXRfYWdlX2RheXMiOjQyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTMzLCJiaXRyYXRlIjo2NTM5NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=Mw-8wwnRQiiiT_1V1xlJ8A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJ67HAV6u5rEoBEmiSsQINyd_VyxbsuI8bX1sGTY2r08A&oe=6AB7B09C",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m86/AQN0hvH8L0dFWsXqRB8mfcgzeWVe3uB-s5MbgyhnZjksxm3FKb0a0DizLiDDspFfjVfnNpjnih8UrxnXue3ZmJoS8Zmd3qBpx0OUsKE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=cvleGCHopP4Q7kNvwGbQyJa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjg3NzM4NDM0OTg4ODM5MzIsImFzc2V0X2FnZV9kYXlzIjo0OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=415ef1fbb61a53a5&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNjRDNTM4NzNFNTA5NDg5MjRBOTU0MDc2QzA2ODc4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzM5NDk3MUE3OUIzQ0M2NzYxRTMxOEE2RDRBRTExREE4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa47ZaJkOqcZhUCKAJDMywXQGSHdLxqfvoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=fb3-eeitfiXLt_hraHOmhg&_nc_zt=28&_nc_ss=7a22e&_nc_enc=QZNfU7PtIfMULgQxXwbNLFbp4lhFV3MqcAlMu5IQcOUqrfCk8biliZF3ou9DcK_D_-5F9beZuGV1mX2B-eg8cEwCNNdgGonq_kMLBG1tZR8VdSJg-JiDx3MoSSw&oh=00_AQKt200uSfe1meQQoMf0zqV0lvYDqhYIfMU7s7VE51VLoQ&oe=6AB7B683",
+    "timestamp": "2026-08-09T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 39053,
+    "videoDuration": 164.256516,
+    "likesCount": 616,
+    "commentsCount": 1,
+    "caption": "7個快速檢測哪一塊肌肉出現損傷的方法 #davidmiao #苗振 #肌肉損傷  #運動康復 #健身",
+    "audioUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPkGrYyr2sFwbuDJh3jFZjiaTAXkAmUEud0dt8Y3XvF61YaCPc6cLp65jamqMBihyIAhyqSsnQG78Tku-YlBfCzMzgz909M2PvKdQ8.mp4?_nc_cat=107&_nc_sid=9ca052&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=5BqE0ZXbwOwQ7kNvwGzfWHU&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyODc3Mzg0MzQ5ODg4MzkzMiwiYXNzZXRfYWdlX2RheXMiOjQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY0LCJiaXRyYXRlIjo2MjU4NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=fb3-eeitfiXLt_hraHOmhg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQKEY1yXBb3IpMurPVcMsuKJPs-pDLX89P-RDMPhjO-13A&oe=6AB7999C",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fqro1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMqU32XBooj7GE8uzXhJDMh8BKUWKnXZVbZvZ-O6rEfPp6QN3ZjsS-jnwPCA1XMuwUQQzqI62kZG5Smjfz10HGTCubh2NCk1TAAUJk.mp4?_nc_cat=109&_nc_oc=AdrYFukj6qQRhkgD01Ih2gEC02PbBLyqdUxVv5_O7qJLCFBZpA_tGGyLMYfihQ-RAPk&_nc_sid=5e9851&_nc_ht=instagram.fqro1-1.fna.fbcdn.net&_nc_ohc=-ATsu8Dm-58Q7kNvwF5JLDX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTk1ODkwNzA2ODE1MDUwNSwiYXNzZXRfYWdlX2RheXMiOjQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2bccf07b64b8a3e4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DNjQ3RUJCQ0IzQzU1RkQxN0FDODVGODMxQkE3NTdCMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc5NDkwNjFFNzYyMjA1MzkzNjQzMEFBQkI3Q0NGNEFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbSy4__suf6BhUCKAJDMywXQGZmZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5AODoat0dQkUDYCHN2QmRA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIjS1Qp6On_cfabmfvWmA-aiPzrFj9NSk_YPZV5I5uwXg&oe=6AB7A74E",
+    "timestamp": "2026-08-08T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 42056,
+    "videoDuration": 179.210159,
+    "likesCount": 539,
+    "commentsCount": 2,
+    "caption": "一組呼吸訓練，改善胸骨的凹陷  #davidmiao #苗振 #呼吸訓練 #健身 #健身教學",
+    "audioUrl": "https://instagram.fqro1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPXHxTc4GS6fIeoP0MHgqE7rhr0QXod9NuL2W_c90o2vpeXIVPGlTbjwB7WLMiaQ9wIpMwkM_fH8_Dcm4u-yoBuNZOHaL5gGp-evWA.mp4?_nc_cat=108&_nc_oc=AdoRt7pq5RQv4SXlOMh4uPjMC0_v1Y4VfGniPyYbLLz0anTMCZZ3tt5M9-nBRZo4osc&_nc_sid=9ca052&_nc_ht=instagram.fqro1-1.fna.fbcdn.net&_nc_ohc=14y8kwWMMZkQ7kNvwHDnBWS&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxOTU4OTA3MDY4MTUwNTA1LCJhc3NldF9hZ2VfZGF5cyI6NDksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzksImJpdHJhdGUiOjY1NTQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=5AODoat0dQkUDYCHN2QmRA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLAz0BRPoaYvEFTLmoNpceKcumU87xyb9asD_qgHH7j2w&oe=6AB7C2B1",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m86/AQM_CeG92DRPdShpTFB7f6q9j7dGwvls7wHtBkonSZ36w3hhK1p7bc_Nxgl_KYNplka2-XdSeWBKHQS6ZkRseh_DB8uvckzrEQceCfA.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=i8ss_OhpRroQ7kNvwGx6lPi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3NzY0MjUyODAxNzM5NiwiYXNzZXRfYWdlX2RheXMiOjQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=e2e8567de1b70728&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMjQwRUEyMkQzOEIxRkNFMURCRjhCRDQ4RDEwMEE5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzBENENGODhFNkRDODZEMkI3REY0N0IwMjczMzg5NEJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbor57BhofqAxUCKAJDMywXQEt3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=7YYhS-pMhOC6tQsuQVOG0Q&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJAfxeEmTjaGKPOiqWrHWZobKala4VrEIaw71fq6Ef_qw&oe=6AB7ABFE",
+    "timestamp": "2026-08-06T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 33888,
+    "videoDuration": 54.936962,
+    "likesCount": 329,
+    "commentsCount": 0,
+    "caption": "如果小孩子有拇外翻，請問跟遺傳有關係嗎？ #davidmiao  #苗振 #拇外翻  #健身  #運動康復",
+    "audioUrl": "https://scontent-ham3-1.cdninstagram.com/o1/v/t2/f2/m78/AQN8LhWagzTy7AX62rzI1eFcgFM1yBuXoLXhtqRNVGI2G44QjT_8nifbGTW_ZcLXu3Gsu9StQ_4hTZNFNHzzi_JFI4WEpO0ZBlEpfA8.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_ohc=nBCu2rZse6wQ7kNvwEp78Dh&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDc3NjQyNTI4MDE3Mzk2LCJhc3NldF9hZ2VfZGF5cyI6NDksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1NCwiYml0cmF0ZSI6NjUxNzcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=7YYhS-pMhOC6tQsuQVOG0Q&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKAeyF9hG9_MafXucmt5dsBGhKv4zMUTCJlci132eZy7Q&oe=6AB793BB",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m367/AQNeuePlk0KMvjzFZ7o7hPXOYV6XntyacT5E3j2ftEbGM9wl7QXOwEfYB-CTRNyFKYCRjMt8M_nD0OuJE_IXl_hl2Bvb1z5RglbOIzAw2gqbcg.mp4?_nc_cat=100&_nc_sid=9ca052&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=M40ahelLOxcQ7kNvwH9o8Qc&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfdnA5LWJhc2ljLWdlbjJfMTA4MHAiLCJ2aWRlb19pZCI6bnVsbCwib2lsX3VybGdlbl9hcHBfaWQiOjkzNjYxOTc0MzM5MjQ1OSwiY2xpZW50X25hbWUiOiJpZyIsInhwdl9hc3NldF9pZCI6MjI1ODY1NjMwMTYyMDExMCwiYXNzZXRfYWdlX2RheXMiOjUwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTQzLCJiaXRyYXRlIjo2NDYyNzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=8TkSwIDvaJzJ5wPaot6uXQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIAD7Ucpjn0twAHmL4OqBLzTxMdgD_3nHPmbS8aU_DXbg&oe=6ABB9CAC",
+    "timestamp": "2026-08-05T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 79847,
+    "videoDuration": 143.07991,
+    "likesCount": 1878,
+    "commentsCount": 3,
+    "caption": "想快速改善睡眠質量？只需練3個動作！ #davidmiao  #苗振 #足踝功能  #健身  #運動康復",
+    "audioUrl": "https://scontent-icn2-1.cdninstagram.com/o1/v/t2/f2/m78/AQPlQs7QTSiiiOD22pBGLX-GxqD-UnEdK08JokHDN19dWHZ4pvgww8EH7QYWqz6bFeFbrIzRqxV6GKPax4BgxTYrkii-0JPdNn1gqJo.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_ohc=jHMNvKAFnoEQ7kNvwExi2k2&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyMjU4NjU2MzAxNjIwMTEwLCJhc3NldF9hZ2VfZGF5cyI6NTAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNDMsImJpdHJhdGUiOjYzMTM0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=8TkSwIDvaJzJ5wPaot6uXQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJc1NJseMwgNL1Me4u7eQoVryVDxR15tA5gMyVC4xwkjg&oe=6AB79DE3",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fnap3-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMm9VNLymlgK7i0thXVpJNtQ7qFrg9GyBwgprw-m-ChmvRRKvzwI6T0yEhdYhA4iF6-sEafNSlScg2vfteJctZYOJihn17OiU4xRPc.mp4?_nc_cat=100&_nc_oc=Ado9OglTKb-UOQqDTCvFcW2W6HXLZO1i9TCdZEEsVYk5T06mi4M4NLRe9IAm_-7AcEA&_nc_sid=5e9851&_nc_ht=instagram.fnap3-1.fna.fbcdn.net&_nc_ohc=CTAgsPMNglwQ7kNvwFqEmvy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY0OTM3MDY2MzQxNDQzNiwiYXNzZXRfYWdlX2RheXMiOjU1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=5127be25ca8331fa&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wMjQ1RDI1RjdCNjkyMUMzOURFQUI5QTY2MjUzOTY4QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRDNEMzMDk3NjM5QjVDMjA3MjM4RTE4NUFBMjFERThCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbIqveHgYbuBRUCKAJDMywXQFAu6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=VqajczX9GZ60eq1ODost0Q&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL4gBnb79ChleTdTYUZ9-sJygtyvTU8ol7SsOlK-6rhfQ&oe=6AB7B779",
+    "timestamp": "2026-07-31T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 63251,
+    "videoDuration": 64.735779,
+    "likesCount": 967,
+    "commentsCount": 5,
+    "caption": "為什麼渾身都疼，但練完腳之後就好了？ #davidmiao #苗振 #足踝功能 #運動康復 #訪談",
+    "audioUrl": "https://instagram.fnap3-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPGhHxRlMVHS8S_XfWAzyHYitm2QLKcpVoC9cvGWN2iZVKmY_2oQFM5NCI43jL-JIw8JFZqrMCZvaTMVChbbLxgeDH1b-j-gmVyBvw.mp4?_nc_cat=108&_nc_oc=AdrdiA2Pbc4asRaXmKOwM3HUmWkXhxgpvv0H6V1E1vdY9xfdJlV_YROQw_jBBqCNz04&_nc_sid=9ca052&_nc_ht=instagram.fnap3-1.fna.fbcdn.net&_nc_ohc=4U-KFX7uZY4Q7kNvwES1qpC&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNjQ5MzcwNjYzNDE0NDM2LCJhc3NldF9hZ2VfZGF5cyI6NTUsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2NCwiYml0cmF0ZSI6NjU1OTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=VqajczX9GZ60eq1ODost0Q&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKbDYX00cijaPSZVv4xJKI6TOfG_-ZQdM8dfNMuYSKP2g&oe=6AB7B1DD",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 1.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m86/AQMLUc1ZKMiEPKdq0FDBQ6B07r13AVVyha3A8h69P9Bg6XJ-VGwj6WYCJfq2l4FSlE5tzCMPNFiR5bLepqVzySzygzWqSumcPHFpn3M.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=vdLGiyIJNHQQ7kNvwHVyKEH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTgwMDYwMzExNzA4MDk5LCJhc3NldF9hZ2VfZGF5cyI6NTksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a0e809196f36095a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNzRFRTQwMjU5MzAzMjJBQ0NCREY1OEM0MjI4RDc5QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJENDJGMjZBN0YyMzk5MDExMEJBNjJENTkwOERBQzkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGh-ergte9AxUCKAJDMywXQGUUQYk3S8cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=6rNRGMMz3U72CexaKztAeA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLtEMxnEkH3pbhV-NCoD8aMzSbu5Om0moM43knK01adoA&oe=6AB7A869",
+    "timestamp": "2026-07-27T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 19561,
+    "videoDuration": 168.645081,
+    "likesCount": 240,
+    "commentsCount": 1,
+    "caption": "為什麼翼狀肩胛骨一直都改善不了？是因為你把邏輯搞反了！ #davidmiao #苗振 #翼狀肩胛骨 #運動康復 #健身教學",
+    "audioUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m78/AQOKUbnJIX5mfciOUhZjErsRyEYR2SkErJllFr8v0YxgkDKhwDerDHn2pOrad8QVkg_Gz-K1Lvn8Pxfbxr7vUyaQ7R3unrI2jB7qiRA.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=3stEc97pyfkQ7kNvwHfTb57&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5ODAwNjAzMTE3MDgwOTksImFzc2V0X2FnZV9kYXlzIjo1OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2OCwiYml0cmF0ZSI6NjE5NzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=6rNRGMMz3U72CexaKztAeA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQL3suqgQWT5LUBhFR3M0tIaOTIxDfzus3o_KuxhPWloDg&oe=6AB7C7E0",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fsyd14-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNjCQB-9cqjs58r42ky2tjv0VqXa5X47MbUSb3cla8eR_M5jOZzhTWxIMPv7HrnMttQ3cHQshB7wc3g20yg1vRNp_HZRg0995OAJGY.mp4?_nc_cat=101&_nc_oc=Adpj8rTCuJfCihFd_pP06Du0--afG8EM2GJ-ASQTMpLvWffK0BWEQREQSJ7YRGxz9TQ&_nc_sid=5e9851&_nc_ht=instagram.fsyd14-1.fna.fbcdn.net&_nc_ohc=zOpbEea7YUQQ7kNvwFwz9cy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTkyNTE0ODEyNDgyNzcwNCwiYXNzZXRfYWdlX2RheXMiOjYzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTAxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=5d9d8d0a192fc848&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85NTQ4NEM3RTc0MTkwNDE4MjhGRDNBQzE5MTNBRkY5M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JBNDc1NkFEQzRGMzE5NDY4NEQ5RTU2Q0RCRUMyOTlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbwwPahr7rrBhUCKAJDMywXQFlszMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=tS4u3Kfw-mN_dCEqf0c6Wg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQK8VorAFzsztQ60UK9o1E_zpLLoTPmDYEKiwQGIB7qVbg&oe=6AB7ABF6",
+    "timestamp": "2026-07-26T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 34368,
+    "videoDuration": 101.70195,
+    "likesCount": 527,
+    "commentsCount": 1,
+    "caption": "練完這個動作，上段胸椎靈活性變得更好了！ #davidmiao #苗振 #胸曲變直 #運動康復 #健身教學",
+    "audioUrl": "https://instagram.fsyd14-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQPSaqj_vqIVKmXzHqCayXaiagQo95Vqq4-QKW4ZrvV1OiYc8_PdN1P67ahZfTiogmUcCtTeupnDV3wNiexp3L-av0rA2N2ROdX_k68.mp4?_nc_cat=109&_nc_oc=AdpedN44avZpKkhqEQtZT0I22lzDwNgLhCtGlldpLv4bKLErmlUFFHInSXE-6UJzb7Q&_nc_sid=9ca052&_nc_ht=instagram.fsyd14-1.fna.fbcdn.net&_nc_ohc=cvFoPheMsOoQ7kNvwEFE4Wp&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxOTI1MTQ4MTI0ODI3NzA0LCJhc3NldF9hZ2VfZGF5cyI6NjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMDEsImJpdHJhdGUiOjYxNDQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=tS4u3Kfw-mN_dCEqf0c6Wg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLVNjBJ3GUkoiFkFrcYe9KrGvx4FRfsadwoj4ismswJDw&oe=6AB7ACAE",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.ftrn5-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQNDQyXkmsANRH6EBHzl1KSWEX02W_z4k0DxEVEKQoaAFFcs3-ACa8UQjV4Me9ggyoH1dvex2LNT3Pzvi30_tS_mANm4lOiBPBnjiMA.mp4?_nc_cat=100&_nc_oc=AdrPcgsAAxd56pznBynfBk5_qbQq202WAYJFW4R8fWdTlIPYeUoTmRVguIGaPFcEow0&_nc_sid=5e9851&_nc_ht=instagram.ftrn5-1.fna.fbcdn.net&_nc_ohc=zJ64z44zrb4Q7kNvwGiiaQh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU4MzM4NzE3MzM3MjkxNiwiYXNzZXRfYWdlX2RheXMiOjYzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=38069d7d962fdbc7&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83OTREMzRERTQ4NUY0Nzg0NTlGODQwNDQ4M0IwMkNCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVBNEZGNTgzMjIwQTdBMDI2QUE1ODQ2MEFBOUIzMjk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACboj5bgoYXQBRUCKAJDMywXQELIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=gY8EDdXtyu1TxKeYqBxpAQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJ3CNyxQwSOQyelS_FZRM7-WH4ZtATiG4JGdW1He0plVw&oe=6AB7AE71",
+    "timestamp": "2026-07-24T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 43825,
+    "videoDuration": 37.568436,
+    "likesCount": 653,
+    "commentsCount": 6,
+    "caption": "寺廟和尚看起來都很面善？原因是他做對了一件事 #davidmiao #苗振 #呼吸 #面相 #運動康復",
+    "audioUrl": "https://instagram.ftrn5-2.fna.fbcdn.net/o1/v/t2/f2/m78/AQM5pSgEzJvGxzsY9HVmmBABvULn9gCszs7JndAQiWdk7gWn8Ng6xXZo6UtFTFCQGnjvPkI3CKXkVsF9Yow7EqmYkBAXGdRZSNMb5r4.mp4?_nc_cat=105&_nc_oc=AdoG07BfFPhJ3pT116wc9S6qunaxuisqAtjXAkdEEvQ6CE3doa9RCx9pTNS4GQrkyng&_nc_sid=9ca052&_nc_ht=instagram.ftrn5-2.fna.fbcdn.net&_nc_ohc=mrpO4yPhs0sQ7kNvwF9etKA&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNTgzMzg3MTczMzcyOTE2LCJhc3NldF9hZ2VfZGF5cyI6NjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNywiYml0cmF0ZSI6NjUwMDcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=gY8EDdXtyu1TxKeYqBxpAQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJXMbTW_Ekf6GVMRyH82RbC46x-_XjS5UCFUnD_p4QukQ&oe=6AB7BB16",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fyxd2-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQP4Hfo-KDYQl0Z7iPKbf3mH_ZhlP1CWhzJp4PpUhXbPNdgcYJuxFXjDFZE4p3_rUfxMP-wqKks8XCZ_-r_7gjZdP3y-2SIC_PD3AGc.mp4?_nc_cat=109&_nc_oc=AdpQ2h0_6N3Rm4P3SRUVBgYQvshPyf4-dEvdB3WLWDarC9MK9K8_9ANVX7g-wFa6H18&_nc_sid=5e9851&_nc_ht=instagram.fyxd2-1.fna.fbcdn.net&_nc_ohc=VaAc4-U0_9sQ7kNvwHLnxbw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc4OTQ0Mzc4NDgxMjE5LCJhc3NldF9hZ2VfZGF5cyI6NjQsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=228ad5576b356fb1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMzQwQUY1QkU2QjA2RjMxRTREMzlGNURCOTY4OTdCQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQxNDZFRDg0NTg1RDNGREVEN0IyRDJENjY4RTY5QUIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGqfn-h5a9AxUCKAJDMywXQGRBDlYEGJMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=VV0KBflyAkObPv4ctOzAdQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKyXyp9PDL5lzs3S8ORtUPO-XjaKJuEd7aQ2lDqDepYEQ&oe=6AB7A906",
+    "timestamp": "2026-07-22T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 34124,
+    "videoDuration": 162.050613,
+    "likesCount": 765,
+    "commentsCount": 3,
+    "caption": "一边健身一邊改善胸曲變直，這操作簡直夯爆了！ #davidmiao #苗振 #胸曲變直 #運動康復 #健身",
+    "audioUrl": "https://instagram.fyxd2-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQMGrBf4_qVMBgvfdY2fYE5ozsIM-7O_g3bHgRzl2Y37qkWhNAnfpq4p8bvcAM1KVQDIq7tZBLbjPp6Mv7RfIm_E9EWaZ_KjHQVN3B0.mp4?_nc_cat=111&_nc_oc=Adp4tV2BmSmnSj5aOWjWpp9UqOUbzp2q6iIzydqpHiUPpDieYRMMj_1dNFNax2FR3zo&_nc_sid=9ca052&_nc_ht=instagram.fyxd2-1.fna.fbcdn.net&_nc_ohc=1Uexjx3XbuwQ7kNvwHva0FG&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5Nzg5NDQzNzg0ODEyMTksImFzc2V0X2FnZV9kYXlzIjo2NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2MiwiYml0cmF0ZSI6NTg1MzYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=VV0KBflyAkObPv4ctOzAdQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIZ7cIX_oPw0r4HkwK0G-lACeaOAURoxpkRksAAroXuZA&oe=6AB797B8",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fpbc1-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQM_vFlbHtbTMf8gU8L-R4F-T4kr_mMFF6T9nJNAkQtScF4tkumYeo4rftz225RQcZdn6viPUr2LbiiQ-C1YwjfXk7hbIIHJ-Uhhj6w.mp4?_nc_cat=108&_nc_oc=Adp2KqgryjLkTQ4PNbv9ClxIveSRVwSJsalhzgDfMAdUWKJOougQUtEaX5zhJLLj5s8&_nc_sid=5e9851&_nc_ht=instagram.fpbc1-1.fna.fbcdn.net&_nc_ohc=-Kcp9n61TiYQ7kNvwHbHXVp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MDk0MjA2ODU5MTQyNSwiYXNzZXRfYWdlX2RheXMiOjY5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1dcf2e8a245cd6a0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82NTQ5QjRGNkVBQThDRDJCMkRDQTMxRUZCMzRCNTRBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I3NEIyMkFGNUNGQTlDMzkyNjU0OEM0NkI5MTVCRDgxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaCrZaZhIHnAxUCKAJDMywXQGZ1T987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=OqAO8pm38beJttqP7hk6Cg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJtb8AnpIMCgsMs6GhPY9oGJGe8KcHEwRYK3xCWXN77Qw&oe=6AB7A7A1",
+    "timestamp": "2026-07-19T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 35257,
+    "videoDuration": 179.674561,
+    "likesCount": 718,
+    "commentsCount": 1,
+    "caption": "這個康復動作，拯救你的胸曲過直與富貴包！ #苗振 #胸曲過直 #富貴包 #運動康復 #健身",
+    "audioUrl": "https://instagram.fpbc1-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNe7ibPwDf6n4RMR99HOvfQ4LuQ0E6JHQms0ruf53MSGBnIXCAAOt_9o7e7zpZkRaSBL1hkE2jXNuEiwmdOlaPQdlUDzt3WDhuQ3us.mp4?_nc_cat=106&_nc_oc=AdoiAbkc-kuTbAO6Thjm3_Hp3L0xQPeIhcs8T3_HS0OuH2-YQlSDYmjt_wBNcKvK0b4&_nc_sid=9ca052&_nc_ht=instagram.fpbc1-1.fna.fbcdn.net&_nc_ohc=Vk7eZEyFZwAQ7kNvwHYfoJs&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDcwOTQyMDY4NTkxNDI1LCJhc3NldF9hZ2VfZGF5cyI6NjksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzksImJpdHJhdGUiOjYxNzQ5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=OqAO8pm38beJttqP7hk6Cg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQLnEtcPOuQSomKL09acCLLxClh1A4M1Bth34-tBqIc9HA&oe=6AB7C1DB",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-lax3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPJvh3u7iLv7tWJa1QdDKDqPn878OgY-arTEclgalpcn2a3wgF5iEzCzUyzwqZD0agKduUV9zxAr0SqvPNny-iaGQ0MmgF4XiD4-I4.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ohc=v9uBZ1HPmdMQ7kNvwGtjIEL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM2MDM3MTY3Mjg2NzYwNSwiYXNzZXRfYWdlX2RheXMiOjY5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTM2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8128606329e73c6a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NzQ1N0NDMTMxQzhFQjhGOTdCQTgxRkE0RUFGRTA5OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JDNDg5M0E1MzYxMUI0RkQ0RTI0QUM5QThDNDUxMzk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaqjJflhtDqBBUCKAJDMywXQGEczMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=MF152VEjYj4E3NsqFmsamQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJolJhiVfELKu_gsn0_V3hQptALL61WwHrVv1Dl44-WlQ&oe=6AB7BBD7",
+    "timestamp": "2026-07-18T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 38075,
+    "videoDuration": 136.903397,
+    "likesCount": 617,
+    "commentsCount": 5,
+    "caption": "如果康復方向不對，只會把身體功能越練越差！ #苗振 #骨盆前傾 #駝背 #運動康復 #健身",
+    "audioUrl": "https://scontent-lax3-1.cdninstagram.com/o1/v/t2/f2/m78/AQNFl2u1UXIkrXDVFfBTja5mkp_Mgb2tFfEzp1w_FOGIp-ekDSs220zbvpRZX6H0onSHyoDMFjD3xxIWKdl5m1EaUjtwrS4PffbUygg.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ohc=P-Q9H6PS_lEQ7kNvwGp_FXa&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzYwMzcxNjcyODY3NjA1LCJhc3NldF9hZ2VfZGF5cyI6NjksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMzYsImJpdHJhdGUiOjU5NzAzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=MF152VEjYj4E3NsqFmsamQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKD_fCaTVUDJNA5_VRjhE2H7ic9EJGnU3VAzIR5n1M3Ig&oe=6AB7A8DB",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m86/AQMgtx_IqZZvlbtwmxalAyeo4WyFV2X9SlY_Sa0ineP7JEGlQdITv37iZXDNcdV8YskrtYtwkt2qS3M8mIvXy_TESaHsKtJIQISzHNo.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=rQeFsDpGfbUQ7kNvwENJQPr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTMzMTkzOTQyODYwNTkzMywiYXNzZXRfYWdlX2RheXMiOjY5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9090d1fb3a453632&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83ODQ3Nzk3RTY4QTI1QzQzODFEOTE3MTZBQzZFRDI4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzBCNEU3QUYzNUE2Q0JBQ0VDMUU1MEQyMzk3NTM4Q0E1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACba_4iIitndBBUCKAJDMywXQF9ogxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZHB330IuMhPz4hwT5M01RQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLN2DQb_EiFTdgYe0DLZPagBIjjAmxJ1wXv4lVBFvpyFw&oe=6AB7BBD8",
+    "timestamp": "2026-07-17T09:40:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 24362,
+    "videoDuration": 125.641724,
+    "likesCount": 385,
+    "commentsCount": 1,
+    "caption": "富貴包的正確康復方法 #davidmiao #苗振 #富貴包 #運動康復 #健身",
+    "audioUrl": "https://scontent-ams2-1.cdninstagram.com/o1/v/t2/f2/m78/AQOZ1ZXpozYf-IPVdKvORCykCOjeXIPEp7FZsLJiTqCRenzxDExMNy61WN4tSeOq-wdj5s9U3XkkeBpP1lRRQxb1-djMjKvx9r7UQGQ.mp4?_nc_cat=104&_nc_sid=9ca052&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_ohc=1obg97BOaW4Q7kNvwG1dR7J&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzMxOTM5NDI4NjA1OTMzLCJhc3NldF9hZ2VfZGF5cyI6NjksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjUsImJpdHJhdGUiOjUyMjYzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=ZHB330IuMhPz4hwT5M01RQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKRqx26UGW-yHzrLPXRIKOV3hbRRzRc7XNnu4qOW-h0hQ&oe=6AB7C795",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ber1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPbRNLWzJbJwRiYp1p8xQPOGxwXEIxbVf4uWSS8F7DhleN3HV5FJmfAomDTGO7F_cAJ3PxcTf9vYcBHczaYIDaYGcXmYTqDziIlm9E.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_ohc=FA-qtXfCxlYQ7kNvwHd73lo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU3MzA1OTA0MTExNjcyMiwiYXNzZXRfYWdlX2RheXMiOjcxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8e2f267116538aff&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MjQ4N0U0QkZBNzMyQjhBMDM4RjM0NEY1QUYyNEJCN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFGNDIzMjlDRDVGQjc4QjRGNDQzNDNFRTM2OEQwMEIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbkiNqVi6zLBRUCKAJDMywXQFE1T987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=R4jyFhAiUWbfuGu5wY29Yg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJNXge-iN5vyojCfNXJVMB3rAodCiBAp5cWGs7ftybUOQ&oe=6AB79CC2",
+    "timestamp": "2026-07-16T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 72027,
+    "videoDuration": 68.845711,
+    "likesCount": 1014,
+    "commentsCount": 12,
+    "caption": "睡覺總是翻來翻去，竟然是因為它？ #davidmiao #苗振 #睡眠 #前庭 #運動康復",
+    "audioUrl": "https://scontent-ber1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPwcVn1L1QPY4TK_mqTY9MmES6jF2Qrn8AnJItuhUy3IhjqJ18sTv9ABdHFb5b0bQG0UqI4eisy5nAOsZ3swU-gb_tPrtwVLQCKqUM.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_ohc=YG55syEhQpUQ7kNvwHUtF5k&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNTczMDU5MDQxMTE2NzIyLCJhc3NldF9hZ2VfZGF5cyI6NzEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2OCwiYml0cmF0ZSI6NjU3MTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=R4jyFhAiUWbfuGu5wY29Yg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLFfN_8sEhHKWxwPBfYkKOOrfWLvBfRPjJ_7QyUvJ6fjw&oe=6AB7AEB9",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMZ7emkxIA834tChy-XpfMywNxzSuwqGHSDfKtikqRtrlzqex8jjlEkgJ2y7b0IVPPHYyiCx-20qMKs7dXtBl97W0zsO677twHVxOY.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=i9h8AY8tZC0Q7kNvwF82KKn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDU0MTA0MjgxNjE0MjE5NywiYXNzZXRfYWdlX2RheXMiOjcyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=3322cb8d4e88d273&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DMjQ1RDM5ODNDOTg0ODNFMjE5MTExNkMyNjlDMUI5RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QwNDZEMTlCRjU5NTBBM0NBMjdGNkY2OUNGRUE4NDg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbqrbq_vYOREBUCKAJDMywXQGZpmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=qShasuaEDhrZtm-x0F8AWA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIraMy6kjx2eRf_LkMXI_vXu27dJJ8HqsHERQZtjwt-0w&oe=6AB7C8FB",
+    "timestamp": "2026-07-14T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 21778,
+    "videoDuration": 179.30304,
+    "likesCount": 418,
+    "commentsCount": 1,
+    "caption": "遇到富貴包就抽脂，膝蓋有積液就直接抽掉，但這真的能直接解決問題嗎？ #davidmiao #苗振 #富貴包 #膝蓋積液 #運動康復",
+    "audioUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPmcOmT_JygCZ09NBJYrkUvSSOG4hWjRsN1WIz3DoEkRf5GcWPlfXsdznNXdGmOesmimtH7a_MFqHGo0AQOEKmq8JjLfYZGApQ07eE.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=NFg93K39Qs4Q7kNvwHpN6p3&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo0NTQxMDQyODE2MTQyMTk3LCJhc3NldF9hZ2VfZGF5cyI6NzIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzksImJpdHJhdGUiOjU2NTUxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=qShasuaEDhrZtm-x0F8AWA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJr0JqaxiGUv7ZbTkzB3Deb8mJCXv5SrJoRnCf_4wA1dA&oe=6AB7C0C4",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fyyc3-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQP6iU3tKM1QgW8UfNcl4v6kLJwf9KnMgkVmxLu7mD4NjWwHzEHt21_xtmLir47M5cnAKQI8SzTptVXtytC7h2SeBXr9h2NwKmldx4Q.mp4?_nc_cat=102&_nc_oc=AdoctKL9fNOoIbZ5sgQfjtakUnFUfs8anc5RC1Bqhqw0VjIo8gIDiOj7ZiezmMMhy5yhlksYLb-yC5bJl_XmSku-&_nc_sid=5e9851&_nc_ht=instagram.fyyc3-1.fna.fbcdn.net&_nc_ohc=HhUEBrXyQkcQ7kNvwH7RN8j&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzE5MDk1NDkwMTA5MTc4MSwiYXNzZXRfYWdlX2RheXMiOjczLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f9ddc046becb226a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DRDQ1RDlEMkYzMjcxRjhDMDNGMzZFREY4NjY3MjU4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNBNDA3QTQzNEQzNkYxNTMwNjNCMzk2OUQxNjk0QTg4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK1_3VgoqrCxUCKAJDMywXQGUkQYk3S8cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=m1GYdQzwXMo5EfoD3Q8HIQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKyY1QyzOSVQLqGUpPkNmCXOtxRuMDH-dnxbYyrxU_g1A&oe=6AB7990F",
+    "timestamp": "2026-07-13T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 29850,
+    "videoDuration": 169.155914,
+    "likesCount": 536,
+    "commentsCount": 1,
+    "caption": "很短時間內讓富貴包變小甚至消失？這都是騙子！ #davidmiao #苗振 #富貴包 #運動康復 #健身",
+    "audioUrl": "https://instagram.fyyc3-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQMteE5mZfHe45d4CGK6l49EcYvzTYsL_Z7gNhmq_oUxBz7jM5bitqcdaXz3GE5GBgzo5UkT6FsehFUl2QPPEwUMeOPeU2yiPMINQ4k.mp4?_nc_cat=111&_nc_oc=AdrKaxSUDTyWpDkNgJynal3R-Lhir7QbqAGey-x4Cu6jAiEOx7Sc1AoKmZji0Grnkn_JXgYgCsvlBadM0UXu-_D9&_nc_sid=9ca052&_nc_ht=instagram.fyyc3-1.fna.fbcdn.net&_nc_ohc=IGS0cGWKX4MQ7kNvwF0_qzw&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjozMTkwOTU0OTAxMDkxNzgxLCJhc3NldF9hZ2VfZGF5cyI6NzMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjksImJpdHJhdGUiOjU4MDc4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=m1GYdQzwXMo5EfoD3Q8HIQ&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIYKmdWqrc7Mp05CpniIvWc_Gzv4ZtoVT1dV1aTEL54PA&oe=6AB7B39C",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fbrs5-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMyen6YU4f88kqU0xNyAP0YUcnreaN_4oCgFnZbpdrIrVbj6VEFze1uqo2_lPOnOYX0AoTRwisr7TAxFKLBrvSQTJx1-BlkWwmYM30.mp4?_nc_cat=102&_nc_oc=AdqLqOg2GxWzG4Em5NiLLfbq3VyaKnUL411JW4EE0mzRduki4Gsl0tEMyZJ9ySTi6vg&_nc_sid=5e9851&_nc_ht=instagram.fbrs5-1.fna.fbcdn.net&_nc_ohc=nBXUvLLcayEQ7kNvwHaVZ1s&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjgyMDg1NjA3NDk2ODE0MywiYXNzZXRfYWdlX2RheXMiOjc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTcxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=5fbfd70422a9144e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MzQ4OTI5QkQyRkJFNkFFQTMyNDMwREE5QkYxNkNBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JCNEVCMzI5MDk5RjkwNkFCNjREMEQ2NjhFNjU1QTkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACae8fzEt-OCChUCKAJDMywXQGVu6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=M5tAqeTFu0KT2Yypb1cA3A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLYcB3XSWUs-RkaC0Ay7TPFnQHeJWmeB_bAIzN8ntn5ng&oe=6AB7A383",
+    "timestamp": "2026-07-12T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 35732,
+    "videoDuration": 171.477921,
+    "likesCount": 835,
+    "commentsCount": 3,
+    "caption": "給不對稱的會員做對稱訓練，後果將不堪設想！ #davidmiao #苗振 #對稱訓練 #運動康復 #健身教學",
+    "audioUrl": "https://instagram.fbrs5-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNVTwFLFIjAvwyIMHHeUZN95guziobm3xuQ92l2yrLbsFxyrqLPYRp3A5ScLBBg_q6-TE1E3YrEwCwrfCcFtSd7GR8V6Ag5fVVsb_8.mp4?_nc_cat=110&_nc_oc=Adq9ojQhKDZHKJXzDT2ImqxPckKzDvD0EyUe970BFjsLYY4IGHVfy7dIL15yEaI9cbo&_nc_sid=9ca052&_nc_ht=instagram.fbrs5-1.fna.fbcdn.net&_nc_ohc=Y-GKbhD9reIQ7kNvwHYp2Uh&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoyODIwODU2MDc0OTY4MTQzLCJhc3NldF9hZ2VfZGF5cyI6NzksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNzEsImJpdHJhdGUiOjUxODUxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=M5tAqeTFu0KT2Yypb1cA3A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLBBnEQxHZksC6bl_Zsao6ZG7MTMQeJ6qdnCZhKQaNdCQ&oe=6AB79E27",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fsyd3-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQP8yz-u9Vp2FyGF01DENdB4l1ATOYanZiedXrRDszxzW7yHa7ZyC4WzVvntTrwUY4IV0Ip2-APsfZU-o0iJ8qC_uASv8t6y8ZqG_Fk.mp4?_nc_cat=108&_nc_oc=AdrSOqpCGjmxPtLp6dxA_HWbW5xD6pUReIA0KBqu8wYhFP1xpcgL5pupPO---yLzodY&_nc_sid=5e9851&_nc_ht=instagram.fsyd3-1.fna.fbcdn.net&_nc_ohc=-7_dpj0QEY0Q7kNvwFiID2W&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTAxNzgyNjI4OTMxMzA5LCJhc3NldF9hZ2VfZGF5cyI6ODAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMDAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=52ae1c9b9fa7365f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MjQ1MjYzQjE1RTFBMTZCQjE2QTE1MjBCOTZCRjY5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EzNENBM0NFNTcyNTA2NDExNzUwRUM3RjFGNzgxNzhDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACba25iU1IqaAxUCKAJDMywXQFkkOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=omWKGpvc-9Qxm0ALusUklg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQI7QG4LJp-rPqLCV8ofOIIRXkUBzsNIcAQJTSrWK4ZEzg&oe=6AB7A7C9",
+    "timestamp": "2026-07-10T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 22800,
+    "videoDuration": 100.587395,
+    "likesCount": 361,
+    "commentsCount": 1,
+    "caption": "社會在不斷進步，但人的功能卻在退化，這是為什麼？ #davidmiao #苗振 #訪談 #運動康復 #健身",
+    "audioUrl": "https://instagram.fsyd3-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNYkg75DLukUiCEsnI5GFoLxUCDaPV0LxAX4_cTnUrpPK81zaZ_FAAoiDXleexaoOsJExH0N4WoaMbHICS0RhBqnIBqeixOao1_K4k.mp4?_nc_cat=100&_nc_oc=AdpY5M7PRi60Sq_OrqaRCEDU3Hp2EdGc9oLfjnbhKKLTvxFvvLdlxRdpzRF7aramsKM&_nc_sid=9ca052&_nc_ht=instagram.fsyd3-1.fna.fbcdn.net&_nc_ohc=7dCdrAwRT4oQ7kNvwFG4o8r&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5MDE3ODI2Mjg5MzEzMDksImFzc2V0X2FnZV9kYXlzIjo4MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEwMCwiYml0cmF0ZSI6NjM3MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=omWKGpvc-9Qxm0ALusUklg&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL0o2zpZ_5SAbdRZ-Ml3WzMv3r9aiWOctasVqdHE_X0Vw&oe=6AB7BA99",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 1.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fcia4-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQP_gER1sbLpTQqLlRMrxuGWRvOwOhN-o10FktUkMSQ__V_Y48-YvhuM3vJB4GNQh7jb_fUhkU9RPfAUWGSu61HjVYyccZJXrVQ3oHM.mp4?_nc_cat=110&_nc_oc=AdrZHF_t-x9GYSBkcMVMKo0VUTegwyje-bM0-Bas6x6gQcDMTAa4niF6lHdpaS5tc6g&_nc_sid=5e9851&_nc_ht=instagram.fcia4-1.fna.fbcdn.net&_nc_ohc=oT7Zs4-mQkYQ7kNvwGBKLKU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA0MTEyODM5MTg5MzIwMCwiYXNzZXRfYWdlX2RheXMiOjc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6OTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=dbe99c8437022448&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DMjRENjBENUM5MkI3RUJGRTA5MUIxMTkzRTg3RkFCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QyNEUyOTg3QkY2RDgzNzZBRDI0NURDNEY2NzYxRjhDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagg7f_0rnZAxUCKAJDMywXQFbd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=kZrc2xZz6aoTEpqeqXdY0A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIY7TsZiIsww0iGZEGj02NNZe5P6QXCVUWT4HYvZjdIxA&oe=6AB7C49F",
+    "timestamp": "2026-07-08T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 46692,
+    "videoDuration": 91.485168,
+    "likesCount": 1043,
+    "commentsCount": 5,
+    "caption": "有人說健身是耗氣？那是不知道健身的魅力！ #davidmiao #苗振 #健身 #運動康復 #功能性訓練",
+    "audioUrl": "https://instagram.fcia4-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQNl4yO8eCsAPvIw7ei1a6Fq02wZeXRNwCByosLPSG_MIjQDUj77Sqw1BCO9ad-HYyGdCBOyJ5sFeWgnub15IQS4coFCBYt7WntMANY.mp4?_nc_cat=106&_nc_oc=AdoRo9ibyst_txs8vTuJ_Q-MGoDUmCAPLS_H2zxRnreJSgC7ak36zcjAIcrOHbwzf7c&_nc_sid=9ca052&_nc_ht=instagram.fcia4-1.fna.fbcdn.net&_nc_ohc=UYZPjIDFcOcQ7kNvwFgS_sJ&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDQxMTI4MzkxODkzMjAwLCJhc3NldF9hZ2VfZGF5cyI6NzksInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo5MSwiYml0cmF0ZSI6NTIxMzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=kZrc2xZz6aoTEpqeqXdY0A&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJD-T4KtSSGd9JvtUvCOloEExQR2wzgOTPj2YGvvPqMQg&oe=6AB7A837",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-cdg4-2.cdninstagram.com/o1/v/t2/f2/m86/AQPlwmP8coW0ra-1ERH2zDHjggGnwGvo01WJvwDSwi9vdmKxl-3elsqfqatmA3-Tlpxr5CNtydm0MUZ3JX7RgKj79V2JamcGEJB9v9s.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_ohc=4mLssTSnYDwQ7kNvwHcebwb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzY5NjUxOTM2NDY0NjAxNjQsImFzc2V0X2FnZV9kYXlzIjo4NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE2NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=bec9559925a86b85&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wNzRDQUU0NzBBQjVGNTQ0QUQwMTRBMkYyRTQ4QzM5M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ZENDA2RjQ3Qzc0OUU0RDFBREJGM0YzMUIyRTAwQjkxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaItM7FuumpgwEVAigCQzMsF0Bk8hysCDEnGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=JW0Ge-j_UTyaY18ei9ZcEQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJJ8kHONieispDD3-Twtb08SfE8hZN3lfjebUyQNwDTDA&oe=6AB7A930",
+    "timestamp": "2026-07-02T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 116440,
+    "videoDuration": 167.576965,
+    "likesCount": 3091,
+    "commentsCount": 10,
+    "caption": "不管你身上有什麼痛症，單個動作都可以全部一起改善！ #davidmiao #苗振 #疼痛管理 #運動康復 #健身",
+    "audioUrl": "https://scontent-cdg4-1.cdninstagram.com/o1/v/t2/f2/m78/AQP5XSpb757Yiq8ZoHcs0L0onktJJyuRrgcV2933NrQEmJ0lDkOztXEMYe4443uR80NqYxoRlHTa166o8p2cfKg2tAxHvNH-RQrQ5L8.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_ohc=AR1xIuSb3ycQ7kNvwHzp59P&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjozNjk2NTE5MzY0NjQ2MDE2NCwiYXNzZXRfYWdlX2RheXMiOjg1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY3LCJiaXRyYXRlIjo1Njg4NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=JW0Ge-j_UTyaY18ei9ZcEQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQL5nsU2yRPqS_NgLsbxwoe8yIFiSWLJQjI2nMHT2uBN6A&oe=6AB7BD13",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-fra5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOAiprBJ8JBNdRLhvzJoIM1zQlCtH1twMXAp3a1hBR0ifUFHwPDjGaYafcLYzl_LsECr2cW5CNrQYsag02wPb8AsqubMgIh1TldJaw.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-fra5-2.cdninstagram.com&_nc_ohc=YssxF-1fp1cQ7kNvwGZkH67&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcxNzczNDE1NjIxMTgzNSwiYXNzZXRfYWdlX2RheXMiOjkwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTY2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a466417594823a6a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MjQ4M0QzNTk1MzVDQ0ExODkwODc5OTFCQzI3Q0NBQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U2NDk0RkYwMUYwRUM5RTIzQzRFNkQ4NzI4RDExNEI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb22ZjjpJGNBhUCKAJDMywXQGTIgxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5bpM8teRN0luQg_XqEeB8A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLmic-i7CkcRSZJqGDXfjV8MXVQ7JiRnn03p86qlRNiqQ&oe=6AB7C1E8",
+    "timestamp": "2026-06-30T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 22074,
+    "videoDuration": 166.276642,
+    "likesCount": 357,
+    "commentsCount": 1,
+    "caption": "全身關節活動受限？只需要一個動作就能解決！ #davidmiao #苗振 #關節受限 #運動康復 #健身教學",
+    "audioUrl": "https://scontent-fra3-1.cdninstagram.com/o1/v/t2/f2/m78/AQPPSctfkqjRKDcGds-DN0ufx3-Dbt7S1soTAPCJ0MrbHDSuihaFcdV_OExheTeC9Ibui2Y94yRAXuBwlh_aMI7P1_hqdtAI03ig_5U.mp4?_nc_cat=103&_nc_sid=9ca052&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_ohc=Zjbsska2RL8Q7kNvwHB8TPT&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzE3NzM0MTU2MjExODM1LCJhc3NldF9hZ2VfZGF5cyI6OTAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNjYsImJpdHJhdGUiOjY1NzUwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=5bpM8teRN0luQg_XqEeB8A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKWLv_1q4zERqLta3owyA-myLIWvxepAdrfhaHlE_9__Q&oe=6AB7B148",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-qro1-2.cdninstagram.com/o1/v/t2/f2/m367/AQPuO05J5tDhjyvnBkUzKPnq0ZXU7QIJ8aTuJd3FiF1VbqGnfsXxtvqE0Kiy59vCz7DLPnZkmbNzLppW45H6JiesmG0RzT7yTAx3h9A.mp4?_nc_cat=111&_nc_sid=9ca052&_nc_ht=scontent-qro1-2.cdninstagram.com&_nc_ohc=ixB_Y7MrAzMQ7kNvwEP2Uhw&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzc4MDQwMzcwMDMxNDQ5LCJhc3NldF9hZ2VfZGF5cyI6OTEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNTMsImJpdHJhdGUiOjIwNDEzOTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=mlJShgzg6O0YnJ5bnYsUoQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLVc1zt3JsfuMbNQRQJQmp7-UcfqT2GLmrgsmwx4r6Vkw&oe=6ABB8BDC",
+    "timestamp": "2026-06-28T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 39371,
+    "videoDuration": 153.644989,
+    "likesCount": 522,
+    "commentsCount": 1,
+    "caption": "全身關節受限並伴隨著疼痛？評估的過程非常重要！#davidmiao #苗振 #關節受限 #疼痛管理 #運動康復",
+    "audioUrl": "https://scontent-qro3-1.cdninstagram.com/o1/v/t2/f2/m78/AQMz1MLNnICwICeiHHHSRVcNggeGWzgAQD_plfZ2nmvFa5KT9NADpuDEwQjpgV8R4FhEV4V-bd86jM5jt862Kp1a9qGbr6KB6yFWWy0.mp4?_nc_cat=102&_nc_sid=9ca052&_nc_ht=scontent-qro3-1.cdninstagram.com&_nc_ohc=o_ovTuLY8jwQ7kNvwE7D77r&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxNzc4MDQwMzcwMDMxNDQ5LCJhc3NldF9hZ2VfZGF5cyI6OTEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNTMsImJpdHJhdGUiOjYyMDA3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=mlJShgzg6O0YnJ5bnYsUoQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQJu9fFavrGZdyVMuCY6ZxTiEkXsVPDLjWnuhn4FEjsi8g&oe=6AB7C5B7",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://instagram.fhnd7-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQOpMzOEYNkxsDZsY7XpIqzdO5QsFNny8-b7ISRX1qzzmZOcKQRsr-02AYcyoQ3MtMfHzqX6S4qhCOqB4TGsiKIaQx-_-8-j05nUjyQ.mp4?_nc_cat=109&_nc_oc=AdpoFAEeRKOC-grlriZMFbQZjJkGDf4r7ley9D8rzkMvuN6gqjidzeszO7fVDWLHMEs&_nc_sid=5e9851&_nc_ht=instagram.fhnd7-1.fna.fbcdn.net&_nc_ohc=xONJhZdWUXQQ7kNvwFZttq-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM5NTgwODUwMjU5ODY5MCwiYXNzZXRfYWdlX2RheXMiOjkyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTEyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=937297f549537ff6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNjQwNjE2QzE3Q0YwMThGOUM0MTFDN0NGMkJDMUNCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NBNDZDMUQ3NDI0RjkyOTJFNjRCMDMxMjY1Mzc4REExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEsMbf3976BBUCKAJDMywXQFwCHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=l15ZfNlQiiBXU6T6TjSMTA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL34hETW9cZahshlc70YlpfBV5fzTJhwq6o_1YJXKJMQA&oe=6AB7A0BA",
+    "timestamp": "2026-06-26T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 62132,
+    "videoDuration": 112.034828,
+    "likesCount": 1697,
+    "commentsCount": 0,
+    "caption": "學會這個熱身動作，練背推胸的效果直接翻倍！#davidmiao #苗振 #推胸 #練背 #健身教學",
+    "audioUrl": "https://instagram.fhnd7-1.fna.fbcdn.net/o1/v/t2/f2/m78/AQOPo8FASWXOMbC4xOc8iamgLRpbigVkwgS1Cc9crfDQ2rd68mITDGDg4RMjyf6iFsdheuIVWOSKOKfRYU7mXDw8-wjs_zABU9Peetc.mp4?_nc_cat=101&_nc_oc=AdredbsuF3cjf2XBWbLNeESIWhuS7Kli2P3m9wrhZ6lxDLwa0_2m8GSYGE0n9IEo0Mg&_nc_sid=9ca052&_nc_ht=instagram.fhnd7-1.fna.fbcdn.net&_nc_ohc=Ke1laRB8nkkQ7kNvwE1H6gj&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMzk1ODA4NTAyNTk4NjkwLCJhc3NldF9hZ2VfZGF5cyI6OTIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMTIsImJpdHJhdGUiOjUzNDY4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=l15ZfNlQiiBXU6T6TjSMTA&_nc_ss=7a22e&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIioBbsQbGGP1V446n0pDHhlUc8XA0dKktwJB7u2kXZ3A&oe=6AB79F2E",
+    "score": 9.5,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.0,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-cdg6-1.cdninstagram.com/o1/v/t2/f2/m86/AQM8SdnJRa9TFt0oKsiRNTDreJUoqb8F76xze2lHYQ2T613nAm2-MHTPfLuTzoENaCsngGEV2C99Tx3F4ZWJia8WRkv7GdVlRRagvyU.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_ohc=q2yGo0M9J3YQ7kNvwFbd8CZ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAzMTczMjEzNjA4Mzg5NSwiYXNzZXRfYWdlX2RheXMiOjkyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6OTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=229525f3781b6272&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNzQ5RDcyNDFCNTJDNTIyM0ZDQkM4QzlFMkUxN0JCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlBNEFFQUFENTI0QzBBRjNGQURFQzY3OUVGRjIxOTg4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuhsy325bVAxUCKAJDMywXQFdO6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=tNrUuCkEPcFMqpORZ4LfCQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQL7rsaFFrFCD8KURnHBXLVFvZoFvnqHcIgYUpHIhzpOBQ&oe=6AB7B83C",
+    "timestamp": "2026-06-25T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 56292,
+    "videoDuration": 93.249886,
+    "likesCount": 1096,
+    "commentsCount": 2,
+    "caption": "要想自己看起來不顯老，運動搭配很關鍵 #davidmiao #苗振 #有氧運動 #普拉提 #運動康復",
+    "audioUrl": "https://scontent-cdg4-1.cdninstagram.com/o1/v/t2/f2/m78/AQPDBFwjz72eIamwDGI1Y1PlLZqo_rbY_UNNkqoLehBNehz1FqGcHDlSotyCZoqZHFmzKquqWkxWF3VJ7KlIu2tcLTpef3D6U8GI3h0.mp4?_nc_cat=108&_nc_sid=9ca052&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_ohc=pBi6QUcnBMcQ7kNvwHGNMLd&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjoxMDMxNzMyMTM2MDgzODk1LCJhc3NldF9hZ2VfZGF5cyI6OTIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo5MywiYml0cmF0ZSI6NzA4NzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=tNrUuCkEPcFMqpORZ4LfCQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLqVV4W2emNT5YGVSJZgGkgfhZaiOZzyPseX1LgyQkqZw&oe=6AB79891",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m86/AQO9h4M5aNGy0oxiwoODkGBzkq0ntOxIw2e0bNsSQOmljcXP9ZZyxr5vmXWjHv5wIaCdBC8618qsHL-dKo7xC_fg-h6zbqNeH1dAwJg.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=m2Nckem-2g8Q7kNvwFMLSV2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjcwMTc0NDI5MjQ1OTQ1NzEsImFzc2V0X2FnZV9kYXlzIjoxMDEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo5MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4f6c11c3d2415e80&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85NzRGNjk3NDFDRUIwQjhBQUQ1NTg0ODE1MjlENzVCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFDNDY2MjkzRTcxQTdGOEUyMzk3MzMyODJBNDNDRUJEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaWlpSElI7-XxUCKAJDMywXQFbCHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=oVXmChCI0KmPPtxGsHfshw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLZwHd0krUn9IT37JPSH3ZMJJWsINwkuVZd2myIBwBBKw&oe=6AB7C0F1",
+    "timestamp": "2026-06-17T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 67973,
+    "videoDuration": 91.043991,
+    "likesCount": 1045,
+    "commentsCount": 5,
+    "caption": "揭秘減肥針的危害，可不是降低食慾這麼簡單 #davidmiao #苗振 #減肥針 #運動康復 #健身",
+    "audioUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPByq_R4ouqyJUUx39pwzVsda-LURTYbtTrMZUP6x-sy2ydiH1RcPVwfBstYJ84wAVo1sdvYoL_ks2OP_gyLpZpWThqhJsAWw7a33k.mp4?_nc_cat=105&_nc_sid=9ca052&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=64Nhx3zE8j0Q7kNvwFmHg2o&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmV4cGVyaW1lbnRhbC1DMy5kYXNoX2xuX2hlYWFjX3ZicjNfYXVkaW8iLCJ2aWRlb19pZCI6bnVsbCwib2lsX3VybGdlbl9hcHBfaWQiOjkzNjYxOTc0MzM5MjQ1OSwiY2xpZW50X25hbWUiOiJpZyIsInhwdl9hc3NldF9pZCI6MjcwMTc0NDI5MjQ1OTQ1NzEsImFzc2V0X2FnZV9kYXlzIjoxMDEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo5MSwiYml0cmF0ZSI6Njc4ODYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=oVXmChCI0KmPPtxGsHfshw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQLWijlfHwqR6vyR9gwHWewV3QhhOLCgoLRu8gLeitxuRA&oe=6AB7997A",
+    "score": 10.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 2.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
+  },
+  {
+    "videoUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPP99rCgxeABu3Fp_ICY10X5bjjAEn9js74r0tqtCWQKxiCsz_6aggZ57-hxPRBRv_pqeC38E5alG8WxlU4_fb0wmHAyz7LnorA38c.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=58-x6Zoi9ssQ7kNvwFx83EE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc4NDU5ODcxNjQ3ODM0LCJhc3NldF9hZ2VfZGF5cyI6MTExLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=33d69ec8e388b9f7&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84OTRCMkE1RUEyNDlCNkE1MEYzNjVFQjQ0RTc2MDRCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzcxNDAwRjNFOTY1MzM2NDQxMjQ4MDVGQ0YxNDZBOUE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa04ZyR7vm8AxUCKAJDMywXQEhzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=NaSuxhJ3IxHS8JhQW42iIg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKE8p5GKjjw6Sd5O77VpEdY2r6tiCNCMtWHzzKHM7VSdQ&oe=6AB7B7D1",
+    "timestamp": "2026-06-08T12:00:00.000Z",
+    "videoViewCount": null,
+    "videoPlayCount": 56857,
+    "videoDuration": 48.922993,
+    "likesCount": 1139,
+    "commentsCount": 3,
+    "caption": "槓鈴臥推一直突破不了重量？大概率是你呼吸錯了！ #davidmiao #苗振 #槓鈴臥推 #胸肌訓練 #健身教學",
+    "audioUrl": "https://scontent-ssn1-1.cdninstagram.com/o1/v/t2/f2/m78/AQOE_HuLnx4RXRn2v3mhuqFvmP7qEJMN1wfAM-oGi02f1Fux9RzYgsRF1SqzSsxtMgYDDgsCov3YwYwC0wqneYycGuW9L1it-n82CUg.mp4?_nc_cat=110&_nc_sid=9ca052&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=5ClWzdohAgIQ7kNvwH5N1GS&efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJvaWxfdXJsZ2VuX2FwcF9pZCI6OTM2NjE5NzQzMzkyNDU5LCJjbGllbnRfbmFtZSI6ImlnIiwieHB2X2Fzc2V0X2lkIjo5Nzg0NTk4NzE2NDc4MzQsImFzc2V0X2FnZV9kYXlzIjoxMTEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0OCwiYml0cmF0ZSI6NTYyNTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=NaSuxhJ3IxHS8JhQW42iIg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIp7XszY9yETAEKMW9pN9U2hw-CZD7ahB8IzQyAIa_a-w&oe=6AB7C9B3",
+    "score": 9.0,
+    "breakdown": {
+      "單人口播": 2.5,
+      "健康知識vs推銷": 2.5,
+      "健康生活vs運動動作": 1.5,
+      "人類主題": 2.5
+    },
+    "correction_note": ""
   }
 ]
