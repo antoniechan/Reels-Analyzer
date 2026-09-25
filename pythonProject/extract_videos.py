@@ -7,9 +7,9 @@ import requests
 from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "fit_withdavidmiao"
+SUBFOLDER_NAME = "kenny_nutlife"
 BASE_DOWNLOAD_DIR = "D:\\reels\\"
-SCORE_CUTOFF = 9
+SCORE_CUTOFF = 0
 
 # DO NOT AMEND THE FOLLOWING
 MAX_WORKERS = 4
@@ -207,11 +207,7 @@ def batch_download_from_file(media_file_path, custom_subfolder=None):
 
   # 將裁剪後的 JSON（帶有 local_video_file 檔名映射）分別存回下載目錄與本地目錄
   output_json_name = f"{subfolder_name}_filtered.json"
-  target_json_path = os.path.join(target_dir, output_json_name)
-  local_json_path = os.path.join(".", output_json_name)
-
-  with open(target_json_path, "w", encoding="utf-8") as f:
-    json.dump(media_items, f, indent=2, ensure_ascii=False)
+  local_json_path = os.path.join(".\\reelsData\\", output_json_name)
 
   with open(local_json_path, "w", encoding="utf-8") as f:
     json.dump(media_items, f, indent=2, ensure_ascii=False)
@@ -220,9 +216,7 @@ def batch_download_from_file(media_file_path, custom_subfolder=None):
       f"\n全部任務結束！成功處理: {success_count}/{total_items}"
       f" 組，儲存於: {target_dir}"
   )
-  print(f"裁剪後 JSON 已同步輸出至：")
-  print(f"1. {target_json_path}")
-  print(f"2. {local_json_path}")
+  print(f"裁剪後 JSON 已同步輸出至：{local_json_path}")
 
 
 if __name__ == "__main__":
