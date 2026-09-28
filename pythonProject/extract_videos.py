@@ -7,7 +7,7 @@ import requests
 from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "feibi_nutrition"
+SUBFOLDER_NAME = "ruruby_eater"
 BASE_DOWNLOAD_DIR = "D:\\reels"
 SCORE_CUTOFF = 0
 
