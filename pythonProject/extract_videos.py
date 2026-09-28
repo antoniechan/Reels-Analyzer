@@ -7,7 +7,7 @@ import requests
 from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "code0723jack"
+SUBFOLDER_NAME = "ningning_dietitian"
 BASE_DOWNLOAD_DIR = "D:\\reels"
 SCORE_CUTOFF = 0
 
