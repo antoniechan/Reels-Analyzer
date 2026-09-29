@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
 SUBFOLDER_NAME = "ruruby_eater"
-BASE_DOWNLOAD_DIR = "C:\\Users\\Desktop\\reels"
+BASE_DOWNLOAD_DIR = "D:\\reels"
 SCORE_CUTOFF = 0
 
 # DO NOT AMEND THE FOLLOWING
