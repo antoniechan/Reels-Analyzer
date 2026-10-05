@@ -7,7 +7,7 @@ import requests
 from tqdm import tqdm
 
 # CHANGE THE FOLDER NAME AND PATH
-SUBFOLDER_NAME = "winny.rd"
+SUBFOLDER_NAME = "jinhan_1208"
 BASE_DOWNLOAD_DIR = "D:\\reels"
 SCORE_CUTOFF = 0
 
