@@ -1,7 +1,7 @@
 import json
 
 ORIGINAL_FILE = 'temp.json'
-SAVED_FILE = 'jinhan_1208'
+SAVED_FILE = 'ethan_pharmac'
 
 # 1. Load the original Apify JSON data
 # Replace 'apify_output.json' with your actual file path
