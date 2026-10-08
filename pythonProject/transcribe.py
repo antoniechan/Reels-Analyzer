@@ -12,7 +12,8 @@ REELS_DATA_DIR = Path(
 REELS_AUDIO_BASE_DIR = Path(r"D:\Reels")
 
 # 初始化 Gemini Client
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+api_key = os.getenv("GEMINI_API_KEY")
+client = genai.Client(api_key=api_key)
 
 
 def get_file_index_key(item: dict) -> int:
