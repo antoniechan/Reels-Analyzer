@@ -12,7 +12,7 @@ from mediapipe.tasks.python import vision
 # 預設模型下載連結與檔名
 MODEL_FILE_NAME = "face_landmarker.task"
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
-TARGET_DIR = r"D:/Reels"
+TARGET_DIR = r"C:/Users/Anthony/Downloads"
 
 
 def ensure_model_exists(model_path):

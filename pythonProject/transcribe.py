@@ -2,6 +2,8 @@ import json
 import os
 from pathlib import Path
 import re
+
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
@@ -12,6 +14,7 @@ REELS_DATA_DIR = Path(
 REELS_AUDIO_BASE_DIR = Path(r"D:\Reels")
 
 # 初始化 Gemini Client
+load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 
