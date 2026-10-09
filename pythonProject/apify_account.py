@@ -1,2 +1,0 @@
-Account=ainudgingppr@gmail.com
-Password=PPRFS2026
