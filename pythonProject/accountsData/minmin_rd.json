@@ -1,0 +1,29 @@
+{
+  "account_id": "minmin_rd",
+  "followers": 370000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.1277391891891892,
+    "ERV": 0.014683635363130457,
+    "CLR": 0.041260315016863745,
+    "VFR_mean": 0.4018867567567568,
+    "CV_views": 1.5139996991924747,
+    "CV_likes": 1.3039665587589035,
+    "CV_comments": 0.8165291665458984
+  },
+  "median_stats": {
+    "median_views": 47263.5,
+    "median_likes": 666.5,
+    "median_comments": 27.5
+  },
+  "mean_stats": {
+    "mean_views": 148698.1,
+    "mean_likes": 1043.9,
+    "mean_comments": 46.6
+  },
+  "std_stats": {
+    "std_views": 225128.87867049253,
+    "std_likes": 1361.2106906884196,
+    "std_comments": 38.050259161038866
+  }
+}

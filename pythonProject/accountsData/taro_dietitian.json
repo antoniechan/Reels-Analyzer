@@ -1,0 +1,29 @@
+{
+  "account_id": "taro_dietitian",
+  "followers": 2400,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.9072916666666667,
+    "ERV": 0.011710677376941135,
+    "CLR": 0.01999999920000003,
+    "VFR_mean": 1.4839880952380953,
+    "CV_views": 1.0790048444583906,
+    "CV_likes": 0.8502542506991732,
+    "CV_comments": 1.7686732677928754
+  },
+  "median_stats": {
+    "median_views": 2177.5,
+    "median_likes": 25.0,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 3561.5714285714284,
+    "mean_likes": 34.142857142857146,
+    "mean_comments": 3.0
+  },
+  "std_stats": {
+    "std_views": 3842.9528253131625,
+    "std_likes": 29.030109416728916,
+    "std_comments": 5.306019803378626
+  }
+}

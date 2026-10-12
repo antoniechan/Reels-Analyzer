@@ -1,0 +1,29 @@
+{
+  "account_id": "ocean_healthyfit",
+  "followers": 3800,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 1.0218421052631579,
+    "ERV": 0.019830028323505014,
+    "CLR": 0.3999999927272729,
+    "VFR_mean": 2.0808373205741626,
+    "CV_views": 1.442849830556651,
+    "CV_likes": 1.0947692335597943,
+    "CV_comments": 1.4463593035990727
+  },
+  "median_stats": {
+    "median_views": 3883.0,
+    "median_likes": 55.0,
+    "median_comments": 22.0
+  },
+  "mean_stats": {
+    "mean_views": 7907.181818181818,
+    "mean_likes": 118.27272727272727,
+    "mean_comments": 58.45454545454545
+  },
+  "std_stats": {
+    "std_views": 11408.875946544269,
+    "std_likes": 129.4813429873902,
+    "std_comments": 84.54627565583671
+  }
+}

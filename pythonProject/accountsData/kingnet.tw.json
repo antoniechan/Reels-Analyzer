@@ -1,0 +1,29 @@
+{
+  "account_id": "kingnet.tw",
+  "followers": 4000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.083,
+    "ERV": 0.00903614455109595,
+    "CLR": 0.0,
+    "VFR_mean": 0.10997499999999999,
+    "CV_views": 0.782602495391346,
+    "CV_likes": 0.771722460186015,
+    "CV_comments": 0.0
+  },
+  "median_stats": {
+    "median_views": 332.0,
+    "median_likes": 3.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 439.9,
+    "mean_likes": 5.0,
+    "mean_comments": 0.0
+  },
+  "std_stats": {
+    "std_views": 344.26683772265307,
+    "std_likes": 3.858612300930075,
+    "std_comments": 0.0
+  }
+}

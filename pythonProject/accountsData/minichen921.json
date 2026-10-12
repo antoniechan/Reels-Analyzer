@@ -1,0 +1,29 @@
+{
+  "account_id": "minichen921",
+  "followers": 7200,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.09743055555555556,
+    "ERV": 0.023521026338530256,
+    "CLR": 0.03124999804687512,
+    "VFR_mean": 0.22579166666666667,
+    "CV_views": 1.634077313014439,
+    "CV_likes": 1.4883221953003853,
+    "CV_comments": 1.405456737852613
+  },
+  "median_stats": {
+    "median_views": 701.5,
+    "median_likes": 16.0,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 1625.7,
+    "mean_likes": 33.8,
+    "mean_comments": 1.2
+  },
+  "std_stats": {
+    "std_views": 2656.5194877675735,
+    "std_likes": 50.30529020115302,
+    "std_comments": 1.6865480854231356
+  }
+}

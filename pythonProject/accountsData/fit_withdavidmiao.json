@@ -1,0 +1,29 @@
+{
+  "account_id": "fit_withdavidmiao",
+  "followers": 110000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.39181363636363636,
+    "ERV": 0.02099792340929714,
+    "CLR": 0.0011061946890418201,
+    "VFR_mean": 0.42267363636363636,
+    "CV_views": 0.4012690800545484,
+    "CV_likes": 0.3533202758703891,
+    "CV_comments": 1.4775640738345328
+  },
+  "median_stats": {
+    "median_views": 43099.5,
+    "median_likes": 904.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 46494.1,
+    "mean_likes": 934.6,
+    "mean_comments": 4.4
+  },
+  "std_stats": {
+    "std_views": 18656.64473496418,
+    "std_likes": 330.2131298284657,
+    "std_comments": 6.501281924871945
+  }
+}

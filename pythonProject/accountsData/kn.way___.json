@@ -1,0 +1,29 @@
+{
+  "account_id": "kn.way___",
+  "followers": 160000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 1.54709375,
+    "ERV": 0.03708970448608443,
+    "CLR": 0.009566747304864004,
+    "VFR_mean": 5.0537392045454546,
+    "CV_views": 1.567015584986634,
+    "CV_likes": 1.6619260458099858,
+    "CV_comments": 1.4878884052066303
+  },
+  "median_stats": {
+    "median_views": 247535.0,
+    "median_likes": 9094.0,
+    "median_comments": 87.0
+  },
+  "mean_stats": {
+    "mean_views": 808598.2727272727,
+    "mean_likes": 31107.090909090908,
+    "mean_comments": 281.72727272727275
+  },
+  "std_stats": {
+    "std_views": 1267086.095356909,
+    "std_likes": 51697.68459119721,
+    "std_comments": 419.17874252139524
+  }
+}

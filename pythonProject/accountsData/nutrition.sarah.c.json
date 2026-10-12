@@ -1,0 +1,29 @@
+{
+  "account_id": "nutrition.sarah.c",
+  "followers": 8000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.1771875,
+    "ERV": 0.07054673716363545,
+    "CLR": 0.5037593909209115,
+    "VFR_mean": 0.2274625,
+    "CV_views": 0.7013929563920072,
+    "CV_likes": 0.3556998224655271,
+    "CV_comments": 0.693978560909661
+  },
+  "median_stats": {
+    "median_views": 1417.5,
+    "median_likes": 66.5,
+    "median_comments": 33.5
+  },
+  "mean_stats": {
+    "mean_views": 1819.7,
+    "mean_likes": 67.1,
+    "mean_comments": 26.3
+  },
+  "std_stats": {
+    "std_views": 1276.3247627465355,
+    "std_likes": 23.867458087436866,
+    "std_comments": 18.251636151924085
+  }
+}

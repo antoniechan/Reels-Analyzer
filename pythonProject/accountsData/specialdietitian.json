@@ -1,0 +1,29 @@
+{
+  "account_id": "specialdietitian",
+  "followers": 8200,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.1703658536585366,
+    "ERV": 0.019327129549515296,
+    "CLR": 0.0,
+    "VFR_mean": 0.21152908067542212,
+    "CV_views": 0.49658267292006025,
+    "CV_likes": 0.5381045110675464,
+    "CV_comments": 2.9143323992525856
+  },
+  "median_stats": {
+    "median_views": 1397.0,
+    "median_likes": 27.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1734.5384615384614,
+    "mean_likes": 34.07692307692308,
+    "mean_comments": 0.38461538461538464
+  },
+  "std_stats": {
+    "std_views": 861.3417455134183,
+    "std_likes": 18.336946030994085,
+    "std_comments": 1.12089707663561
+  }
+}

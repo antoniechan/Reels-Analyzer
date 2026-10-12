@@ -1,0 +1,29 @@
+{
+  "account_id": "jerry_dietitian",
+  "followers": 4600,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 2.061195652173913,
+    "ERV": 0.0211991773431209,
+    "CLR": 0.004999999975,
+    "VFR_mean": 2.1175,
+    "CV_views": 0.655667847016999,
+    "CV_likes": 0.625939427233637,
+    "CV_comments": 1.5633536114606013
+  },
+  "median_stats": {
+    "median_views": 9481.5,
+    "median_likes": 200.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 9740.5,
+    "mean_likes": 196.0625,
+    "mean_comments": 1.8125
+  },
+  "std_stats": {
+    "std_views": 6386.5326638690785,
+    "std_likes": 122.72324895199496,
+    "std_comments": 2.83357842077234
+  }
+}

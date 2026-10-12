@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitian_bgg",
+  "followers": 200000,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.3314575,
+    "ERV": 0.019112555908086068,
+    "CLR": 0.10994305728432495,
+    "VFR_mean": 0.3284653125,
+    "CV_views": 0.3998189900529271,
+    "CV_likes": 0.46390384070638774,
+    "CV_comments": 1.2011409787734473
+  },
+  "median_stats": {
+    "median_views": 66291.5,
+    "median_likes": 1141.5,
+    "median_comments": 125.5
+  },
+  "mean_stats": {
+    "mean_views": 65693.0625,
+    "mean_likes": 1347.4375,
+    "mean_comments": 224.3125
+  },
+  "std_stats": {
+    "std_views": 26265.33390223382,
+    "std_likes": 625.0814313618133,
+    "std_comments": 269.4309358011189
+  }
+}

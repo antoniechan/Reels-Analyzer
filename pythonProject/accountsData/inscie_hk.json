@@ -1,0 +1,29 @@
+{
+  "account_id": "inscie_hk",
+  "followers": 12000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.815125,
+    "ERV": 0.02688749169075423,
+    "CLR": 0.005736137645368499,
+    "VFR_mean": 6.883658333333333,
+    "CV_views": 2.8056248108194777,
+    "CV_likes": 2.8417529421491525,
+    "CV_comments": 2.5756233588938184
+  },
+  "median_stats": {
+    "median_views": 9781.5,
+    "median_likes": 261.5,
+    "median_comments": 1.5
+  },
+  "mean_stats": {
+    "mean_views": 82603.9,
+    "mean_likes": 2317.2,
+    "mean_comments": 10.6
+  },
+  "std_stats": {
+    "std_views": 231755.55131045103,
+    "std_likes": 6584.909917548016,
+    "std_comments": 27.301607604274476
+  }
+}

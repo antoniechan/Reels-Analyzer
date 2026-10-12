@@ -1,0 +1,29 @@
+{
+  "account_id": "eric_chewfit",
+  "followers": 2100,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.7361904761904762,
+    "ERV": 0.02393272960935787,
+    "CLR": 0.057142855510204135,
+    "VFR_mean": 1.1053221288515405,
+    "CV_views": 0.7365021129807093,
+    "CV_likes": 0.46428640467848403,
+    "CV_comments": 1.8145814865355039
+  },
+  "median_stats": {
+    "median_views": 1546.0,
+    "median_likes": 35.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 2321.176470588235,
+    "mean_likes": 39.705882352941174,
+    "mean_comments": 3.7058823529411766
+  },
+  "std_stats": {
+    "std_views": 1709.5513751893404,
+    "std_likes": 18.434901362233923,
+    "std_comments": 6.724625508925691
+  }
+}

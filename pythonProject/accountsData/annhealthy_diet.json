@@ -1,0 +1,29 @@
+{
+  "account_id": "annhealthy_diet",
+  "followers": 1200,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.41083333333333333,
+    "ERV": 0.04259634879797901,
+    "CLR": 0.04999999750000012,
+    "VFR_mean": 0.46975000000000006,
+    "CV_views": 0.4318142774294376,
+    "CV_likes": 0.29508475611188156,
+    "CV_comments": 1.4138865009528165
+  },
+  "median_stats": {
+    "median_views": 493.0,
+    "median_likes": 20.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 563.7,
+    "mean_likes": 21.1,
+    "mean_comments": 3.1
+  },
+  "std_stats": {
+    "std_views": 243.413708186974,
+    "std_likes": 6.226288353960702,
+    "std_comments": 4.383048152953731
+  }
+}

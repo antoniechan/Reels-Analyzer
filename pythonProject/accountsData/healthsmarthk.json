@@ -1,0 +1,29 @@
+{
+  "account_id": "healthsmarthk",
+  "followers": 2900,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 4.74051724137931,
+    "ERV": 0.005164575376965661,
+    "CLR": 0.0,
+    "VFR_mean": 5.7240886699507385,
+    "CV_views": 0.6361245725936473,
+    "CV_likes": 0.3565951917154094,
+    "CV_comments": 3.741657386773941
+  },
+  "median_stats": {
+    "median_views": 13747.5,
+    "median_likes": 71.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 16599.85714285714,
+    "mean_likes": 64.92857142857143,
+    "mean_comments": 0.07142857142857142
+  },
+  "std_stats": {
+    "std_views": 10559.577030115603,
+    "std_likes": 23.15321637637908,
+    "std_comments": 0.26726124191242434
+  }
+}

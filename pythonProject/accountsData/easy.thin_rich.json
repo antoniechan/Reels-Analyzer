@@ -1,0 +1,29 @@
+{
+  "account_id": "easy.thin_rich",
+  "followers": 2800,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.1075,
+    "ERV": 0.016611295625876096,
+    "CLR": 0.0,
+    "VFR_mean": 0.10461038961038963,
+    "CV_views": 0.18555774117796706,
+    "CV_likes": 0.5538147479503043,
+    "CV_comments": 1.4526541507298472
+  },
+  "median_stats": {
+    "median_views": 301.0,
+    "median_likes": 5.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 292.90909090909093,
+    "mean_likes": 4.181818181818182,
+    "mean_comments": 0.6363636363636364
+  },
+  "std_stats": {
+    "std_views": 54.35154927958272,
+    "std_likes": 2.315952582337636,
+    "std_comments": 0.9244162777371755
+  }
+}

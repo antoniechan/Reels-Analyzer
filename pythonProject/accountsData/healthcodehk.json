@@ -1,0 +1,29 @@
+{
+  "account_id": "healthcodehk",
+  "followers": 120000,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.09411666666666667,
+    "ERV": 0.005224012749670266,
+    "CLR": 0.017241379013079674,
+    "VFR_mean": 0.34682291666666665,
+    "CV_views": 2.1288229845045272,
+    "CV_likes": 1.8142804331483593,
+    "CV_comments": 3.6226921918118626
+  },
+  "median_stats": {
+    "median_views": 11294.0,
+    "median_likes": 58.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 41618.75,
+    "mean_likes": 207.5,
+    "mean_comments": 124.0
+  },
+  "std_stats": {
+    "std_views": 88598.95158634779,
+    "std_likes": 376.46318987828454,
+    "std_comments": 449.21383178467096
+  }
+}

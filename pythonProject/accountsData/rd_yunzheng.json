@@ -1,0 +1,29 @@
+{
+  "account_id": "rd_yunzheng",
+  "followers": 1100,
+  "total_videos_analyzed": 18,
+  "metrics": {
+    "VFR": 1.3027272727272727,
+    "ERV": 0.016399162584508607,
+    "CLR": 0.0,
+    "VFR_mean": 1.5647474747474748,
+    "CV_views": 0.46099008318322593,
+    "CV_likes": 0.40742614825468054,
+    "CV_comments": 1.433894503200731
+  },
+  "median_stats": {
+    "median_views": 1433.0,
+    "median_likes": 23.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1721.2222222222222,
+    "mean_likes": 28.38888888888889,
+    "mean_comments": 1.0555555555555556
+  },
+  "std_stats": {
+    "std_views": 793.4663753990392,
+    "std_likes": 11.566375653230098,
+    "std_comments": 1.5135553089341052
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "emma_dietitian",
+  "followers": 5800,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.13344827586206898,
+    "ERV": 0.02713178291068245,
+    "CLR": 0.0,
+    "VFR_mean": 0.2493103448275862,
+    "CV_views": 0.9562594763595612,
+    "CV_likes": 1.0265307658780194,
+    "CV_comments": 3.162277660168379
+  },
+  "median_stats": {
+    "median_views": 774.0,
+    "median_likes": 21.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1446.0,
+    "mean_likes": 31.9,
+    "mean_comments": 0.2
+  },
+  "std_stats": {
+    "std_views": 1382.7512028159256,
+    "std_likes": 32.746331431508814,
+    "std_comments": 0.6324555320336759
+  }
+}

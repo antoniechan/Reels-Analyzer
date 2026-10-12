@@ -1,0 +1,29 @@
+{
+  "account_id": "annettetam_nutrition",
+  "followers": 5500,
+  "total_videos_analyzed": 19,
+  "metrics": {
+    "VFR": 0.21472727272727274,
+    "ERV": 0.02540220150262303,
+    "CLR": 0.0,
+    "VFR_mean": 2.360641148325359,
+    "CV_views": 2.6061545480877175,
+    "CV_likes": 2.4165214716343235,
+    "CV_comments": 2.8324630291158877
+  },
+  "median_stats": {
+    "median_views": 1181.0,
+    "median_likes": 30.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 12983.526315789473,
+    "mean_likes": 146.05263157894737,
+    "mean_comments": 2.736842105263158
+  },
+  "std_stats": {
+    "std_views": 33837.076158111304,
+    "std_likes": 352.9393201992236,
+    "std_comments": 7.752004079685587
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "guiguisay",
+  "followers": 1000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 2.2465,
+    "ERV": 0.020476296452047054,
+    "CLR": 0.01098901074749427,
+    "VFR_mean": 2.534,
+    "CV_views": 0.3976987380378065,
+    "CV_likes": 0.3804774597441318,
+    "CV_comments": 1.6649356639493162
+  },
+  "median_stats": {
+    "median_views": 2246.5,
+    "median_likes": 45.5,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 2534.0,
+    "mean_likes": 43.9,
+    "mean_comments": 1.7
+  },
+  "std_stats": {
+    "std_views": 1007.7686021878015,
+    "std_likes": 16.702960482767384,
+    "std_comments": 2.8303906287138374
+  }
+}

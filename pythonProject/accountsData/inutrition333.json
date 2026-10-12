@@ -1,0 +1,29 @@
+{
+  "account_id": "inutrition333",
+  "followers": 4900,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.06173469387755102,
+    "ERV": 0.006611570226077454,
+    "CLR": 0.0,
+    "VFR_mean": 0.08275510204081632,
+    "CV_views": 0.6944917865093163,
+    "CV_likes": 0.9514359690217252,
+    "CV_comments": 0.0
+  },
+  "median_stats": {
+    "median_views": 302.5,
+    "median_likes": 2.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 405.5,
+    "mean_likes": 2.9285714285714284,
+    "mean_comments": 0.0
+  },
+  "std_stats": {
+    "std_views": 281.61641942952775,
+    "std_likes": 2.786348194992195,
+    "std_comments": 0.0
+  }
+}

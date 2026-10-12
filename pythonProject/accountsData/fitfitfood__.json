@@ -1,0 +1,29 @@
+{
+  "account_id": "fitfitfood__",
+  "followers": 120000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.1596625,
+    "ERV": 0.003784023591232338,
+    "CLR": 0.0,
+    "VFR_mean": 0.20634333333333335,
+    "CV_views": 0.6229002490618455,
+    "CV_likes": 0.0,
+    "CV_comments": 1.7543249125976896
+  },
+  "median_stats": {
+    "median_views": 19159.5,
+    "median_likes": -1.0,
+    "median_comments": 73.5
+  },
+  "mean_stats": {
+    "mean_views": 24761.2,
+    "mean_likes": -1.0,
+    "mean_comments": 142.8
+  },
+  "std_stats": {
+    "std_views": 15423.75764707017,
+    "std_likes": 0.0,
+    "std_comments": 250.5175975189501
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "yanliu.ty",
+  "followers": 6200,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.24701612903225806,
+    "ERV": 0.017303297409530984,
+    "CLR": 0.01923076849112429,
+    "VFR_mean": 0.38160282258064515,
+    "CV_views": 1.203877330068271,
+    "CV_likes": 0.9243878387888819,
+    "CV_comments": 2.925861443799625
+  },
+  "median_stats": {
+    "median_views": 1531.5,
+    "median_likes": 26.0,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 2365.9375,
+    "mean_likes": 32.125,
+    "mean_comments": 38.375
+  },
+  "std_stats": {
+    "std_views": 2848.2985206084,
+    "std_likes": 29.69595932109283,
+    "std_comments": 112.27993290581061
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "code0723jack",
+  "followers": 6287,
+  "total_videos_analyzed": 23,
+  "metrics": {
+    "VFR": 1.3650389693017337,
+    "ERV": 0.028198555112071946,
+    "CLR": 0.0041493775761436615,
+    "VFR_mean": 2.3023284762899285,
+    "CV_views": 1.1352257182966274,
+    "CV_likes": 1.1922416935776476,
+    "CV_comments": 1.9728258520343518
+  },
+  "median_stats": {
+    "median_views": 8582.0,
+    "median_likes": 241.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 14474.739130434782,
+    "mean_likes": 418.0,
+    "mean_comments": 6.217391304347826
+  },
+  "std_stats": {
+    "std_views": 16432.096126504126,
+    "std_likes": 498.3570279154567,
+    "std_comments": 12.26583029743097
+  }
+}

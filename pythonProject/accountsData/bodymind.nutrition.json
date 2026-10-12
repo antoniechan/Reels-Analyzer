@@ -1,0 +1,29 @@
+{
+  "account_id": "bodymind.nutrition",
+  "followers": 3189,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 1.0645970523675132,
+    "ERV": 0.016200294546038205,
+    "CLR": 0.0,
+    "VFR_mean": 1.3018615125858777,
+    "CV_views": 0.9210156635966628,
+    "CV_likes": 0.7965687418618895,
+    "CV_comments": 1.4605204551802755
+  },
+  "median_stats": {
+    "median_views": 3395.0,
+    "median_likes": 55.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 4151.636363636364,
+    "mean_likes": 52.81818181818182,
+    "mean_comments": 2.272727272727273
+  },
+  "std_stats": {
+    "std_views": 3823.7221204665816,
+    "std_likes": 42.07331263834162,
+    "std_comments": 3.319364670864263
+  }
+}

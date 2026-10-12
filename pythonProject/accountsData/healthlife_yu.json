@@ -1,0 +1,29 @@
+{
+  "account_id": "healthlife_yu",
+  "followers": 1500,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.5326666666666666,
+    "ERV": 0.017521902356042677,
+    "CLR": 0.03703703429355302,
+    "VFR_mean": 0.8956666666666667,
+    "CV_views": 1.0019773778943621,
+    "CV_likes": 0.8458992123475699,
+    "CV_comments": 1.8392161508052054
+  },
+  "median_stats": {
+    "median_views": 799.0,
+    "median_likes": 13.5,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 1343.5,
+    "mean_likes": 16.8,
+    "mean_comments": 1.5
+  },
+  "std_stats": {
+    "std_views": 1346.1566072010755,
+    "std_likes": 14.211106767439176,
+    "std_comments": 2.758824226207808
+  }
+}

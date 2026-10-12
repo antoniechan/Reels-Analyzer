@@ -1,0 +1,29 @@
+{
+  "account_id": "rdhuanhuan",
+  "followers": 2300,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.43043478260869567,
+    "ERV": 0.02121212119069483,
+    "CLR": 0.024390242712671085,
+    "VFR_mean": 0.47113043478260863,
+    "CV_views": 0.438163347359129,
+    "CV_likes": 0.47664211095451553,
+    "CV_comments": 1.2668615834434866
+  },
+  "median_stats": {
+    "median_views": 990.0,
+    "median_likes": 20.5,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 1083.6,
+    "mean_likes": 19.8,
+    "mean_comments": 1.5
+  },
+  "std_stats": {
+    "std_views": 474.7938031983521,
+    "std_likes": 9.437513796899408,
+    "std_comments": 1.90029237516523
+  }
+}

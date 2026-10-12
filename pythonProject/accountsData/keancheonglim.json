@@ -1,0 +1,29 @@
+{
+  "account_id": "keancheonglim",
+  "followers": 230000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.38494782608695655,
+    "ERV": 0.025904131559037882,
+    "CLR": 0.00680421422001571,
+    "VFR_mean": 0.5171664596273292,
+    "CV_views": 0.6527622530556638,
+    "CV_likes": 0.8895442529762951,
+    "CV_comments": 2.119715759566265
+  },
+  "median_stats": {
+    "median_views": 88538.0,
+    "median_likes": 2278.0,
+    "median_comments": 15.5
+  },
+  "mean_stats": {
+    "mean_views": 118948.28571428571,
+    "mean_likes": 3378.214285714286,
+    "mean_comments": 70.07142857142857
+  },
+  "std_stats": {
+    "std_views": 77644.95097996597,
+    "std_likes": 3005.0711031795627,
+    "std_comments": 148.53151143817897
+  }
+}

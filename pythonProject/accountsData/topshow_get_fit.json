@@ -1,0 +1,29 @@
+{
+  "account_id": "topshow_get_fit",
+  "followers": 8000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.071875,
+    "ERV": 0.019999999965217393,
+    "CLR": 0.0,
+    "VFR_mean": 0.26030357142857147,
+    "CV_views": 2.6320494229284055,
+    "CV_likes": 1.6231041963248491,
+    "CV_comments": 3.741657386773941
+  },
+  "median_stats": {
+    "median_views": 575.0,
+    "median_likes": 11.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 2082.4285714285716,
+    "mean_likes": 20.214285714285715,
+    "mean_comments": 0.07142857142857142
+  },
+  "std_stats": {
+    "std_views": 5481.054919718195,
+    "std_likes": 32.809891968566596,
+    "std_comments": 0.26726124191242434
+  }
+}

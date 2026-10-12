@@ -1,0 +1,29 @@
+{
+  "account_id": "nutritioniseasy",
+  "followers": 29000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.4673103448275862,
+    "ERV": 0.01217532467442626,
+    "CLR": 0.07843137203639626,
+    "VFR_mean": 0.4843448275862069,
+    "CV_views": 0.39432312218596993,
+    "CV_likes": 0.7196339720062658,
+    "CV_comments": 1.5367774829621814
+  },
+  "median_stats": {
+    "median_views": 13552.0,
+    "median_likes": 153.0,
+    "median_comments": 12.0
+  },
+  "mean_stats": {
+    "mean_views": 14046.0,
+    "mean_likes": 185.4,
+    "mean_comments": 44.0
+  },
+  "std_stats": {
+    "std_views": 5538.662574224134,
+    "std_likes": 133.42013840996168,
+    "std_comments": 67.61820925033598
+  }
+}

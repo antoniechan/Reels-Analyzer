@@ -1,0 +1,29 @@
+{
+  "account_id": "parkernash9",
+  "followers": 33000,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.06390909090909092,
+    "ERV": 0.013276434322770776,
+    "CLR": 0.0,
+    "VFR_mean": 0.10267914438502675,
+    "CV_views": 0.7368139787363415,
+    "CV_likes": 0.8690827256082226,
+    "CV_comments": 4.123105625617661
+  },
+  "median_stats": {
+    "median_views": 2109.0,
+    "median_likes": 28.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 3388.4117647058824,
+    "mean_likes": 36.0,
+    "mean_comments": 0.11764705882352941
+  },
+  "std_stats": {
+    "std_views": 2496.6291539499693,
+    "std_likes": 31.286978121896016,
+    "std_comments": 0.485071250072666
+  }
+}

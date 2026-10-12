@@ -1,0 +1,29 @@
+{
+  "account_id": "cathyeat_fitness",
+  "followers": 4545,
+  "total_videos_analyzed": 22,
+  "metrics": {
+    "VFR": 0.15522552255225522,
+    "ERV": -0.0014174344416478604,
+    "CLR": 0.0,
+    "VFR_mean": 0.15787578757875786,
+    "CV_views": 0.2784437142726286,
+    "CV_likes": 0.0,
+    "CV_comments": 1.6777759287251768
+  },
+  "median_stats": {
+    "median_views": 705.5,
+    "median_likes": -1.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 717.5454545454545,
+    "mean_likes": -1.0,
+    "mean_comments": 1.7272727272727273
+  },
+  "std_stats": {
+    "std_views": 199.79602152307794,
+    "std_likes": 0.0,
+    "std_comments": 2.897976604161669
+  }
+}

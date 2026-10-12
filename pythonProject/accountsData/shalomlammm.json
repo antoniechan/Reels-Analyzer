@@ -1,0 +1,29 @@
+{
+  "account_id": "shalomlammm",
+  "followers": 9900,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.757979797979798,
+    "ERV": 0.017590618334542826,
+    "CLR": 0.7599999898666668,
+    "VFR_mean": 1.840853994490358,
+    "CV_views": 1.8174407248172926,
+    "CV_likes": 1.3845793971894869,
+    "CV_comments": 1.1377954952302394
+  },
+  "median_stats": {
+    "median_views": 7504.0,
+    "median_likes": 75.0,
+    "median_comments": 57.0
+  },
+  "mean_stats": {
+    "mean_views": 18224.454545454544,
+    "mean_likes": 142.0,
+    "mean_comments": 84.45454545454545
+  },
+  "std_stats": {
+    "std_views": 33121.86587849071,
+    "std_likes": 196.61027440090714,
+    "std_comments": 96.09200136989931
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "dn26256",
+  "followers": 9,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 14.0,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "VFR_mean": 20.084967320261438,
+    "CV_views": 1.0161252853732798,
+    "CV_likes": 1.9167391290650087,
+    "CV_comments": 0.0
+  },
+  "median_stats": {
+    "median_views": 126.0,
+    "median_likes": 0.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 180.76470588235293,
+    "mean_likes": 0.8823529411764706,
+    "mean_comments": 0.0
+  },
+  "std_stats": {
+    "std_views": 183.67958835012286,
+    "std_likes": 1.691240407998537,
+    "std_comments": 0.0
+  }
+}

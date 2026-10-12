@@ -1,0 +1,29 @@
+{
+  "account_id": "healthylady2020",
+  "followers": 30000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.3853,
+    "ERV": 0.02327190933270422,
+    "CLR": 0.401041664577908,
+    "VFR_mean": 1.4791833333333333,
+    "CV_views": 1.4009771492790286,
+    "CV_likes": 1.4757540464840153,
+    "CV_comments": 1.2774414652778672
+  },
+  "median_stats": {
+    "median_views": 11559.0,
+    "median_likes": 192.0,
+    "median_comments": 77.0
+  },
+  "mean_stats": {
+    "mean_views": 44375.5,
+    "mean_likes": 749.6,
+    "mean_comments": 249.6
+  },
+  "std_stats": {
+    "std_views": 62169.06148783153,
+    "std_likes": 1106.225233244418,
+    "std_comments": 318.8493897333556
+  }
+}

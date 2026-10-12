@@ -1,0 +1,29 @@
+{
+  "account_id": "cynthia_dietitian",
+  "followers": 11116,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.14816480748470673,
+    "ERV": 0.0018214936236663668,
+    "CLR": 0.0,
+    "VFR_mean": 0.1879273119827276,
+    "CV_views": 0.5032946473917503,
+    "CV_likes": 4.358992581609955,
+    "CV_comments": 0.5256097551674181
+  },
+  "median_stats": {
+    "median_views": 1647.0,
+    "median_likes": -1.0,
+    "median_comments": 4.0
+  },
+  "mean_stats": {
+    "mean_views": 2089.0,
+    "mean_likes": 3.1818181818181817,
+    "mean_comments": 3.5454545454545454
+  },
+  "std_stats": {
+    "std_views": 1051.3825184013665,
+    "std_likes": 13.869521850577128,
+    "std_comments": 1.8635254955935734
+  }
+}

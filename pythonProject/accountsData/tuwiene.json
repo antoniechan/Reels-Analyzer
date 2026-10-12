@@ -1,0 +1,29 @@
+{
+  "account_id": "tuwiene",
+  "followers": 10000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.5332,
+    "ERV": 0.02344336083581332,
+    "CLR": 0.016260162469429573,
+    "VFR_mean": 1.3022363636363636,
+    "CV_views": 1.9708734703718709,
+    "CV_likes": 1.9201914144164964,
+    "CV_comments": 1.439608712857613
+  },
+  "median_stats": {
+    "median_views": 5332.0,
+    "median_likes": 123.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 13022.363636363636,
+    "mean_likes": 319.3636363636364,
+    "mean_comments": 5.2727272727272725
+  },
+  "std_stats": {
+    "std_views": 25665.431012444456,
+    "std_likes": 613.2393126222865,
+    "std_comments": 7.59066412234014
+  }
+}

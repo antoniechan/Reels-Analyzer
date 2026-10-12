@@ -1,0 +1,29 @@
+{
+  "account_id": "fc_nickiescheung",
+  "followers": 1300,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 1.0038461538461538,
+    "ERV": 0.019923371632242625,
+    "CLR": 0.08333332986111125,
+    "VFR_mean": 6.396515837104072,
+    "CV_views": 1.8951408333846274,
+    "CV_likes": 1.8540745325539603,
+    "CV_comments": 1.3909515066133686
+  },
+  "median_stats": {
+    "median_views": 1305.0,
+    "median_likes": 24.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 8315.470588235294,
+    "mean_likes": 108.52941176470588,
+    "mean_comments": 4.705882352941177
+  },
+  "std_stats": {
+    "std_views": 15758.987860573592,
+    "std_likes": 201.22161838600334,
+    "std_comments": 6.545654148768794
+  }
+}

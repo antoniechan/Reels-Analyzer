@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitian.lab",
+  "followers": 12000,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.29441666666666666,
+    "ERV": 0.0002830455702567094,
+    "CLR": 0.0,
+    "VFR_mean": 0.566375,
+    "CV_views": 1.125215878760151,
+    "CV_likes": 3.8048329215447474,
+    "CV_comments": 0.8035173141952218
+  },
+  "median_stats": {
+    "median_views": 3533.0,
+    "median_likes": -1.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 6796.5,
+    "mean_likes": 10.166666666666666,
+    "mean_comments": 2.3333333333333335
+  },
+  "std_stats": {
+    "std_views": 7647.529719993367,
+    "std_likes": 38.68246803570493,
+    "std_comments": 1.8748737331221843
+  }
+}

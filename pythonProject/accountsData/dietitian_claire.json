@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitian_claire",
+  "followers": 10000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.06275,
+    "ERV": 0.023107569684290726,
+    "CLR": 0.0,
+    "VFR_mean": 0.06224285714285714,
+    "CV_views": 0.3181317055322018,
+    "CV_likes": 0.7402241335896086,
+    "CV_comments": 1.8911499790114237
+  },
+  "median_stats": {
+    "median_views": 627.5,
+    "median_likes": 14.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 622.4285714285714,
+    "mean_likes": 17.642857142857142,
+    "mean_comments": 0.6428571428571429
+  },
+  "std_stats": {
+    "std_views": 198.01426300054334,
+    "std_likes": 13.059668642616666,
+    "std_comments": 1.2157392722216296
+  }
+}

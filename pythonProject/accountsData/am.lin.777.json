@@ -1,0 +1,29 @@
+{
+  "account_id": "am.lin.777",
+  "followers": 11000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.30636363636363634,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "VFR_mean": 0.9343571428571428,
+    "CV_views": 1.7099294690159221,
+    "CV_likes": 3.3800227192074783,
+    "CV_comments": 2.0119252019538947
+  },
+  "median_stats": {
+    "median_views": 3370.0,
+    "median_likes": -1.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 10277.92857142857,
+    "mean_likes": 85.21428571428571,
+    "mean_comments": 2.7857142857142856
+  },
+  "std_stats": {
+    "std_views": 17574.53294472643,
+    "std_likes": 288.02622171532295,
+    "std_comments": 5.604648776871564
+  }
+}

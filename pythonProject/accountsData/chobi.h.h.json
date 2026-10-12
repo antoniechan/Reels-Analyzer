@@ -1,0 +1,29 @@
+{
+  "account_id": "chobi.h.h",
+  "followers": 3497,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.028595939376608523,
+    "ERV": 0.00499999995,
+    "CLR": 0.0,
+    "VFR_mean": 0.03100276427413974,
+    "CV_views": 0.5177141514180684,
+    "CV_likes": 1.1547005383792515,
+    "CV_comments": 0.0
+  },
+  "median_stats": {
+    "median_views": 100.0,
+    "median_likes": 0.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 108.41666666666667,
+    "mean_likes": 0.75,
+    "mean_comments": 0.0
+  },
+  "std_stats": {
+    "std_views": 56.12884258290892,
+    "std_likes": 0.8660254037844386,
+    "std_comments": 0.0
+  }
+}

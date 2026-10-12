@@ -1,0 +1,29 @@
+{
+  "account_id": "jojo_lai123",
+  "followers": 160000,
+  "total_videos_analyzed": 23,
+  "metrics": {
+    "VFR": 0.05573125,
+    "ERV": 0.02455982953632838,
+    "CLR": 1.027777768261317,
+    "VFR_mean": 0.10447989130434783,
+    "CV_views": 1.7986096654742572,
+    "CV_likes": 1.9609405509508953,
+    "CV_comments": 1.1203894884825383
+  },
+  "median_stats": {
+    "median_views": 8917.0,
+    "median_likes": 108.0,
+    "median_comments": 111.0
+  },
+  "mean_stats": {
+    "mean_views": 16716.782608695652,
+    "mean_likes": 233.7391304347826,
+    "mean_comments": 148.08695652173913
+  },
+  "std_stats": {
+    "std_views": 30066.966775631965,
+    "std_likes": 458.34853921356574,
+    "std_comments": 165.91506946832718
+  }
+}

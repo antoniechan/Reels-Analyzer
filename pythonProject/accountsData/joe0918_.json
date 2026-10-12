@@ -1,0 +1,29 @@
+{
+  "account_id": "joe0918_",
+  "followers": 3800,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.5407894736842105,
+    "ERV": 0.012652068120363957,
+    "CLR": 0.0,
+    "VFR_mean": 0.5323993808049535,
+    "CV_views": 0.24636487690345232,
+    "CV_likes": 0.2723038895866595,
+    "CV_comments": 4.123105625617661
+  },
+  "median_stats": {
+    "median_views": 2055.0,
+    "median_likes": 26.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 2023.1176470588234,
+    "mean_likes": 26.0,
+    "mean_comments": 0.058823529411764705
+  },
+  "std_stats": {
+    "std_views": 498.4251300788491,
+    "std_likes": 7.079901129253148,
+    "std_comments": 0.242535625036333
+  }
+}

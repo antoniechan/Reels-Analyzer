@@ -1,0 +1,29 @@
+{
+  "account_id": "nutri_by_bella",
+  "followers": 29000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.9510689655172414,
+    "ERV": 0.03433523077356386,
+    "CLR": 0.24605263125519392,
+    "VFR_mean": 2.352852664576803,
+    "CV_views": 1.6058098968818226,
+    "CV_likes": 2.115437689402013,
+    "CV_comments": 1.4125869929689028
+  },
+  "median_stats": {
+    "median_views": 27581.0,
+    "median_likes": 760.0,
+    "median_comments": 187.0
+  },
+  "mean_stats": {
+    "mean_views": 68232.72727272728,
+    "mean_likes": 1866.7272727272727,
+    "mean_comments": 610.6363636363636
+  },
+  "std_stats": {
+    "std_views": 109568.78874578372,
+    "std_likes": 3948.9452285619027,
+    "std_comments": 862.5769847065563
+  }
+}

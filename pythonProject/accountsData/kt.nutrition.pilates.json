@@ -1,0 +1,29 @@
+{
+  "account_id": "kt.nutrition.pilates",
+  "followers": 200000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.51567,
+    "ERV": 0.022863459188794545,
+    "CLR": 0.2881726302714162,
+    "VFR_mean": 2.8918805,
+    "CV_views": 2.6815605973954852,
+    "CV_likes": 0.730627215506921,
+    "CV_comments": 1.0665298157150533
+  },
+  "median_stats": {
+    "median_views": 103134.0,
+    "median_likes": 1830.5,
+    "median_comments": 527.5
+  },
+  "mean_stats": {
+    "mean_views": 578376.1,
+    "mean_likes": 1900.0,
+    "mean_comments": 637.3
+  },
+  "std_stats": {
+    "std_views": 1550950.5602352708,
+    "std_likes": 1388.19170946315,
+    "std_comments": 679.6994515552035
+  }
+}

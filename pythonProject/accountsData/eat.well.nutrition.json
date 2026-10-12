@@ -1,0 +1,29 @@
+{
+  "account_id": "eat.well.nutrition",
+  "followers": 54000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.7208981481481481,
+    "ERV": 0.01346057515667286,
+    "CLR": 0.020447906484035237,
+    "VFR_mean": 1.4284277777777779,
+    "CV_views": 1.0271513711257396,
+    "CV_likes": 1.206885931414201,
+    "CV_comments": 2.3506336533287397
+  },
+  "median_stats": {
+    "median_views": 38928.5,
+    "median_likes": 513.5,
+    "median_comments": 10.5
+  },
+  "mean_stats": {
+    "mean_views": 77135.1,
+    "mean_likes": 1481.4,
+    "mean_comments": 40.7
+  },
+  "std_stats": {
+    "std_views": 79229.42372692104,
+    "std_likes": 1787.8808187969976,
+    "std_comments": 95.67078969047972
+  }
+}

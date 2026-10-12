@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitian_yuan",
+  "followers": 4100,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.7348780487804878,
+    "ERV": 0.02588781944046206,
+    "CLR": 0.03999999946666667,
+    "VFR_mean": 0.7860037523452158,
+    "CV_views": 0.5197710140779602,
+    "CV_likes": 0.3973876557582254,
+    "CV_comments": 1.035509010856316
+  },
+  "median_stats": {
+    "median_views": 3013.0,
+    "median_likes": 75.0,
+    "median_comments": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 3222.6153846153848,
+    "mean_likes": 78.6923076923077,
+    "mean_comments": 3.230769230769231
+  },
+  "std_stats": {
+    "std_views": 1675.0220664447745,
+    "std_likes": 31.27135168005112,
+    "std_comments": 3.345490650458867
+  }
+}

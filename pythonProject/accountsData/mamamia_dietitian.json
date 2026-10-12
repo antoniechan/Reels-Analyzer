@@ -1,0 +1,29 @@
+{
+  "account_id": "mamamia_dietitian",
+  "followers": 16000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.20725,
+    "ERV": 0.020808202647524667,
+    "CLR": 0.21052631209602962,
+    "VFR_mean": 0.3260681818181818,
+    "CV_views": 0.9144777606711713,
+    "CV_likes": 0.9562190808492986,
+    "CV_comments": 1.6283749104373677
+  },
+  "median_stats": {
+    "median_views": 3316.0,
+    "median_likes": 57.0,
+    "median_comments": 12.0
+  },
+  "mean_stats": {
+    "mean_views": 5217.090909090909,
+    "mean_likes": 96.36363636363636,
+    "mean_comments": 40.27272727272727
+  },
+  "std_stats": {
+    "std_views": 4770.91361176338,
+    "std_likes": 92.14474779093241,
+    "std_comments": 65.57909866579581
+  }
+}

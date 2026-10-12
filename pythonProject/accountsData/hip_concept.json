@@ -1,0 +1,29 @@
+{
+  "account_id": "hip_concept",
+  "followers": 1600,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.2884375,
+    "ERV": 0.015167930628021818,
+    "CLR": 0.0,
+    "VFR_mean": 0.3218125,
+    "CV_views": 0.3387081906148471,
+    "CV_likes": 0.3292761690316737,
+    "CV_comments": 0.0
+  },
+  "median_stats": {
+    "median_views": 461.5,
+    "median_likes": 7.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 514.9,
+    "mean_likes": 7.9,
+    "mean_comments": 0.0
+  },
+  "std_stats": {
+    "std_views": 174.40084734758474,
+    "std_likes": 2.6012817353502227,
+    "std_comments": 0.0
+  }
+}

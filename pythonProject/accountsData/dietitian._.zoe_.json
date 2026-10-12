@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitian._.zoe_",
+  "followers": 8900,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.5168539325842697,
+    "ERV": 0.01195652173653119,
+    "CLR": 0.0,
+    "VFR_mean": 1.3890319792566983,
+    "CV_views": 1.6136020710532741,
+    "CV_likes": 0.6368111026740321,
+    "CV_comments": 1.9949143328955976
+  },
+  "median_stats": {
+    "median_views": 4600.0,
+    "median_likes": 55.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 12362.384615384615,
+    "mean_likes": 68.61538461538461,
+    "mean_comments": 1.6923076923076923
+  },
+  "std_stats": {
+    "std_views": 19947.96941854175,
+    "std_likes": 43.695038737325895,
+    "std_comments": 3.376008871054088
+  }
+}

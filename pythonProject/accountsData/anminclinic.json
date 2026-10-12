@@ -1,0 +1,29 @@
+{
+  "account_id": "anminclinic",
+  "followers": 4800,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.23729166666666668,
+    "ERV": 0.01624231780839129,
+    "CLR": 0.0,
+    "VFR_mean": 15.390221354166666,
+    "CV_views": 3.7587112746997544,
+    "CV_likes": 3.8008896883715426,
+    "CV_comments": 3.5490241987390587
+  },
+  "median_stats": {
+    "median_views": 1139.0,
+    "median_likes": 18.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 73873.0625,
+    "mean_likes": 2729.0625,
+    "mean_comments": 13.625
+  },
+  "std_stats": {
+    "std_views": 277667.5129153496,
+    "std_likes": 10372.865515171463,
+    "std_comments": 48.355454707819675
+  }
+}

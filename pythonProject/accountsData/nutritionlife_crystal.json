@@ -1,0 +1,29 @@
+{
+  "account_id": "nutritionlife_crystal",
+  "followers": 33000,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.4468787878787879,
+    "ERV": 0.001356208042221726,
+    "CLR": 0.0,
+    "VFR_mean": 2.154086247086247,
+    "CV_views": 1.8426903761605753,
+    "CV_likes": 1.9538443313855025,
+    "CV_comments": 2.3812961226941796
+  },
+  "median_stats": {
+    "median_views": 14747.0,
+    "median_likes": -1.0,
+    "median_comments": 21.0
+  },
+  "mean_stats": {
+    "mean_views": 71084.84615384616,
+    "mean_likes": 962.3846153846154,
+    "mean_comments": 123.07692307692308
+  },
+  "std_stats": {
+    "std_views": 130987.3618985474,
+    "std_likes": 1880.3497253818477,
+    "std_comments": 293.08259971620674
+  }
+}

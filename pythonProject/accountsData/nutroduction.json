@@ -1,0 +1,29 @@
+{
+  "account_id": "nutroduction",
+  "followers": 20000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.335325,
+    "ERV": 0.008424662639465494,
+    "CLR": 0.01801801769336905,
+    "VFR_mean": 0.6577350000000001,
+    "CV_views": 1.255094997093444,
+    "CV_likes": 1.4013655673334884,
+    "CV_comments": 1.8825357209733737
+  },
+  "median_stats": {
+    "median_views": 6706.5,
+    "median_likes": 55.5,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 13154.7,
+    "mean_likes": 119.2,
+    "mean_comments": 75.0
+  },
+  "std_stats": {
+    "std_views": 16510.39815826513,
+    "std_likes": 167.0427756261518,
+    "std_comments": 141.19017907300304
+  }
+}

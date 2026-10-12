@@ -1,0 +1,29 @@
+{
+  "account_id": "pei_chinnn",
+  "followers": 6800,
+  "total_videos_analyzed": 15,
+  "metrics": {
+    "VFR": 0.5414705882352941,
+    "ERV": 0.01602390004996635,
+    "CLR": 0.017241379013079674,
+    "VFR_mean": 5.761803921568628,
+    "CV_views": 2.074062497986665,
+    "CV_likes": 2.148886723039102,
+    "CV_comments": 2.7955980426795377
+  },
+  "median_stats": {
+    "median_views": 3682.0,
+    "median_likes": 58.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 39180.26666666667,
+    "mean_likes": 729.6666666666666,
+    "mean_comments": 5.266666666666667
+  },
+  "std_stats": {
+    "std_views": 81262.32175445033,
+    "std_likes": 1567.9710122441982,
+    "std_comments": 14.723483024778899
+  }
+}

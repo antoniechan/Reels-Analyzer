@@ -1,0 +1,29 @@
+{
+  "account_id": "ethan_pharmac",
+  "followers": 47000,
+  "total_videos_analyzed": 21,
+  "metrics": {
+    "VFR": 0.36753191489361703,
+    "ERV": 0.02703485006211446,
+    "CLR": 0.035476718324885324,
+    "VFR_mean": 2.545260385005066,
+    "CV_views": 2.7597821766401482,
+    "CV_likes": 2.71091369019461,
+    "CV_comments": 2.5651171374272614
+  },
+  "median_stats": {
+    "median_views": 17274.0,
+    "median_likes": 451.0,
+    "median_comments": 16.0
+  },
+  "mean_stats": {
+    "mean_views": 119627.23809523809,
+    "mean_likes": 3341.809523809524,
+    "mean_comments": 276.0952380952381
+  },
+  "std_stats": {
+    "std_views": 330145.11953592545,
+    "std_likes": 9059.357188117969,
+    "std_comments": 708.2166268001553
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "ilikeheho",
+  "followers": 220000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.052120454545454546,
+    "ERV": 0.002877948807144469,
+    "CLR": 0.0,
+    "VFR_mean": 0.05660909090909091,
+    "CV_views": 0.3563247053973332,
+    "CV_likes": 0.761709070271632,
+    "CV_comments": 2.3333992867608053
+  },
+  "median_stats": {
+    "median_views": 11466.5,
+    "median_likes": 33.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 12454.0,
+    "mean_likes": 59.5,
+    "mean_comments": 1.9
+  },
+  "std_stats": {
+    "std_views": 4437.667881018388,
+    "std_likes": 45.321689681162106,
+    "std_comments": 4.43345864484553
+  }
+}

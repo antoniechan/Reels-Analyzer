@@ -1,0 +1,29 @@
+{
+  "account_id": "rita_wang_health",
+  "followers": 41000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.04935365853658537,
+    "ERV": 0.011860637503404676,
+    "CLR": 0.0,
+    "VFR_mean": 0.06195853658536586,
+    "CV_views": 0.6590330175148649,
+    "CV_likes": 0.8406560266441518,
+    "CV_comments": 1.738137018145453
+  },
+  "median_stats": {
+    "median_views": 2023.5,
+    "median_likes": 24.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 2540.3,
+    "mean_likes": 30.9,
+    "mean_comments": 1.1
+  },
+  "std_stats": {
+    "std_views": 1674.1415743930113,
+    "std_likes": 25.97627122330429,
+    "std_comments": 1.9119507199599983
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "_bw.health_",
+  "followers": 93000,
+  "total_videos_analyzed": 28,
+  "metrics": {
+    "VFR": 0.13053225806451613,
+    "ERV": 0.009473207297708043,
+    "CLR": 0.004366812188936138,
+    "VFR_mean": 1.8429976958525345,
+    "CV_views": 4.227672672178829,
+    "CV_likes": 4.361057127197955,
+    "CV_comments": 4.481088976491567
+  },
+  "median_stats": {
+    "median_views": 12139.5,
+    "median_likes": 114.5,
+    "median_comments": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 171398.7857142857,
+    "mean_likes": 4215.285714285715,
+    "mean_comments": 34.75
+  },
+  "std_stats": {
+    "std_views": 724617.9624089208,
+    "std_likes": 18383.10180746144,
+    "std_comments": 155.71784193308196
+  }
+}

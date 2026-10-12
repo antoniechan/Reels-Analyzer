@@ -1,0 +1,29 @@
+{
+  "account_id": "yuhsuan.rd",
+  "followers": 2800,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.8057142857142857,
+    "ERV": 0.015292553184710749,
+    "CLR": 0.0,
+    "VFR_mean": 1.9759948979591837,
+    "CV_views": 2.244540819751935,
+    "CV_likes": 1.1429788440720237,
+    "CV_comments": 2.3177564997876057
+  },
+  "median_stats": {
+    "median_views": 2256.0,
+    "median_likes": 34.5,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 5532.785714285715,
+    "mean_likes": 52.57142857142857,
+    "mean_comments": 2.2857142857142856
+  },
+  "std_stats": {
+    "std_views": 12418.563382654653,
+    "std_likes": 60.088030659786384,
+    "std_comments": 5.2977291423716695
+  }
+}

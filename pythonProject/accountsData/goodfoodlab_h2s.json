@@ -1,0 +1,29 @@
+{
+  "account_id": "goodfoodlab_h2s",
+  "followers": 19000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.29,
+    "ERV": 0.01406533575062335,
+    "CLR": 0.01973684184556787,
+    "VFR_mean": 0.3876203007518797,
+    "CV_views": 0.8289368214712849,
+    "CV_likes": 0.8206234595955779,
+    "CV_comments": 1.6202136676364733
+  },
+  "median_stats": {
+    "median_views": 5510.0,
+    "median_likes": 76.0,
+    "median_comments": 1.5
+  },
+  "mean_stats": {
+    "mean_views": 7364.785714285715,
+    "mean_likes": 92.64285714285714,
+    "mean_comments": 3.857142857142857
+  },
+  "std_stats": {
+    "std_views": 6104.942060817127,
+    "std_likes": 76.02490193539032,
+    "std_comments": 6.249395575169254
+  }
+}

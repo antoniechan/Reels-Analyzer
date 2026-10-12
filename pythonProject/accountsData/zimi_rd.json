@@ -1,0 +1,29 @@
+{
+  "account_id": "zimi_rd",
+  "followers": 3200,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.4778125,
+    "ERV": -0.0006540222363283046,
+    "CLR": 0.0,
+    "VFR_mean": 1.19140625,
+    "CV_views": 1.2748909369088293,
+    "CV_likes": 0.0,
+    "CV_comments": 1.9364916731037085
+  },
+  "median_stats": {
+    "median_views": 1529.0,
+    "median_likes": -1.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 3812.5,
+    "mean_likes": -1.0,
+    "mean_comments": 0.8
+  },
+  "std_stats": {
+    "std_views": 4860.521696964912,
+    "std_likes": 0.0,
+    "std_comments": 1.5491933384829668
+  }
+}

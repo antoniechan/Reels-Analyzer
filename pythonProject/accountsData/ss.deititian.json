@@ -1,0 +1,29 @@
+{
+  "account_id": "ss.deititian",
+  "followers": 2300,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.1865217391304348,
+    "ERV": 0.03030303023239387,
+    "CLR": 0.0,
+    "VFR_mean": 0.3971146245059289,
+    "CV_views": 1.7195367480341606,
+    "CV_likes": 1.0440975619542852,
+    "CV_comments": 1.4896634593834348
+  },
+  "median_stats": {
+    "median_views": 429.0,
+    "median_likes": 13.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 913.3636363636364,
+    "mean_likes": 19.818181818181817,
+    "mean_comments": 2.1818181818181817
+  },
+  "std_stats": {
+    "std_views": 1570.562337045383,
+    "std_likes": 20.692115318730377,
+    "std_comments": 3.2501748204729486
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "ruruby_eater",
+  "followers": 3500,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.2934285714285714,
+    "ERV": 0.03505355400676382,
+    "CLR": 0.0,
+    "VFR_mean": 1.8518701298701299,
+    "CV_views": 2.7704977651707523,
+    "CV_likes": 2.6939679277507933,
+    "CV_comments": 2.404552973007665
+  },
+  "median_stats": {
+    "median_views": 1027.0,
+    "median_likes": 36.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 6481.545454545455,
+    "mean_likes": 186.0909090909091,
+    "mean_comments": 3.6363636363636362
+  },
+  "std_stats": {
+    "std_views": 17957.10719667083,
+    "std_likes": 501.32294073689764,
+    "std_comments": 8.743828992755144
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "chang_ricky_life",
+  "followers": 137920,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.09715052204176335,
+    "ERV": 0.018172997983567953,
+    "CLR": 0.1849148409493195,
+    "VFR_mean": 0.13965124709976798,
+    "CV_views": 0.8771351330592364,
+    "CV_likes": 0.7398199246406716,
+    "CV_comments": 1.5703383650010343
+  },
+  "median_stats": {
+    "median_views": 13399.0,
+    "median_likes": 205.5,
+    "median_comments": 38.0
+  },
+  "mean_stats": {
+    "mean_views": 19260.7,
+    "mean_likes": 260.6,
+    "mean_comments": 53.0
+  },
+  "std_stats": {
+    "std_views": 16894.236657314035,
+    "std_likes": 192.79707236135903,
+    "std_comments": 83.22793334505482
+  }
+}

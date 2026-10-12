@@ -1,0 +1,29 @@
+{
+  "account_id": "donna_dietitian",
+  "followers": 2900,
+  "total_videos_analyzed": 29,
+  "metrics": {
+    "VFR": 0.13724137931034483,
+    "ERV": 0.02763819088533118,
+    "CLR": 0.0,
+    "VFR_mean": 0.14724137931034484,
+    "CV_views": 0.4063827169137189,
+    "CV_likes": 0.5729154479693239,
+    "CV_comments": 2.715563608955922
+  },
+  "median_stats": {
+    "median_views": 398.0,
+    "median_likes": 11.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 427.0,
+    "mean_likes": 12.96551724137931,
+    "mean_comments": 0.3448275862068966
+  },
+  "std_stats": {
+    "std_views": 173.52542012215798,
+    "std_likes": 7.428145118498819,
+    "std_comments": 0.9364012444675595
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "pearyyoga",
+  "followers": 50000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 2.28945,
+    "ERV": 0.018650767651456457,
+    "CLR": 0.03943524827680855,
+    "VFR_mean": 2.2917642857142857,
+    "CV_views": 0.7534403157269194,
+    "CV_likes": 0.965864050403964,
+    "CV_comments": 2.5673961314126608
+  },
+  "median_stats": {
+    "median_views": 114472.5,
+    "median_likes": 2054.0,
+    "median_comments": 81.0
+  },
+  "mean_stats": {
+    "mean_views": 114588.21428571429,
+    "mean_likes": 2119.214285714286,
+    "mean_comments": 479.07142857142856
+  },
+  "std_stats": {
+    "std_views": 86335.38035001246,
+    "std_likes": 2046.8728936739433,
+    "std_comments": 1229.9661323846226
+  }
+}

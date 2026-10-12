@@ -1,0 +1,29 @@
+{
+  "account_id": "health_dietitian",
+  "followers": 8300,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.6221686746987952,
+    "ERV": 0.018590240120334965,
+    "CLR": 0.02127659551833409,
+    "VFR_mean": 0.6483595922150139,
+    "CV_views": 0.4215914708860264,
+    "CV_likes": 0.4026884944768659,
+    "CV_comments": 1.997903360661287
+  },
+  "median_stats": {
+    "median_views": 5164.0,
+    "median_likes": 94.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 5381.384615384615,
+    "mean_likes": 90.15384615384616,
+    "mean_comments": 9.846153846153847
+  },
+  "std_stats": {
+    "std_views": 2268.7458554034333,
+    "std_likes": 36.3039165789913,
+    "std_comments": 19.671663858818828
+  }
+}

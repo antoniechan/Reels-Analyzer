@@ -1,0 +1,29 @@
+{
+  "account_id": "femfitnesshk",
+  "followers": 37000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.32372972972972974,
+    "ERV": 0.01703122390908071,
+    "CLR": 0.9615384522928995,
+    "VFR_mean": 1.4854742014742015,
+    "CV_views": 1.4317749930053454,
+    "CV_likes": 1.2413213357094963,
+    "CV_comments": 1.890627861978096
+  },
+  "median_stats": {
+    "median_views": 11978.0,
+    "median_likes": 104.0,
+    "median_comments": 100.0
+  },
+  "mean_stats": {
+    "mean_views": 54962.545454545456,
+    "mean_likes": 396.6363636363636,
+    "mean_comments": 560.7272727272727
+  },
+  "std_stats": {
+    "std_views": 78693.9981337378,
+    "std_likes": 492.3531807000484,
+    "std_comments": 1060.1266047891725
+  }
+}

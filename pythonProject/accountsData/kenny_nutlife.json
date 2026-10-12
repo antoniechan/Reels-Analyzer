@@ -1,0 +1,29 @@
+{
+  "account_id": "kenny_nutlife",
+  "followers": 5900,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.2684745762711864,
+    "ERV": 0.1691919190851061,
+    "CLR": 0.011320754674261304,
+    "VFR_mean": 1.3471032357473036,
+    "CV_views": 2.5396681522239297,
+    "CV_likes": 2.0429657128712675,
+    "CV_comments": 2.039872074824505
+  },
+  "median_stats": {
+    "median_views": 1584.0,
+    "median_likes": 265.0,
+    "median_comments": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 7947.909090909091,
+    "mean_likes": 538.0,
+    "mean_comments": 7.909090909090909
+  },
+  "std_stats": {
+    "std_views": 20185.051594952864,
+    "std_likes": 1099.115553524742,
+    "std_comments": 16.133533682702904
+  }
+}

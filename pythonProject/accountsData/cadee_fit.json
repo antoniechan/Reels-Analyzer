@@ -1,0 +1,29 @@
+{
+  "account_id": "cadee_fit",
+  "followers": 7124,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.3987226277372263,
+    "ERV": 0.018130610801573452,
+    "CLR": 0.01980197980590139,
+    "VFR_mean": 0.5906326034063261,
+    "CV_views": 0.8139475570271463,
+    "CV_likes": 0.47098050693074045,
+    "CV_comments": 1.6937198318160147
+  },
+  "median_stats": {
+    "median_views": 2840.5,
+    "median_likes": 50.5,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 4207.666666666667,
+    "mean_likes": 57.083333333333336,
+    "mean_comments": 1.5
+  },
+  "std_stats": {
+    "std_views": 3424.8200041178893,
+    "std_likes": 26.88513727062977,
+    "std_comments": 2.540579747724022
+  }
+}

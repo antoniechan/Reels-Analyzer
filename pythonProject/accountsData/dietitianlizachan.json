@@ -1,0 +1,29 @@
+{
+  "account_id": "dietitianlizachan",
+  "followers": 5900,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.9040677966101694,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "VFR_mean": 0.954417372881356,
+    "CV_views": 0.2546570964904947,
+    "CV_likes": 0.0,
+    "CV_comments": 1.3691338827204969
+  },
+  "median_stats": {
+    "median_views": 5334.0,
+    "median_likes": -1.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 5631.0625,
+    "mean_likes": -1.0,
+    "mean_comments": 2.625
+  },
+  "std_stats": {
+    "std_views": 1433.9900264065066,
+    "std_likes": 0.0,
+    "std_comments": 3.593976442141304
+  }
+}

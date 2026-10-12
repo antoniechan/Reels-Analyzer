@@ -1,0 +1,29 @@
+{
+  "account_id": "nuture_fit_taichung",
+  "followers": 280000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.14600535714285715,
+    "ERV": 0.00776634908191318,
+    "CLR": 0.1441441436247058,
+    "VFR_mean": 0.13978892857142858,
+    "CV_views": 0.7490377295164806,
+    "CV_likes": 0.9418844985203245,
+    "CV_comments": 1.6825097687984931
+  },
+  "median_stats": {
+    "median_views": 40881.5,
+    "median_likes": 277.5,
+    "median_comments": 40.0
+  },
+  "mean_stats": {
+    "mean_views": 39140.9,
+    "mean_likes": 425.3,
+    "mean_comments": 121.8
+  },
+  "std_stats": {
+    "std_views": 29318.010867231616,
+    "std_likes": 400.583477220694,
+    "std_comments": 204.92968983965645
+  }
+}

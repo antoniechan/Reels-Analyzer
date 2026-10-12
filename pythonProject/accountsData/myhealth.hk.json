@@ -1,0 +1,29 @@
+{
+  "account_id": "myhealth.hk",
+  "followers": 15000,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.07333333333333333,
+    "ERV": 0.006363636357851239,
+    "CLR": 0.0,
+    "VFR_mean": 0.06646153846153846,
+    "CV_views": 0.3872778540724392,
+    "CV_likes": 0.38766487250666787,
+    "CV_comments": 3.605551275463989
+  },
+  "median_stats": {
+    "median_views": 1100.0,
+    "median_likes": 7.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 996.9230769230769,
+    "mean_likes": 6.6923076923076925,
+    "mean_comments": 0.07692307692307693
+  },
+  "std_stats": {
+    "std_views": 386.08622990606244,
+    "std_likes": 2.5943726083138543,
+    "std_comments": 0.2773500981126146
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "cc_eatfreely",
+  "followers": 5232,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.8799694189602446,
+    "ERV": 0.023240660290347378,
+    "CLR": 0.17582417389204205,
+    "VFR_mean": 2.1666779096959887,
+    "CV_views": 1.736214366110987,
+    "CV_likes": 1.2815679088874703,
+    "CV_comments": 1.3609637108395736
+  },
+  "median_stats": {
+    "median_views": 4604.0,
+    "median_likes": 91.0,
+    "median_comments": 16.0
+  },
+  "mean_stats": {
+    "mean_views": 11336.058823529413,
+    "mean_likes": 167.41176470588235,
+    "mean_comments": 45.0
+  },
+  "std_stats": {
+    "std_views": 19681.82818449098,
+    "std_likes": 214.54954521727885,
+    "std_comments": 61.24336698778081
+  }
+}

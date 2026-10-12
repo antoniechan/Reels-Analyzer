@@ -1,0 +1,29 @@
+{
+  "account_id": "nutruelife",
+  "followers": 270000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.1526888888888889,
+    "ERV": 0.01524523359008283,
+    "CLR": 0.003993610217262604,
+    "VFR_mean": 0.23302619047619047,
+    "CV_views": 1.0403631762745889,
+    "CV_likes": 0.7386056319787111,
+    "CV_comments": 3.215886560336119
+  },
+  "median_stats": {
+    "median_views": 41226.0,
+    "median_likes": 626.0,
+    "median_comments": 2.5
+  },
+  "mean_stats": {
+    "mean_views": 62917.07142857143,
+    "mean_likes": 763.3571428571429,
+    "mean_comments": 22.785714285714285
+  },
+  "std_stats": {
+    "std_views": 65456.604273323755,
+    "std_likes": 563.8198849254633,
+    "std_comments": 73.27627233908728
+  }
+}

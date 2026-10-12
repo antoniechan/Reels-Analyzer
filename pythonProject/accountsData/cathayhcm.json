@@ -1,0 +1,29 @@
+{
+  "account_id": "cathayhcm",
+  "followers": 2777,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.7086784299603889,
+    "ERV": 0.015752032512321122,
+    "CLR": 0.0,
+    "VFR_mean": 1.4250090025207058,
+    "CV_views": 1.1372476657413586,
+    "CV_likes": 0.997894152701253,
+    "CV_comments": 2.6555323104514943
+  },
+  "median_stats": {
+    "median_views": 1968.0,
+    "median_likes": 31.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 3957.25,
+    "mean_likes": 49.875,
+    "mean_comments": 1.5
+  },
+  "std_stats": {
+    "std_views": 4500.373325254991,
+    "std_likes": 49.769970865975,
+    "std_comments": 3.9832984656772417
+  }
+}

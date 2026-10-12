@@ -1,0 +1,29 @@
+{
+  "account_id": "ruby597599",
+  "followers": 2600,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.3951923076923077,
+    "ERV": 0.018978102171310848,
+    "CLR": 0.11428570775510241,
+    "VFR_mean": 0.7713076923076924,
+    "CV_views": 1.5953693139613485,
+    "CV_likes": 0.5729445944475439,
+    "CV_comments": 0.8606629658238706
+  },
+  "median_stats": {
+    "median_views": 1027.5,
+    "median_likes": 17.5,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 2005.4,
+    "mean_likes": 21.6,
+    "mean_comments": 1.2
+  },
+  "std_stats": {
+    "std_views": 3199.3536222180883,
+    "std_likes": 12.37560324006695,
+    "std_comments": 1.0327955589886446
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "anan_lin1211",
+  "followers": 5800,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.11293103448275862,
+    "ERV": -0.001526717554921042,
+    "CLR": 0.0,
+    "VFR_mean": 0.113052738336714,
+    "CV_views": 0.11954791056404092,
+    "CV_likes": 12.420748769699834,
+    "CV_comments": 1.9987496091306687
+  },
+  "median_stats": {
+    "median_views": 655.0,
+    "median_likes": -1.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 655.7058823529412,
+    "mean_likes": 0.29411764705882354,
+    "mean_comments": 0.29411764705882354
+  },
+  "std_stats": {
+    "std_views": 78.38826817984496,
+    "std_likes": 3.6531614028528927,
+    "std_comments": 0.5878675320972555
+  }
+}

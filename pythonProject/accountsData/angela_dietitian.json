@@ -1,0 +1,29 @@
+{
+  "account_id": "angela_dietitian",
+  "followers": 87000,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.28858620689655173,
+    "ERV": 0.0004381248257283576,
+    "CLR": 0.0,
+    "VFR_mean": 0.749763041556145,
+    "CV_views": 1.8385506785425825,
+    "CV_likes": 3.673285620234266,
+    "CV_comments": 1.226847809856163
+  },
+  "median_stats": {
+    "median_views": 25107.0,
+    "median_likes": -1.0,
+    "median_comments": 12.0
+  },
+  "mean_stats": {
+    "mean_views": 65229.38461538462,
+    "mean_likes": 53.23076923076923,
+    "mean_comments": 22.923076923076923
+  },
+  "std_stats": {
+    "std_views": 119927.52934553048,
+    "std_likes": 195.53181916939326,
+    "std_comments": 28.123126718241277
+  }
+}

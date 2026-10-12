@@ -1,0 +1,29 @@
+{
+  "account_id": "ningning_dietitian",
+  "followers": 2200,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.4727272727272727,
+    "ERV": 0.035576923042714495,
+    "CLR": 0.10447760882156393,
+    "VFR_mean": 0.609,
+    "CV_views": 0.8941691089623347,
+    "CV_likes": 0.8773958937798655,
+    "CV_comments": 0.8894442709417556
+  },
+  "median_stats": {
+    "median_views": 1040.0,
+    "median_likes": 33.5,
+    "median_comments": 3.5
+  },
+  "mean_stats": {
+    "mean_views": 1339.8,
+    "mean_likes": 44.8,
+    "mean_comments": 5.0
+  },
+  "std_stats": {
+    "std_views": 1198.007772187736,
+    "std_likes": 39.30733604133797,
+    "std_comments": 4.447221354708778
+  }
+}

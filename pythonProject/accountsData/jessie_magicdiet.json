@@ -1,0 +1,29 @@
+{
+  "account_id": "jessie_magicdiet",
+  "followers": 100000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.06271,
+    "ERV": 0.006538032210725875,
+    "CLR": 0.07894736634349037,
+    "VFR_mean": 0.376329,
+    "CV_views": 2.4576807406077585,
+    "CV_likes": 0.7549402954111056,
+    "CV_comments": 0.8207541663607086
+  },
+  "median_stats": {
+    "median_views": 6271.0,
+    "median_likes": 38.0,
+    "median_comments": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 37632.9,
+    "mean_likes": 58.1,
+    "mean_comments": 4.3
+  },
+  "std_stats": {
+    "std_views": 92489.65354321772,
+    "std_likes": 43.86203116338524,
+    "std_comments": 3.529242915351047
+  }
+}

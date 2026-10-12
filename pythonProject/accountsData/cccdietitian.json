@@ -1,0 +1,29 @@
+{
+  "account_id": "cccdietitian",
+  "followers": 30311,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.4626208307215202,
+    "ERV": 0.0231770369033213,
+    "CLR": 0.009316770157401335,
+    "VFR_mean": 0.6748045264095542,
+    "CV_views": 0.9170777865451181,
+    "CV_likes": 0.7946318286811609,
+    "CV_comments": 0.7959954870644665
+  },
+  "median_stats": {
+    "median_views": 14022.5,
+    "median_likes": 322.0,
+    "median_comments": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 20454.0,
+    "mean_likes": 420.7,
+    "mean_comments": 3.3
+  },
+  "std_stats": {
+    "std_views": 18757.909045993845,
+    "std_likes": 334.3016103261644,
+    "std_comments": 2.6267851073127395
+  }
+}

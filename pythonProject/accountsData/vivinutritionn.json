@@ -1,0 +1,29 @@
+{
+  "account_id": "vivinutritionn",
+  "followers": 19000,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.15347368421052632,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "VFR_mean": 0.3282307692307692,
+    "CV_views": 1.3935220214968647,
+    "CV_likes": 0.0,
+    "CV_comments": 1.7460108015153468
+  },
+  "median_stats": {
+    "median_views": 2916.0,
+    "median_likes": -1.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 6236.384615384615,
+    "mean_likes": -1.0,
+    "mean_comments": 1.6923076923076923
+  },
+  "std_stats": {
+    "std_views": 8690.539296062716,
+    "std_likes": 0.0,
+    "std_comments": 2.954787510256741
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "suanyuying",
+  "followers": 38000,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.39389473684210524,
+    "ERV": 0.018439337251574067,
+    "CLR": 0.003636363623140496,
+    "VFR_mean": 1.6618947368421053,
+    "CV_views": 2.069243369229123,
+    "CV_likes": 2.295306272242019,
+    "CV_comments": 1.6953517947649452
+  },
+  "median_stats": {
+    "median_views": 14968.0,
+    "median_likes": 275.0,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 63152.0,
+    "mean_likes": 1633.3846153846155,
+    "mean_comments": 4.384615384615385
+  },
+  "std_stats": {
+    "std_views": 130676.85725355758,
+    "std_likes": 3749.117952675926,
+    "std_comments": 7.433465561661683
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "account_id": "tzuyu_diet",
+  "followers": 12000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.3214166666666667,
+    "ERV": 0.012056002071025149,
+    "CLR": 0.02197802149498854,
+    "VFR_mean": 0.7047083333333334,
+    "CV_views": 1.3468549105675744,
+    "CV_likes": 1.4104587630713976,
+    "CV_comments": 2.4550343194373854
+  },
+  "median_stats": {
+    "median_views": 3857.0,
+    "median_likes": 45.5,
+    "median_comments": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 8456.5,
+    "mean_likes": 99.64285714285714,
+    "mean_comments": 4.571428571428571
+  },
+  "std_stats": {
+    "std_views": 11389.678551214693,
+    "std_likes": 140.54214103461425,
+    "std_comments": 11.223014031713761
+  }
+}

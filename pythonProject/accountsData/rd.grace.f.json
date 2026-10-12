@@ -1,0 +1,29 @@
+{
+  "account_id": "rd.grace.f",
+  "followers": 77000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.17974675324675324,
+    "ERV": 0.03244102452711672,
+    "CLR": 0.020454545408057852,
+    "VFR_mean": 0.2014012987012987,
+    "CV_views": 0.6954051452194484,
+    "CV_likes": 0.6469753594476233,
+    "CV_comments": 0.6604649814861855
+  },
+  "median_stats": {
+    "median_views": 13840.5,
+    "median_likes": 440.0,
+    "median_comments": 9.0
+  },
+  "mean_stats": {
+    "mean_views": 15507.9,
+    "mean_likes": 414.3,
+    "mean_comments": 9.0
+  },
+  "std_stats": {
+    "std_views": 10784.273451548685,
+    "std_likes": 268.0418914191503,
+    "std_comments": 5.94418483337567
+  }
+}

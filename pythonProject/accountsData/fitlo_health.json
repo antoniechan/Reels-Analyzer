@@ -1,0 +1,29 @@
+{
+  "account_id": "fitlo_health",
+  "followers": 3900,
+  "total_videos_analyzed": 15,
+  "metrics": {
+    "VFR": 0.2746153846153846,
+    "ERV": 0.014005602227819231,
+    "CLR": 0.0,
+    "VFR_mean": 0.30745299145299143,
+    "CV_views": 0.42144750490078825,
+    "CV_likes": 0.5717260653486691,
+    "CV_comments": 2.8030595529069404
+  },
+  "median_stats": {
+    "median_views": 1071.0,
+    "median_likes": 15.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1199.0666666666666,
+    "mean_likes": 15.8,
+    "mean_comments": 0.2
+  },
+  "std_stats": {
+    "std_views": 505.3436548763718,
+    "std_likes": 9.033271832508973,
+    "std_comments": 0.5606119105813882
+  }
+}

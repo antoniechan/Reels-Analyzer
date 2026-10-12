@@ -1,0 +1,29 @@
+{
+  "account_id": "madonnatung",
+  "followers": 11000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.09104545454545454,
+    "ERV": 0.026959560632092303,
+    "CLR": 0.2558139415900492,
+    "VFR_mean": 0.09083636363636365,
+    "CV_views": 0.7799674012865121,
+    "CV_likes": 0.8121190726487946,
+    "CV_comments": 1.0257111354242643
+  },
+  "median_stats": {
+    "median_views": 1001.5,
+    "median_likes": 21.5,
+    "median_comments": 5.5
+  },
+  "mean_stats": {
+    "mean_views": 999.2,
+    "mean_likes": 23.7,
+    "mean_comments": 8.0
+  },
+  "std_stats": {
+    "std_views": 779.343427365483,
+    "std_likes": 19.24722202177643,
+    "std_comments": 8.205689083394114
+  }
+}

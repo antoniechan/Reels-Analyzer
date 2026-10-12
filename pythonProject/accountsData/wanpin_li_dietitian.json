@@ -1,0 +1,29 @@
+{
+  "account_id": "wanpin_li_dietitian",
+  "followers": 11000,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.09063636363636364,
+    "ERV": 0.0240722166258052,
+    "CLR": 0.0,
+    "VFR_mean": 0.21164462809917356,
+    "CV_views": 1.2096846465003857,
+    "CV_likes": 1.070928651972297,
+    "CV_comments": 3.3166247903554003
+  },
+  "median_stats": {
+    "median_views": 997.0,
+    "median_likes": 24.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 2328.090909090909,
+    "mean_likes": 44.18181818181818,
+    "mean_comments": 0.2727272727272727
+  },
+  "std_stats": {
+    "std_views": 2816.255828384398,
+    "std_likes": 47.31557498713966,
+    "std_comments": 0.9045340337332909
+  }
+}

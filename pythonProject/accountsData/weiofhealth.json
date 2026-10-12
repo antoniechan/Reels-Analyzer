@@ -1,0 +1,29 @@
+{
+  "account_id": "weiofhealth",
+  "followers": 5800,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.39189655172413795,
+    "ERV": 0.03101627803298888,
+    "CLR": 0.08461538331360949,
+    "VFR_mean": 0.39370689655172414,
+    "CV_views": 0.631455277678958,
+    "CV_likes": 0.6410871765336168,
+    "CV_comments": 1.1391852595410263
+  },
+  "median_stats": {
+    "median_views": 2273.0,
+    "median_likes": 65.0,
+    "median_comments": 5.5
+  },
+  "mean_stats": {
+    "mean_views": 2283.5,
+    "mean_likes": 65.0,
+    "mean_comments": 9.6
+  },
+  "std_stats": {
+    "std_views": 1441.9281265799007,
+    "std_likes": 41.67066647468509,
+    "std_comments": 10.936178491593852
+  }
+}

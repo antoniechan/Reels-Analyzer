@@ -1,0 +1,29 @@
+{
+  "account_id": "simplylita26726",
+  "followers": 3600,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.36791666666666667,
+    "ERV": 0.011325028304020364,
+    "CLR": 0.0,
+    "VFR_mean": 0.5141388888888889,
+    "CV_views": 0.7651946680341053,
+    "CV_likes": 0.6639218119582334,
+    "CV_comments": 1.7154180555275715
+  },
+  "median_stats": {
+    "median_views": 1324.5,
+    "median_likes": 15.0,
+    "median_comments": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1850.9,
+    "mean_likes": 23.1,
+    "mean_comments": 2.3
+  },
+  "std_stats": {
+    "std_views": 1416.2988110643255,
+    "std_likes": 15.336593856235194,
+    "std_comments": 3.945461527713414
+  }
+}

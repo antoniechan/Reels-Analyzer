@@ -1,0 +1,29 @@
+{
+  "account_id": "jinhan_1208",
+  "followers": 1800,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 1.4561111111111111,
+    "ERV": 0.011827546733373695,
+    "CLR": 0.10714285331632667,
+    "VFR_mean": 7.978703703703704,
+    "CV_views": 1.6268975683528824,
+    "CV_likes": 1.6801290797945683,
+    "CV_comments": 1.9263681780231496
+  },
+  "median_stats": {
+    "median_views": 2621.0,
+    "median_likes": 28.0,
+    "median_comments": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 14361.666666666666,
+    "mean_likes": 276.0,
+    "mean_comments": 23.583333333333332
+  },
+  "std_stats": {
+    "std_views": 23364.960577494643,
+    "std_likes": 463.71562602330084,
+    "std_comments": 45.43018286504594
+  }
+}

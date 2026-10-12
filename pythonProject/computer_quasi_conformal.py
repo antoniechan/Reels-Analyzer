@@ -2,7 +2,6 @@ import argparse
 import glob
 import json
 import os
-import sys
 import numpy as np
 
 DEFAULT_DIR = r"D:\reels"
@@ -113,7 +112,122 @@ def process_video_quasi_conformal(aligned_json_path, canonical_triangles, output
         print(f"  [略過] 幀數少於 2 幀: {aligned_json_path}")
         return False
 
-    # ... 後續計算 Beltrami, Dilation, Teichmuller distance 邏輯維持不變 ...
+    transitions_results = []
+    num_canonical_triangles = len(canonical_triangles)
+
+    for i in range(len(frames) - 1):
+        f_curr = frames[i]
+        f_next = frames[i + 1]
+
+        sec_curr = f_curr.get("second", i)
+        sec_next = f_next.get("second", i + 1)
+
+        valid_curr = f_curr.get("face_detected", False) and bool(f_curr.get("landmarks"))
+        valid_next = f_next.get("face_detected", False) and bool(f_next.get("landmarks"))
+
+        # 只要其中一個 frame 沒有 face landmark，相關數值全部設為 0
+        if not (valid_curr and valid_next):
+            transitions_results.append({
+                "from_second": sec_curr,
+                "to_second": sec_next,
+                "valid_transition": False,
+                "teichmuller_distance": 0.0,
+                "mean_dilation": 0.0,
+                "max_dilation": 0.0,
+                "mean_abs_mu": 0.0,
+                "max_abs_mu": 0.0,
+                "num_triangles": num_canonical_triangles,
+                "facet_metrics": []
+            })
+            continue
+
+        lms_curr = f_curr["landmarks"]
+        lms_next = f_next["landmarks"]
+
+        z_pts = np.array([
+            complex(lm.get("aligned_x", lm["x"]), lm.get("aligned_y", lm["y"]))
+            for lm in lms_curr[:468]
+        ])
+        w_pts = np.array([
+            complex(lm.get("aligned_x", lm["x"]), lm.get("aligned_y", lm["y"]))
+            for lm in lms_next[:468]
+        ])
+
+        mu_list = []
+        dilation_list = []
+        facet_data = []
+
+        for tri_idx, tri in enumerate(canonical_triangles):
+            z_tri = z_pts[tri]
+            w_tri = w_pts[tri]
+
+            mu = compute_beltrami_for_triangle(z_tri, w_tri)
+            abs_mu = float(np.abs(mu))
+
+            # 數值穩定性防護: 截斷 |mu| <= 0.999
+            abs_mu_clipped = min(abs_mu, 0.999)
+            dilation = (1.0 + abs_mu_clipped) / (1.0 - abs_mu_clipped)
+
+            mu_list.append(abs_mu_clipped)
+            dilation_list.append(dilation)
+
+            facet_data.append({
+                "triangle_id": int(tri_idx),
+                "vertices": tri.tolist(),
+                "mu_real": float(mu.real),
+                "mu_imag": float(mu.imag),
+                "abs_mu": abs_mu,
+                "dilation": float(dilation),
+                "arg_mu": float(np.angle(mu))
+            })
+
+        mu_arr = np.array(mu_list)
+        dil_arr = np.array(dilation_list)
+
+        max_mu = float(np.max(mu_arr))
+        mean_mu = float(np.mean(mu_arr))
+        max_dil = float(np.max(dil_arr))
+        mean_dil = float(np.mean(dil_arr))
+
+        # Teichmüller Distance
+        teichmuller_dist = float(0.5 * np.log((1.0 + max_mu) / (1.0 - max_mu)))
+
+        transitions_results.append({
+            "from_second": sec_curr,
+            "to_second": sec_next,
+            "valid_transition": True,
+            "teichmuller_distance": teichmuller_dist,
+            "mean_dilation": mean_dil,
+            "max_dilation": max_dil,
+            "mean_abs_mu": mean_mu,
+            "max_abs_mu": max_mu,
+            "num_triangles": num_canonical_triangles,
+            "facet_metrics": facet_data
+        })
+
+    output_data = {
+        "source_file": os.path.basename(aligned_json_path),
+        "topology": {
+            "type": "mediapipe_canonical_facemesh",
+            "total_canonical_triangles": num_canonical_triangles
+        },
+        "total_transitions": len(transitions_results),
+        "consecutive_qc_metrics": transitions_results
+    }
+
+    if output_json_path is None:
+        dir_name, file_name = os.path.split(aligned_json_path)
+        base_name, _ = os.path.splitext(file_name)
+        output_name = base_name.replace("_face_aligned", "_qc").replace("_aligned", "_qc") + ".json"
+        if not output_name.endswith("_qc.json"):
+            output_name = f"{base_name}_qc.json"
+        output_json_path = os.path.join(dir_name, output_name)
+
+    with open(output_json_path, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    print(f"  -> QC 計算完成: {os.path.basename(output_json_path)}")
+    return True
 
 
 def batch_compute_quasi_conformal(root_dir=DEFAULT_DIR):

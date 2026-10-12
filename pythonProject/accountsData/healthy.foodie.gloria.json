@@ -1,0 +1,29 @@
+{
+  "account_id": "healthy.foodie.gloria",
+  "followers": 74000,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 1.7847297297297298,
+    "ERV": 0.009797834481640056,
+    "CLR": 0.028208184324030047,
+    "VFR_mean": 2.589560810810811,
+    "CV_views": 0.8899922199681122,
+    "CV_likes": 0.7199992373015491,
+    "CV_comments": 2.428104611919601
+  },
+  "median_stats": {
+    "median_views": 132070.0,
+    "median_likes": 1258.5,
+    "median_comments": 35.5
+  },
+  "mean_stats": {
+    "mean_views": 191627.5,
+    "mean_likes": 1712.1,
+    "mean_comments": 997.9
+  },
+  "std_stats": {
+    "std_views": 170546.98413193942,
+    "std_likes": 1232.7106941839822,
+    "std_comments": 2423.00559223457
+  }
+}

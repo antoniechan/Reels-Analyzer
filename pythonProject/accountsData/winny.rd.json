@@ -1,0 +1,29 @@
+{
+  "account_id": "winny.rd",
+  "followers": 30000,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.09906666666666666,
+    "ERV": 0.0025235531620041883,
+    "CLR": 0.0,
+    "VFR_mean": 0.1348,
+    "CV_views": 0.6219621947173746,
+    "CV_likes": 1.2671403205845502,
+    "CV_comments": 1.3083872363819704
+  },
+  "median_stats": {
+    "median_views": 2972.0,
+    "median_likes": -1.0,
+    "median_comments": 8.5
+  },
+  "mean_stats": {
+    "mean_views": 4044.0,
+    "mean_likes": 34.357142857142854,
+    "mean_comments": 20.642857142857142
+  },
+  "std_stats": {
+    "std_views": 2515.2151154370627,
+    "std_likes": 43.53532101436918,
+    "std_comments": 27.008850808170674
+  }
+}

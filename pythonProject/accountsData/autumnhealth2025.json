@@ -1,0 +1,29 @@
+{
+  "account_id": "autumnhealth2025",
+  "followers": 2700,
+  "total_videos_analyzed": 22,
+  "metrics": {
+    "VFR": 0.6942592592592592,
+    "ERV": 0.012803414236968036,
+    "CLR": 0.09090908677685969,
+    "VFR_mean": 1.2451515151515151,
+    "CV_views": 1.3165156741540052,
+    "CV_likes": 0.9342898328293714,
+    "CV_comments": 1.533140982949121
+  },
+  "median_stats": {
+    "median_views": 1874.5,
+    "median_likes": 22.0,
+    "median_comments": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 3361.909090909091,
+    "mean_likes": 30.636363636363637,
+    "mean_comments": 6.5
+  },
+  "std_stats": {
+    "std_views": 4426.00601326266,
+    "std_likes": 28.623243060318014,
+    "std_comments": 9.965416389169286
+  }
+}

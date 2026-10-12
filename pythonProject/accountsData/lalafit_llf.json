@@ -1,0 +1,29 @@
+{
+  "account_id": "lalafit_llf",
+  "followers": 3200,
+  "total_videos_analyzed": 18,
+  "metrics": {
+    "VFR": 0.69203125,
+    "ERV": 0.030255136586021615,
+    "CLR": 0.8108107888970058,
+    "VFR_mean": 2.0616493055555556,
+    "CV_views": 2.5515340068105665,
+    "CV_likes": 2.0236198040579176,
+    "CV_comments": 3.2222419515120997
+  },
+  "median_stats": {
+    "median_views": 2214.5,
+    "median_likes": 37.0,
+    "median_comments": 30.0
+  },
+  "mean_stats": {
+    "mean_views": 6597.277777777777,
+    "mean_likes": 75.5,
+    "mean_comments": 177.16666666666666
+  },
+  "std_stats": {
+    "std_views": 16833.178602375643,
+    "std_likes": 152.78329520637277,
+    "std_comments": 570.8738657428936
+  }
+}
