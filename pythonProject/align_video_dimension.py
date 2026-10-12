@@ -12,7 +12,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
 # 預設參數設定
-TARGET_DIR = r"D:\reels"
+TARGET_DIR = r"C:/Users/Anthony/Downloads"
 TARGET_WIDTH = 720
 TARGET_HEIGHT = 1280
 MODEL_FILE_NAME = "face_landmarker.task"
