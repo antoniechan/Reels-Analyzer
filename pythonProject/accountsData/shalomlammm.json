@@ -25,5 +25,14 @@
     "std_views": 33121.86587849071,
     "std_likes": 196.61027440090714,
     "std_comments": 96.09200136989931
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 74.09,
+    "percentiles": {
+      "P_ERV": 53.85,
+      "P_VFR": 80.77,
+      "P_CLR": 97.12
+    }
   }
 }

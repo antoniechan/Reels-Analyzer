@@ -1,0 +1,48 @@
+# Mode
+# - abs_mu
+# - dilation
+# - teichmuller_distance
+#
+# tier
+# - all
+# - good
+# - neutral
+# - bad
+#
+# Important vertices
+#
+# Rigid points
+
+# vertex = 1 (鼻尖)
+# vertex = 6 (鼻樑中央)
+# vertex = 197, 195 (鼻樑上段 / 骨骼連線)
+# vertex = 168 (印堂)
+# vertex = 33 (右眼內眥)
+# vertex = 263 (左眼內眥)
+# vertex = 152 (下巴下緣)
+#
+# Nonverbal communication
+
+# vertex = 70, 63, 105 (右眉相關)
+# vertex = 300, 293, 334 (左眉相關)
+# vertex = 9 (額頭中央)
+# vertex = 70, 300 (皺眉肌) ***
+#
+# vertex = 0 (上唇正中心上緣)
+# vertex = 17 (下唇正中心下緣)
+# vertex = 61 (右嘴角)
+# vertex = 291 (左嘴角)
+# vertex = 13 (上唇內部咬合緣)
+# vertex = 14 (下唇內部咬合緣)
+# vertex = 61, 291 (微笑/嘴角抽動) ***
+# vertex = 0, 17 (說話) ***
+#
+# vertex = 159, 145 (右眼上下眼瞼中央點)
+# vertex = 386, 374 (左眼上下眼瞼中央點)
+# vertex = 130, 246 (右眼外眼角周緣)
+# vertex = 359, 466 (左眼外眼角周緣)
+# vertex = 130, 359 (真誠微笑) ***
+#
+# vertex = 234 (右臉頰骨最外側邊緣點)
+# vertex = 454 (左臉頰骨最外側邊緣點)
+# vertex = 172, 397 (下頜角轉折處 / 咬合肌) ***
