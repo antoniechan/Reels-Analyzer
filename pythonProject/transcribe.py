@@ -9,9 +9,9 @@ from google.genai import types
 
 # 路徑設定
 REELS_DATA_DIR = Path(
-    r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\reelsData"
+    r"C:\Users\Anthony\Desktop"
 )
-REELS_AUDIO_BASE_DIR = Path(r"D:\Reels")
+REELS_AUDIO_BASE_DIR = Path(r"C:\Users\Anthony\Desktop")
 
 # 初始化 Gemini Client
 load_dotenv()

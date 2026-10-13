@@ -6,262 +6,284 @@ import torchaudio
 import torchaudio.transforms as T
 import numpy as np
 import matplotlib.pyplot as plt
-from transformers import WhisperModel, WhisperFeatureExtractor
+from google import genai
+from google.genai import types
+from dotenv import load_dotenv
+import soundfile as sf
+
+
+# 設定你的 Gemini API Key
+load_dotenv()
+api_key = os.getenv("GEMINI_API_KEY")
+os.environ["GEMINI_API_KEY"] = api_key
 
 
 # ==============================================================================
-# 1. 雙通道模型結構定義
+# 1. Gemini 3.5 Transcribe 前處理器 (取得文字與精確秒級時間戳)
+# ==============================================================================
+
+class GeminiTranscribeProcessor:
+
+  def __init__(self, api_key=None):
+    self.client = genai.Client(
+        api_key=api_key or os.environ.get("GEMINI_API_KEY")
+    )
+
+  def transcribe_with_timestamps(self, audio_path):
+    print(f"正在上傳音訊至 Gemini 進行轉錄: {os.path.basename(audio_path)}...")
+    audio_file = self.client.files.upload(file=audio_path)
+
+    response = self.client.models.generate_content(
+        model="gemini-3.5-transcribe",
+        contents=[audio_file],
+    )
+    return response
+
+  def extract_transcription_data(self, response):
+    """從 candidates.content.parts 中提取 audio_transcription 或文字內容"""
+    transcribed_text = ""
+    words_info = []
+
+    try:
+      candidate = response.candidates[0]
+      for part in candidate.content.parts:
+        # 1. 檢查是否存在專屬的 audio_transcription 物件
+        if hasattr(part, "audio_transcription") and part.audio_transcription:
+          transcription_obj = part.audio_transcription
+
+          # 取得完整文字
+          if hasattr(transcription_obj, "text"):
+            transcribed_text += transcription_obj.text + " "
+
+          # 取得詞級時間戳記 (Word-level timestamps)
+          if hasattr(transcription_obj, "words"):
+            for w in transcription_obj.words:
+              words_info.append({
+                  "word": getattr(w, "word", ""),
+                  "start": getattr(w, "start_offset", 0.0),
+                  "end": getattr(w, "end_offset", 0.0),
+              })
+
+        # 2. 備選：若為一般 text part
+        elif hasattr(part, "text") and part.text:
+          transcribed_text += part.text + " "
+
+    except Exception as e:
+      print(f"解析 Gemini 回傳格式時出現例外: {e}")
+
+    # 若上述皆未命中，退回檢查 response.text
+    if not transcribed_text.strip():
+      transcribed_text = getattr(response, "text", "") or ""
+
+    return transcribed_text.strip(), words_info
+
+  def build_second_level_semantic_vector(
+      self, duration_sec, response, emb_dim=64
+  ):
+    """依據 Gemini 回傳的逐字文字或時間戳記，建立秒級語意表徵向量 (1, emb_dim, duration_sec)"""
+    transcribed_text, words_info = self.extract_transcription_data(response)
+
+    print(
+        f"Gemini 轉錄成功 (共 {len(transcribed_text)} 字):"
+        f" {transcribed_text[:60]}..."
+    )
+
+    semantic_curve = np.zeros((duration_sec, emb_dim), dtype=np.float32)
+
+    # 方案 A：如果有精確的詞級時間戳 (Word-level timestamps)
+    if words_info:
+      for item in words_info:
+        start_sec = int(min(max(0, item["start"]), duration_sec - 1))
+        # 語音活躍的秒數賦予正弦語意權重
+        semantic_curve[start_sec, :] += np.sin(
+            np.linspace(0.1, 1.0, emb_dim)
+        ) * len(item["word"])
+
+    # 方案 B：若無時間戳，使用總字數均勻分配
+    else:
+      words = transcribed_text.split() if transcribed_text else []
+      density = max(1, len(words) // max(1, duration_sec))
+      for s in range(duration_sec):
+        semantic_curve[s, :] = np.sin(
+            np.linspace(s, s + 1, emb_dim)
+        ) * float(density * 0.1)
+
+    # 轉為 PyTorch Tensor: (Batch=1, emb_dim, duration_sec)
+    tensor_feat = torch.tensor(
+        semantic_curve.T, dtype=torch.float32
+    ).unsqueeze(0)
+    return tensor_feat
+
+
+# ==============================================================================
+# 2. 雙通道模型結構 (Gemini 語意流 + 本地 Log-Mel 聲學流)
 # ==============================================================================
 
 class AcousticCNNStream(nn.Module):
-    """處理 Log-Mel Spectrogram 的聲學卷積分支 (捕捉音效、BGM、能量躍遷)"""
+    """處理 Log-Mel Spectrogram 的聲學卷積 (音效、BGM、重拍)"""
 
-    def __init__(self, out_dim=128):
+    def __init__(self, out_dim=64):
         super().__init__()
-        self.conv1 = nn.Conv2d(1, 32, kernel_size=(3, 3), stride=(2, 2), padding=1)
+        self.conv1 = nn.Conv2d(1, 32, kernel_size=3, stride=2, padding=1)
         self.bn1 = nn.BatchNorm2d(32)
-        self.conv2 = nn.Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=1)
+        self.conv2 = nn.Conv2d(32, 64, kernel_size=3, stride=2, padding=1)
         self.bn2 = nn.BatchNorm2d(64)
-        self.conv3 = nn.Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=1)
-        self.bn3 = nn.BatchNorm2d(128)
-
-        # 沿頻率維度做自適應平均池化，保留時間軸
         self.adaptive_freq_pool = nn.AdaptiveAvgPool2d((1, None))
-        self.proj = nn.Conv1d(128, out_dim, kernel_size=1)
+        self.proj = nn.Conv1d(64, out_dim, kernel_size=1)
 
     def forward(self, mel_spec):
-        # mel_spec shape: (Batch, 1, n_mels, T_mel)
         x = F.relu(self.bn1(self.conv1(mel_spec)))
         x = F.relu(self.bn2(self.conv2(x)))
-        x = F.relu(self.bn3(self.conv3(x)))
-
-        x = self.adaptive_freq_pool(x).squeeze(2)  # shape: (Batch, 128, T_compressed)
-        x = self.proj(x)  # shape: (Batch, out_dim, T_compressed)
-        return x
+        x = self.adaptive_freq_pool(x).squeeze(2)
+        return self.proj(x)
 
 
-class DualStreamAudioEngagementModel(nn.Module):
-    """雙通道時序吸睛度分析模型"""
+class GeminiAcousticDualStreamModel(nn.Module):
+    """結合 Gemini 語意向量與原生 Log-Mel 頻譜的模型"""
 
-    def __init__(self, whisper_model_name="openai/whisper-tiny", acoustic_dim=128, fusion_dim=128):
+    def __init__(self, semantic_dim=64, acoustic_dim=64, fusion_dim=64):
         super().__init__()
-        # Stream 1: Whisper Encoder (語音內容與語意)
-        print(f"正在載入 Whisper 預訓練權重: {whisper_model_name}...")
-        whisper = WhisperModel.from_pretrained(whisper_model_name)
-        self.whisper_encoder = whisper.encoder
-        # 凍結部分 Whisper 權重以進行遷移學習
-        for param in self.whisper_encoder.parameters():
-            param.requires_grad = False
-
-        whisper_hidden_dim = self.whisper_encoder.config.d_model
-        self.whisper_proj = nn.Conv1d(whisper_hidden_dim, fusion_dim, kernel_size=1)
-
-        # Stream 2: Log-Mel Acoustic CNN (背景音樂與音效)
+        self.semantic_proj = nn.Conv1d(semantic_dim, fusion_dim, kernel_size=1)
         self.acoustic_stream = AcousticCNNStream(out_dim=acoustic_dim)
         self.acoustic_proj = nn.Conv1d(acoustic_dim, fusion_dim, kernel_size=1)
 
-        # 時序融合層 (Temporal Fusion Head)
-        self.fusion_conv = nn.Sequential(
+        # 時序融合頭
+        self.fusion = nn.Sequential(
             nn.Conv1d(fusion_dim * 2, fusion_dim, kernel_size=3, padding=1),
             nn.BatchNorm1d(fusion_dim),
             nn.ReLU(),
-            nn.Dropout(0.2),
             nn.Conv1d(fusion_dim, 1, kernel_size=1),
-            nn.Sigmoid()  # 輸出 0~1 的吸睛度數值
+            nn.Sigmoid()
         )
 
-    def forward(self, whisper_features, mel_spec, target_seconds):
-        """
-        :param whisper_features: (Batch, 80, 3000) Whisper 輸入特徵
-        :param mel_spec: (Batch, 1, 128, T_mel) 原生 Log-Mel 頻譜圖
-        :param target_seconds: 影片音訊長度 (秒數)
-        :return: per_second_scores (Batch, target_seconds), video_engagement_score (Batch, 1)
-        """
-        # 1. 提取 Whisper Encoder 表徵
-        whisper_out = self.whisper_encoder(whisper_features).last_hidden_state  # (Batch, T_w, D)
-        whisper_out = whisper_out.transpose(1, 2)  # (Batch, D, T_w)
-        whisper_feat = self.whisper_proj(whisper_out)  # (Batch, fusion_dim, T_w)
+    def forward(self, semantic_feat, mel_spec, target_seconds):
+        # 1. 語意分支對齊到秒數
+        sem_aligned = F.interpolate(self.semantic_proj(semantic_feat), size=target_seconds, mode='linear')
 
-        # 2. 提取 Log-Mel 聲學表徵
-        acoustic_feat = self.acoustic_stream(mel_spec)  # (Batch, acoustic_dim, T_a)
-        acoustic_feat = self.acoustic_proj(acoustic_feat)  # (Batch, fusion_dim, T_a)
+        # 2. 聲學分支對齊到秒數
+        acoust_aligned = F.interpolate(self.acoustic_proj(self.acoustic_stream(mel_spec)), size=target_seconds,
+                                       mode='linear')
 
-        # 3. 雙通道插值對齊到秒級尺度 (target_seconds)
-        whisper_aligned = F.interpolate(whisper_feat, size=target_seconds, mode='linear', align_corners=False)
-        acoustic_aligned = F.interpolate(acoustic_feat, size=target_seconds, mode='linear', align_corners=False)
-
-        # 4. 特徵拼接與時序卷積
-        combined = torch.cat([whisper_aligned, acoustic_aligned], dim=1)  # (Batch, fusion_dim*2, target_seconds)
-        per_second_scores = self.fusion_conv(combined).squeeze(1)  # (Batch, target_seconds)
-
-        # 整體音訊吸睛度 (宏觀純量，用於梯度反向傳播)
+        # 3. 拼接並計算逐秒評分
+        combined = torch.cat([sem_aligned, acoust_aligned], dim=1)
+        per_second_scores = self.fusion(combined).squeeze(1)  # (Batch, target_seconds)
         video_level_score = torch.mean(per_second_scores, dim=-1, keepdim=True)
-
         return per_second_scores, video_level_score
 
 
 # ==============================================================================
-# 2. 音訊前處理與特徵提取
+# 3. 本地音訊 Log-Mel 前處理
 # ==============================================================================
 
-class AudioPreprocessor:
-    def __init__(self, whisper_model_name="openai/whisper-tiny", sample_rate=16000):
-        self.sample_rate = sample_rate
-        self.whisper_extractor = WhisperFeatureExtractor.from_pretrained(whisper_model_name)
+def prepare_local_log_mel(audio_path, sample_rate=16000):
+    # 新版 torchaudio 指定 backend 的標準寫法
+    try:
+        waveform, sr = torchaudio.load(audio_path, backend="soundfile")
+    except Exception:
+        # 備選方案：若 soundfile 後端仍有問題，改用 soundfile 原生套件直接讀取
+        import soundfile as sf
 
-        # 建立 Log-Mel 頻譜轉換器 (128 mel-bins)
-        self.mel_transform = T.MelSpectrogram(
-            sample_rate=sample_rate,
-            n_fft=1024,
-            win_length=1024,
-            hop_length=512,
-            n_mels=128
-        )
+        wav_data, sr = sf.read(audio_path, dtype="float32")
+        waveform = torch.from_numpy(wav_data)
+        if waveform.ndim == 1:
+            waveform = waveform.unsqueeze(0)
+        else:
+            waveform = waveform.t()
 
-    def process(self, audio_path):
-        waveform, sr = torchaudio.load(audio_path)
+    # 轉為單聲道
+    if waveform.shape[0] > 1:
+        waveform = torch.mean(waveform, dim=0, keepdim=True)
 
-        # 轉為單聲道
-        if waveform.shape[0] > 1:
-            waveform = torch.mean(waveform, dim=0, keepdim=True)
+    # 重採樣至 16000 Hz
+    if sr != sample_rate:
+        waveform = T.Resample(sr, sample_rate)(waveform)
 
-        # 統一採樣率至 16000 Hz
-        if sr != self.sample_rate:
-            resampler = T.Resample(sr, self.sample_rate)
-            waveform = resampler(waveform)
+    duration_sec = int(waveform.shape[-1] / sample_rate)
+    if duration_sec < 1:
+        duration_sec = 1
 
-        duration_sec = int(waveform.shape[-1] / self.sample_rate)
-        if duration_sec < 1:
-            raise ValueError("音訊長度小於 1 秒，無法分析。")
+    # 計算 Log-Mel Spectrogram
+    mel_transform = T.MelSpectrogram(
+        sample_rate=sample_rate,
+        n_fft=1024,
+        win_length=1024,
+        hop_length=512,
+        n_mels=128,
+    )
+    log_mel = torch.log(mel_transform(waveform) + 1e-6).unsqueeze(0)
 
-        # 1. 取得 Whisper 標準輸入 (Pad/Truncate 至 30 秒區塊)
-        wav_np = waveform.squeeze(0).numpy()
-        whisper_inputs = self.whisper_extractor(wav_np, sampling_rate=self.sample_rate, return_tensors="pt")
-        whisper_features = whisper_inputs.input_features  # shape: (1, 80, 3000)
-
-        # 2. 取得全音訊長度的 Log-Mel 頻譜圖 (可保留梯度)
-        mel_spec = self.mel_transform(waveform)
-        log_mel_spec = torch.log(mel_spec + 1e-6).unsqueeze(0)  # shape: (1, 1, 128, T_mel)
-
-        return whisper_features, log_mel_spec, duration_sec
+    return log_mel, duration_sec
 
 
 # ==============================================================================
-# 3. 梯度顯著性熱力圖 (Saliency Map) 與逐秒評分計算
+# 4. 主執行與 Saliency 視覺化繪圖
 # ==============================================================================
 
-def compute_audio_saliency_and_scores(model, whisper_feat, log_mel_spec, duration_sec, device="cpu"):
-    """
-    計算逐秒評分並反向求導生成類似論文的時頻 Saliency Map
-    """
-    model.eval()
-    whisper_feat = whisper_feat.to(device)
+def run_gemini_audio_pipeline(audio_path, output_png="gemini_audio_saliency.png"):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    # A. 提取本地聲學特徵
+    log_mel_spec, duration_sec = prepare_local_log_mel(audio_path)
     log_mel_spec = log_mel_spec.to(device)
-
-    # 開啟頻譜圖的梯度追蹤
     log_mel_spec.requires_grad = True
 
-    # 前向傳播
-    per_second_scores, video_score = model(whisper_feat, log_mel_spec, target_seconds=duration_sec)
+    # B. 呼叫 Gemini 3.5 Transcribe
+    gemini_proc = GeminiTranscribeProcessor()
+    transcribe_res = gemini_proc.transcribe_with_timestamps(audio_path)
+    semantic_feat = gemini_proc.build_second_level_semantic_vector(duration_sec, transcribe_res).to(device)
 
-    # 對整體預測值反向求導，獲得輸入時頻圖各頻段/時點的梯度偏導
+    # C. 模型推論與反向傳播 (計算 Saliency Map)
+    model = GeminiAcousticDualStreamModel().to(device)
+    model.eval()
+
+    per_second_scores, video_score = model(semantic_feat, log_mel_spec, duration_sec)
     model.zero_grad()
     video_score.backward()
 
-    # Saliency Map = 梯度的絕對值 (Simonyan et al., 2014)
-    saliency = torch.abs(log_mel_spec.grad).squeeze().cpu().numpy()  # (128, T_mel)
-
+    # 取得 Saliency 梯度熱力圖
+    saliency = torch.abs(log_mel_spec.grad).squeeze().cpu().numpy()
     scores = per_second_scores.detach().squeeze().cpu().numpy()
     log_mel_img = log_mel_spec.detach().squeeze().cpu().numpy()
 
-    return scores, saliency, log_mel_img
+    # D. 繪圖
+    fig, axes = plt.subplots(3, 1, figsize=(14, 9), gridspec_kw={'height_ratios': [1.2, 1.2, 1]})
 
-
-# ==============================================================================
-# 4. 視覺化繪圖：時頻熱力圖與秒級吸睛曲線
-# ==============================================================================
-
-def plot_audio_heatmaps(scores, saliency, log_mel_img, duration_sec, output_path="audio_saliency_heatmap.png"):
-    fig, axes = plt.subplots(3, 1, figsize=(14, 9), sharex=False, gridspec_kw={'height_ratios': [1.2, 1.2, 1]})
-
-    # 1. 原始 Log-Mel 頻譜圖
+    # 1. Log-Mel Spectrogram
     im0 = axes[0].imshow(log_mel_img, aspect='auto', origin='lower', cmap='inferno')
-    axes[0].set_title("1. Log-Mel Spectrogram (Full Audio: Voice + BGM + SFX)", fontsize=11, fontweight="bold")
-    axes[0].set_ylabel("Mel Frequency Bins", fontsize=10)
+    axes[0].set_title("1. Local Log-Mel Spectrogram (Acoustics + BGM + SFX)", fontsize=11, fontweight="bold")
     plt.colorbar(im0, ax=axes[0], pad=0.01)
 
-    # 2. 頻譜顯著性熱力圖 (Saliency Map: 哪些頻段和時間最吸睛)
+    # 2. Saliency Map
     im1 = axes[1].imshow(saliency, aspect='auto', origin='lower', cmap='hot')
-    axes[1].set_title(r"2. Audio Saliency Heat Map $|\partial \hat{y} / \partial X(f, t)|$ (Gradient-based)",
-                      fontsize=11, fontweight="bold")
-    axes[1].set_ylabel("Mel Frequency Bins", fontsize=10)
+    axes[1].set_title(r"2. Audio Saliency Heat Map $|\partial \hat{y} / \partial X(f, t)|$", fontsize=11,
+                      fontweight="bold")
     plt.colorbar(im1, ax=axes[1], pad=0.01)
 
-    # 3. 逐秒吸睛度得分曲線 (Per-Second Engagement Curve)
-    time_axis = np.arange(1, duration_sec + 1)
-    axes[2].plot(time_axis, scores, color='#1f77b4', linewidth=2.2, marker='o', markersize=4,
-                 label="Second-level Score")
-    axes[2].axhline(np.mean(scores), color='r', linestyle='--', label=f"Mean Score ({np.mean(scores):.3f})")
-
-    # 標記吸睛高峰秒數 (Top-3 Peaks)
-    top_peaks = np.argsort(scores)[-3:]
-    for peak_idx in top_peaks:
-        axes[2].annotate(f"{scores[peak_idx]:.2f}",
-                         (time_axis[peak_idx], scores[peak_idx]),
-                         textcoords="offset points", xytext=(0, 7), ha='center',
-                         fontweight='bold', color='darkred', fontsize=9)
-
-    axes[2].set_title("3. Predicted Per-Second Engagement Curve", fontsize=11, fontweight="bold")
-    axes[2].set_xlabel("Time (Seconds)", fontsize=10)
-    axes[2].set_ylabel("Score [0, 1]", fontsize=10)
-    axes[2].set_ylim(0, 1.05)
+    # 3. 逐秒分數曲線
+    t_axis = np.arange(1, duration_sec + 1)
+    axes[2].plot(t_axis, scores, color="#1f77b4", linewidth=2.2, marker="o", markersize=4)
+    axes[2].axhline(np.mean(scores), color="r", linestyle="--", label=f"Mean: {np.mean(scores):.3f}")
+    axes[2].set_title("3. Second-level Engagement (Gemini 3.5 Semantics + Local Acoustics)", fontsize=11,
+                      fontweight="bold")
     axes[2].set_xlim(1, duration_sec)
+    axes[2].set_ylim(0, 1.05)
     axes[2].grid(True, linestyle="--", alpha=0.5)
     axes[2].legend(loc="upper right")
 
     plt.tight_layout()
-    plt.savefig(output_path, dpi=200)
-    print(f"\n視覺化圖表已成功輸出至: {os.path.abspath(output_path)}")
+    plt.savefig(output_png, dpi=200)
+    print(f"完成！已生成 Saliency 熱力圖至: {output_png}")
     plt.show()
 
 
-# ==============================================================================
-# 主執行程序入口
-# ==============================================================================
-
 if __name__ == "__main__":
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"運行設備: {device}")
+    AUDIO_PATH = r"C:\Users\Anthony\Desktop\video_002.mp3"
 
-    # 測試用音訊檔案路徑 (可替換為你 database 中的任一影片提取的 mp3/wav 檔)
-    AUDIO_FILE = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\reelsData\video_001.mp3"
+    # 測試執行 (若無音訊檔會自動生成 demo 音訊)
+    if not os.path.exists(AUDIO_PATH):
+        AUDIO_PATH = "demo_test.wav"
+        t = torch.linspace(0, 10, 160000)
+        wav = (0.5 * torch.sin(2 * np.pi * 440 * t)).numpy()
+        sf.write(AUDIO_PATH, wav, 16000)
 
-    # 若音訊檔不存在，自動生成 15 秒合成測試訊號
-    if not os.path.exists(AUDIO_FILE):
-        print(f"提示：找不到指定路徑 {AUDIO_FILE}，建立 15 秒白噪音/正弦混合音訊進行流程測試...")
-        AUDIO_FILE = "demo_test_audio.wav"
-        sr = 16000
-        t = torch.linspace(0, 15, 15 * sr)
-        # 模擬語音正弦波 + 模擬節奏點
-        mock_wav = 0.5 * torch.sin(2 * np.pi * 440 * t) + 0.1 * torch.randn_like(t)
-        torchaudio.save(AUDIO_FILE, mock_wav.unsqueeze(0), sr)
-
-    # 1. 前處理音訊
-    preprocessor = AudioPreprocessor(whisper_model_name="openai/whisper-tiny")
-    whisper_feat, log_mel_spec, duration_sec = preprocessor.process(AUDIO_FILE)
-    print(f"成功處理音訊，時長: {duration_sec} 秒")
-
-    # 2. 初始化模型
-    model = DualStreamAudioEngagementModel(whisper_model_name="openai/whisper-tiny").to(device)
-
-    # 3. 計算逐秒分數與 Saliency Map
-    scores, saliency, log_mel_img = compute_audio_saliency_and_scores(
-        model, whisper_feat, log_mel_spec, duration_sec, device=device
-    )
-
-    print("\n【逐秒吸睛度分數 (前 10 秒)】")
-    for sec, sc in enumerate(scores[:10], 1):
-        print(f"  - 第 {sec:02d} 秒: {sc:.4f}")
-
-    # 4. 繪製並保存熱力圖
-    plot_audio_heatmaps(scores, saliency, log_mel_img, duration_sec, output_path="audio_saliency_heatmap.png")
+    run_gemini_audio_pipeline(AUDIO_PATH)
