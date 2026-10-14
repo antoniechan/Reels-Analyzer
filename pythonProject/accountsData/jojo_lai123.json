@@ -27,8 +27,8 @@
     "std_comments": 165.91506946832718
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 58.27,
+    "classification": "good",
+    "quality_score": 74.23,
     "percentiles": {
       "P_ERV": 79.81,
       "P_VFR": 3.85,

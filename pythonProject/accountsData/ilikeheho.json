@@ -28,7 +28,7 @@
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 11.42,
+    "quality_score": 12.45,
     "percentiles": {
       "P_ERV": 12.5,
       "P_VFR": 2.88,

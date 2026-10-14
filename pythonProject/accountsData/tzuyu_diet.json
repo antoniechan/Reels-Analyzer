@@ -28,7 +28,7 @@
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 45.72,
+    "quality_score": 36.06,
     "percentiles": {
       "P_ERV": 30.77,
       "P_VFR": 48.08,
