@@ -473,7 +473,7 @@ def run_gemini_audio_pipeline(
 
 
 if __name__ == "__main__":
-  AUDIO_PATH = r"C:\Users\Anthony\Desktop\video_002.mp3"
+  AUDIO_PATH = r"C:\Users\Anthony\Desktop\video_001.mp3"
 
   if not os.path.exists(AUDIO_PATH):
     AUDIO_PATH = "demo_test.wav"
