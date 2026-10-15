@@ -3,6 +3,16 @@ name = "reels-analyzer"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "av>=19.0.1",
+    "google-genai>=2.31.0",
+    "librosa>=1.0.0",
+    "numpy>=2.5.4",
+    "protobuf>=7.36.2",
+    "python-dotenv>=1.2.4",
     "requests>=2.34.2",
+    "soundfile>=0.14.0",
+    "torch>=2.14.1",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.29.1",
     "tqdm>=4.70.1",
 ]
