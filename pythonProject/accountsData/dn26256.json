@@ -1,38 +1,29 @@
 {
   "account_id": "dn26256",
   "followers": 9,
-  "total_videos_analyzed": 17,
+  "total_videos_analyzed": 16,
   "metrics": {
-    "VFR": 14.0,
-    "ERV": 0.0,
+    "VFR": 60.888888888888886,
+    "ERV": 0.00456204378729554,
     "CLR": 0.0,
-    "VFR_mean": 20.084967320261438,
-    "CV_views": 1.0161252853732798,
-    "CV_likes": 1.9167391290650087,
+    "VFR_mean": 91.41666666666667,
+    "CV_views": 0.7082815548503251,
+    "CV_likes": 1.1633822730747154,
     "CV_comments": 0.0
   },
   "median_stats": {
-    "median_views": 126.0,
-    "median_likes": 0.0,
+    "median_views": 548.0,
+    "median_likes": 2.5,
     "median_comments": 0.0
   },
   "mean_stats": {
-    "mean_views": 180.76470588235293,
-    "mean_likes": 0.8823529411764706,
+    "mean_views": 822.75,
+    "mean_likes": 4.9375,
     "mean_comments": 0.0
   },
   "std_stats": {
-    "std_views": 183.67958835012286,
-    "std_likes": 1.691240407998537,
+    "std_views": 582.738649253105,
+    "std_likes": 5.744199973306407,
     "std_comments": 0.0
-  },
-  "quality_evaluation": {
-    "classification": "bad",
-    "quality_score": 16.39,
-    "percentiles": {
-      "P_ERV": 5.29,
-      "P_VFR": 100.0,
-      "P_CLR": 21.63
-    }
   }
 }
