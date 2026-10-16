@@ -18,9 +18,9 @@ warnings.filterwarnings("ignore")
 
 # 預設路徑設定
 DEFAULT_REELS_AUDIO_DIR = r"D:\reels"
-DEFAULT_TRANSCRIPT_DATA_DIR = r"/pythonProject/reelsData"
-DEFAULT_VIDEO_CLASSIFICATION_JSON = "video_classification_summary.json"
-
+DEFAULT_TRANSCRIPT_DATA_DIR = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\reelsData"
+DEFAULT_VIDEO_CLASSIFICATION_JSON = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\dataProcessing\video_classification_summary.json"
+OUTPUT_JSON_DIR = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\audioProcessing"
 
 # ==============================================================================
 # 0. 萬能音訊載入器 (PyAV / librosa，自動處理假 MP3 與 MP4 容器)
@@ -830,7 +830,7 @@ def run_pipeline(
 
     suffix = f"_{target_tier.lower()}" if target_tier.lower() != "all" else "_all_tiers"
     summary_file_path = os.path.join(
-        reels_dir, f"local_transcript_audio_saliency_summary{suffix}.json"
+        OUTPUT_JSON_DIR, f"local_transcript_audio_saliency_summary{suffix}.json"
     )
     with open(summary_file_path, "w", encoding="utf-8") as f:
         json.dump(
