@@ -16,7 +16,7 @@ CANONICAL_OBJ_URL = (
     "https://raw.githubusercontent.com/google/mediapipe/master/"
     "mediapipe/modules/face_geometry/data/canonical_face_model.obj"
 )
-LOCAL_OBJ_FILE = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\canonical_face_model.obj"
+LOCAL_OBJ_FILE = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\videoProcessing\canonical_face_model.obj"
 
 # ==============================================================================
 # 特徵點分類資料與連線定義
