@@ -2,7 +2,7 @@
   {
     "account_id": "nutri_by_bella",
     "classification": "good",
-    "quality_score": 90.81730769230768,
+    "quality_score": 90.63725490196079,
     "VFR": 0.9510689655172414,
     "ERV": 0.03433523077356386,
     "CLR": 0.24605263125519392,
@@ -13,7 +13,7 @@
   {
     "account_id": "lalafit_llf",
     "classification": "good",
-    "quality_score": 86.92307692307692,
+    "quality_score": 86.91176470588236,
     "VFR": 0.69203125,
     "ERV": 0.030255136586021615,
     "CLR": 0.8108107888970058,
@@ -24,7 +24,7 @@
   {
     "account_id": "kn.way___",
     "classification": "good",
-    "quality_score": 84.47115384615384,
+    "quality_score": 84.75490196078431,
     "VFR": 1.54709375,
     "ERV": 0.03708970448608443,
     "CLR": 0.009566747304864004,
@@ -35,7 +35,7 @@
   {
     "account_id": "ningning_dietitian",
     "classification": "good",
-    "quality_score": 82.11538461538461,
+    "quality_score": 81.76470588235294,
     "VFR": 0.4727272727272727,
     "ERV": 0.035576923042714495,
     "CLR": 0.10447760882156393,
@@ -46,7 +46,7 @@
   {
     "account_id": "cc_eatfreely",
     "classification": "good",
-    "quality_score": 80.76923076923077,
+    "quality_score": 81.02941176470588,
     "VFR": 0.8799694189602446,
     "ERV": 0.023240660290347378,
     "CLR": 0.17582417389204205,
@@ -57,7 +57,7 @@
   {
     "account_id": "ocean_healthyfit",
     "classification": "good",
-    "quality_score": 79.51923076923076,
+    "quality_score": 79.90196078431372,
     "VFR": 1.0218421052631579,
     "ERV": 0.019830028323505014,
     "CLR": 0.3999999927272729,
@@ -66,9 +66,20 @@
     "CV_views": 1.442849830556651
   },
   {
+    "account_id": "dietitian_yuan",
+    "classification": "good",
+    "quality_score": 78.87254901960783,
+    "VFR": 0.7348780487804878,
+    "ERV": 0.02588781944046206,
+    "CLR": 0.03999999946666667,
+    "followers": 4100,
+    "total_videos": 13,
+    "CV_views": 0.5197710140779602
+  },
+  {
     "account_id": "annhealthy_diet",
     "classification": "good",
-    "quality_score": 79.18269230769229,
+    "quality_score": 78.77450980392157,
     "VFR": 0.41083333333333333,
     "ERV": 0.04259634879797901,
     "CLR": 0.04999999750000012,
@@ -79,7 +90,7 @@
   {
     "account_id": "code0723jack",
     "classification": "good",
-    "quality_score": 78.89423076923076,
+    "quality_score": 78.62745098039217,
     "VFR": 1.3650389693017337,
     "ERV": 0.028198555112071946,
     "CLR": 0.0041493775761436615,
@@ -88,20 +99,9 @@
     "CV_views": 1.1352257182966274
   },
   {
-    "account_id": "dietitian_yuan",
-    "classification": "good",
-    "quality_score": 78.55769230769229,
-    "VFR": 0.7348780487804878,
-    "ERV": 0.02588781944046206,
-    "CLR": 0.03999999946666667,
-    "followers": 4100,
-    "total_videos": 13,
-    "CV_views": 0.5197710140779602
-  },
-  {
     "account_id": "eric_chewfit",
     "classification": "good",
-    "quality_score": 78.07692307692308,
+    "quality_score": 77.99019607843137,
     "VFR": 0.7361904761904762,
     "ERV": 0.02393272960935787,
     "CLR": 0.057142855510204135,
@@ -112,7 +112,7 @@
   {
     "account_id": "weiofhealth",
     "classification": "good",
-    "quality_score": 76.73076923076923,
+    "quality_score": 76.27450980392157,
     "VFR": 0.39189655172413795,
     "ERV": 0.03101627803298888,
     "CLR": 0.08461538331360949,
@@ -123,7 +123,7 @@
   {
     "account_id": "pearyyoga",
     "classification": "good",
-    "quality_score": 75.81730769230768,
+    "quality_score": 76.12745098039215,
     "VFR": 2.28945,
     "ERV": 0.018650767651456457,
     "CLR": 0.03943524827680855,
@@ -132,20 +132,9 @@
     "CV_views": 0.7534403157269194
   },
   {
-    "account_id": "fc_nickiescheung",
-    "classification": "good",
-    "quality_score": 75.72115384615384,
-    "VFR": 1.0038461538461538,
-    "ERV": 0.019923371632242625,
-    "CLR": 0.08333332986111125,
-    "followers": 1300,
-    "total_videos": 17,
-    "CV_views": 1.8951408333846274
-  },
-  {
     "account_id": "kt.nutrition.pilates",
     "classification": "good",
-    "quality_score": 75.67307692307693,
+    "quality_score": 75.58823529411765,
     "VFR": 0.51567,
     "ERV": 0.022863459188794545,
     "CLR": 0.2881726302714162,
@@ -154,31 +143,9 @@
     "CV_views": 2.6815605973954852
   },
   {
-    "account_id": "inscie_hk",
-    "classification": "good",
-    "quality_score": 74.66346153846155,
-    "VFR": 0.815125,
-    "ERV": 0.02688749169075423,
-    "CLR": 0.005736137645368499,
-    "followers": 12000,
-    "total_videos": 10,
-    "CV_views": 2.8056248108194777
-  },
-  {
-    "account_id": "nutrition.sarah.c",
-    "classification": "good",
-    "quality_score": 74.08653846153847,
-    "VFR": 0.1771875,
-    "ERV": 0.07054673716363545,
-    "CLR": 0.5037593909209115,
-    "followers": 8000,
-    "total_videos": 10,
-    "CV_views": 0.7013929563920072
-  },
-  {
     "account_id": "shalomlammm",
     "classification": "good",
-    "quality_score": 74.08653846153845,
+    "quality_score": 74.55882352941177,
     "VFR": 0.757979797979798,
     "ERV": 0.017590618334542826,
     "CLR": 0.7599999898666668,
@@ -187,9 +154,31 @@
     "CV_views": 1.8174407248172926
   },
   {
+    "account_id": "tuwiene",
+    "classification": "good",
+    "quality_score": 74.11764705882354,
+    "VFR": 0.5636,
+    "ERV": 0.025638750882604904,
+    "CLR": 0.02120141327772853,
+    "followers": 10000,
+    "total_videos": 10,
+    "CV_views": 0.849150345740829
+  },
+  {
+    "account_id": "nutrition.sarah.c",
+    "classification": "good",
+    "quality_score": 73.921568627451,
+    "VFR": 0.1771875,
+    "ERV": 0.07054673716363545,
+    "CLR": 0.5037593909209115,
+    "followers": 8000,
+    "total_videos": 10,
+    "CV_views": 0.7013929563920072
+  },
+  {
     "account_id": "guiguisay",
     "classification": "good",
-    "quality_score": 73.36538461538461,
+    "quality_score": 73.48039215686275,
     "VFR": 2.2465,
     "ERV": 0.020476296452047054,
     "CLR": 0.01098901074749427,
@@ -198,20 +187,9 @@
     "CV_views": 0.3976987380378065
   },
   {
-    "account_id": "jerry_dietitian",
-    "classification": "good",
-    "quality_score": 72.98076923076924,
-    "VFR": 2.061195652173913,
-    "ERV": 0.0211991773431209,
-    "CLR": 0.004999999975,
-    "followers": 4600,
-    "total_videos": 16,
-    "CV_views": 0.655667847016999
-  },
-  {
     "account_id": "healthylady2020",
     "classification": "good",
-    "quality_score": 72.98076923076923,
+    "quality_score": 73.18627450980392,
     "VFR": 0.3853,
     "ERV": 0.02327190933270422,
     "CLR": 0.401041664577908,
@@ -220,9 +198,31 @@
     "CV_views": 1.4009771492790286
   },
   {
+    "account_id": "jerry_dietitian",
+    "classification": "good",
+    "quality_score": 72.94117647058823,
+    "VFR": 2.061195652173913,
+    "ERV": 0.0211991773431209,
+    "CLR": 0.004999999975,
+    "followers": 4600,
+    "total_videos": 16,
+    "CV_views": 0.655667847016999
+  },
+  {
+    "account_id": "fc_nickiescheung",
+    "classification": "good",
+    "quality_score": 72.40196078431373,
+    "VFR": 0.9815384615384616,
+    "ERV": 0.01841692788525319,
+    "CLR": 0.06818181508264476,
+    "followers": 1300,
+    "total_videos": 16,
+    "CV_views": 1.8537177856385163
+  },
+  {
     "account_id": "ethan_pharmac",
     "classification": "neutral",
-    "quality_score": 69.95192307692307,
+    "quality_score": 69.70588235294117,
     "VFR": 0.36753191489361703,
     "ERV": 0.02703485006211446,
     "CLR": 0.035476718324885324,
@@ -231,20 +231,9 @@
     "CV_views": 2.7597821766401482
   },
   {
-    "account_id": "tuwiene",
-    "classification": "neutral",
-    "quality_score": 69.23076923076923,
-    "VFR": 0.5332,
-    "ERV": 0.02344336083581332,
-    "CLR": 0.016260162469429573,
-    "followers": 10000,
-    "total_videos": 11,
-    "CV_views": 1.9708734703718709
-  },
-  {
     "account_id": "kenny_nutlife",
     "classification": "neutral",
-    "quality_score": 66.58653846153847,
+    "quality_score": 66.51960784313725,
     "VFR": 0.2684745762711864,
     "ERV": 0.1691919190851061,
     "CLR": 0.011320754674261304,
@@ -255,40 +244,29 @@
   {
     "account_id": "33dietitian",
     "classification": "neutral",
-    "quality_score": 66.34615384615384,
-    "VFR": 0.2980769230769231,
-    "ERV": 0.022795698914926582,
-    "CLR": 0.1777777738271606,
+    "quality_score": 66.12745098039215,
+    "VFR": 0.31326923076923074,
+    "ERV": 0.02209944750476798,
+    "CLR": 0.17391303969754263,
     "followers": 7800,
-    "total_videos": 15,
-    "CV_views": 2.27725934123437
+    "total_videos": 14,
+    "CV_views": 2.1945330712171334
   },
   {
-    "account_id": "rdhuanhuan",
+    "account_id": "inscie_hk",
     "classification": "neutral",
-    "quality_score": 66.0576923076923,
-    "VFR": 0.43043478260869567,
-    "ERV": 0.02121212119069483,
-    "CLR": 0.024390242712671085,
-    "followers": 2300,
+    "quality_score": 66.02941176470588,
+    "VFR": 0.698,
+    "ERV": 0.022265998087122013,
+    "CLR": 0.0026881720285582148,
+    "followers": 12000,
     "total_videos": 10,
-    "CV_views": 0.438163347359129
-  },
-  {
-    "account_id": "ruby597599",
-    "classification": "neutral",
-    "quality_score": 65.52884615384616,
-    "VFR": 0.3951923076923077,
-    "ERV": 0.018978102171310848,
-    "CLR": 0.11428570775510241,
-    "followers": 2600,
-    "total_videos": 10,
-    "CV_views": 1.5953693139613485
+    "CV_views": 0.6624882213426223
   },
   {
     "account_id": "health_dietitian",
     "classification": "neutral",
-    "quality_score": 65.33653846153845,
+    "quality_score": 65.68627450980392,
     "VFR": 0.6221686746987952,
     "ERV": 0.018590240120334965,
     "CLR": 0.02127659551833409,
@@ -297,20 +275,20 @@
     "CV_views": 0.4215914708860264
   },
   {
-    "account_id": "cccdietitian",
+    "account_id": "ruby597599",
     "classification": "neutral",
-    "quality_score": 64.51923076923077,
-    "VFR": 0.4626208307215202,
-    "ERV": 0.0231770369033213,
-    "CLR": 0.009316770157401335,
-    "followers": 30311,
+    "quality_score": 65.63725490196079,
+    "VFR": 0.3951923076923077,
+    "ERV": 0.018978102171310848,
+    "CLR": 0.11428570775510241,
+    "followers": 2600,
     "total_videos": 10,
-    "CV_views": 0.9170777865451181
+    "CV_views": 1.5953693139613485
   },
   {
     "account_id": "keancheonglim",
     "classification": "neutral",
-    "quality_score": 64.42307692307693,
+    "quality_score": 64.70588235294117,
     "VFR": 0.38494782608695655,
     "ERV": 0.025904131559037882,
     "CLR": 0.00680421422001571,
@@ -319,20 +297,9 @@
     "CV_views": 0.6527622530556638
   },
   {
-    "account_id": "rd.grace.f",
-    "classification": "neutral",
-    "quality_score": 64.18269230769232,
-    "VFR": 0.17974675324675324,
-    "ERV": 0.03244102452711672,
-    "CLR": 0.020454545408057852,
-    "followers": 77000,
-    "total_videos": 10,
-    "CV_views": 0.6954051452194484
-  },
-  {
     "account_id": "jinhan_1208",
     "classification": "neutral",
-    "quality_score": 64.13461538461539,
+    "quality_score": 64.16666666666666,
     "VFR": 1.4561111111111111,
     "ERV": 0.011827546733373695,
     "CLR": 0.10714285331632667,
@@ -341,9 +308,31 @@
     "CV_views": 1.6268975683528824
   },
   {
+    "account_id": "cccdietitian",
+    "classification": "neutral",
+    "quality_score": 64.11764705882354,
+    "VFR": 0.4626208307215202,
+    "ERV": 0.0231770369033213,
+    "CLR": 0.009316770157401335,
+    "followers": 30311,
+    "total_videos": 10,
+    "CV_views": 0.9170777865451181
+  },
+  {
+    "account_id": "rd.grace.f",
+    "classification": "neutral",
+    "quality_score": 63.8235294117647,
+    "VFR": 0.17974675324675324,
+    "ERV": 0.03244102452711672,
+    "CLR": 0.020454545408057852,
+    "followers": 77000,
+    "total_videos": 10,
+    "CV_views": 0.6954051452194484
+  },
+  {
     "account_id": "healthlife_yu",
     "classification": "neutral",
-    "quality_score": 63.50961538461539,
+    "quality_score": 63.18627450980393,
     "VFR": 0.5326666666666666,
     "ERV": 0.017521902356042677,
     "CLR": 0.03703703429355302,
@@ -354,7 +343,7 @@
   {
     "account_id": "dietitian_bgg",
     "classification": "neutral",
-    "quality_score": 62.64423076923077,
+    "quality_score": 63.03921568627451,
     "VFR": 0.3314575,
     "ERV": 0.019112555908086068,
     "CLR": 0.10994305728432495,
@@ -363,20 +352,9 @@
     "CV_views": 0.3998189900529271
   },
   {
-    "account_id": "femfitnesshk",
-    "classification": "neutral",
-    "quality_score": 62.30769230769231,
-    "VFR": 0.32372972972972974,
-    "ERV": 0.01703122390908071,
-    "CLR": 0.9615384522928995,
-    "followers": 37000,
-    "total_videos": 11,
-    "CV_views": 1.4317749930053454
-  },
-  {
     "account_id": "madonnatung",
     "classification": "neutral",
-    "quality_score": 61.29807692307692,
+    "quality_score": 61.22549019607843,
     "VFR": 0.09104545454545454,
     "ERV": 0.026959560632092303,
     "CLR": 0.2558139415900492,
@@ -387,7 +365,7 @@
   {
     "account_id": "mamamia_dietitian",
     "classification": "neutral",
-    "quality_score": 60.57692307692307,
+    "quality_score": 60.5392156862745,
     "VFR": 0.20725,
     "ERV": 0.020808202647524667,
     "CLR": 0.21052631209602962,
@@ -396,20 +374,9 @@
     "CV_views": 0.9144777606711713
   },
   {
-    "account_id": "healthy.foodie.gloria",
-    "classification": "neutral",
-    "quality_score": 60.38461538461539,
-    "VFR": 1.7847297297297298,
-    "ERV": 0.009797834481640056,
-    "CLR": 0.028208184324030047,
-    "followers": 74000,
-    "total_videos": 10,
-    "CV_views": 0.8899922199681122
-  },
-  {
     "account_id": "autumnhealth2025",
     "classification": "neutral",
-    "quality_score": 60.24038461538461,
+    "quality_score": 59.85294117647058,
     "VFR": 0.6942592592592592,
     "ERV": 0.012803414236968036,
     "CLR": 0.09090908677685969,
@@ -418,9 +385,20 @@
     "CV_views": 1.3165156741540052
   },
   {
+    "account_id": "healthy.foodie.gloria",
+    "classification": "neutral",
+    "quality_score": 59.2156862745098,
+    "VFR": 1.4318783783783784,
+    "ERV": 0.010121839579364455,
+    "CLR": 0.03124999996995192,
+    "followers": 74000,
+    "total_videos": 10,
+    "CV_views": 0.9788377442742374
+  },
+  {
     "account_id": "ruruby_eater",
     "classification": "neutral",
-    "quality_score": 58.96634615384615,
+    "quality_score": 58.995098039215684,
     "VFR": 0.2934285714285714,
     "ERV": 0.03505355400676382,
     "CLR": 0.0,
@@ -431,7 +409,7 @@
   {
     "account_id": "jojo_lai123",
     "classification": "neutral",
-    "quality_score": 58.26923076923077,
+    "quality_score": 58.13725490196079,
     "VFR": 0.05573125,
     "ERV": 0.02455982953632838,
     "CLR": 1.027777768261317,
@@ -442,7 +420,7 @@
   {
     "account_id": "cadee_fit",
     "classification": "neutral",
-    "quality_score": 58.17307692307693,
+    "quality_score": 57.74509803921569,
     "VFR": 0.3987226277372263,
     "ERV": 0.018130610801573452,
     "CLR": 0.01980197980590139,
@@ -453,7 +431,7 @@
   {
     "account_id": "pei_chinnn",
     "classification": "neutral",
-    "quality_score": 57.57211538461537,
+    "quality_score": 57.57352941176471,
     "VFR": 0.5414705882352941,
     "ERV": 0.01602390004996635,
     "CLR": 0.017241379013079674,
@@ -462,9 +440,20 @@
     "CV_views": 2.074062497986665
   },
   {
+    "account_id": "femfitnesshk",
+    "classification": "neutral",
+    "quality_score": 57.5,
+    "VFR": 0.32294594594594594,
+    "ERV": 0.01489664406938684,
+    "CLR": 0.7365853586674599,
+    "followers": 37000,
+    "total_videos": 10,
+    "CV_views": 1.290457096387765
+  },
+  {
     "account_id": "eat.well.nutrition",
     "classification": "neutral",
-    "quality_score": 57.355769230769226,
+    "quality_score": 57.254901960784316,
     "VFR": 0.7208981481481481,
     "ERV": 0.01346057515667286,
     "CLR": 0.020447906484035237,
@@ -473,20 +462,9 @@
     "CV_views": 1.0271513711257396
   },
   {
-    "account_id": "fit_withdavidmiao",
-    "classification": "neutral",
-    "quality_score": 57.25961538461539,
-    "VFR": 0.39181363636363636,
-    "ERV": 0.02099792340929714,
-    "CLR": 0.0011061946890418201,
-    "followers": 110000,
-    "total_videos": 10,
-    "CV_views": 0.4012690800545484
-  },
-  {
     "account_id": "taro_dietitian",
     "classification": "neutral",
-    "quality_score": 56.34615384615384,
+    "quality_score": 55.882352941176464,
     "VFR": 0.9072916666666667,
     "ERV": 0.011710677376941135,
     "CLR": 0.01999999920000003,
@@ -495,20 +473,9 @@
     "CV_views": 1.0790048444583906
   },
   {
-    "account_id": "rd_yunzheng",
-    "classification": "neutral",
-    "quality_score": 56.27403846153846,
-    "VFR": 1.3027272727272727,
-    "ERV": 0.016399162584508607,
-    "CLR": 0.0,
-    "followers": 1100,
-    "total_videos": 18,
-    "CV_views": 0.46099008318322593
-  },
-  {
     "account_id": "afoodie_dietitian",
     "classification": "neutral",
-    "quality_score": 55.31250000000001,
+    "quality_score": 55.61274509803921,
     "VFR": 0.2842857142857143,
     "ERV": 0.030150753693088558,
     "CLR": 0.0,
@@ -517,20 +484,9 @@
     "CV_views": 3.5257848434763392
   },
   {
-    "account_id": "nutritioniseasy",
-    "classification": "neutral",
-    "quality_score": 54.807692307692314,
-    "VFR": 0.4673103448275862,
-    "ERV": 0.01217532467442626,
-    "CLR": 0.07843137203639626,
-    "followers": 29000,
-    "total_videos": 10,
-    "CV_views": 0.39432312218596993
-  },
-  {
     "account_id": "bodymind.nutrition",
     "classification": "neutral",
-    "quality_score": 54.78365384615385,
+    "quality_score": 55.56372549019608,
     "VFR": 1.0645970523675132,
     "ERV": 0.016200294546038205,
     "CLR": 0.0,
@@ -539,9 +495,42 @@
     "CV_views": 0.9210156635966628
   },
   {
+    "account_id": "rd_yunzheng",
+    "classification": "neutral",
+    "quality_score": 55.46568627450981,
+    "VFR": 1.3763636363636365,
+    "ERV": 0.01585204754567236,
+    "CLR": 0.0,
+    "followers": 1100,
+    "total_videos": 15,
+    "CV_views": 0.47427761116041667
+  },
+  {
+    "account_id": "rdhuanhuan",
+    "classification": "neutral",
+    "quality_score": 55.26960784313725,
+    "VFR": 0.46630434782608693,
+    "ERV": 0.0214452214252259,
+    "CLR": 0.0,
+    "followers": 2300,
+    "total_videos": 10,
+    "CV_views": 0.40267354823135776
+  },
+  {
+    "account_id": "nutritioniseasy",
+    "classification": "neutral",
+    "quality_score": 54.55882352941177,
+    "VFR": 0.4673103448275862,
+    "ERV": 0.01217532467442626,
+    "CLR": 0.07843137203639626,
+    "followers": 29000,
+    "total_videos": 10,
+    "CV_views": 0.39432312218596993
+  },
+  {
     "account_id": "suanyuying",
     "classification": "neutral",
-    "quality_score": 53.94230769230769,
+    "quality_score": 54.31372549019608,
     "VFR": 0.39389473684210524,
     "ERV": 0.018439337251574067,
     "CLR": 0.003636363623140496,
@@ -550,9 +539,20 @@
     "CV_views": 2.069243369229123
   },
   {
+    "account_id": "evelyn_nutritionist",
+    "classification": "neutral",
+    "quality_score": 53.529411764705884,
+    "VFR": 0.24674698795180722,
+    "ERV": 0.01660156249189377,
+    "CLR": 0.17241378715814526,
+    "followers": 8300,
+    "total_videos": 13,
+    "CV_views": 0.42274914180496875
+  },
+  {
     "account_id": "minichen921",
     "classification": "neutral",
-    "quality_score": 53.46153846153847,
+    "quality_score": 52.990196078431374,
     "VFR": 0.09743055555555556,
     "ERV": 0.023521026338530256,
     "CLR": 0.03124999804687512,
@@ -561,20 +561,9 @@
     "CV_views": 1.634077313014439
   },
   {
-    "account_id": "evelyn_nutritionist",
-    "classification": "neutral",
-    "quality_score": 53.269230769230774,
-    "VFR": 0.24765060240963854,
-    "ERV": 0.016297737768767823,
-    "CLR": 0.15517240844233074,
-    "followers": 8300,
-    "total_videos": 14,
-    "CV_views": 0.4043090794663531
-  },
-  {
     "account_id": "ss.deititian",
     "classification": "neutral",
-    "quality_score": 53.05288461538462,
+    "quality_score": 52.9656862745098,
     "VFR": 0.1865217391304348,
     "ERV": 0.03030303023239387,
     "CLR": 0.0,
@@ -585,7 +574,7 @@
   {
     "account_id": "aranthnh",
     "classification": "neutral",
-    "quality_score": 52.45192307692307,
+    "quality_score": 52.5,
     "VFR": 1.6784926470588235,
     "ERV": 0.0038900449019481764,
     "CLR": 0.014857142823183674,
@@ -596,29 +585,18 @@
   {
     "account_id": "yuhsuan.rd",
     "classification": "neutral",
-    "quality_score": 50.93749999999999,
-    "VFR": 0.8057142857142857,
-    "ERV": 0.015292553184710749,
+    "quality_score": 51.98529411764706,
+    "VFR": 0.7689285714285714,
+    "ERV": 0.015791918246264785,
     "CLR": 0.0,
     "followers": 2800,
-    "total_videos": 14,
-    "CV_views": 2.244540819751935
-  },
-  {
-    "account_id": "chang_ricky_life",
-    "classification": "neutral",
-    "quality_score": 49.71153846153847,
-    "VFR": 0.09715052204176335,
-    "ERV": 0.018172997983567953,
-    "CLR": 0.1849148409493195,
-    "followers": 137920,
-    "total_videos": 10,
-    "CV_views": 0.8771351330592364
+    "total_videos": 13,
+    "CV_views": 0.3427486863565575
   },
   {
     "account_id": "cathayhcm",
     "classification": "neutral",
-    "quality_score": 49.63942307692309,
+    "quality_score": 49.877450980392155,
     "VFR": 0.7086784299603889,
     "ERV": 0.015752032512321122,
     "CLR": 0.0,
@@ -627,9 +605,20 @@
     "CV_views": 1.1372476657413586
   },
   {
+    "account_id": "chang_ricky_life",
+    "classification": "neutral",
+    "quality_score": 49.80392156862746,
+    "VFR": 0.09715052204176335,
+    "ERV": 0.018172997983567953,
+    "CLR": 0.1849148409493195,
+    "followers": 137920,
+    "total_videos": 10,
+    "CV_views": 0.8771351330592364
+  },
+  {
     "account_id": "annettetam_nutrition",
     "classification": "neutral",
-    "quality_score": 49.495192307692314,
+    "quality_score": 49.338235294117645,
     "VFR": 0.21472727272727274,
     "ERV": 0.02540220150262303,
     "CLR": 0.0,
@@ -640,7 +629,7 @@
   {
     "account_id": "donna_dietitian",
     "classification": "neutral",
-    "quality_score": 48.14903846153846,
+    "quality_score": 48.30882352941176,
     "VFR": 0.13724137931034483,
     "ERV": 0.02763819088533118,
     "CLR": 0.0,
@@ -651,7 +640,7 @@
   {
     "account_id": "yanliu.ty",
     "classification": "neutral",
-    "quality_score": 48.12500000000001,
+    "quality_score": 48.18627450980392,
     "VFR": 0.24701612903225806,
     "ERV": 0.017303297409530984,
     "CLR": 0.01923076849112429,
@@ -662,7 +651,7 @@
   {
     "account_id": "emma_dietitian",
     "classification": "neutral",
-    "quality_score": 47.42788461538462,
+    "quality_score": 47.57352941176471,
     "VFR": 0.13344827586206898,
     "ERV": 0.02713178291068245,
     "CLR": 0.0,
@@ -673,7 +662,7 @@
   {
     "account_id": "healthsmarthk",
     "classification": "neutral",
-    "quality_score": 46.61057692307693,
+    "quality_score": 46.44607843137255,
     "VFR": 4.74051724137931,
     "ERV": 0.005164575376965661,
     "CLR": 0.0,
@@ -682,9 +671,20 @@
     "CV_views": 0.6361245725936473
   },
   {
+    "account_id": "dn26256",
+    "classification": "neutral",
+    "quality_score": 46.39705882352941,
+    "VFR": 60.888888888888886,
+    "ERV": 0.00456204378729554,
+    "CLR": 0.0,
+    "followers": 9,
+    "total_videos": 16,
+    "CV_views": 0.7082815548503251
+  },
+  {
     "account_id": "tzuyu_diet",
     "classification": "neutral",
-    "quality_score": 45.72115384615385,
+    "quality_score": 45.63725490196078,
     "VFR": 0.3214166666666667,
     "ERV": 0.012056002071025149,
     "CLR": 0.02197802149498854,
@@ -695,7 +695,7 @@
   {
     "account_id": "goodfoodlab_h2s",
     "classification": "neutral",
-    "quality_score": 45.67307692307693,
+    "quality_score": 45.34313725490196,
     "VFR": 0.29,
     "ERV": 0.01406533575062335,
     "CLR": 0.01973684184556787,
@@ -706,7 +706,7 @@
   {
     "account_id": "joe0918_",
     "classification": "neutral",
-    "quality_score": 43.72596153846154,
+    "quality_score": 43.161764705882355,
     "VFR": 0.5407894736842105,
     "ERV": 0.012652068120363957,
     "CLR": 0.0,
@@ -715,20 +715,9 @@
     "CV_views": 0.24636487690345232
   },
   {
-    "account_id": "dn26256",
-    "classification": "neutral",
-    "quality_score": 42.52403846153846,
-    "VFR": 14.0,
-    "ERV": 0.0,
-    "CLR": 0.0,
-    "followers": 9,
-    "total_videos": 17,
-    "CV_views": 1.0161252853732798
-  },
-  {
     "account_id": "ruirui.dietitian",
     "classification": "neutral",
-    "quality_score": 41.89903846153846,
+    "quality_score": 41.299019607843135,
     "VFR": 0.4468627450980392,
     "ERV": 0.013602457212109497,
     "CLR": 0.0,
@@ -739,7 +728,7 @@
   {
     "account_id": "dietitian._.zoe_",
     "classification": "neutral",
-    "quality_score": 41.56249999999999,
+    "quality_score": 41.299019607843135,
     "VFR": 0.5168539325842697,
     "ERV": 0.01195652173653119,
     "CLR": 0.0,
@@ -748,31 +737,9 @@
     "CV_views": 1.6136020710532741
   },
   {
-    "account_id": "nutroduction",
-    "classification": "neutral",
-    "quality_score": 41.34615384615385,
-    "VFR": 0.335325,
-    "ERV": 0.008424662639465494,
-    "CLR": 0.01801801769336905,
-    "followers": 20000,
-    "total_videos": 10,
-    "CV_views": 1.255094997093444
-  },
-  {
-    "account_id": "minmin_rd",
-    "classification": "neutral",
-    "quality_score": 41.00961538461539,
-    "VFR": 0.1277391891891892,
-    "ERV": 0.014683635363130457,
-    "CLR": 0.041260315016863745,
-    "followers": 370000,
-    "total_videos": 10,
-    "CV_views": 1.5139996991924747
-  },
-  {
     "account_id": "wanpin_li_dietitian",
     "classification": "neutral",
-    "quality_score": 40.98557692307692,
+    "quality_score": 41.004901960784316,
     "VFR": 0.09063636363636364,
     "ERV": 0.0240722166258052,
     "CLR": 0.0,
@@ -781,9 +748,31 @@
     "CV_views": 1.2096846465003857
   },
   {
+    "account_id": "minmin_rd",
+    "classification": "neutral",
+    "quality_score": 40.93137254901961,
+    "VFR": 0.1277391891891892,
+    "ERV": 0.014683635363130457,
+    "CLR": 0.041260315016863745,
+    "followers": 370000,
+    "total_videos": 10,
+    "CV_views": 1.5139996991924747
+  },
+  {
+    "account_id": "nutroduction",
+    "classification": "neutral",
+    "quality_score": 40.931372549019606,
+    "VFR": 0.335325,
+    "ERV": 0.008424662639465494,
+    "CLR": 0.01801801769336905,
+    "followers": 20000,
+    "total_videos": 10,
+    "CV_views": 1.255094997093444
+  },
+  {
     "account_id": "specialdietitian",
     "classification": "neutral",
-    "quality_score": 40.12019230769231,
+    "quality_score": 40.56372549019608,
     "VFR": 0.1703658536585366,
     "ERV": 0.019327129549515296,
     "CLR": 0.0,
@@ -794,18 +783,18 @@
   {
     "account_id": "foodpower.tw",
     "classification": "neutral",
-    "quality_score": 39.20673076923077,
-    "VFR": 0.2793333333333333,
-    "ERV": 0.016706443874208964,
+    "quality_score": 39.975490196078425,
+    "VFR": 0.278,
+    "ERV": 0.01678657070314971,
     "CLR": 0.0,
     "followers": 1500,
-    "total_videos": 14,
-    "CV_views": 0.3990574937831492
+    "total_videos": 13,
+    "CV_views": 0.40467332427244224
   },
   {
     "account_id": "nuture_fit_taichung",
     "classification": "neutral",
-    "quality_score": 37.93269230769231,
+    "quality_score": 37.794117647058826,
     "VFR": 0.14600535714285715,
     "ERV": 0.00776634908191318,
     "CLR": 0.1441441436247058,
@@ -814,31 +803,9 @@
     "CV_views": 0.7490377295164806
   },
   {
-    "account_id": "dietitianlizachan",
-    "classification": "neutral",
-    "quality_score": 37.13942307692308,
-    "VFR": 0.9040677966101694,
-    "ERV": 0.0,
-    "CLR": 0.0,
-    "followers": 5900,
-    "total_videos": 16,
-    "CV_views": 0.2546570964904947
-  },
-  {
-    "account_id": "dietitian_claire",
-    "classification": "neutral",
-    "quality_score": 36.61057692307692,
-    "VFR": 0.06275,
-    "ERV": 0.023107569684290726,
-    "CLR": 0.0,
-    "followers": 10000,
-    "total_videos": 14,
-    "CV_views": 0.3181317055322018
-  },
-  {
     "account_id": "nutruelife",
     "classification": "neutral",
-    "quality_score": 36.58653846153847,
+    "quality_score": 37.303921568627445,
     "VFR": 0.1526888888888889,
     "ERV": 0.01524523359008283,
     "CLR": 0.003993610217262604,
@@ -847,20 +814,31 @@
     "CV_views": 1.0403631762745889
   },
   {
-    "account_id": "hip_concept",
+    "account_id": "dietitian_claire",
     "classification": "neutral",
-    "quality_score": 36.03365384615385,
-    "VFR": 0.2884375,
-    "ERV": 0.015167930628021818,
+    "quality_score": 36.93627450980392,
+    "VFR": 0.06275,
+    "ERV": 0.023107569684290726,
     "CLR": 0.0,
-    "followers": 1600,
-    "total_videos": 10,
-    "CV_views": 0.3387081906148471
+    "followers": 10000,
+    "total_videos": 14,
+    "CV_views": 0.3181317055322018
+  },
+  {
+    "account_id": "dietitianlizachan",
+    "classification": "neutral",
+    "quality_score": 36.78921568627451,
+    "VFR": 0.9040677966101694,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "followers": 5900,
+    "total_videos": 16,
+    "CV_views": 0.2546570964904947
   },
   {
     "account_id": "anminclinic",
     "classification": "neutral",
-    "quality_score": 35.98557692307692,
+    "quality_score": 36.740196078431374,
     "VFR": 0.23729166666666668,
     "ERV": 0.01624231780839129,
     "CLR": 0.0,
@@ -869,20 +847,20 @@
     "CV_views": 3.7587112746997544
   },
   {
-    "account_id": "simplylita26726",
+    "account_id": "hip_concept",
     "classification": "neutral",
-    "quality_score": 34.30288461538461,
-    "VFR": 0.36791666666666667,
-    "ERV": 0.011325028304020364,
+    "quality_score": 36.74019607843137,
+    "VFR": 0.2884375,
+    "ERV": 0.015167930628021818,
     "CLR": 0.0,
-    "followers": 3600,
+    "followers": 1600,
     "total_videos": 10,
-    "CV_views": 0.7651946680341053
+    "CV_views": 0.3387081906148471
   },
   {
     "account_id": "topshow_get_fit",
     "classification": "neutral",
-    "quality_score": 34.206730769230774,
+    "quality_score": 34.48529411764706,
     "VFR": 0.071875,
     "ERV": 0.019999999965217393,
     "CLR": 0.0,
@@ -891,9 +869,20 @@
     "CV_views": 2.6320494229284055
   },
   {
+    "account_id": "simplylita26726",
+    "classification": "neutral",
+    "quality_score": 34.240196078431374,
+    "VFR": 0.36791666666666667,
+    "ERV": 0.011325028304020364,
+    "CLR": 0.0,
+    "followers": 3600,
+    "total_videos": 10,
+    "CV_views": 0.7651946680341053
+  },
+  {
     "account_id": "fitlo_health",
     "classification": "neutral",
-    "quality_score": 33.87019230769231,
+    "quality_score": 34.142156862745104,
     "VFR": 0.2746153846153846,
     "ERV": 0.014005602227819231,
     "CLR": 0.0,
@@ -902,20 +891,9 @@
     "CV_views": 0.42144750490078825
   },
   {
-    "account_id": "nutritionlife_crystal",
-    "classification": "neutral",
-    "quality_score": 31.466346153846153,
-    "VFR": 0.4468787878787879,
-    "ERV": 0.001356208042221726,
-    "CLR": 0.0,
-    "followers": 33000,
-    "total_videos": 13,
-    "CV_views": 1.8426903761605753
-  },
-  {
     "account_id": "easy.thin_rich",
     "classification": "neutral",
-    "quality_score": 31.081730769230766,
+    "quality_score": 31.691176470588236,
     "VFR": 0.1075,
     "ERV": 0.016611295625876096,
     "CLR": 0.0,
@@ -924,9 +902,20 @@
     "CV_views": 0.18555774117796706
   },
   {
-    "account_id": "zimi_rd",
+    "account_id": "nutritionlife_crystal",
     "classification": "neutral",
-    "quality_score": 30.120192307692307,
+    "quality_score": 30.661764705882355,
+    "VFR": 0.4468787878787879,
+    "ERV": 0.001356208042221726,
+    "CLR": 0.0,
+    "followers": 33000,
+    "total_videos": 13,
+    "CV_views": 1.8426903761605753
+  },
+  {
+    "account_id": "zimi_rd",
+    "classification": "bad",
+    "quality_score": 29.632352941176467,
     "VFR": 0.4778125,
     "ERV": -0.0006540222363283046,
     "CLR": 0.0,
@@ -937,7 +926,7 @@
   {
     "account_id": "jessie_magicdiet",
     "classification": "bad",
-    "quality_score": 29.18269230769231,
+    "quality_score": 29.117647058823533,
     "VFR": 0.06271,
     "ERV": 0.006538032210725875,
     "CLR": 0.07894736634349037,
@@ -948,7 +937,7 @@
   {
     "account_id": "_bw.health_",
     "classification": "bad",
-    "quality_score": 28.461538461538463,
+    "quality_score": 28.627450980392155,
     "VFR": 0.13053225806451613,
     "ERV": 0.009473207297708043,
     "CLR": 0.004366812188936138,
@@ -959,7 +948,7 @@
   {
     "account_id": "healthcodehk",
     "classification": "bad",
-    "quality_score": 25.9375,
+    "quality_score": 25.563725490196077,
     "VFR": 0.09411666666666667,
     "ERV": 0.005224012749670266,
     "CLR": 0.017241379013079674,
@@ -970,7 +959,7 @@
   {
     "account_id": "dietitian.lab",
     "classification": "bad",
-    "quality_score": 24.302884615384617,
+    "quality_score": 24.044117647058826,
     "VFR": 0.29441666666666666,
     "ERV": 0.0002830455702567094,
     "CLR": 0.0,
@@ -981,7 +970,7 @@
   {
     "account_id": "am.lin.777",
     "classification": "bad",
-    "quality_score": 24.014423076923077,
+    "quality_score": 23.40686274509804,
     "VFR": 0.30636363636363634,
     "ERV": 0.0,
     "CLR": 0.0,
@@ -992,18 +981,18 @@
   {
     "account_id": "angela_dietitian",
     "classification": "bad",
-    "quality_score": 23.677884615384613,
-    "VFR": 0.28858620689655173,
-    "ERV": 0.0004381248257283576,
+    "quality_score": 22.034313725490197,
+    "VFR": 0.27438505747126435,
+    "ERV": 0.0005655279307724471,
     "CLR": 0.0,
     "followers": 87000,
-    "total_videos": 13,
-    "CV_views": 1.8385506785425825
+    "total_videos": 12,
+    "CV_views": 1.8429717244370014
   },
   {
     "account_id": "parkernash9",
     "classification": "bad",
-    "quality_score": 21.947115384615387,
+    "quality_score": 21.98529411764706,
     "VFR": 0.06390909090909092,
     "ERV": 0.013276434322770776,
     "CLR": 0.0,
@@ -1014,7 +1003,7 @@
   {
     "account_id": "fitfitfood__",
     "classification": "bad",
-    "quality_score": 20.552884615384617,
+    "quality_score": 20.220588235294116,
     "VFR": 0.1596625,
     "ERV": 0.003784023591232338,
     "CLR": 0.0,
@@ -1025,7 +1014,7 @@
   {
     "account_id": "kingnet.tw",
     "classification": "bad",
-    "quality_score": 18.341346153846153,
+    "quality_score": 18.308823529411768,
     "VFR": 0.083,
     "ERV": 0.00903614455109595,
     "CLR": 0.0,
@@ -1036,7 +1025,7 @@
   {
     "account_id": "cynthia_dietitian",
     "classification": "bad",
-    "quality_score": 18.052884615384617,
+    "quality_score": 18.01470588235294,
     "VFR": 0.14816480748470673,
     "ERV": 0.0018214936236663668,
     "CLR": 0.0,
@@ -1047,7 +1036,7 @@
   {
     "account_id": "rita_wang_health",
     "classification": "bad",
-    "quality_score": 17.620192307692307,
+    "quality_score": 17.573529411764707,
     "VFR": 0.04935365853658537,
     "ERV": 0.011860637503404676,
     "CLR": 0.0,
@@ -1058,7 +1047,7 @@
   {
     "account_id": "vivinutritionn",
     "classification": "bad",
-    "quality_score": 16.610576923076923,
+    "quality_score": 16.544117647058826,
     "VFR": 0.15347368421052632,
     "ERV": 0.0,
     "CLR": 0.0,
@@ -1069,7 +1058,7 @@
   {
     "account_id": "myhealth.hk",
     "classification": "bad",
-    "quality_score": 16.08173076923077,
+    "quality_score": 16.004901960784316,
     "VFR": 0.07333333333333333,
     "ERV": 0.006363636357851239,
     "CLR": 0.0,
@@ -1080,29 +1069,18 @@
   {
     "account_id": "winny.rd",
     "classification": "bad",
-    "quality_score": 15.745192307692308,
-    "VFR": 0.09906666666666666,
-    "ERV": 0.0025235531620041883,
+    "quality_score": 15.661764705882351,
+    "VFR": 0.10086666666666666,
+    "ERV": 0.00264375412999215,
     "CLR": 0.0,
     "followers": 30000,
-    "total_videos": 14,
-    "CV_views": 0.6219621947173746
-  },
-  {
-    "account_id": "cathyeat_fitness",
-    "classification": "bad",
-    "quality_score": 15.60096153846154,
-    "VFR": 0.15522552255225522,
-    "ERV": -0.0014174344416478604,
-    "CLR": 0.0,
-    "followers": 4545,
-    "total_videos": 22,
-    "CV_views": 0.2784437142726286
+    "total_videos": 13,
+    "CV_views": 0.6148964970549116
   },
   {
     "account_id": "inutrition333",
     "classification": "bad",
-    "quality_score": 15.168269230769234,
+    "quality_score": 15.073529411764707,
     "VFR": 0.06173469387755102,
     "ERV": 0.006611570226077454,
     "CLR": 0.0,
@@ -1113,7 +1091,7 @@
   {
     "account_id": "anan_lin1211",
     "classification": "bad",
-    "quality_score": 12.1875,
+    "quality_score": 12.426470588235293,
     "VFR": 0.11293103448275862,
     "ERV": -0.001526717554921042,
     "CLR": 0.0,
@@ -1122,25 +1100,25 @@
     "CV_views": 0.11954791056404092
   },
   {
-    "account_id": "chobi.h.h",
-    "classification": "bad",
-    "quality_score": 11.899038461538463,
-    "VFR": 0.028595939376608523,
-    "ERV": 0.00499999995,
-    "CLR": 0.0,
-    "followers": 3497,
-    "total_videos": 12,
-    "CV_views": 0.5177141514180684
-  },
-  {
     "account_id": "ilikeheho",
     "classification": "bad",
-    "quality_score": 11.418269230769232,
+    "quality_score": 11.25,
     "VFR": 0.052120454545454546,
     "ERV": 0.002877948807144469,
     "CLR": 0.0,
     "followers": 220000,
     "total_videos": 10,
     "CV_views": 0.3563247053973332
+  },
+  {
+    "account_id": "chobi.h.h",
+    "classification": "bad",
+    "quality_score": 7.622549019607844,
+    "VFR": 0.024878467257649414,
+    "ERV": 0.0,
+    "CLR": 0.0,
+    "followers": 3497,
+    "total_videos": 11,
+    "CV_views": 0.49486207359566886
   }
 ]

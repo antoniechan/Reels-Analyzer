@@ -18,9 +18,9 @@ warnings.filterwarnings("ignore")
 
 # 預設路徑設定
 DEFAULT_REELS_AUDIO_DIR = r"D:\reels"
-DEFAULT_TRANSCRIPT_DATA_DIR = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\reelsData"
-DEFAULT_VIDEO_CLASSIFICATION_JSON = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_JSON_DIR = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\audioProcessing"
+DEFAULT_TRANSCRIPT_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
+DEFAULT_VIDEO_CLASSIFICATION_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
+OUTPUT_JSON_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\audioProcessing"
 
 # ==============================================================================
 # 0. 萬能音訊載入器 (PyAV / librosa，自動處理假 MP3 與 MP4 容器)

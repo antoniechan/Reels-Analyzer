@@ -3,7 +3,7 @@ import json
 import os
 
 DEFAULT_ROOT_DIR = r"D:\reels"
-DEFAULT_OUTPUT_JSON = r"accounts_followers.json"
+DEFAULT_OUTPUT_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
 
 
 def generate_followers_template(

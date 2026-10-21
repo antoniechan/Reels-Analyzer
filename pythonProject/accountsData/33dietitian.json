@@ -1,29 +1,38 @@
 {
   "account_id": "33dietitian",
   "followers": 7800,
-  "total_videos_analyzed": 15,
+  "total_videos_analyzed": 14,
   "metrics": {
-    "VFR": 0.2980769230769231,
-    "ERV": 0.022795698914926582,
-    "CLR": 0.1777777738271606,
-    "VFR_mean": 3.2453589743589744,
-    "CV_views": 2.27725934123437,
-    "CV_likes": 2.42201030002766,
-    "CV_comments": 3.094715092611243
+    "VFR": 0.31326923076923074,
+    "ERV": 0.02209944750476798,
+    "CLR": 0.17391303969754263,
+    "VFR_mean": 3.4704304029304027,
+    "CV_views": 2.1945330712171334,
+    "CV_likes": 2.3368731423371254,
+    "CV_comments": 2.99325656975787
   },
   "median_stats": {
-    "median_views": 2325.0,
-    "median_likes": 45.0,
+    "median_views": 2443.5,
+    "median_likes": 46.0,
     "median_comments": 8.0
   },
   "mean_stats": {
-    "mean_views": 25313.8,
-    "mean_likes": 468.8666666666667,
-    "mean_comments": 114.13333333333334
+    "mean_views": 27069.35714285714,
+    "mean_likes": 501.2142857142857,
+    "mean_comments": 122.0
   },
   "std_stats": {
-    "std_views": 57646.0875121386,
-    "std_likes": 1135.599896006302,
-    "std_comments": 353.21014923669657
+    "std_views": 59404.59946658773,
+    "std_likes": 1171.2742028414007,
+    "std_comments": 365.17730151046015
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 66.13,
+    "percentiles": {
+      "P_ERV": 69.61,
+      "P_VFR": 47.06,
+      "P_CLR": 87.25
+    }
   }
 }

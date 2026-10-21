@@ -1,29 +1,38 @@
 {
   "account_id": "angela_dietitian",
   "followers": 87000,
-  "total_videos_analyzed": 13,
+  "total_videos_analyzed": 12,
   "metrics": {
-    "VFR": 0.28858620689655173,
-    "ERV": 0.0004381248257283576,
+    "VFR": 0.27438505747126435,
+    "ERV": 0.0005655279307724471,
     "CLR": 0.0,
-    "VFR_mean": 0.749763041556145,
-    "CV_views": 1.8385506785425825,
-    "CV_likes": 3.673285620234266,
-    "CV_comments": 1.226847809856163
+    "VFR_mean": 0.7789444444444446,
+    "CV_views": 1.8429717244370014,
+    "CV_likes": 3.524086058689923,
+    "CV_comments": 1.1999135197462123
   },
   "median_stats": {
-    "median_views": 25107.0,
+    "median_views": 23871.5,
     "median_likes": -1.0,
-    "median_comments": 12.0
+    "median_comments": 14.5
   },
   "mean_stats": {
-    "mean_views": 65229.38461538462,
-    "mean_likes": 53.23076923076923,
-    "mean_comments": 22.923076923076923
+    "mean_views": 67768.16666666667,
+    "mean_likes": 57.75,
+    "mean_comments": 24.166666666666668
   },
   "std_stats": {
-    "std_views": 119927.52934553048,
-    "std_likes": 195.53181916939326,
-    "std_comments": 28.123126718241277
+    "std_views": 124894.8149836008,
+    "std_likes": 203.51596988934307,
+    "std_comments": 28.997910060533464
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 22.03,
+    "percentiles": {
+      "P_ERV": 7.84,
+      "P_VFR": 38.24,
+      "P_CLR": 22.06
+    }
   }
 }

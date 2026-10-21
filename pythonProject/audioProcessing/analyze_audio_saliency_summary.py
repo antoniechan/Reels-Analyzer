@@ -1,3 +1,4 @@
+import argparse
 import os
 import json
 import glob
@@ -11,8 +12,8 @@ import seaborn as sns
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-TARGET_DIR = r".\audioProcessing"
-DEFAULT_JSON_NAME = "local_transcript_audio_saliency_summary_all_tiers_2.json"
+TARGET_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\audioProcessing"
+DEFAULT_JSON_NAME = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProjectlocal_transcript_audio_saliency_summary_all_tiers.json"
 
 METRICS = [
     ("mean_engagement_score", "全片平均吸睛度 (Mean Engagement)"),

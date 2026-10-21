@@ -1,29 +1,38 @@
 {
   "account_id": "foodpower.tw",
   "followers": 1500,
-  "total_videos_analyzed": 14,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.2793333333333333,
-    "ERV": 0.016706443874208964,
+    "VFR": 0.278,
+    "ERV": 0.01678657070314971,
     "CLR": 0.0,
-    "VFR_mean": 0.35695238095238097,
-    "CV_views": 0.3990574937831492,
-    "CV_likes": 0.5951214470596438,
-    "CV_comments": 2.5419556372089707
+    "VFR_mean": 0.34379487179487184,
+    "CV_views": 0.40467332427244224,
+    "CV_likes": 0.5820837166319327,
+    "CV_comments": 2.4409697526461347
   },
   "median_stats": {
-    "median_views": 419.0,
+    "median_views": 417.0,
     "median_likes": 7.0,
     "median_comments": 0.0
   },
   "mean_stats": {
-    "mean_views": 535.4285714285714,
-    "mean_likes": 7.357142857142857,
-    "mean_comments": 0.14285714285714285
+    "mean_views": 515.6923076923077,
+    "mean_likes": 6.769230769230769,
+    "mean_comments": 0.15384615384615385
   },
   "std_stats": {
-    "std_views": 213.66678381417762,
-    "std_likes": 4.378393503367379,
-    "std_comments": 0.3631365196012815
+    "std_views": 208.6869204555733,
+    "std_likes": 3.9402590048930826,
+    "std_comments": 0.37553380809940534
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 39.98,
+    "percentiles": {
+      "P_ERV": 50.98,
+      "P_VFR": 40.2,
+      "P_CLR": 22.06
+    }
   }
 }

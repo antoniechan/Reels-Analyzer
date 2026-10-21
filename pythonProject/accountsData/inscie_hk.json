@@ -3,27 +3,36 @@
   "followers": 12000,
   "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.815125,
-    "ERV": 0.02688749169075423,
-    "CLR": 0.005736137645368499,
-    "VFR_mean": 6.883658333333333,
-    "CV_views": 2.8056248108194777,
-    "CV_likes": 2.8417529421491525,
-    "CV_comments": 2.5756233588938184
+    "VFR": 0.698,
+    "ERV": 0.022265998087122013,
+    "CLR": 0.0026881720285582148,
+    "VFR_mean": 0.7324416666666667,
+    "CV_views": 0.6624882213426223,
+    "CV_likes": 0.7556945164223494,
+    "CV_comments": 1.3808408801709071
   },
   "median_stats": {
-    "median_views": 9781.5,
-    "median_likes": 261.5,
-    "median_comments": 1.5
+    "median_views": 8376.0,
+    "median_likes": 186.0,
+    "median_comments": 0.5
   },
   "mean_stats": {
-    "mean_views": 82603.9,
-    "mean_likes": 2317.2,
-    "mean_comments": 10.6
+    "mean_views": 8789.3,
+    "mean_likes": 217.8,
+    "mean_comments": 1.8
   },
   "std_stats": {
-    "std_views": 231755.55131045103,
-    "std_likes": 6584.909917548016,
-    "std_comments": 27.301607604274476
+    "std_views": 5822.807723846709,
+    "std_likes": 164.5902656767877,
+    "std_comments": 2.485513584307633
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 66.03,
+    "percentiles": {
+      "P_ERV": 70.59,
+      "P_VFR": 76.47,
+      "P_CLR": 44.12
+    }
   }
 }

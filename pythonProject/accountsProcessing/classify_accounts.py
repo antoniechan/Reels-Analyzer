@@ -6,8 +6,8 @@ import pandas as pd
 ACCOUNTS_DATA_DIR = (
     r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsData"
 )
-OUTPUT_SUMMARY_JSON = "accountsProcessing\\account_classification_summary.json"
-OUTPUT_SUMMARY_CSV = "accountsProcessing\\account_classification_summary.csv"
+OUTPUT_SUMMARY_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.json"
+OUTPUT_SUMMARY_CSV = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.csv"
 
 
 def classify_accounts_data():

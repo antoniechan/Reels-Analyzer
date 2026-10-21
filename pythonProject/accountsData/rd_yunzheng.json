@@ -1,29 +1,38 @@
 {
   "account_id": "rd_yunzheng",
   "followers": 1100,
-  "total_videos_analyzed": 18,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 1.3027272727272727,
-    "ERV": 0.016399162584508607,
+    "VFR": 1.3763636363636365,
+    "ERV": 0.01585204754567236,
     "CLR": 0.0,
-    "VFR_mean": 1.5647474747474748,
-    "CV_views": 0.46099008318322593,
-    "CV_likes": 0.40742614825468054,
-    "CV_comments": 1.433894503200731
+    "VFR_mean": 1.6307878787878787,
+    "CV_views": 0.47427761116041667,
+    "CV_likes": 0.4158876504867663,
+    "CV_comments": 1.2470781045993518
   },
   "median_stats": {
-    "median_views": 1433.0,
-    "median_likes": 23.5,
+    "median_views": 1514.0,
+    "median_likes": 24.0,
     "median_comments": 0.0
   },
   "mean_stats": {
-    "mean_views": 1721.2222222222222,
-    "mean_likes": 28.38888888888889,
-    "mean_comments": 1.0555555555555556
+    "mean_views": 1793.8666666666666,
+    "mean_likes": 29.6,
+    "mean_comments": 1.2666666666666666
   },
   "std_stats": {
-    "std_views": 793.4663753990392,
-    "std_likes": 11.566375653230098,
-    "std_comments": 1.5135553089341052
+    "std_views": 850.790797406966,
+    "std_likes": 12.310274454408283,
+    "std_comments": 1.5796322658258455
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 55.47,
+    "percentiles": {
+      "P_ERV": 45.1,
+      "P_VFR": 91.18,
+      "P_CLR": 22.06
+    }
   }
 }

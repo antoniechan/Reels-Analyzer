@@ -1,29 +1,38 @@
 {
   "account_id": "tuwiene",
   "followers": 10000,
-  "total_videos_analyzed": 11,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.5332,
-    "ERV": 0.02344336083581332,
-    "CLR": 0.016260162469429573,
-    "VFR_mean": 1.3022363636363636,
-    "CV_views": 1.9708734703718709,
-    "CV_likes": 1.9201914144164964,
-    "CV_comments": 1.439608712857613
+    "VFR": 0.5636,
+    "ERV": 0.025638750882604904,
+    "CLR": 0.02120141327772853,
+    "VFR_mean": 0.6854100000000001,
+    "CV_views": 0.849150345740829,
+    "CV_likes": 0.941964176054608,
+    "CV_comments": 1.014541075263174
   },
   "median_stats": {
-    "median_views": 5332.0,
-    "median_likes": 123.0,
-    "median_comments": 2.0
+    "median_views": 5636.0,
+    "median_likes": 141.5,
+    "median_comments": 3.0
   },
   "mean_stats": {
-    "mean_views": 13022.363636363636,
-    "mean_likes": 319.3636363636364,
-    "mean_comments": 5.2727272727272725
+    "mean_views": 6854.1,
+    "mean_likes": 191.2,
+    "mean_comments": 3.9
   },
   "std_stats": {
-    "std_views": 25665.431012444456,
-    "std_likes": 613.2393126222865,
-    "std_comments": 7.59066412234014
+    "std_views": 5820.161384742217,
+    "std_likes": 180.10355046164105,
+    "std_comments": 3.9567101935263786
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 74.12,
+    "percentiles": {
+      "P_ERV": 81.37,
+      "P_VFR": 72.55,
+      "P_CLR": 64.71
+    }
   }
 }

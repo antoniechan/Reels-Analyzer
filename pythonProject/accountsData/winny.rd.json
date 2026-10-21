@@ -1,29 +1,38 @@
 {
   "account_id": "winny.rd",
   "followers": 30000,
-  "total_videos_analyzed": 14,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.09906666666666666,
-    "ERV": 0.0025235531620041883,
+    "VFR": 0.10086666666666666,
+    "ERV": 0.00264375412999215,
     "CLR": 0.0,
-    "VFR_mean": 0.1348,
-    "CV_views": 0.6219621947173746,
-    "CV_likes": 1.2671403205845502,
-    "CV_comments": 1.3083872363819704
+    "VFR_mean": 0.13917948717948717,
+    "CV_views": 0.6148964970549116,
+    "CV_likes": 1.188276989518355,
+    "CV_comments": 1.2886837929109969
   },
   "median_stats": {
-    "median_views": 2972.0,
+    "median_views": 3026.0,
     "median_likes": -1.0,
-    "median_comments": 8.5
+    "median_comments": 9.0
   },
   "mean_stats": {
-    "mean_views": 4044.0,
-    "mean_likes": 34.357142857142854,
-    "mean_comments": 20.642857142857142
+    "mean_views": 4175.384615384615,
+    "mean_likes": 37.07692307692308,
+    "mean_comments": 21.615384615384617
   },
   "std_stats": {
-    "std_views": 2515.2151154370627,
-    "std_likes": 43.53532101436918,
-    "std_comments": 27.008850808170674
+    "std_views": 2567.429373856969,
+    "std_likes": 44.057654534449775,
+    "std_comments": 27.85539583138386
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 15.66,
+    "percentiles": {
+      "P_ERV": 10.78,
+      "P_VFR": 16.67,
+      "P_CLR": 22.06
+    }
   }
 }

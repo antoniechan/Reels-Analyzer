@@ -1,29 +1,38 @@
 {
   "account_id": "evelyn_nutritionist",
   "followers": 8300,
-  "total_videos_analyzed": 14,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.24765060240963854,
-    "ERV": 0.016297737768767823,
-    "CLR": 0.15517240844233074,
-    "VFR_mean": 0.27290877796901897,
-    "CV_views": 0.4043090794663531,
-    "CV_likes": 0.5300073628897325,
-    "CV_comments": 1.0020302277865227
+    "VFR": 0.24674698795180722,
+    "ERV": 0.01660156249189377,
+    "CLR": 0.17241378715814526,
+    "VFR_mean": 0.2682483781278962,
+    "CV_views": 0.42274914180496875,
+    "CV_likes": 0.5560975865195478,
+    "CV_comments": 0.9276391557562569
   },
   "median_stats": {
-    "median_views": 2055.5,
+    "median_views": 2048.0,
     "median_likes": 29.0,
-    "median_comments": 4.5
+    "median_comments": 5.0
   },
   "mean_stats": {
-    "mean_views": 2265.1428571428573,
-    "mean_likes": 31.5,
-    "mean_comments": 6.428571428571429
+    "mean_views": 2226.4615384615386,
+    "mean_likes": 31.153846153846153,
+    "mean_comments": 6.923076923076923
   },
   "std_stats": {
-    "std_views": 915.8178234312136,
-    "std_likes": 16.695231931026573,
-    "std_comments": 6.441622892913361
+    "std_views": 941.2347046463858,
+    "std_likes": 17.324578656955143,
+    "std_comments": 6.422117232158702
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 53.53,
+    "percentiles": {
+      "P_ERV": 49.02,
+      "P_VFR": 35.29,
+      "P_CLR": 86.27
+    }
   }
 }

@@ -1,29 +1,38 @@
 {
   "account_id": "chobi.h.h",
   "followers": 3497,
-  "total_videos_analyzed": 12,
+  "total_videos_analyzed": 11,
   "metrics": {
-    "VFR": 0.028595939376608523,
-    "ERV": 0.00499999995,
+    "VFR": 0.024878467257649414,
+    "ERV": 0.0,
     "CLR": 0.0,
-    "VFR_mean": 0.03100276427413974,
-    "CV_views": 0.5177141514180684,
-    "CV_likes": 1.1547005383792515,
+    "VFR_mean": 0.028465957833987574,
+    "CV_views": 0.49486207359566886,
+    "CV_likes": 1.2713483120735423,
     "CV_comments": 0.0
   },
   "median_stats": {
-    "median_views": 100.0,
-    "median_likes": 0.5,
+    "median_views": 87.0,
+    "median_likes": 0.0,
     "median_comments": 0.0
   },
   "mean_stats": {
-    "mean_views": 108.41666666666667,
-    "mean_likes": 0.75,
+    "mean_views": 99.54545454545455,
+    "mean_likes": 0.6363636363636364,
     "mean_comments": 0.0
   },
   "std_stats": {
-    "std_views": 56.12884258290892,
-    "std_likes": 0.8660254037844386,
+    "std_views": 49.26127005338704,
+    "std_likes": 0.8090398349558905,
     "std_comments": 0.0
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 7.62,
+    "percentiles": {
+      "P_ERV": 4.41,
+      "P_VFR": 0.98,
+      "P_CLR": 22.06
+    }
   }
 }

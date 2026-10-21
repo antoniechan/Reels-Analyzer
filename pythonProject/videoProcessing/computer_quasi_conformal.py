@@ -10,7 +10,7 @@ DEFAULT_DIR = r"D:\reels"
 # 官方標準 Canonical Face Mesh 三角剖分索引 (468 點皮膚網格)
 # 透過此快取載入，徹底避免引用 mediapipe.python 或 mediapipe.solutions 舊語法
 # -------------------------------------------------------------------------
-CANONICAL_TRIANGLES_FILE = "canonical_face_triangles.npy"
+CANONICAL_TRIANGLES_FILE = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\canonical_face_triangles.npy"
 _CANONICAL_TRIANGLES_CACHE = None
 
 

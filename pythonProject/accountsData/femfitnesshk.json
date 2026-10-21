@@ -1,29 +1,38 @@
 {
   "account_id": "femfitnesshk",
   "followers": 37000,
-  "total_videos_analyzed": 11,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.32372972972972974,
-    "ERV": 0.01703122390908071,
-    "CLR": 0.9615384522928995,
-    "VFR_mean": 1.4854742014742015,
-    "CV_views": 1.4317749930053454,
-    "CV_likes": 1.2413213357094963,
-    "CV_comments": 1.890627861978096
+    "VFR": 0.32294594594594594,
+    "ERV": 0.01489664406938684,
+    "CLR": 0.7365853586674599,
+    "VFR_mean": 0.9481162162162163,
+    "CV_views": 1.290457096387765,
+    "CV_likes": 1.3069046545138254,
+    "CV_comments": 1.225126992279204
   },
   "median_stats": {
-    "median_views": 11978.0,
-    "median_likes": 104.0,
-    "median_comments": 100.0
+    "median_views": 11949.0,
+    "median_likes": 102.5,
+    "median_comments": 75.5
   },
   "mean_stats": {
-    "mean_views": 54962.545454545456,
-    "mean_likes": 396.6363636363636,
-    "mean_comments": 560.7272727272727
+    "mean_views": 35080.3,
+    "mean_likes": 298.9,
+    "mean_comments": 253.7
   },
   "std_stats": {
-    "std_views": 78693.9981337378,
-    "std_likes": 492.3531807000484,
-    "std_comments": 1060.1266047891725
+    "std_views": 45269.62207841172,
+    "std_likes": 390.6338012341824,
+    "std_comments": 310.81471794123405
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 57.5,
+    "percentiles": {
+      "P_ERV": 40.2,
+      "P_VFR": 49.02,
+      "P_CLR": 97.06
+    }
   }
 }

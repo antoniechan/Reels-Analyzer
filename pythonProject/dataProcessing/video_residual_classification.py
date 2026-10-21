@@ -5,11 +5,11 @@ import argparse
 import numpy as np
 
 # 預設路徑設定
-ACCOUNTS_DATA_DIR = r"C:\Users\Anthony\Documents\GitHub\Reels-Analyzer\pythonProject\reelsData"
+ACCOUNTS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
 REELS_DIR = r"D:\reels"
-ACCOUNT_SUMMARY_JSON = r"C:\Users\Anthony\Documents\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.json"
-FOLLOWERS_JSON = r"C:\Users\Anthony\Documents\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
-OUTPUT_VIDEO_JSON = r"C:\Users\Anthony\Documents\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
+ACCOUNT_SUMMARY_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.json"
+FOLLOWERS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
+OUTPUT_VIDEO_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
 
 
 # ==============================================================================

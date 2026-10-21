@@ -11,10 +11,10 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
 # 預設模型下載連結與路徑設定
-MODEL_FILE_NAME = "face_landmarker.task"
+MODEL_FILE_NAME = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\face_landmarker.task"
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
 TARGET_DIR = r"D:\reels"
-DEFAULT_VIDEO_CLASS_JSON = "video_classification_summary.json"
+DEFAULT_VIDEO_CLASS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
 
 
 def ensure_model_exists(model_path):
@@ -223,7 +223,9 @@ def batch_process_reels(
         print("未找到符合分組條件的影片檔案，程式結束。")
         return
 
-    base_options = python.BaseOptions(model_asset_path=model_path)
+    with open(model_path, "rb") as f:
+        model_buffer = f.read()
+    base_options = python.BaseOptions(model_asset_buffer=model_buffer)
     options = vision.FaceLandmarkerOptions(
         base_options=base_options,
         running_mode=vision.RunningMode.IMAGE,

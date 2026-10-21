@@ -2,7 +2,7 @@ import glob
 import json
 import os
 
-TARGET_DIR = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\reelsData"
+TARGET_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
 
 
 def check_transcript_field(target_dir):

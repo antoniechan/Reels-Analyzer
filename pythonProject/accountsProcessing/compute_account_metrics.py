@@ -4,8 +4,8 @@ import numpy as np
 
 # 路徑設定
 FOLLOWERS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
-REELS_DATA_DIR = r"/pythonProject/reelsData"
-ACCOUNTS_DATA_DIR = r"/pythonProject/accountsData"
+REELS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
+ACCOUNTS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsData"
 
 
 def safe_extract_metric(post, keys):

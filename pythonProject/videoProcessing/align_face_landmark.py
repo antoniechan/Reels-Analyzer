@@ -57,10 +57,24 @@ def kabsch_algorithm(source_pts, target_pts):
     return R, t
 
 
-def align_single_json(json_path, output_path=None, custom_m0=None):
+def align_single_json(json_path, output_path=None, custom_m0=None, overwrite=False):
     """
     讀取一個 _face.json，對每幀執行剛體對齊並儲存新 JSON
     """
+    if output_path is None:
+        dir_name, file_name = os.path.split(json_path)
+        base_name, _ = os.path.splitext(file_name)
+        if base_name.endswith("_face"):
+            output_name = f"{base_name}_aligned.json"
+        else:
+            output_name = f"{base_name}_face_aligned.json"
+        output_path = os.path.join(dir_name, output_name)
+
+        # 關鍵防覆蓋檢查：若檔案已存在且未指定 overwrite，直接略過
+    if os.path.exists(output_path) and not overwrite:
+        print(f"  [略過] 對齊檔案已存在: {os.path.basename(output_path)}")
+        return True
+
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -160,7 +174,7 @@ def align_single_json(json_path, output_path=None, custom_m0=None):
     return True
 
 
-def batch_align_reels(root_dir=r"C:\Users\Anthony\Download"):
+def batch_align_reels(root_dir=r"D:\reels"):
     """
     搜尋目錄下所有 *_face.json (排除已對齊的 *_aligned.json) 並進行剛體對齊
     """
@@ -189,7 +203,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--path",
         type=str,
-        default=r"C:\Users\Anthony\Downloads",
+        default=r"D:\reels",
         help="單一 JSON 檔案路徑或包含多個 JSON 的資料夾 (預設: D:\\reels)",
     )
     args = parser.parse_args()
