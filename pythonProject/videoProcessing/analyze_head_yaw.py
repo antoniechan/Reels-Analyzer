@@ -13,8 +13,8 @@ plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicod
 plt.rcParams["axes.unicode_minus"] = False
 
 DEFAULT_REELS_DIR = r"D:\reels"
-DEFAULT_CLASS_JSON = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_DIR = r".\videoProcessing"
+DEFAULT_CLASS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
+OUTPUT_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing"
 
 TIER_ORDER = ["good", "neutral", "bad"]
 TIER_COLORS = {"good": "#2ca02c", "neutral": "#ff7f0e", "bad": "#d62728"}
@@ -225,11 +225,11 @@ def analyze_all_tiers_yaw(root_dir=DEFAULT_REELS_DIR, class_json=DEFAULT_CLASS_J
         })
 
     # 輸出文字與 CSV 報表
-    report_txt = os.path.join(output_dir, "head_yaw_statistical_report.txt")
+    report_txt = os.path.join(output_dir, "head_yaw_analysis/head_yaw_statistical_report.txt")
     with open(report_txt, "w", encoding="utf-8") as f:
         f.write("\n".join(report_lines))
 
-    df_csv = os.path.join(output_dir, "head_yaw_video_dataset.csv")
+    df_csv = os.path.join(output_dir, "head_yaw_analysis/head_yaw_video_dataset.csv")
     df.to_csv(df_csv, index=False, encoding="utf-8-sig")
 
     print("\n".join(report_lines))
@@ -279,7 +279,7 @@ def analyze_all_tiers_yaw(root_dir=DEFAULT_REELS_DIR, class_json=DEFAULT_CLASS_J
 
     plt.suptitle("Head Pose Stability & Orientation Across Video Performance Tiers", fontsize=13, fontweight="bold", y=1.03)
     plt.tight_layout()
-    plot_png = os.path.join(output_dir, "head_yaw_tier_comparison.png")
+    plot_png = os.path.join(output_dir, "head_yaw_analysis/head_yaw_tier_comparison.png")
     plt.savefig(plot_png, bbox_inches="tight")
     plt.close()
     print(f"對比圖表已生成至: {os.path.abspath(plot_png)}\n")
