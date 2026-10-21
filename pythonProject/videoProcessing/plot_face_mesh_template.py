@@ -6,6 +6,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
+import sys
+from pathlib import Path
+
+# 將 pythonProject 目錄加入 sys.path，確保隨處都能 import config
+CONFIG_DIR = Path(__file__).resolve().parent.parent
+
+# 2. 將該目錄加入 Python 的模組搜尋路徑中
+if str(CONFIG_DIR) not in sys.path:
+    sys.path.insert(0, str(CONFIG_DIR))
+print(CONFIG_DIR)
+
+from config import VIDEO_PROC_DIR, AUDIO_PROC_DIR, DEFAULT_VIDEO_CLASS_JSON
 
 # 設定中文字型
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
@@ -16,7 +28,7 @@ CANONICAL_OBJ_URL = (
     "https://raw.githubusercontent.com/google/mediapipe/master/"
     "mediapipe/modules/face_geometry/data/canonical_face_model.obj"
 )
-LOCAL_OBJ_FILE = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\videoProcessing\canonical_face_model.obj"
+LOCAL_OBJ_FILE = str(VIDEO_PROC_DIR / "canonical_face_model.obj")
 
 # ==============================================================================
 # 特徵點分類資料與連線定義
