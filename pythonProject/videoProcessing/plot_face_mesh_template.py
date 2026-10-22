@@ -9,15 +9,12 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolb
 import sys
 from pathlib import Path
 
-# 將 pythonProject 目錄加入 sys.path，確保隨處都能 import config
 CONFIG_DIR = Path(__file__).resolve().parent.parent
-
-# 2. 將該目錄加入 Python 的模組搜尋路徑中
 if str(CONFIG_DIR) not in sys.path:
     sys.path.insert(0, str(CONFIG_DIR))
 print(CONFIG_DIR)
 
-from config import VIDEO_PROC_DIR, AUDIO_PROC_DIR, DEFAULT_VIDEO_CLASS_JSON
+from config import VIDEO_PROC_DIR
 
 # 設定中文字型
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]

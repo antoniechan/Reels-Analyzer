@@ -3,6 +3,9 @@ import glob
 import json
 import os
 import numpy as np
+from config import DEFAULT_REELS_DIR
+
+REELS_PATH = DEFAULT_REELS_DIR
 
 # ---------------------------------------------------------
 # 定義 MediaPipe Face Mesh 中不受表情拉扯的解剖剛性錨點 (Rigid Anchors)
@@ -203,7 +206,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--path",
         type=str,
-        default=r"D:\reels",
+        default=str(REELS_PATH),
         help="單一 JSON 檔案路徑或包含多個 JSON 的資料夾 (預設: D:\\reels)",
     )
     args = parser.parse_args()

@@ -1,12 +1,11 @@
 import os
-import glob
 import json
 import argparse
 import numpy as np
 import pandas as pd
+from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
 
-DEFAULT_REELS_DIR = r"D:\reels"
-OUTPUT_REPORT_DIR = r".\videoProcessing"
+OUTPUT_REPORT_DIR = VIDEO_PROC_DIR
 
 # 常見影片副檔名
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".mkv", ".avi", ".webm"}

@@ -4,18 +4,19 @@ import json
 import os
 import shutil
 import subprocess
-import sys
 import urllib.request
 import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
+import sys
+from config import VIDEO_PROC_DIR
 
 # 預設參數設定
-TARGET_DIR = r"C:/Users/Anthony/Downloads"
+TARGET_DIR = r"D:\reels"
 TARGET_WIDTH = 720
 TARGET_HEIGHT = 1280
-MODEL_FILE_NAME = "face_landmarker.task"
+MODEL_FILE_NAME = str(VIDEO_PROC_DIR / "face_landmarker.task")
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
 VIDEO_EXTS = ("*.mp4", "*.mov", "*.avi", "*.mkv")
 

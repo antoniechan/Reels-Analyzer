@@ -7,14 +7,22 @@ import pandas as pd
 from scipy import stats, signal
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
+from pathlib import Path
+
+CONFIG_DIR = Path(__file__).resolve().parent.parent
+if str(CONFIG_DIR) not in sys.path:
+    sys.path.insert(0, str(CONFIG_DIR))
+
+from config import AUDIO_PROC_DIR, DATA_PROC_DIR, CROSS_MODAL_PROC_DIR
 
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
 DEFAULT_REELS_DIR = r"D:\reels"
-DEFAULT_AUDIO_JSON = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\audioProcessing\local_transcript_audio_saliency_summary_all_tiers.json"
-DEFAULT_CLASS_JSON = r"C:\Users\Anthony\Documents\GitHub\reelsAnalyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_DIR = r".\crossModalAnalysis"
+DEFAULT_AUDIO_JSON = str(AUDIO_PROC_DIR / "local_transcript_audio_saliency_summary_all_tiers.json")
+DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+OUTPUT_DIR = str(CROSS_MODAL_PROC_DIR)
 
 # 口周與眼周表情關鍵點（嘴角提肌 61, 291；口輪匝肌 0, 13, 14, 17；眼角 33, 263, 130, 359）
 EXPRESSION_KEY_VERTICES = set([0, 13, 14, 17, 61, 291, 33, 263, 130, 359])

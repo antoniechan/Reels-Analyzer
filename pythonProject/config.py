@@ -25,7 +25,7 @@ DATA_PROC_DIR = PYTHON_PROJECT_DIR / "dataProcessing"
 CROSS_MODAL_PROC_DIR = PYTHON_PROJECT_DIR / "crossModalAnalysis"
 
 # 3. 常用檔案路徑常數
-DEFAULT_REELS_DIR = Path(r"D:\reels")  # 若外接硬碟兩台代號相同
+DEFAULT_REELS_DIR = Path(r"D:\reels")
 DEFAULT_VIDEO_CLASS_JSON = DATA_PROC_DIR / "video_classification_summary.json"
 MODEL_FILE_NAME = VIDEO_PROC_DIR / "face_landmarker.task"
 CANONICAL_TRIANGLES_FILE = VIDEO_PROC_DIR / "canonical_face_triangles.npy"

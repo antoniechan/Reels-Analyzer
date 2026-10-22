@@ -4,10 +4,10 @@ import json
 import time
 import argparse
 import numpy as np
+from config import DEFAULT_REELS_DIR, DATA_PROC_DIR, VIDEO_PROC_DIR
 
-DEFAULT_REELS_DIR = r"D:\reels"
-VIDEO_SUMMARY_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_STATS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\all_vertices_deformation_stats.json"
+VIDEO_SUMMARY_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+OUTPUT_STATS_JSON = (VIDEO_PROC_DIR / "all_vertices_deformation_stats.json")
 
 NUM_VERTICES = 468
 METRICS = ["abs_mu", "dilation", "teichmuller_distance"]

@@ -7,14 +7,14 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
+from config import DATA_PROC_DIR, VIDEO_PROC_DIR, DEFAULT_REELS_DIR
 
 # 設定中文字型支援
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_REELS_DIR = r"D:\reels"
-VIDEO_SUMMARY_JSON = r"C:\Users\Anthony\GitHub\reelsAnalyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_STATS_JSON = r"C:\Users\Anthony\GitHub\reelsAnalyzer\pythonProject\videoProcessing\all_vertices_deformation_stats.json"
+VIDEO_SUMMARY_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+OUTPUT_STATS_JSON = str(VIDEO_PROC_DIR / "all_vertices_deformation_stats.json")
 
 NUM_VERTICES = 468
 METRICS = ["abs_mu", "dilation", "teichmuller_distance"]
@@ -26,7 +26,7 @@ CANONICAL_OBJ_URL = (
     "https://raw.githubusercontent.com/google/mediapipe/master/"
     "mediapipe/modules/face_geometry/data/canonical_face_model.obj"
 )
-LOCAL_OBJ_FILE = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\canonical_face_model.obj"
+LOCAL_OBJ_FILE = str(VIDEO_PROC_DIR / "canonical_face_model.obj")
 
 
 # ==============================================================================

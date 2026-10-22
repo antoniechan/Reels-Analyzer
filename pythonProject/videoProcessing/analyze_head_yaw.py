@@ -7,14 +7,14 @@ import pandas as pd
 from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
+from config import VIDEO_PROC_DIR, DATA_PROC_DIR, DEFAULT_REELS_DIR
 
 # 中文字型設定
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_REELS_DIR = r"D:\reels"
-DEFAULT_CLASS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing"
+DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+OUTPUT_DIR = str(VIDEO_PROC_DIR)
 
 TIER_ORDER = ["good", "neutral", "bad"]
 TIER_COLORS = {"good": "#2ca02c", "neutral": "#ff7f0e", "bad": "#d62728"}
@@ -277,7 +277,8 @@ def analyze_all_tiers_yaw(root_dir=DEFAULT_REELS_DIR, class_json=DEFAULT_CLASS_J
         ax.set_ylim(y_range)
         ax.grid(True, linestyle="--", alpha=0.4, axis="y")
 
-    plt.suptitle("Head Pose Stability & Orientation Across Video Performance Tiers", fontsize=13, fontweight="bold", y=1.03)
+    plt.suptitle("Head Pose Stability & Orientation Across Video Performance Tiers", fontsize=13, fontweight="bold",
+                 y=1.03)
     plt.tight_layout()
     plot_png = os.path.join(output_dir, "head_yaw_analysis/head_yaw_tier_comparison.png")
     plt.savefig(plot_png, bbox_inches="tight")
