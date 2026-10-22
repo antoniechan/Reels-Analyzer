@@ -21,15 +21,26 @@ import numpy as np
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
+import urllib.request
 from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
 
 # ---------------------------------------------------------------------------
 # 1. 動態定位專案根目錄與設定路徑
 # ---------------------------------------------------------------------------
-MODEL_PATH = str(VIDEO_PROC_DIR / "face_landmarker.task")
+MODEL_FILE = VIDEO_PROC_DIR / "face_landmarker.task"
 
-# 初始化 MediaPipe Landmarker
-base_options = python.BaseOptions(model_asset_path=MODEL_PATH)
+# 1. 檢查模型檔是否存在，若無則自動下載官方模型
+if not MODEL_FILE.exists() or MODEL_FILE.stat().st_size < 1000:
+    print(f"[*] 未找到有效模型檔，正在下載 face_landmarker.task 至: {MODEL_FILE} ...")
+    url = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task"
+    urllib.request.urlretrieve(url, str(MODEL_FILE))
+    print("[+] 下載完成！")
+
+# 2. 讀取二進位資料並透過 model_asset_buffer 載入，避開 Windows 中文路徑問題
+with open(MODEL_FILE, "rb") as f:
+    model_buffer = f.read()
+
+base_options = python.BaseOptions(model_asset_buffer=model_buffer)
 options = vision.FaceLandmarkerOptions(base_options=base_options, num_faces=1)
 LANDMARKER = vision.FaceLandmarker.create_from_options(options)
 
