@@ -2,8 +2,9 @@ import json
 import numpy as np
 import pandas as pd
 from scipy import stats
+from config import VIDEO_PROC_DIR
 
-JSON_PATH = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\all_vertices_deformation_stats_symmetric.json"
+JSON_PATH = str(VIDEO_PROC_DIR / "all_vertices_deformation_stats_symmetric.json")
 
 
 def test_vertices_significance(json_path):

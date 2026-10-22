@@ -5,20 +5,21 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
+from config import VIDEO_PROC_DIR
 
 # 中文字型支援
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_INPUT_STATS = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\all_vertices_deformation_stats.json"
-DEFAULT_OUTPUT_STATS = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\all_vertices_deformation_stats_symmetric.json"
-DEFAULT_HEATMAP_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\face_heatmaps_symmetric"
+DEFAULT_INPUT_STATS = str(VIDEO_PROC_DIR / "all_vertices_deformation_stats.json")
+DEFAULT_OUTPUT_STATS = str(VIDEO_PROC_DIR / "all_vertices_deformation_stats_symmetric.json")
+DEFAULT_HEATMAP_DIR = str(VIDEO_PROC_DIR / "face_heatmaps_symmetric")
 
 CANONICAL_OBJ_URL = (
     "https://raw.githubusercontent.com/google/mediapipe/master/"
     "mediapipe/modules/face_geometry/data/canonical_face_model.obj"
 )
-LOCAL_OBJ_FILE = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\canonical_face_model.obj"
+LOCAL_OBJ_FILE = str(VIDEO_PROC_DIR / "canonical_face_model.obj")
 
 METRICS = ["abs_mu", "dilation", "teichmuller_distance"]
 STAT_FIELDS = [

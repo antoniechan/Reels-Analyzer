@@ -4,9 +4,10 @@ import json
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
+from config import DEFAULT_REELS_DIR, DATA_PROC_DIR
 
-DEFAULT_DIR = r"D:\reels"
-VIDEO_SUMMARY_JSON = "video_classification_summary.json"
+DEFAULT_DIR = DEFAULT_REELS_DIR
+VIDEO_SUMMARY_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
 
 
 def load_qc_data(qc_json_path):

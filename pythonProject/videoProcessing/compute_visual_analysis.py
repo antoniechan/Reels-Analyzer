@@ -4,14 +4,13 @@
 Visual Color & Lighting Feature Extractor for Reels Analysis (Resumable & Safe Overwrite)
 ----------------------------------------------------------------------------------------
 功能：
-1. 自動跳過已提取成功的影片 (支援 Ctrl+C 中斷後隨時接續執行)。
-2. 提供 --overwrite 參數供使用者決定是否強制重新計算。
-3. 支援 --max_videos 限制處理上限。
-4. 修復乘號丟失語法，整合 MediaPipe 468 點光影與色彩特徵。
+1. 將輸出的 *_color_lighting.json 直接儲存在 D:\\reels 中各影片所屬的對應子資料夾內 (比照 _qc.json, _face.json)。
+2. 自動跳過已提取成功的影片 (支援 Ctrl+C 中斷後隨時接續執行)。
+3. 提供 --overwrite 參數供使用者決定是否強制重新計算。
+4. 支援 --max_videos 限制處理上限。
+5. 整合 MediaPipe 468 點人臉定位與純物理光影/色彩特徵計算。
 """
 
-import sys
-import os
 import json
 import argparse
 from typing import Dict, Any, Tuple, Optional, List
@@ -22,30 +21,12 @@ import numpy as np
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
+from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
 
 # ---------------------------------------------------------------------------
 # 1. 動態定位專案根目錄與設定路徑
 # ---------------------------------------------------------------------------
-CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-try:
-    from config import (
-        VIDEO_PROC_DIR,
-        DATA_PROC_DIR,
-        DEFAULT_VIDEO_CLASS_JSON,
-        DEFAULT_REELS_DIR
-    )
-except ImportError:
-    VIDEO_PROC_DIR = CURRENT_DIR
-    DATA_PROC_DIR = PROJECT_ROOT / "dataProcessing"
-    DEFAULT_VIDEO_CLASS_JSON = DATA_PROC_DIR / "video_classification_summary.json"
-    DEFAULT_REELS_DIR = Path(r"D:\reels")
-
 MODEL_PATH = str(VIDEO_PROC_DIR / "face_landmarker.task")
-OUTPUT_DIR = str(VIDEO_PROC_DIR / "visual_analysis")
 
 # 初始化 MediaPipe Landmarker
 base_options = python.BaseOptions(model_asset_path=MODEL_PATH)
@@ -287,24 +268,21 @@ def process_single_video(video_path: Path) -> Optional[Dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
-# 4. 主執行入口 (具備斷點續跑、安全覆蓋與上限控制)
+# 4. 主執行入口 (儲存至各影片所屬的子目錄，具備斷點續跑與安全覆蓋)
 # ---------------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(description="提取短影音色彩豐富度與光影對比度特徵")
     parser.add_argument("--video", type=str, default="", help="單支影片路徑 (測試用)")
     parser.add_argument("--reels_dir", type=str, default=str(DEFAULT_REELS_DIR), help="影片存放根目錄")
-    parser.add_argument("--output_dir", type=str, default=str(OUTPUT_DIR), help="特徵結果輸出目錄")
     parser.add_argument("--max_videos", type=int, default=0, help="處理影片上限數量 (0 代表全部)")
     parser.add_argument("--overwrite", action="store_true", help="強制重新提取並覆蓋已存在的 JSON 檔案")
     args = parser.parse_args()
 
-    out_dir = Path(args.output_dir) if args.output_dir else VIDEO_PROC_DIR / "color_lighting_features"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
     # 單支影片模式
     if args.video:
         v_path = Path(args.video)
-        out_file = out_dir / f"{v_path.stem}_color_lighting.json"
+        # 直接存放在影片同一層子資料夾中 (與 _qc.json, _face.json 同級)
+        out_file = v_path.parent / f"{v_path.stem}_color_lighting.json"
         if out_file.exists() and not args.overwrite:
             print(f"[*] 檔案已存在，跳過: {out_file.name} (若需重新計算請加入 --overwrite)")
             return
@@ -323,19 +301,19 @@ def main():
         print(f"[-] 找不到影片目錄: {reels_root}")
         return
 
-    video_files = sorted(list(reels_root.glob("*.mp4")))
+    # 遞迴搜尋子目錄下的所有 mp4 檔案
+    video_files = sorted(list(reels_root.rglob("*.mp4")))
     if not video_files:
-        video_files = sorted(list(reels_root.rglob("*.mp4")))
+        video_files = sorted(list(reels_root.glob("*.mp4")))
 
     total_found = len(video_files)
     print(f"[*] 掃描到總共 {total_found} 支影片。")
 
-    # 檢查已完成進度 (斷點續跑機制)
+    # 檢查已完成進度 (斷點續跑機制：直接檢查各影片子資料夾內是否存在 *_color_lighting.json)
     tasks_to_run = []
     skipped_cnt = 0
     for vf in video_files:
-        target_json = out_dir / f"{vf.stem}_color_lighting.json"
-        # 只要檔案存在且非空，預設跳過
+        target_json = vf.parent / f"{vf.stem}_color_lighting.json"
         if target_json.exists() and target_json.stat().st_size > 100 and not args.overwrite:
             skipped_cnt += 1
         else:
@@ -343,7 +321,6 @@ def main():
 
     print(f"[*] 進度狀態：已完成 {skipped_cnt} 支，待處理 {len(tasks_to_run)} 支。")
 
-    # 若有上限限制
     if args.max_videos > 0:
         tasks_to_run = tasks_to_run[:args.max_videos]
         print(f"[*] 依照 --max_videos 設定，本次只處理前 {len(tasks_to_run)} 支待跑影片。")
@@ -357,8 +334,8 @@ def main():
         print(f"[{idx}/{len(tasks_to_run)}] 正在分析: {vf.name} ...", end="", flush=True)
         res = process_single_video(vf)
         if res:
-            out_file = out_dir / f"{vf.stem}_color_lighting.json"
-            # 寫入暫存檔再重命名，避免中途強制終止產生損壞的 JSON
+            # 儲存在該影片所在的子資料夾內
+            out_file = vf.parent / f"{vf.stem}_color_lighting.json"
             tmp_file = out_file.with_suffix(".tmp")
             with open(tmp_file, "w", encoding="utf-8") as f:
                 json.dump(res, f, indent=2, ensure_ascii=False)
@@ -371,7 +348,7 @@ def main():
     print("=" * 60)
     print(f"[+] 本次執行完成！成功產出 {success_cnt} 支影片特徵。")
     print(f"[+] 累計完成進度: {skipped_cnt + success_cnt}/{total_found}")
-    print(f"[+] 輸出目錄: {out_dir}")
+    print(f"[+] 檔案皆已儲存在各影片所屬的對應子目錄中 (*_color_lighting.json)。")
     print("=" * 60)
 
 

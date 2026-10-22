@@ -2,12 +2,11 @@ import glob
 import json
 import os
 import pandas as pd
+from config import ACCOUNT_DATA_DIR, ACCOUNT_PROC_DIR
 
-ACCOUNTS_DATA_DIR = (
-    r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsData"
-)
-OUTPUT_SUMMARY_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.json"
-OUTPUT_SUMMARY_CSV = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.csv"
+ACCOUNTS_DATA_DIR = ACCOUNT_DATA_DIR
+OUTPUT_SUMMARY_JSON = str(ACCOUNT_PROC_DIR / "account_classification_summary.json")
+OUTPUT_SUMMARY_CSV = str(ACCOUNT_PROC_DIR / "account_classification_summary.csv")
 
 
 def classify_accounts_data():

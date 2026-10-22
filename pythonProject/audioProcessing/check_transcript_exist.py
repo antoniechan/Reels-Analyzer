@@ -1,8 +1,9 @@
 import glob
 import json
 import os
+from config import REELS_DATA_DIR
 
-TARGET_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
+TARGET_DIR = REELS_DATA_DIR
 
 
 def check_transcript_field(target_dir):

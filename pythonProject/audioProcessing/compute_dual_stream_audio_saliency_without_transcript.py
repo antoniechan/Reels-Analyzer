@@ -16,6 +16,7 @@ import torchvision.models as models
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from config import DEFAULT_REELS_DIR
 
 # 忽略 librosa 使用 audioread 時的提示警告
 warnings.filterwarnings("ignore")
@@ -25,8 +26,6 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 if api_key:
     os.environ["GEMINI_API_KEY"] = api_key
-
-DEFAULT_REELS_DIR = r"D:\reels"
 
 
 # ==============================================================================

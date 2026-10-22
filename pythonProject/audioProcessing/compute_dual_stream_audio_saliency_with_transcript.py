@@ -13,14 +13,15 @@ import torch.nn.functional as F
 import torchaudio
 import torchaudio.transforms as T
 import torchvision.models as models
+from config import DEFAULT_REELS_DIR, REELS_DATA_DIR, DATA_PROC_DIR, AUDIO_PROC_DIR
 
 warnings.filterwarnings("ignore")
 
 # 預設路徑設定
-DEFAULT_REELS_AUDIO_DIR = r"D:\reels"
-DEFAULT_TRANSCRIPT_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
-DEFAULT_VIDEO_CLASSIFICATION_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
-OUTPUT_JSON_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\audioProcessing"
+DEFAULT_REELS_AUDIO_DIR = DEFAULT_REELS_DIR
+DEFAULT_TRANSCRIPT_DATA_DIR = str(REELS_DATA_DIR)
+DEFAULT_VIDEO_CLASSIFICATION_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+OUTPUT_JSON_DIR = str(AUDIO_PROC_DIR / "audioProcessing")
 
 # ==============================================================================
 # 0. 萬能音訊載入器 (PyAV / librosa，自動處理假 MP3 與 MP4 容器)

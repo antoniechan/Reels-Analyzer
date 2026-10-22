@@ -1,11 +1,11 @@
 import os
 import json
 import numpy as np
+from config import ACCOUNT_PROC_DIR, REELS_DATA_DIR, ACCOUNT_DATA_DIR
 
 # 路徑設定
-FOLLOWERS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
-REELS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
-ACCOUNTS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsData"
+FOLLOWERS_JSON = str(ACCOUNT_PROC_DIR / "accounts_followers.json")
+ACCOUNTS_DATA_DIR = str(ACCOUNT_DATA_DIR)
 
 
 def safe_extract_metric(post, keys):

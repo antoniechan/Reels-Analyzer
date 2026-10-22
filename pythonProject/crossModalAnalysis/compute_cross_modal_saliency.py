@@ -7,19 +7,11 @@ import pandas as pd
 from scipy import stats, signal
 import matplotlib.pyplot as plt
 import seaborn as sns
-import sys
-from pathlib import Path
-
-CONFIG_DIR = Path(__file__).resolve().parent.parent
-if str(CONFIG_DIR) not in sys.path:
-    sys.path.insert(0, str(CONFIG_DIR))
-
-from config import AUDIO_PROC_DIR, DATA_PROC_DIR, CROSS_MODAL_PROC_DIR
+from config import AUDIO_PROC_DIR, DATA_PROC_DIR, CROSS_MODAL_PROC_DIR, DEFAULT_REELS_DIR
 
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_REELS_DIR = r"D:\reels"
 DEFAULT_AUDIO_JSON = str(AUDIO_PROC_DIR / "local_transcript_audio_saliency_summary_all_tiers.json")
 DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
 OUTPUT_DIR = str(CROSS_MODAL_PROC_DIR)

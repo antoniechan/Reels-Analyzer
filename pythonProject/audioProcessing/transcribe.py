@@ -6,12 +6,10 @@ import re
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from config import DEFAULT_REELS_DIR, REELS_DATA_DIR
 
 # 路徑設定
-REELS_DATA_DIR = Path(
-    r"C:\Users\Anthony\Desktop"
-)
-REELS_AUDIO_BASE_DIR = Path(r"C:\Users\Anthony\Desktop")
+REELS_AUDIO_BASE_DIR = DEFAULT_REELS_DIR
 
 # 初始化 Gemini Client
 load_dotenv()

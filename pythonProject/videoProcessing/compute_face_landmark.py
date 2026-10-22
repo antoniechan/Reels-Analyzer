@@ -9,12 +9,13 @@ import numpy as np
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
+from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
 
 # 預設模型下載連結與路徑設定
-MODEL_FILE_NAME = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\face_landmarker.task"
+MODEL_FILE_NAME = str(VIDEO_PROC_DIR / "face_landmarker.task")
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
-TARGET_DIR = r"D:\reels"
-DEFAULT_VIDEO_CLASS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
+TARGET_DIR = DEFAULT_REELS_DIR
+DEFAULT_VIDEO_CLASS_JSON = str(VIDEO_PROC_DIR / "video_classification_summary.json")
 
 
 def ensure_model_exists(model_path):

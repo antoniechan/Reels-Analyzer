@@ -1,9 +1,10 @@
 import argparse
 import json
 import os
+from config import DEFAULT_REELS_DIR, ACCOUNT_PROC_DIR
 
-DEFAULT_ROOT_DIR = r"D:\reels"
-DEFAULT_OUTPUT_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
+DEFAULT_ROOT_DIR = DEFAULT_REELS_DIR
+DEFAULT_OUTPUT_JSON = str(ACCOUNT_PROC_DIR / "accounts_followers.json")
 
 
 def generate_followers_template(

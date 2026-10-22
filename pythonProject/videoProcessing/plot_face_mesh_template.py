@@ -6,14 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
-import sys
-from pathlib import Path
-
-CONFIG_DIR = Path(__file__).resolve().parent.parent
-if str(CONFIG_DIR) not in sys.path:
-    sys.path.insert(0, str(CONFIG_DIR))
-print(CONFIG_DIR)
-
 from config import VIDEO_PROC_DIR
 
 # 設定中文字型

@@ -3,13 +3,14 @@ import glob
 import json
 import argparse
 import numpy as np
+from config import REELS_DATA_DIR, DEFAULT_REELS_DIR, ACCOUNT_PROC_DIR, DATA_PROC_DIR
 
 # 預設路徑設定
-ACCOUNTS_DATA_DIR = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\reelsData"
-REELS_DIR = r"D:\reels"
-ACCOUNT_SUMMARY_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\account_classification_summary.json"
-FOLLOWERS_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\accountsProcessing\accounts_followers.json"
-OUTPUT_VIDEO_JSON = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\dataProcessing\video_classification_summary.json"
+ACCOUNTS_DATA_DIR = str(REELS_DATA_DIR / "reelsData")
+REELS_DIR = DEFAULT_REELS_DIR
+ACCOUNT_SUMMARY_JSON = str(ACCOUNT_PROC_DIR / "account_classification_summary.json")
+FOLLOWERS_JSON = str(ACCOUNT_PROC_DIR / "accounts_followers.json")
+OUTPUT_VIDEO_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
 
 
 # ==============================================================================

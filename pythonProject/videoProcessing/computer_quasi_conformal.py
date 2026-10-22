@@ -3,14 +3,15 @@ import glob
 import json
 import os
 import numpy as np
+from config import DEFAULT_REELS_DIR, VIDEO_PROC_DIR
 
-DEFAULT_DIR = r"D:\reels"
+DEFAULT_DIR = DEFAULT_REELS_DIR
 
 # -------------------------------------------------------------------------
 # 官方標準 Canonical Face Mesh 三角剖分索引 (468 點皮膚網格)
 # 透過此快取載入，徹底避免引用 mediapipe.python 或 mediapipe.solutions 舊語法
 # -------------------------------------------------------------------------
-CANONICAL_TRIANGLES_FILE = r"C:\Users\anton\OneDrive\文件\GitHub\Reels-Analyzer\pythonProject\videoProcessing\canonical_face_triangles.npy"
+CANONICAL_TRIANGLES_FILE = str(VIDEO_PROC_DIR / "canonical_face_triangles.npy")
 _CANONICAL_TRIANGLES_CACHE = None
 
 

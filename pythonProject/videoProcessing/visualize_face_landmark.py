@@ -6,15 +6,7 @@ import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-import sys
-from pathlib import Path
-
-CONFIG_DIR = Path(__file__).resolve().parent.parent
-if str(CONFIG_DIR) not in sys.path:
-    sys.path.insert(0, str(CONFIG_DIR))
-print(CONFIG_DIR)
-
-from config import VIDEO_PROC_DIR, AUDIO_PROC_DIR, DEFAULT_VIDEO_CLASS_JSON
+from config import VIDEO_PROC_DIR
 
 # 預設模型下載連結與檔名
 MODEL_FILE_NAME = str(VIDEO_PROC_DIR / "face_landmarker.task")

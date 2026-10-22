@@ -2,9 +2,10 @@ import os
 import glob
 import json
 import argparse
+from config import REELS_DATA_DIR, DATA_PROC_DIR
 
-DEFAULT_REELS_DATA_DIR = r"/pythonProject/reelsData"
-OUTPUT_REPORT_JSON = "zero_engagement_videos_report.json"
+DEFAULT_REELS_DATA_DIR = str(REELS_DATA_DIR)
+OUTPUT_REPORT_JSON = str(DATA_PROC_DIR / "zero_engagement_videos_report.json")
 
 # 忽略系統彙總類檔案
 EXCLUDE_JSON_NAMES = {
