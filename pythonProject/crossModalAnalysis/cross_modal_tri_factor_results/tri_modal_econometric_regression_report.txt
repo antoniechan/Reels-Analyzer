@@ -1,0 +1,57 @@
+==========================================================================================
+【三模態跨維度聯合計量經濟學迴歸分析報告】
+==========================================================================================
+模態構成說明：
+  1. 視聽動態諧振 (Audio-Text + Facial QC): 最佳延遲下最大相關性 (optimal_lag_max_corr)
+  2. 開頭視覺衝擊 (Visual Colorfulness):   前 3 秒色彩豐富度 (hook_colorfulness_mean)
+  3. 面部光影立體/柔和度 (Lighting Contrast):  前 3 秒臉部 RMS 對比度 (hook_face_rms_contrast_mean)
+  4. 講者好氣色通透度 (Skin Health Tone):     全片膚色血色感 (whole_skin_warmth_cbcr_mean)
+  5. 主體分離度 (Figure-Ground Separation):  前 3 秒人物與背景反差 (hook_figure_ground_lum_contrast_mean)
+------------------------------------------------------------------------------------------
+應變數 (Dependent Variable):  video_quality_score (計量品質殘差得分)
+總觀察樣本數 (N):              1296 支短影音
+------------------------------------------------------------------------------------------
+
+▶ 多重共線性診斷 (VIF 檢定，小於 5 代表無共線性威脅)：
+------------------------------------------------------------
+  - 視聽最大諧振 (Max Lagged Corr)                : VIF = 1.01
+  - 前 3 秒色彩豐富度 (Hook Colorfulness)          : VIF = 1.08
+  - 前 3 秒臉部 RMS 對比度 (Facial Contrast)       : VIF = 1.00
+  - 全片膚色血色感 (Skin Warmth Cr-Cb)             : VIF = 1.08
+  - 前 3 秒主體背景明暗反差 (Fg-Bg Contrast)          : VIF = 1.01
+
+==========================================================================================
+▶ 多元 OLS 計量模型估計結果 (HC3 Robust Standard Errors)：
+------------------------------------------------------------------------------------------
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     video_quality_score   R-squared:                       0.023
+Model:                             OLS   Adj. R-squared:                  0.019
+Method:                  Least Squares   F-statistic:                     5.840
+Date:                 Fri, 23 Oct 2026   Prob (F-statistic):           2.42e-05
+Time:                         10:43:43   Log-Likelihood:                -6180.5
+No. Observations:                 1296   AIC:                         1.237e+04
+Df Residuals:                     1290   BIC:                         1.240e+04
+Df Model:                            5                                         
+Covariance Type:                   HC3                                         
+========================================================================================================
+                                           coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                   41.5427      6.157      6.747      0.000      29.474      53.611
+optimal_lag_max_corr                     8.2106      5.437      1.510      0.131      -2.445      18.866
+hook_colorfulness_mean                   0.1368      0.069      1.984      0.047       0.002       0.272
+hook_face_rms_contrast_mean            -63.7376     21.224     -3.003      0.003    -105.335     -22.140
+whole_skin_warmth_cbcr_mean              0.3799      0.127      2.999      0.003       0.132       0.628
+hook_figure_ground_lum_contrast_mean     6.8616      8.285      0.828      0.408      -9.377      23.100
+==============================================================================
+Omnibus:                      708.370   Durbin-Watson:                   0.044
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               72.522
+Skew:                           0.043   Prob(JB):                     1.79e-16
+Kurtosis:                       1.844   Cond. No.                     1.37e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.37e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+==========================================================================================
