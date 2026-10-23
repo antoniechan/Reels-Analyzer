@@ -23,6 +23,7 @@ VIDEO_PROC_DIR = PYTHON_PROJECT_DIR / "videoProcessing"
 AUDIO_PROC_DIR = PYTHON_PROJECT_DIR / "audioProcessing"
 DATA_PROC_DIR = PYTHON_PROJECT_DIR / "dataProcessing"
 CROSS_MODAL_PROC_DIR = PYTHON_PROJECT_DIR / "crossModalAnalysis"
+TRANSFORMER_DIR = PYTHON_PROJECT_DIR / "crossModalTransformer"
 
 # 3. 常用檔案路徑常數
 DEFAULT_REELS_DIR = Path(r"D:\reels")
