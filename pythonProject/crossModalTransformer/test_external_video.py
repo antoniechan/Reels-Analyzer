@@ -22,9 +22,10 @@ from pathlib import Path
 import cv2
 import numpy as np
 import torch
+from dotenv import load_dotenv
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-from config import TRANSFORMER_DIR
+from config import TRANSFORMER_DIR, PYTHON_PROJECT_DIR
 
 from train_transformer_engine import ReelsDiagnosticTransformer
 from diagnose_reel_video import (
@@ -39,6 +40,15 @@ MODEL_PATH = ENGINE_DIR / "best_reels_transformer.pth"
 STATS_PATH = ENGINE_DIR / "transformer_norm_stats.json"
 EXTERNAL_REPORT_DIR = ENGINE_DIR / "external_test_reports"
 EXTERNAL_REPORT_DIR.mkdir(parents=True, exist_ok=True)
+
+ENV_PATH = PYTHON_PROJECT_DIR / ".env"
+if not ENV_PATH.exists():
+    ENV_PATH = PYTHON_PROJECT_DIR.parent / ".env"  # 防禦性檢查更上層
+
+if ENV_PATH.exists():
+    load_dotenv(dotenv_path=ENV_PATH)
+else:
+    load_dotenv()  # 預設自當前工作目錄向上搜尋
 
 
 # ---------------------------------------------------------------------------
@@ -58,54 +68,111 @@ WEAK_OPENING_PHRASES = [
 ]
 
 
+def extract_audio_for_gemini(video_path: Path) -> Path:
+    """使用 ffmpeg 從影片抽取低碼率 mp3，節省傳輸頻寬與延遲"""
+    tmp_audio = Path(tempfile.gettempdir()) / f"gemini_audio_{video_path.stem}.mp3"
+    cmd = [
+        "ffmpeg", "-y", "-i", str(video_path),
+        "-vn", "-acodec", "libmp3lame", "-ar", "16000", "-ac", "1", "-b:a", "64k",
+        str(tmp_audio)
+    ]
+    subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    return tmp_audio
+
 def transcribe_video_audio(video_path: Path) -> list[dict]:
     """
-    提取影片逐字稿時間戳記：格式 [{"start": float, "end": float, "text": str}, ...]
-    優先順序：
-    1. 檢查影片同目錄下是否已有同名 _transcript.json 或 .srt
-    2. 嘗試使用 faster_whisper (速度最快)
-    3. 嘗試使用 openai-whisper
+    使用 Google Gemini API 提取精確香港廣東話逐字稿 (含時間戳記)
+    回傳格式: [{"start": float, "end": float, "text": str}, ...]
     """
-    # A. 檢查是否有現成的 JSON 逐字稿
-    json_cand = video_path.with_name(f"{video_path.stem}_transcript.json")
-    if json_cand.exists():
-        print(f"[*] 發現現有逐字稿檔案: {json_cand.name}，直接載入...")
-        with open(json_cand, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data.get("segments", data) if isinstance(data, dict) else data
+    # 1. 檢查是否已有現存快取檔案 (避免重複測試同支影片時浪費 Token)
+    cache_json = video_path.with_name(f"{video_path.stem}_gemini_transcript.json")
+    if cache_json.exists():
+        print(f"[*] 發現現有 Gemini 逐字稿快取: {cache_json.name}，直接載入...")
+        try:
+            with open(cache_json, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data.get("segments", data) if isinstance(data, dict) else data
+        except Exception:
+            pass
 
-    # B. 嘗試使用 faster_whisper
-    try:
-        from faster_whisper import WhisperModel
-        print("[*] 正在使用 Faster-Whisper 提取影片逐字稿 (base 模型)...")
-        model = WhisperModel("base", device="cuda" if torch.cuda.is_available() else "cpu", compute_type="int8")
-        segments_gen, _ = model.transcribe(str(video_path), beam_size=5)
-        segments = [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments_gen]
-        return segments
-    except ImportError:
-        pass
-    except Exception as e:
-        print(f"[!] Faster-Whisper 執行異常 ({e})，嘗試切換至標準 Whisper...")
-
-    # C. 嘗試使用 openai-whisper
-    try:
-        import whisper
-        print("[*] 正在使用 OpenAI Whisper 提取影片逐字稿 (base 模型)...")
-        model = whisper.load_model("base")
-        result = model.transcribe(str(video_path))
-        segments = [
-            {"start": float(s["start"]), "end": float(s["end"]), "text": s["text"].strip()}
-            for s in result.get("segments", [])
-        ]
-        return segments
-    except ImportError:
-        print("[!] 環境中未安裝 faster-whisper 或 openai-whisper，將僅以聲學動態推估語意。")
-        print("    (提示：可執行 pip install faster-whisper 啟用完整台詞語意分析)")
-        return []
-    except Exception as e:
-        print(f"[!] Whisper 語音辨識失敗 ({e})，將使用聲學備援。")
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print(f"[!] 找不到 GEMINI_API_KEY，請確認 {ENV_PATH} 中是否包含 GEMINI_API_KEY=xxx")
         return []
 
+    print("[*] 成功讀取根目錄 .env 密鑰，正在透過 Gemini 進行轉錄...")
+
+    # 抽取暫存音訊
+    audio_path = extract_audio_for_gemini(video_path)
+    if not audio_path.exists():
+        print("[-] 音訊抽取失敗，無法使用 Gemini 轉錄。")
+        return []
+
+    try:
+        from google import genai
+        from google.genai import types
+
+        client = genai.Client(api_key=api_key)
+
+        # 上傳音訊檔案至 File API
+        uploaded_audio = client.files.upload(file=str(audio_path))
+
+        prompt = """
+你是一位精通香港廣東話和普通話及口語書寫的語音辨識專家。
+請將這段音訊轉錄為精確的文字（如為廣東話則包括香港地道口語字，如：唔、喺、咁、點解、邊度、千祈、成日、仲有，以及常見的中英夾雜詞彙）。
+
+請輸出為合法的 JSON 陣列，每個元素包含：
+- "start": 片段開始秒數 (float，精確至小數點後 1 位)
+- "end": 片段結束秒數 (float，精確至小數點後 1 位)
+- "text": 對應的廣東話逐字內容 (string)
+
+範例格式：
+[
+  {"start": 0.0, "end": 2.4, "text": "如果你平時返工成日好攰"},
+  {"start": 2.4, "end": 5.1, "text": "千祈唔好剩係飲咖啡提神"}
+]
+
+請只輸出純 JSON 陣列，不要加入任何額外解釋或 Markdown 標籤。
+"""
+
+        response = client.models.generate_content(
+            model="gemini-flash-latest",
+            contents=[uploaded_audio, prompt],
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.1,
+            )
+        )
+
+        raw_text = response.text.strip()
+        segments = json.loads(raw_text)
+
+        # 確保格式合法
+        formatted_segments = []
+        for s in segments:
+            formatted_segments.append({
+                "start": float(s.get("start", 0.0)),
+                "end": float(s.get("end", 0.0)),
+                "text": str(s.get("text", "")).strip()
+            })
+
+        # 儲存快取，下次秒讀
+        with open(cache_json, "w", encoding="utf-8") as f:
+            json.dump(formatted_segments, f, ensure_ascii=False, indent=2)
+
+        print(f"[+] Gemini 粵語辨識完成！共識別 {len(formatted_segments)} 個台詞片段，已快取至 {cache_json.name}")
+        return formatted_segments
+
+    except Exception as e:
+        print(f"[!] Gemini 辨識發生異常: {e}")
+        return []
+    finally:
+        # 清理暫存音訊檔
+        if audio_path.exists():
+            try:
+                os.remove(audio_path)
+            except Exception:
+                pass
 
 def compute_second_level_semantic_saliency(segments: list[dict], duration_sec: int, fallback_rms_norm: np.ndarray) -> tuple[np.ndarray, dict]:
     """
