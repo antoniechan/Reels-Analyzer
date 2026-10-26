@@ -551,6 +551,13 @@ def main():
     print(f"📈 專屬秒級體檢儀表板圖已儲存至:\n   {plot_file}")
     print("=" * 85)
 
+    try:
+        from interactive_video_inspector import launch_inspector
+        print("\n🎬 正在啟動互動式審片播放器 (可邊看邊點擊圖表跳轉)...")
+        launch_inspector(str(video_path), diag, benchmarks)
+    except Exception as e:
+        print(f"[!] 無法啟動圖形介面播放器: {e}")
+
 
 if __name__ == "__main__":
     main()
