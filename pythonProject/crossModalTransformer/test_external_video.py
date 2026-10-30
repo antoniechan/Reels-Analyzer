@@ -33,6 +33,10 @@ from diagnose_reel_video import (
     find_continuous_intervals,
     plot_diagnostic_timeline,
 )
+from sensevoice_engine import (
+    transcribe_cantonese_with_sensevoice,
+    compute_sensevoice_semantic_saliency
+)
 
 ENGINE_DIR = TRANSFORMER_DIR / "transformer_engine"
 DATASET_PATH = ENGINE_DIR / "transformer_multimodal_dataset.pt"
@@ -320,7 +324,6 @@ def extract_external_audio_and_transcript(video_path: Path, duration_sec: int) -
     semantic_ts, transcript_meta = compute_second_level_semantic_saliency(segments, duration_sec, norm_rms)
 
     return audio_energy_ts, semantic_ts, transcript_meta
-
 
 # ---------------------------------------------------------------------------
 # 4. 整合提取：將外部影片轉為 (T, 8) 多模態張量 + 逐字稿元數據
