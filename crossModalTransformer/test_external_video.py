@@ -25,7 +25,7 @@ import torch
 from dotenv import load_dotenv
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-from config import TRANSFORMER_DIR, PYTHON_PROJECT_DIR
+from config import TRANSFORMER_DIR, ROOT_DIR
 
 from train_transformer_engine import ReelsDiagnosticTransformer
 from diagnose_reel_video import (
@@ -45,9 +45,9 @@ STATS_PATH = ENGINE_DIR / "transformer_norm_stats.json"
 EXTERNAL_REPORT_DIR = ENGINE_DIR / "external_test_reports"
 EXTERNAL_REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
-ENV_PATH = PYTHON_PROJECT_DIR / ".env"
+ENV_PATH = ROOT_DIR / ".env"
 if not ENV_PATH.exists():
-    ENV_PATH = PYTHON_PROJECT_DIR.parent / ".env"  # 防禦性檢查更上層
+    ENV_PATH = ROOT_DIR.parent / ".env"  # 防禦性檢查更上層
 
 if ENV_PATH.exists():
     load_dotenv(dotenv_path=ENV_PATH)

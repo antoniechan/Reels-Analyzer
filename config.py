@@ -15,15 +15,14 @@ def get_project_root() -> Path:
 ROOT_DIR = get_project_root()
 
 # 2. 定義各子資料夾目錄 (Path 物件)
-PYTHON_PROJECT_DIR = ROOT_DIR / "pythonProject"
-ACCOUNT_DATA_DIR = PYTHON_PROJECT_DIR / "accountsData"
-REELS_DATA_DIR = PYTHON_PROJECT_DIR / "reelsData"
-ACCOUNT_PROC_DIR = PYTHON_PROJECT_DIR / "accountsProcessing"
-VIDEO_PROC_DIR = PYTHON_PROJECT_DIR / "videoProcessing"
-AUDIO_PROC_DIR = PYTHON_PROJECT_DIR / "audioProcessing"
-DATA_PROC_DIR = PYTHON_PROJECT_DIR / "dataProcessing"
-CROSS_MODAL_PROC_DIR = PYTHON_PROJECT_DIR / "crossModalAnalysis"
-TRANSFORMER_DIR = PYTHON_PROJECT_DIR / "crossModalTransformer"
+ACCOUNT_DATA_DIR = ROOT_DIR / "accountsData"
+REELS_DATA_DIR = ROOT_DIR / "reelsData"
+ACCOUNT_PROC_DIR = ROOT_DIR / "accountsProcessing"
+VIDEO_PROC_DIR = ROOT_DIR / "videoProcessing"
+AUDIO_PROC_DIR = ROOT_DIR / "audioProcessing"
+DATA_PROC_DIR = ROOT_DIR / "dataProcessing"
+CROSS_MODAL_PROC_DIR = ROOT_DIR / "crossModalAnalysis"
+TRANSFORMER_DIR = ROOT_DIR / "crossModalTransformer"
 
 # 3. 常用檔案路徑常數
 DEFAULT_REELS_DIR = Path(r"D:\reels")

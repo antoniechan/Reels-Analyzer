@@ -1,37 +1,61 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Batch Reels Dataset Curator & Ingestion Engine (SenseVoice-Small + Netlify Serverless Gemini)
----------------------------------------------------------------------------------------------
+Batch Reels Dataset Curator & Ingestion Engine
+(SenseVoice + Netlify Gemini Evaluator + Dimension Alignment)
+-------------------------------------------------------------
 功能：
 1. 遍歷指定目錄下的所有帳號 .json 檔案。
 2. 按照每筆 data 的 "timestamp" 欄位降序排序（最新排在最前面）。
-3. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字，無需 timestamp）。
-4. 呼叫部署於 Netlify 美國節點的 Serverless Function 進行口播主題與健康觀念審核。
-5. 連續命名機制：僅對合格收錄樣本依序分配 video_001.mp4, video_001.mp3...，被淘汰者不佔號。
-6. 輸出標準欄位：transcript, local_video_file, local_audio_file。
+3. 支援 CUTOFF_DATE 門檻過濾，自動剔除晚於指定日期的樣本。
+4. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字）。
+5. 呼叫 Netlify 美國節點 Serverless Function 評估口播內容與主題。
+6. 連續命名機制：合格樣本分配 video_001.mp4, video_001.mp3...，淘汰者不佔號。
+7. 【自動 Dimension 對齊】：下載影片後自動檢查尺寸，非 720x1280 則透過 ffmpeg/OpenCV
+   等比例縮放並置中補黑邊（保持人臉長寬比不變形）。
 """
 
-import re
 import sys
+import re
 import json
 import time
+import shutil
 import tempfile
+import subprocess
 from pathlib import Path
+import cv2
 import requests
 from dotenv import load_dotenv
-from config import PYTHON_PROJECT_DIR, REELS_DATA_DIR
+
+# 將專案根目錄加入 Python 搜尋路徑
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+# 引入本地模組與設定
+from config import ROOT_DIR, REELS_DATA_DIR
 from dataProcessing.sensevoice_engine import transcribe_cantonese_with_sensevoice
 
 # 載入專案環境設定與 .env
-ENV_PATH = PYTHON_PROJECT_DIR / ".env"
+ENV_PATH = ROOT_DIR / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
 # Netlify Serverless 審核端點
 EVALUATOR_ENDPOINT = "https://reelsanalyzercuratorservice.netlify.app/.netlify/functions/evaluate_reels"
 
-OUTPUT_REELS_DIR = REELS_DATA_DIR
+# 預設儲存根目錄
+OUTPUT_REELS_DIR = Path(r"D:\newReels")
 OUTPUT_REELS_DIR.mkdir(parents=True, exist_ok=True)
+
+# ---------------------------------------------------------------------------
+# 參數與門檻設定
+# ---------------------------------------------------------------------------
+# 日期篩選門檻 (晚於此日期的資料將在排序後直接刪除，設為 None 則不限制)
+CUTOFF_DATE = "2026-10-01"
+
+# 影片標準化規格
+TARGET_WIDTH = 720
+TARGET_HEIGHT = 1280
 
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -59,23 +83,119 @@ def download_file(url: str, dest_path: Path, timeout: int = 40) -> bool:
         return False
 
 
-def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float) -> dict:
-    """呼叫 Netlify 美國伺服器進行 Gemini 口播主題審查"""
+def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float, max_retries: int = 3) -> dict:
+    """呼叫 Netlify 美國伺服器進行 Gemini 口播主題審查（具備重試機制）"""
     payload = {
         "transcript_text": transcript_text,
         "duration_sec": duration_sec
     }
-    try:
-        response = requests.post(EVALUATOR_ENDPOINT, json=payload, timeout=25)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"      [!] Netlify 審核端點異常: {e}")
-        return {"qualified": False, "reasoning": f"遠端連線異常: {e}"}
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = requests.post(EVALUATOR_ENDPOINT, json=payload, timeout=25)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            if attempt < max_retries:
+                print(f"      [!] 連線重試 ({e})，正在進行第 {attempt}/{max_retries} 次...")
+                time.sleep(1.5)
+            else:
+                print(f"      [!] Netlify 審核端點異常: {e}")
+                return {"qualified": False, "reasoning": f"遠端連線異常: {e}"}
 
 
 # ---------------------------------------------------------------------------
-# 2. 單一帳號 JSON 處理管線
+# 2. 影片尺寸標準化模組
+# ---------------------------------------------------------------------------
+def resize_and_pad_frame(frame, target_w, target_h):
+    """將單幀等比例縮放並置中補黑邊至 (target_w, target_h)"""
+    h, w = frame.shape[:2]
+    scale = min(target_w / w, target_h / h)
+    new_w = int(w * scale)
+    new_h = int(h * scale)
+
+    interp = cv2.INTER_AREA if scale < 1.0 else cv2.INTER_LINEAR
+    resized_frame = cv2.resize(frame, (new_w, new_h), interpolation=interp)
+
+    top = (target_h - new_h) // 2
+    bottom = target_h - new_h - top
+    left = (target_w - new_w) // 2
+    right = target_w - new_w - left
+
+    padded_frame = cv2.copyMakeBorder(
+        resized_frame, top, bottom, left, right, cv2.BORDER_CONSTANT, value=[0, 0, 0]
+    )
+    return padded_frame
+
+
+def convert_video_dimension(input_path: Path, output_path: Path, target_w=TARGET_WIDTH, target_h=TARGET_HEIGHT) -> bool:
+    """優先使用 ffmpeg 保持原音軌轉換尺寸；失敗時回退 OpenCV"""
+    if shutil.which("ffmpeg") is not None:
+        vf_filter = (
+            f"scale={target_w}:{target_h}:force_original_aspect_ratio=decrease,"
+            f"pad={target_w}:{target_h}:(ow-iw)/2:(oh-ih)/2:black"
+        )
+        cmd = [
+            "ffmpeg", "-y", "-i", str(input_path),
+            "-vf", vf_filter,
+            "-c:v", "libx264", "-crf", "18", "-preset", "fast",
+            "-c:a", "copy",
+            str(output_path),
+        ]
+        try:
+            subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            return True
+        except Exception:
+            pass
+
+    # 回退 OpenCV
+    cap = cv2.VideoCapture(str(input_path))
+    if not cap.isOpened():
+        return False
+
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    if fps <= 0 or fps != fps:
+        fps = 30.0
+
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    out = cv2.VideoWriter(str(output_path), fourcc, fps, (target_w, target_h))
+
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+        processed = resize_and_pad_frame(frame, target_w, target_h)
+        out.write(processed)
+
+    cap.release()
+    out.release()
+    return True
+
+
+def ensure_video_aligned(video_path: Path) -> bool:
+    """檢查尺寸並對齊為 720x1280"""
+    cap = cv2.VideoCapture(str(video_path))
+    if not cap.isOpened():
+        return False
+
+    w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    cap.release()
+
+    if w != TARGET_WIDTH or h != TARGET_HEIGHT:
+        print(f"   📐 檢測到原始解析度為 {w}x{h}，正在對齊轉換為 {TARGET_WIDTH}x{TARGET_HEIGHT}...")
+        temp_output = video_path.parent / f"{video_path.stem}_temp_aligned.mp4"
+        if convert_video_dimension(video_path, temp_output, TARGET_WIDTH, TARGET_HEIGHT):
+            video_path.unlink()
+            temp_output.rename(video_path)
+            print("   [+] 尺寸對齊與原音軌封裝完成！")
+        else:
+            print("   [!] 尺寸轉換失敗，保留原始影片。")
+
+    return True
+
+
+# ---------------------------------------------------------------------------
+# 3. 單一帳號批次處理主迴圈
 # ---------------------------------------------------------------------------
 def process_account_json(json_path: Path):
     account_id = json_path.stem.replace(".json", "").strip()
@@ -83,7 +203,6 @@ def process_account_json(json_path: Path):
     print(f"📂 正在處理帳號: [{account_id}] (來源檔案: {json_path.name})")
     print("=" * 80)
 
-    # 讀取 JSON 並容錯處理未轉義控制字元
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             raw_items = json.load(f, strict=False)
@@ -103,12 +222,24 @@ def process_account_json(json_path: Path):
 
     # 1. 按照 "timestamp" 降序排序，最新排在最前面
     raw_items.sort(key=lambda x: str(x.get("timestamp", "")), reverse=True)
-    print(f"[*] 該帳號共有 {len(raw_items)} 條待審查 Reels，已按 timestamp 由最新到最舊排序。")
+
+    # 2. 檢查日期門檻：若 timestamp 比 CUTOFF_DATE 更晚，則剔除
+    if CUTOFF_DATE:
+        threshold = CUTOFF_DATE if "T" in CUTOFF_DATE else f"{CUTOFF_DATE}T23:59:59.999Z"
+        original_count = len(raw_items)
+        raw_items = [
+            item for item in raw_items
+            if str(item.get("timestamp", "")) <= threshold
+        ]
+        filtered_out = original_count - len(raw_items)
+        if filtered_out > 0:
+            print(f"[*] 依據日期門檻 [{CUTOFF_DATE}]，已剔除更晚發布的 {filtered_out} 條樣本。")
+
+    print(f"[*] 該帳號篩選後共有 {len(raw_items)} 條待審查 Reels。")
 
     account_dest_dir = OUTPUT_REELS_DIR / account_id
     account_dest_dir.mkdir(parents=True, exist_ok=True)
 
-    # 讀取已存在的審查紀錄，支援斷點續跑
     curated_records_path = account_dest_dir / f"{account_id}.json"
     curated_records = []
     processed_timestamps = set()
@@ -127,7 +258,7 @@ def process_account_json(json_path: Path):
                     idx_val = int(m.group(1))
                     if idx_val >= next_video_idx:
                         next_video_idx = idx_val + 1
-            print(f"[*] 載入現有紀錄: 已有 {len(processed_timestamps)} 條合格記錄，下一支收錄編號為: video_{next_video_idx:03d}")
+            print(f"[*] 載入現有紀錄: 已有 {len(processed_timestamps)} 條合格記錄，下一支編號: video_{next_video_idx:03d}")
         except Exception:
             pass
 
@@ -146,7 +277,6 @@ def process_account_json(json_path: Path):
         video_url = item.get("videoUrl")
 
         print(f"\n[{item_idx}/{len(raw_items)}] 正在審查原始候選影片 (時間: {item_ts}, 長度: {duration:.1f}s)")
-
         first_line = caption.strip().split("\n")[0][:40] if caption else "無文案"
         print(f"   💬 首行文案: {first_line}...")
 
@@ -163,15 +293,13 @@ def process_account_json(json_path: Path):
             if not download_file(audio_url, tmp_audio_path):
                 continue
 
-            print("   🎙️ 本地 SenseVoice-Small 轉錄逐字稿中...")
+            print("   🎙️ 本地 SenseVoice 轉錄逐字稿中...")
             segments = transcribe_cantonese_with_sensevoice(tmp_audio_path)
-
             full_text = "".join([s.get("text", "") for s in segments]).strip()
             if not full_text:
                 full_text = caption.strip()
 
-            # 發送純文字至 Netlify 進行美國節點 Gemini 審核
-            print("   ☁️ 傳送逐字稿至 Netlify Serverless 進行口播主題評估...")
+            print("   ☁️ 傳送逐字稿至 Netlify 進行口播審核...")
             eval_res = evaluate_transcript_via_netlify(full_text, duration)
             is_qualified = eval_res.get("qualified", False) and eval_res.get("confidence_score", 0.0) >= 0.70
             reasoning = eval_res.get("reasoning", "無說明")
@@ -206,6 +334,10 @@ def process_account_json(json_path: Path):
                 print(f"   📥 下載正式音訊檔案至: {audio_filename}...")
                 audio_downloaded = download_file(item["audioUrl"], final_audio_path)
 
+            # 【執行尺寸對齊 720x1280】
+            if video_downloaded and final_video_path.exists():
+                ensure_video_aligned(final_video_path)
+
             record = {
                 "account_id": account_id,
                 "video_id": video_prefix,
@@ -220,7 +352,7 @@ def process_account_json(json_path: Path):
                 "video_file_exists": video_downloaded,
                 "audio_file_exists": audio_downloaded,
                 "transcript": full_text,
-                "curation_result": eval_res
+                "curation_result": eval_res,
             }
             curated_records.append(record)
             passed_count += 1
@@ -243,11 +375,11 @@ def process_account_json(json_path: Path):
 
 
 # ---------------------------------------------------------------------------
-# 3. 主程序
+# 4. 主程序
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 80)
-    print("【Reels 批次自動篩選與入庫引擎 (SenseVoice + Netlify Serverless)】")
+    print("【Reels 批次自動篩選與入庫引擎 (含自動尺寸對齊)】")
     print("=" * 80)
 
     if len(sys.argv) > 1:
