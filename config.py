@@ -26,6 +26,8 @@ TRANSFORMER_DIR = ROOT_DIR / "crossModalTransformer"
 
 # 3. 常用檔案路徑常數
 DEFAULT_REELS_DIR = Path(r"D:\reels")
+NEW_REELS_DIR = Path(r"D:\NewReels")
+NEW_REELS_DATA_DIR = Path(r"D:\reelsData")
 DEFAULT_VIDEO_CLASS_JSON = DATA_PROC_DIR / "video_classification_summary.json"
 MODEL_FILE_NAME = VIDEO_PROC_DIR / "face_landmarker.task"
 CANONICAL_TRIANGLES_FILE = VIDEO_PROC_DIR / "canonical_face_triangles.npy"

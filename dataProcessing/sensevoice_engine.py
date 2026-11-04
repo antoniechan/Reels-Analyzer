@@ -24,14 +24,15 @@ _SENSEVOICE_MODEL = None
 _CC_S2HK = opencc.OpenCC("s2hk")
 
 def get_sensevoice_model():
+    """單例模式載入 SenseVoiceSmall 模型"""
     global _SENSEVOICE_MODEL
     if _SENSEVOICE_MODEL is None:
+        from funasr import AutoModel
         print("[*] 正在載入 SenseVoice-Small 語音模型 (約 200MB)...")
         _SENSEVOICE_MODEL = AutoModel(
             model="iic/SenseVoiceSmall",
-            device="cpu",          # 筆電無 GPU 也可極速在 CPU 運行；有 CUDA 可改 "cuda:0"
-            disable_update=True,
-            log_level="ERROR"
+            device="cpu",
+            disable_update=True
         )
         print("[+] SenseVoice-Small 載入完成！")
     return _SENSEVOICE_MODEL
@@ -49,15 +50,18 @@ def extract_audio_wav(video_path: Path) -> Path:
     return tmp_wav
 
 
-def clean_sensevoice_text(raw_text: str) -> tuple[str, list[str]]:
-    """過濾 SenseVoice 特殊標籤，並統一轉換為香港繁體"""
-    import re
-    emotions = re.findall(r"<\|([A-Z_]+)\|>", raw_text)
-    # 去除特殊標籤
+def clean_sensevoice_text(raw_text) -> str:
+    """過濾 SenseVoice 特殊標籤，並保證轉為香港繁體純字串 (str)"""
+    # 若 FunASR 回傳 tuple 或 list，取其主要文字元素
+    if isinstance(raw_text, (tuple, list)):
+        raw_text = " ".join([str(item) for item in raw_text if item is not None])
+    elif raw_text is None:
+        return ""
+    else:
+        raw_text = str(raw_text)
+
     cleaned = re.sub(r"<\|.*?\|>", "", raw_text).strip()
-    # 轉為香港繁體
-    cleaned_traditional = to_traditional_chinese(cleaned)
-    return cleaned_traditional, emotions
+    return to_traditional_chinese(cleaned)
 
 def to_traditional_chinese(text: str) -> str:
     """將文字統一轉換為標準香港繁體中文"""
@@ -66,16 +70,18 @@ def to_traditional_chinese(text: str) -> str:
     return _CC_S2HK.convert(text)
 
 
-def transcribe_cantonese_with_sensevoice(video_path: Path) -> list[dict]:
+def transcribe_chinese_with_sensevoice(audio_or_video_path: Path) -> list[dict]:
     """
-    執行 SenseVoice 轉錄，輸出相容 segments 格式：
-    [{"start": 0.0, "end": 2.5, "text": "如果你成日好攰..."}, ...]
+    使用本地 SenseVoice 辨識音訊（自動支援廣東話、普通話、英語）
+    回傳繁中逐字文字片段列表: [{"text": str}, ...]
     """
-    model = get_sensevoice_model()
-    audio_path = extract_audio_wav(video_path)
+    audio_path = Path(audio_or_video_path)
+    if not audio_path.exists() or audio_path.stat().st_size == 0:
+        return []
 
     try:
-        # 調用 SenseVoice
+        model = get_sensevoice_model()
+
         res = model.generate(
             input=str(audio_path),
             language="auto",
@@ -84,31 +90,21 @@ def transcribe_cantonese_with_sensevoice(video_path: Path) -> list[dict]:
         )
 
         segments = []
-        if res and len(res) > 0:
+        if res and isinstance(res, list):
             for item in res:
-                raw_text = item.get("text", "")
-                cleaned_text, emotions = clean_sensevoice_text(raw_text)
-
-                # SenseVoice 若有輸出 timestamp 則讀取，否則建立整體段落
-                ts = item.get("timestamp")
-                if ts and isinstance(ts, list) and len(ts) > 0:
-                    for sub in ts:
-                        # [start_ms, end_ms] 轉為秒數
-                        st = sub[0] / 1000.0 if isinstance(sub, list) else 0.0
-                        ed = sub[1] / 1000.0 if isinstance(sub, list) else 2.0
-                        segments.append({"start": st, "end": ed, "text": cleaned_text})
+                if isinstance(item, dict):
+                    raw_val = item.get("text", "")
                 else:
-                    # 無分段時間戳時預設依長度均勻鋪開
-                    segments.append({"start": 0.0, "end": 5.0, "text": cleaned_text})
+                    raw_val = item
+
+                cleaned_str = clean_sensevoice_text(raw_val)
+                if cleaned_str:
+                    segments.append({"text": cleaned_str})
 
         return segments
-
-    finally:
-        if audio_path.exists():
-            try:
-                os.remove(audio_path)
-            except Exception:
-                pass
+    except Exception as e:
+        print(f"      [!] SenseVoice 轉錄跳過 (可能無音軌或音訊格式不相容): {e}")
+        return []
 
 
 def compute_sensevoice_semantic_saliency(segments: list[dict], duration_sec: int) -> np.ndarray:

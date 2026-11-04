@@ -2,16 +2,18 @@
 # -*- coding: utf-8 -*-
 """
 Batch Reels Dataset Curator & Ingestion Engine
-(SenseVoice + Netlify Gemini Evaluator + Dimension Alignment)
--------------------------------------------------------------
+(SenseVoice + Netlify Gemini Evaluator + Dimension Alignment + Face Detection)
+-----------------------------------------------------------------------------
 功能：
 1. 遍歷指定目錄下的所有帳號 .json 檔案。
 2. 按照每筆 data 的 "timestamp" 欄位降序排序（最新排在最前面）。
 3. 支援 CUTOFF_DATE 門檻過濾，自動剔除晚於指定日期的樣本。
-4. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字）。
-5. 呼叫 Netlify 美國節點 Serverless Function 評估口播內容與主題。
-6. 連續命名機制：合格樣本分配 video_001.mp4, video_001.mp3...，淘汰者不佔號。
-7. 【自動 Dimension 對齊】：下載影片後自動檢查尺寸，非 720x1280 則透過 ffmpeg/OpenCV
+4. 支援 TARGET_OWNER_USERNAME 門檻過濾，剔除非指定帳號的樣本。
+5. 【真人出鏡視覺快篩】：在轉錄前透過 OpenCV 與 MediaPipe 抽樣畫面，畫面全無人臉直接排除。
+6. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字）。
+7. 呼叫 Netlify 美國節點 Serverless Function 評估口播內容與主題。
+8. 連續命名機制：合格樣本分配 video_001.mp4, video_001.mp3...，淘汰者不佔號。
+9. 【自動 Dimension 對齊】：下載影片後自動檢查尺寸，非 720x1280 則透過 ffmpeg/OpenCV
    等比例縮放並置中補黑邊（保持人臉長寬比不變形）。
 """
 
@@ -26,32 +28,41 @@ from pathlib import Path
 import cv2
 import requests
 from dotenv import load_dotenv
+import mediapipe as mp
+from mediapipe.tasks import python
+from mediapipe.tasks.python import vision
+from config import ROOT_DIR, NEW_REELS_DIR, NEW_REELS_DATA_DIR, VIDEO_PROC_DIR
+from dataProcessing.sensevoice_engine import transcribe_chinese_with_sensevoice
 
 # 將專案根目錄加入 Python 搜尋路徑
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-# 引入本地模組與設定
-from config import ROOT_DIR, REELS_DATA_DIR
-from dataProcessing.sensevoice_engine import transcribe_cantonese_with_sensevoice
-
 # 載入專案環境設定與 .env
 ENV_PATH = ROOT_DIR / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
+
+# 定義人臉模型路徑
+FACE_MODEL_PATH = str(VIDEO_PROC_DIR / "face_landmarker.task")
 
 # Netlify Serverless 審核端點
 EVALUATOR_ENDPOINT = "https://reelsanalyzercuratorservice.netlify.app/.netlify/functions/evaluate_reels"
 
 # 預設儲存根目錄
-OUTPUT_REELS_DIR = Path(r"D:\newReels")
+OUTPUT_REELS_DIR = NEW_REELS_DIR
+OUTPUT_REELS_DATA_DIR = NEW_REELS_DATA_DIR
 OUTPUT_REELS_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_REELS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
 # 參數與門檻設定
 # ---------------------------------------------------------------------------
 # 日期篩選門檻 (晚於此日期的資料將在排序後直接刪除，設為 None 則不限制)
 CUTOFF_DATE = "2026-10-01"
+
+# 帳號擁有者篩選 (只保留 ownerUsername 等於此名稱的資料，若設為 None 則不限制)
+TARGET_OWNER_USERNAME = "annhealthy_diet"
 
 # 影片標準化規格
 TARGET_WIDTH = 720
@@ -104,7 +115,7 @@ def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float, m
 
 
 # ---------------------------------------------------------------------------
-# 2. 影片尺寸標準化模組
+# 2. 影片尺寸標準化與視覺檢驗模組
 # ---------------------------------------------------------------------------
 def resize_and_pad_frame(frame, target_w, target_h):
     """將單幀等比例縮放並置中補黑邊至 (target_w, target_h)"""
@@ -171,6 +182,68 @@ def convert_video_dimension(input_path: Path, output_path: Path, target_w=TARGET
     return True
 
 
+def is_talking_head_video(video_url: str, sample_frames: int = 4) -> tuple[bool, str]:
+    """
+    輕量視覺快篩：透過 OpenCV 讀取串流，並使用 MediaPipe Tasks FaceLandmarker
+    抽樣檢測是否含真人臉孔。若完全無人臉出鏡，直接判定不合格，排除純圖文簡報/投影片。
+    """
+    cap = cv2.VideoCapture(video_url)
+    if not cap.isOpened():
+        return True, "無法讀取視訊串流，跳過視覺快篩"
+
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    if total_frames <= 0:
+        cap.release()
+        return True, "幀數無效，跳過視覺快篩"
+
+    # 若模型不存在則跳過視覺快篩，避免中斷批次
+    if not Path(FACE_MODEL_PATH).exists():
+        cap.release()
+        return True, "找不到 face_landmarker.task，跳過視覺快篩"
+
+    face_detected_count = 0
+    checked_count = 0
+
+    try:
+        base_options = python.BaseOptions(model_asset_path=FACE_MODEL_PATH)
+        options = vision.FaceLandmarkerOptions(
+            base_options=base_options,
+            running_mode=vision.RunningMode.IMAGE,
+            num_faces=1,
+            min_face_detection_confidence=0.5,
+        )
+
+        with vision.FaceLandmarker.create_from_options(options) as detector:
+            step = total_frames // (sample_frames + 1)
+            for i in range(1, sample_frames + 1):
+                frame_idx = step * i
+                cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
+                ret, frame = cap.read()
+                if not ret or frame is None:
+                    continue
+
+                checked_count += 1
+                rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_frame)
+                detection_result = detector.detect(mp_image)
+
+                if detection_result.face_landmarks:
+                    face_detected_count += 1
+                    # 只要確認有真人露臉，即可提前中斷抽樣加速
+                    break
+
+    except Exception as e:
+        cap.release()
+        return True, f"視覺快篩異常 ({e})，安全跳過"
+
+    cap.release()
+
+    if checked_count > 0 and face_detected_count == 0:
+        return False, f"畫面全無真人出鏡 (抽檢 {checked_count} 幀皆無人臉，判定為純圖文簡報/插圖)"
+
+    return True, "通過視覺出鏡檢驗"
+
+
 def ensure_video_aligned(video_path: Path) -> bool:
     """檢查尺寸並對齊為 720x1280"""
     cap = cv2.VideoCapture(str(video_path))
@@ -235,12 +308,24 @@ def process_account_json(json_path: Path):
         if filtered_out > 0:
             print(f"[*] 依據日期門檻 [{CUTOFF_DATE}]，已剔除更晚發布的 {filtered_out} 條樣本。")
 
+    # 3. 檢查擁有者名稱：刪除所有 ownerUsername 不等於指定名字的資料
+    expected_username = TARGET_OWNER_USERNAME or account_id
+    if expected_username:
+        before_user_filter = len(raw_items)
+        raw_items = [
+            item for item in raw_items
+            if str(item.get("ownerUsername", "")).strip().lower() == expected_username.strip().lower()
+        ]
+        filtered_user_count = before_user_filter - len(raw_items)
+        if filtered_user_count > 0:
+            print(f"[*] 依據 ownerUsername 門檻 [{expected_username}]，已剔除非該帳號的 {filtered_user_count} 條樣本。")
+
     print(f"[*] 該帳號篩選後共有 {len(raw_items)} 條待審查 Reels。")
 
     account_dest_dir = OUTPUT_REELS_DIR / account_id
     account_dest_dir.mkdir(parents=True, exist_ok=True)
 
-    curated_records_path = account_dest_dir / f"{account_id}.json"
+    curated_records_path = OUTPUT_REELS_DATA_DIR / f"{account_id}.json"
     curated_records = []
     processed_timestamps = set()
     next_video_idx = 1
@@ -284,6 +369,16 @@ def process_account_json(json_path: Path):
             print("   [-] 無法取得音訊 URL，略過。")
             continue
 
+        # -------------------------------------------------------------
+        # 階段 1.5：視覺出鏡快篩 (杜絕純圖卡、投影片短片)
+        # -------------------------------------------------------------
+        if video_url:
+            has_person, visual_reason = is_talking_head_video(video_url)
+            if not has_person:
+                print(f"   [✗ 排除淘汰] 理由: {visual_reason} (不佔用編號)")
+                rejected_count += 1
+                continue
+
         # 下載暫存音軌進行本地 SenseVoice 辨識
         with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_audio:
             tmp_audio_path = Path(tmp_audio.name)
@@ -294,8 +389,16 @@ def process_account_json(json_path: Path):
                 continue
 
             print("   🎙️ 本地 SenseVoice 轉錄逐字稿中...")
-            segments = transcribe_cantonese_with_sensevoice(tmp_audio_path)
-            full_text = "".join([s.get("text", "") for s in segments]).strip()
+            segments = transcribe_chinese_with_sensevoice(tmp_audio_path)
+            text_chunks = []
+            for s in segments:
+                t = s.get("text", "") if isinstance(s, dict) else s
+                if isinstance(t, (tuple, list)):
+                    text_chunks.append(" ".join(str(x) for x in t))
+                elif t:
+                    text_chunks.append(str(t))
+
+            full_text = "".join(text_chunks).strip()
             if not full_text:
                 full_text = caption.strip()
 
@@ -379,7 +482,7 @@ def process_account_json(json_path: Path):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 80)
-    print("【Reels 批次自動篩選與入庫引擎 (含自動尺寸對齊)】")
+    print("【Reels 批次自動篩選與入庫引擎 (含自動尺寸對齊與出鏡快篩)】")
     print("=" * 80)
 
     if len(sys.argv) > 1:
