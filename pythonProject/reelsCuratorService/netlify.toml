@@ -1,0 +1,4 @@
+[build]
+  functions = "netlify/functions"
+
+# Netlify Functions 預設就是美國 AWS 節點 (us-east-1)

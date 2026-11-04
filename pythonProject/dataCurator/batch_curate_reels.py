@@ -13,6 +13,7 @@ Batch Reels Dataset Curator & Ingestion Engine
 """
 
 import os
+import re
 import sys
 import json
 import time
@@ -97,7 +98,7 @@ def evaluate_audio_with_gemini(client: genai.Client, audio_path: Path) -> dict:
 }
 """
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-flash-latest",
             contents=[uploaded_file, "請聽取這段語音，評估是否符合健康知識口播標準，並提供帶時間戳記的逐字稿。"],
             config=types.GenerateContentConfig(
                 system_instruction=system_instruction,
@@ -129,10 +130,13 @@ def process_account_json(json_path: Path, client: genai.Client):
 
     try:
         with open(json_path, "r", encoding="utf-8") as f:
-            raw_items = json.load(f)
+            raw_items = json.load(f, strict=False)
     except Exception as e:
-        print(f"[-] 無法讀取 JSON 檔案: {e}")
-        return
+        with open(json_path, "r", encoding="utf-8", errors="replace") as f:
+            content = f.read()
+        # 移除 ASCII 0~31 中的無效控制字元（保留正常 tab 與 newline）
+        content_cleaned = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', content)
+        raw_items = json.loads(content_cleaned, strict=False)
 
     if not isinstance(raw_items, list):
         print("[-] JSON 格式不符合預期（必須為包含多條 Reels 的 List 陣列）。")
