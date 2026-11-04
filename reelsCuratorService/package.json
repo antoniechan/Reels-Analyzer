@@ -1,7 +1,8 @@
 {
   "name": "reels-gemini-evaluator",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@google/genai": "^2.0.0"
+    "@google/generative-ai": "^0.24.0"
   }
 }
