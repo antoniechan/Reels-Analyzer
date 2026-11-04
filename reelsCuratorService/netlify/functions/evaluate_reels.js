@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenAI } from "@google/genai";
 
 const SYSTEM_INSTRUCTION = `
 你是一位嚴謹的短影音資料集審核專家。你的任務是評估一段 Reels 短影音逐字稿是否符合「健康知識與營養觀念科普短影音」的收錄標準。
@@ -23,7 +23,7 @@ const SYSTEM_INSTRUCTION = `
 `;
 
 export default async (req, context) => {
-  console.log("--> 收到請求 Method:", req.method);
+  console.log("--> [Netlify] 收到請求 Method:", req.method);
 
   if (req.method === "OPTIONS") {
     return new Response(null, {
@@ -44,8 +44,8 @@ export default async (req, context) => {
   }
 
   try {
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) {
+    const rawKey = process.env.GEMINI_API_KEY;
+    if (!rawKey) {
       console.error("[-] 錯誤：找不到 GEMINI_API_KEY 環境變數！");
       return new Response(
         JSON.stringify({
@@ -56,19 +56,13 @@ export default async (req, context) => {
       );
     }
 
+    const apiKey = rawKey.trim();
     const bodyText = await req.text();
-    console.log("--> 接收到 Payload 長度:", bodyText.length);
+    console.log("--> [Netlify] Payload 長度:", bodyText.length);
     const { transcript_text, duration_sec } = JSON.parse(bodyText);
 
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({
-      model: "gemini-3.8-flash",
-      systemInstruction: SYSTEM_INSTRUCTION,
-      generationConfig: {
-        responseMimeType: "application/json",
-        temperature: 0.1,
-      },
-    });
+    // 使用官方 @google/genai SDK 初始化
+    const ai = new GoogleGenAI({ apiKey: apiKey });
 
     const prompt = `
 影片時長: ${duration_sec || 0} 秒
@@ -79,9 +73,18 @@ ${transcript_text || ""}
 請嚴格根據收錄準則評判這段內容是否符合訓練集標準。
 `;
 
-    const result = await model.generateContent(prompt);
-    const replyText = result.response.text();
-    console.log("--> Gemini 回應成功:", replyText);
+    const response = await ai.models.generateContent({
+      model: "gemini-3.8-flash",
+      contents: prompt,
+      config: {
+        systemInstruction: SYSTEM_INSTRUCTION,
+        responseMimeType: "application/json",
+        temperature: 0.1,
+      },
+    });
+
+    const replyText = response.text.trim();
+    console.log("--> [Netlify] Gemini 評估成功:", replyText);
 
     return new Response(replyText, {
       status: 200,
@@ -91,13 +94,13 @@ ${transcript_text || ""}
       },
     });
   } catch (err) {
-    console.error("[-] 執行錯誤:", err);
+    console.error("[-] [Netlify] 執行錯誤:", err);
     return new Response(
       JSON.stringify({
         qualified: false,
         confidence_score: 0.0,
         primary_topic: "審核異常",
-        reasoning: err.message,
+        reasoning: `Server Error: ${err.message}`,
       }),
       {
         status: 200,
