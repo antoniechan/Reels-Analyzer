@@ -2,19 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 Batch Reels Dataset Curator & Ingestion Engine
-(SenseVoice + Netlify Gemini Evaluator + Dimension Alignment + Face Detection)
------------------------------------------------------------------------------
+(SenseVoice + Netlify Gemini Evaluator + Dimension Alignment + Face & Audio Stream Detection)
+--------------------------------------------------------------------------------------------
 功能：
 1. 遍歷指定目錄下的所有帳號 .json 檔案。
 2. 按照每筆 data 的 "timestamp" 欄位降序排序（最新排在最前面）。
 3. 支援 CUTOFF_DATE 門檻過濾，自動剔除晚於指定日期的樣本。
-4. 支援 TARGET_OWNER_USERNAME 門檻過濾，剔除非指定帳號的樣本。
+4. 【動態帳號比對】：嚴格檢查 ownerUsername 是否與當前 JSON 檔名完全一致，不符者直接刪除。
 5. 【真人出鏡視覺快篩】：在轉錄前透過 OpenCV 與 MediaPipe 抽樣畫面，畫面全無人臉直接排除。
-6. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字）。
-7. 呼叫 Netlify 美國節點 Serverless Function 評估口播內容與主題。
-8. 連續命名機制：合格樣本分配 video_001.mp4, video_001.mp3...，淘汰者不佔號。
-9. 【自動 Dimension 對齊】：下載影片後自動檢查尺寸，非 720x1280 則透過 ffmpeg/OpenCV
-   等比例縮放並置中補黑邊（保持人臉長寬比不變形）。
+6. 【無聲軌音訊快篩】：檢查元數據 should_mute_audio 及物理檔案是否含音訊軌，無聲直接淘汰。
+7. 本地 SenseVoice-Small 轉錄逐字稿（整段乾淨繁中文字）。
+8. 呼叫 Netlify 美國節點 Serverless Function 評估口播內容與主題。
+9. 連續命名機制：合格樣本分配 video_001.mp4, video_001.mp3...，淘汰者不佔號。
+10. 【自動 Dimension 對齊】：下載影片後自動檢查尺寸，非 720x1280 則透過 ffmpeg/OpenCV
+    等比例縮放並置中補黑邊（保持人臉長寬比不變形）。
 """
 
 import sys
@@ -60,9 +61,6 @@ OUTPUT_REELS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 # ---------------------------------------------------------------------------
 # 日期篩選門檻 (晚於此日期的資料將在排序後直接刪除，設為 None 則不限制)
 CUTOFF_DATE = "2026-10-01"
-
-# 帳號擁有者篩選 (只保留 ownerUsername 等於此名稱的資料，若設為 None 則不限制)
-TARGET_OWNER_USERNAME = "annhealthy_diet"
 
 # 影片標準化規格
 TARGET_WIDTH = 720
@@ -115,8 +113,43 @@ def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float, m
 
 
 # ---------------------------------------------------------------------------
-# 2. 影片尺寸標準化與視覺檢驗模組
+# 2. 視訊與音訊檢驗模組
 # ---------------------------------------------------------------------------
+def check_audio_stream_exists(audio_file_path: Path) -> bool:
+    """
+    使用 ffprobe / ffmpeg 檢查下載的檔案是否具有有效的音訊串流 (Audio Stream)。
+    若為純視訊或音軌被 IG 移除，回傳 False。
+    """
+    if not audio_file_path.exists() or audio_file_path.stat().st_size == 0:
+        return False
+
+    if shutil.which("ffprobe") is not None:
+        cmd = [
+            "ffprobe",
+            "-v", "error",
+            "-select_streams", "a:0",
+            "-show_entries", "stream=codec_type",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            str(audio_file_path)
+        ]
+        try:
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True, check=True)
+            return "audio" in res.stdout.strip().lower()
+        except Exception:
+            pass
+
+    if shutil.which("ffmpeg") is not None:
+        cmd = ["ffmpeg", "-i", str(audio_file_path)]
+        try:
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            output = res.stderr.lower()
+            return "audio:" in output or "stream #0:1" in output or "stream #0:0: audio" in output
+        except Exception:
+            pass
+
+    return audio_file_path.stat().st_size > 2048
+
+
 def resize_and_pad_frame(frame, target_w, target_h):
     """將單幀等比例縮放並置中補黑邊至 (target_w, target_h)"""
     h, w = frame.shape[:2]
@@ -158,7 +191,6 @@ def convert_video_dimension(input_path: Path, output_path: Path, target_w=TARGET
         except Exception:
             pass
 
-    # 回退 OpenCV
     cap = cv2.VideoCapture(str(input_path))
     if not cap.isOpened():
         return False
@@ -182,24 +214,31 @@ def convert_video_dimension(input_path: Path, output_path: Path, target_w=TARGET
     return True
 
 
-def is_talking_head_video(video_url: str, sample_frames: int = 4) -> tuple[bool, str]:
+def is_talking_head_video(video_url: str, sample_rate_sec: int = 1, min_presence_ratio: float = 0.40) -> tuple[bool, str]:
     """
-    輕量視覺快篩：透過 OpenCV 讀取串流，並使用 MediaPipe Tasks FaceLandmarker
-    抽樣檢測是否含真人臉孔。若完全無人臉出鏡，直接判定不合格，排除純圖文簡報/投影片。
+    精確單人口播快篩：
+    以每秒 1 幀（或等距抽樣 15~20 幀）統計整支影片的「人臉出現時長佔比 (Face Presence Ratio)」。
+    若人臉出現比例低於 min_presence_ratio (預設 40%)，代表大部分鏡頭都在拍攝食物、風景、
+    廚房料理空鏡或商品，判定為非口播短影音並直接淘汰。
     """
     cap = cv2.VideoCapture(video_url)
     if not cap.isOpened():
         return True, "無法讀取視訊串流，跳過視覺快篩"
 
+    fps = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    if total_frames <= 0:
+    if fps <= 0 or total_frames <= 0:
         cap.release()
-        return True, "幀數無效，跳過視覺快篩"
+        return True, "幀數或 FPS 無效，跳過視覺快篩"
 
-    # 若模型不存在則跳過視覺快篩，避免中斷批次
     if not Path(FACE_MODEL_PATH).exists():
         cap.release()
         return True, "找不到 face_landmarker.task，跳過視覺快篩"
+
+    duration_sec = total_frames / fps
+    # 每秒抽 1 幀，最多均勻抽 25 幀，既精確又極速（耗時約 0.3 秒）
+    num_samples = min(25, max(8, int(duration_sec)))
+    step = total_frames // num_samples
 
     face_detected_count = 0
     checked_count = 0
@@ -214,9 +253,8 @@ def is_talking_head_video(video_url: str, sample_frames: int = 4) -> tuple[bool,
         )
 
         with vision.FaceLandmarker.create_from_options(options) as detector:
-            step = total_frames // (sample_frames + 1)
-            for i in range(1, sample_frames + 1):
-                frame_idx = step * i
+            for i in range(num_samples):
+                frame_idx = i * step
                 cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
                 ret, frame = cap.read()
                 if not ret or frame is None:
@@ -227,10 +265,9 @@ def is_talking_head_video(video_url: str, sample_frames: int = 4) -> tuple[bool,
                 mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_frame)
                 detection_result = detector.detect(mp_image)
 
+                # 必須檢測到人臉
                 if detection_result.face_landmarks:
                     face_detected_count += 1
-                    # 只要確認有真人露臉，即可提前中斷抽樣加速
-                    break
 
     except Exception as e:
         cap.release()
@@ -238,10 +275,16 @@ def is_talking_head_video(video_url: str, sample_frames: int = 4) -> tuple[bool,
 
     cap.release()
 
-    if checked_count > 0 and face_detected_count == 0:
-        return False, f"畫面全無真人出鏡 (抽檢 {checked_count} 幀皆無人臉，判定為純圖文簡報/插圖)"
+    if checked_count == 0:
+        return True, "無法有效抽樣幀"
 
-    return True, "通過視覺出鏡檢驗"
+    face_ratio = face_detected_count / checked_count
+
+    # 門檻判定：人臉出鏡率必須 >= 40%
+    if face_ratio < min_presence_ratio:
+        return False, f"非真人持續口播 (人臉出鏡率僅 {face_ratio*100:.1f}%，低於 {min_presence_ratio*100:.0f}% 門檻，畫面多為食物/做菜空鏡)"
+
+    return True, f"通過口播檢驗 (人臉出鏡率: {face_ratio*100:.1f}%)"
 
 
 def ensure_video_aligned(video_path: Path) -> bool:
@@ -271,6 +314,7 @@ def ensure_video_aligned(video_path: Path) -> bool:
 # 3. 單一帳號批次處理主迴圈
 # ---------------------------------------------------------------------------
 def process_account_json(json_path: Path):
+    # 以當前 JSON 檔案名稱作為唯一標準帳號 ID (例如 annhealthy_diet.json -> annhealthy_diet)
     account_id = json_path.stem.replace(".json", "").strip()
     print("\n" + "=" * 80)
     print(f"📂 正在處理帳號: [{account_id}] (來源檔案: {json_path.name})")
@@ -308,17 +352,15 @@ def process_account_json(json_path: Path):
         if filtered_out > 0:
             print(f"[*] 依據日期門檻 [{CUTOFF_DATE}]，已剔除更晚發布的 {filtered_out} 條樣本。")
 
-    # 3. 檢查擁有者名稱：刪除所有 ownerUsername 不等於指定名字的資料
-    expected_username = TARGET_OWNER_USERNAME or account_id
-    if expected_username:
-        before_user_filter = len(raw_items)
-        raw_items = [
-            item for item in raw_items
-            if str(item.get("ownerUsername", "")).strip().lower() == expected_username.strip().lower()
-        ]
-        filtered_user_count = before_user_filter - len(raw_items)
-        if filtered_user_count > 0:
-            print(f"[*] 依據 ownerUsername 門檻 [{expected_username}]，已剔除非該帳號的 {filtered_user_count} 條樣本。")
+    # 3. 檢查 ownerUsername：必須完全與當前 JSON 檔名 (account_id) 一致，不符者刪除
+    before_user_filter = len(raw_items)
+    raw_items = [
+        item for item in raw_items
+        if str(item.get("ownerUsername", "")).strip() == account_id
+    ]
+    filtered_user_count = before_user_filter - len(raw_items)
+    if filtered_user_count > 0:
+        print(f"[*] 比對檔名 [{account_id}]：已剔除 ownerUsername 不一致的 {filtered_user_count} 條樣本。")
 
     print(f"[*] 該帳號篩選後共有 {len(raw_items)} 條待審查 Reels。")
 
@@ -365,8 +407,19 @@ def process_account_json(json_path: Path):
         first_line = caption.strip().split("\n")[0][:40] if caption else "無文案"
         print(f"   💬 首行文案: {first_line}...")
 
+        # -------------------------------------------------------------
+        # 階段 1：中繼資料音軌有效性檢查 (IG 刪除聲軌標記)
+        # -------------------------------------------------------------
+        music_info = item.get("musicInfo") or {}
+        if music_info.get("should_mute_audio") is True:
+            mute_reason = music_info.get("should_mute_audio_reason") or "Instagram 標記為靜音"
+            print(f"   [✗ 排除淘汰] 理由: 音訊無效 ({mute_reason}) (不佔用編號)")
+            rejected_count += 1
+            continue
+
         if not audio_url:
-            print("   [-] 無法取得音訊 URL，略過。")
+            print("   [✗ 排除淘汰] 理由: 無法取得音訊 URL (不佔用編號)")
+            rejected_count += 1
             continue
 
         # -------------------------------------------------------------
@@ -386,6 +439,16 @@ def process_account_json(json_path: Path):
         try:
             print("   ⬇️ 正在下載音軌小檔 (~1MB)...")
             if not download_file(audio_url, tmp_audio_path):
+                print("   [✗ 排除淘汰] 理由: 音軌小檔下載失敗 (不佔用編號)")
+                rejected_count += 1
+                continue
+
+            # -------------------------------------------------------------
+            # 階段 1.8：實體音軌串流檢查 (杜絕純無聲/音軌缺失影片)
+            # -------------------------------------------------------------
+            if not check_audio_stream_exists(tmp_audio_path):
+                print("   [✗ 排除淘汰] 理由: 影片無有效聲音軌道 (音軌缺失或被移除) (不佔用編號)")
+                rejected_count += 1
                 continue
 
             print("   🎙️ 本地 SenseVoice 轉錄逐字稿中...")
@@ -400,7 +463,9 @@ def process_account_json(json_path: Path):
 
             full_text = "".join(text_chunks).strip()
             if not full_text:
-                full_text = caption.strip()
+                print("   [✗ 排除淘汰] 理由: 影片中無有效語音口播對白 (轉錄為空) (不佔用編號)")
+                rejected_count += 1
+                continue
 
             print("   ☁️ 傳送逐字稿至 Netlify 進行口播審核...")
             eval_res = evaluate_transcript_via_netlify(full_text, duration)
@@ -441,22 +506,17 @@ def process_account_json(json_path: Path):
             if video_downloaded and final_video_path.exists():
                 ensure_video_aligned(final_video_path)
 
-            record = {
-                "account_id": account_id,
+            # 完整保留原始 JSON 的全部欄位，並擴充/更新 Curator 相關欄位
+            record = dict(item)
+            record.update({
                 "video_id": video_prefix,
                 "local_video_file": video_filename,
                 "local_audio_file": audio_filename,
-                "timestamp": item.get("timestamp"),
-                "duration_sec": duration,
-                "play_count": item.get("videoPlayCount"),
-                "likes_count": item.get("likesCount"),
-                "comments_count": item.get("commentsCount"),
-                "caption": caption,
                 "video_file_exists": video_downloaded,
                 "audio_file_exists": audio_downloaded,
                 "transcript": full_text,
                 "curation_result": eval_res,
-            }
+            })
             curated_records.append(record)
             passed_count += 1
             next_video_idx += 1
@@ -482,7 +542,7 @@ def process_account_json(json_path: Path):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 80)
-    print("【Reels 批次自動篩選與入庫引擎 (含自動尺寸對齊與出鏡快篩)】")
+    print("【Reels 批次自動篩選與入庫引擎 (含尺寸對齊、出鏡檢測與無聲音過濾)】")
     print("=" * 80)
 
     if len(sys.argv) > 1:
