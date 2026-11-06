@@ -3,6 +3,7 @@ name = "reels-analyzer"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "apify-client>=3.4.0",
     "av>=19.0.1",
     "funasr>=1.4.21",
     "google-genai>=2.31.0",

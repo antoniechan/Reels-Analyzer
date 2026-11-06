@@ -314,7 +314,7 @@ def ensure_video_aligned(video_path: Path) -> bool:
 # 3. 單一帳號批次處理主迴圈
 # ---------------------------------------------------------------------------
 def process_account_json(json_path: Path):
-    # 以當前 JSON 檔案名稱作為唯一標準帳號 ID (例如 annhealthy_diet.json -> annhealthy_diet)
+    # 以當前 JSON 檔案名稱作為唯一標準帳號 ID
     account_id = json_path.stem.replace(".json", "").strip()
     print("\n" + "=" * 80)
     print(f"📂 正在處理帳號: [{account_id}] (來源檔案: {json_path.name})")
@@ -545,11 +545,12 @@ def main():
     print("【Reels 批次自動篩選與入庫引擎 (含尺寸對齊、出鏡檢測與無聲音過濾)】")
     print("=" * 80)
 
-    if len(sys.argv) > 1:
-        target_folder_str = sys.argv[1].strip('"').strip("'")
-    else:
-        target_folder_str = input("👉 請輸入裝有多個帳號 .json 的資料夾路徑: ").strip('"').strip("'")
+    # if len(sys.argv) > 1:
+    #     target_folder_str = sys.argv[1].strip('"').strip("'")
+    # else:
+    #     target_folder_str = input("👉 請輸入裝有多個帳號 .json 的資料夾路徑: ").strip('"').strip("'")
 
+    target_folder_str =  Path(__file__).resolve().parent / "raw_data"
     target_folder = Path(target_folder_str)
     if not target_folder.exists() or not target_folder.is_dir():
         print(f"[-] 找不到指定目錄: {target_folder}")

@@ -4,3 +4,7 @@
 4. followers > 1,000
 5. followers < 1,000,000
 6. mostly monologue
+
+1. face show up > 40% time
+2. monologue
+3. health education focus

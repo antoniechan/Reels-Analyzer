@@ -113,7 +113,7 @@ def process_reels_json(json_path: str, threshold: int, execute: bool = False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="將 reelsData JSON 裡大於指定編號的 local_video_file 與 local_audio_file 減 1")
-    parser.add_argument("--json", type=str, required=True, help="目標 JSON 檔案路徑 (例如: anminclinic.json)")
+    parser.add_argument("--json", type=str, required=True, help="目標 JSON 檔案路徑")
     parser.add_argument("--above", type=int, required=True, help="門檻數字 (例如: 4，則所有 > 004 的記錄都會減 1)")
     parser.add_argument("--yes", action="store_true", help="略過人工確認直接寫入")
     args = parser.parse_args()
