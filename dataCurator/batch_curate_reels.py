@@ -92,8 +92,8 @@ def download_file(url: str, dest_path: Path, timeout: int = 40) -> bool:
         return False
 
 
-def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float, max_retries: int = 3) -> dict:
-    """呼叫 Netlify 美國伺服器進行 Gemini 口播主題審查（具備重試機制）"""
+def evaluate_transcript_via_gemini(transcript_text: str, duration_sec: float, max_retries: int = 3) -> dict:
+    """呼叫美國伺服器進行 Gemini 口播主題審查（具備重試機制）"""
     payload = {
         "transcript_text": transcript_text,
         "duration_sec": duration_sec
@@ -108,7 +108,7 @@ def evaluate_transcript_via_netlify(transcript_text: str, duration_sec: float, m
                 print(f"      [!] 連線重試 ({e})，正在進行第 {attempt}/{max_retries} 次...")
                 time.sleep(1.5)
             else:
-                print(f"      [!] Netlify 審核端點異常: {e}")
+                print(f"      [!] Gemini (Netlify server) 審核端點異常: {e}")
                 return {"qualified": False, "reasoning": f"遠端連線異常: {e}"}
 
 
@@ -467,8 +467,8 @@ def process_account_json(json_path: Path):
                 rejected_count += 1
                 continue
 
-            print("   ☁️ 傳送逐字稿至 Netlify 進行口播審核...")
-            eval_res = evaluate_transcript_via_netlify(full_text, duration)
+            print("   ☁️ 傳送逐字稿至 Gemini (Netlify server) 進行口播審核...")
+            eval_res = evaluate_transcript_via_gemini(full_text, duration)
             is_qualified = eval_res.get("qualified", False) and eval_res.get("confidence_score", 0.0) >= 0.70
             reasoning = eval_res.get("reasoning", "無說明")
             topic = eval_res.get("primary_topic", "未分類")
