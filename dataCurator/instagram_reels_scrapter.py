@@ -21,7 +21,7 @@ load_dotenv(dotenv_path=ENV_PATH)
 # ---------------------------------------------------------------------------
 # 全域參數設定
 # ---------------------------------------------------------------------------
-TARGET_USERNAME = "dietitian.lab"
+TARGET_USERNAME = "dietitianlizachan"
 MAX_REELS_PER_PROFILE = 50
 NEWER_THAN_DATE = "2025-09-01"
 
