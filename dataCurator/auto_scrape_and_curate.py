@@ -6,15 +6,15 @@ End-to-End Instagram Reels Scraper & Dataset Curator Pipeline
 功能特點：
 1. 從 accounts.txt 讀取 Instagram 帳號清單（支援 # 註解與空白行跳過）。
 2. 自動呼叫 Apify Actor (apify/instagram-reel-scraper) 抓取原始短影音數據。
-3. 支援日期區間、試播排除、分享數抓取、每帳號上限等全域參數[cite: 4]。
+3. 支援日期區間、試播排除、分享數抓取、每帳號上限等全域參數。
 4. 自動銜接 Curator 引擎：
    - 時間門檻過濾 (CUTOFF_DATE) 與 ownerUsername 嚴格比對。
    - MediaPipe 真人出鏡時長快篩 (排除料理/純食物空鏡，門檻 >= 40%)。
    - 實體音軌串流 (Audio Stream) 存在性檢查。
-   - SenseVoice-Small 本地語音轉錄[cite: 3]。
-   - Netlify / Gemini Serverless 口播專業度審核[cite: 3]。
-   - 720x1280 畫布等比例補黑邊尺寸對齊[cite: 3]。
-5. 統計匯總：在終端機輸出匯總表格，並將每個帳號的入選影片數量記錄至 curated_summary.json[cite: 3]。
+   - SenseVoice-Small 本地語音轉錄。
+   - Netlify / Gemini Serverless 口播專業度審核。
+   - 720x1280 畫布等比例補黑邊尺寸對齊。
+5. 統計匯總：在終端機輸出匯總表格，並將每個帳號的入選影片數量記錄至 curated_summary.json。
 """
 
 import os
@@ -47,7 +47,7 @@ from dataProcessing.sensevoice_engine import transcribe_chinese_with_sensevoice
 ENV_PATH = ROOT_DIR / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
-# 模型與服務端點[cite: 3]
+# 模型與服務端點
 FACE_MODEL_PATH = str(VIDEO_PROC_DIR / "face_landmarker.task")
 EVALUATOR_ENDPOINT = "https://reelsanalyzercuratorservice.netlify.app/.netlify/functions/evaluate_reels"
 
@@ -55,17 +55,17 @@ EVALUATOR_ENDPOINT = "https://reelsanalyzercuratorservice.netlify.app/.netlify/f
 # 全域參數設定
 # ---------------------------------------------------------------------------
 # 1. 爬蟲參數 (Apify)
-MAX_REELS_PER_PROFILE = 50          # 每個帳號抓取上限[cite: 4]
-SCRAPE_NEWER_THAN = "2025-09-01"    # 爬取日期下限[cite: 4]
-SKIP_TRIAL_REELS = True             # 排除測試短片[cite: 4]
-SKIP_PINNED_REELS = False           # 是否排除置頂影片[cite: 4]
-INCLUDE_SHARES_COUNT = True         # 包含分享數[cite: 4]
+MAX_REELS_PER_PROFILE = 50          # 每個帳號抓取上限
+SCRAPE_NEWER_THAN = "2025-09-01"    # 爬取日期下限
+SKIP_TRIAL_REELS = True             # 排除測試短片
+SKIP_PINNED_REELS = False           # 是否排除置頂影片
+INCLUDE_SHARES_COUNT = True         # 包含分享數
 
 # 2. 篩選與標準化參數 (Curator)
-CUTOFF_DATE = "2026-10-01"          # 歷史發布時間上限 (晚於此日期直接排除)[cite: 3]
-MIN_FACE_PRESENCE_RATIO = 0.40      # 真人出鏡率門檻 (低於 40% 判定為料理/圖卡空鏡)[cite: 3]
-TARGET_WIDTH = 720                  # 影片寬度標準規格[cite: 3]
-TARGET_HEIGHT = 1280                # 影片高度標準規格[cite: 3]
+CUTOFF_DATE = "2026-10-01"          # 歷史發布時間上限 (晚於此日期直接排除)
+MIN_FACE_PRESENCE_RATIO = 0.40      # 真人出鏡率門檻 (低於 40% 判定為料理/圖卡空鏡)
+TARGET_WIDTH = 720                  # 影片寬度標準規格
+TARGET_HEIGHT = 1280                # 影片高度標準規格
 
 # 3. 目錄結構
 RAW_DATA_DIR = Path(__file__).resolve().parent / "raw_data"
