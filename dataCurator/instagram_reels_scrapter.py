@@ -21,7 +21,7 @@ load_dotenv(dotenv_path=ENV_PATH)
 # ---------------------------------------------------------------------------
 # 全域參數設定
 # ---------------------------------------------------------------------------
-TARGET_USERNAME = "cheungyichungec"
+TARGET_USERNAME = "cofit.me"
 MAX_REELS_PER_PROFILE = 100
 NEWER_THAN_DATE = "2025-09-01"
 
