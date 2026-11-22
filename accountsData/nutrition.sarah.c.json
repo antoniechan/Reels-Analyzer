@@ -1,38 +1,55 @@
 {
   "account_id": "nutrition.sarah.c",
-  "followers": 8000,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師Sarah陳宣希｜減脂增肌 ｜一對一營養咨詢｜重磅專家｜逆轉三高｜擊退脂肪肝｜孕媽媽飲食｜濕疹食療",
+  "followers": 7990,
+  "follows": 4832,
+  "posts_count": 901,
+  "verified": true,
+  "total_videos_analyzed": 9,
   "metrics": {
-    "VFR": 0.1771875,
-    "ERV": 0.07054673716363545,
-    "CLR": 0.5037593909209115,
-    "VFR_mean": 0.2274625,
-    "CV_views": 0.7013929563920072,
-    "CV_likes": 0.3556998224655271,
-    "CV_comments": 0.693978560909661
+    "VFR": 0.17922403003754694,
+    "ERV": 0.06913407816401251,
+    "CLR": 0.45588234623702434,
+    "SRV": 0.0006983240218587123,
+    "SLR": 0.014705882136678205,
+    "VFR_mean": 0.24145459602280628,
+    "CV_views": 0.6848910829078841,
+    "CV_likes": 0.37188071363016584,
+    "CV_comments": 0.7540281703170663,
+    "CV_shares": 1.2792042981336624
   },
   "median_stats": {
-    "median_views": 1417.5,
-    "median_likes": 66.5,
-    "median_comments": 33.5
+    "median_views": 1432.0,
+    "median_likes": 68.0,
+    "median_comments": 31.0,
+    "median_shares": 1.0
   },
   "mean_stats": {
-    "mean_views": 1819.7,
-    "mean_likes": 67.1,
-    "mean_comments": 26.3
+    "mean_views": 1929.2222222222222,
+    "mean_likes": 67.33333333333333,
+    "mean_comments": 25.22222222222222,
+    "mean_shares": 2.4444444444444446
   },
   "std_stats": {
-    "std_views": 1276.3247627465355,
-    "std_likes": 23.867458087436866,
-    "std_comments": 18.251636151924085
+    "std_views": 1321.3070969477324,
+    "std_likes": 25.03996805109783,
+    "std_comments": 19.01826607355267,
+    "std_shares": 3.126943839882286
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 73.92,
+    "classification": "neutral",
+    "quality_score": 59.05,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 99.02,
-      "P_VFR": 29.41,
-      "P_CLR": 96.08
+      "P_ERV": 98.85,
+      "P_VFR": 21.26,
+      "P_SRV": 19.54,
+      "P_CLR": 95.98
     }
   }
 }

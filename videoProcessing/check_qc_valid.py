@@ -3,7 +3,7 @@ import json
 import argparse
 import numpy as np
 import pandas as pd
-from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
+from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR, NEW_REELS_DIR
 
 OUTPUT_REPORT_DIR = VIDEO_PROC_DIR
 
@@ -220,7 +220,7 @@ def scan_and_validate_directory(reels_dir: str, output_dir: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="批次檢查影片目錄中附屬 _qc.json 的存在性與數據健康度")
-    parser.add_argument("--dir", type=str, default=DEFAULT_REELS_DIR, help=f"Reels 影片根目錄 (預設: {DEFAULT_REELS_DIR})")
+    parser.add_argument("--dir", type=str, default=NEW_REELS_DIR, help=f"Reels 影片根目錄 (預設: {NEW_REELS_DIR})")
     parser.add_argument("--out_dir", type=str, default=OUTPUT_REPORT_DIR, help=f"報告輸出目錄 (預設: {OUTPUT_REPORT_DIR})")
     args = parser.parse_args()
 

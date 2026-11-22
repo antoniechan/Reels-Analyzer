@@ -1,38 +1,55 @@
 {
   "account_id": "inutrition333",
-  "followers": 4900,
-  "total_videos_analyzed": 14,
+  "full_name": "愛營養iNutrition",
+  "followers": 4868,
+  "follows": 2,
+  "posts_count": 714,
+  "verified": true,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.06173469387755102,
-    "ERV": 0.006611570226077454,
+    "VFR": 0.06511914543960559,
+    "ERV": 0.006309148245081551,
     "CLR": 0.0,
-    "VFR_mean": 0.08275510204081632,
-    "CV_views": 0.6944917865093163,
-    "CV_likes": 0.9514359690217252,
-    "CV_comments": 0.0
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.0729389208436045,
+    "CV_views": 0.5287289665476506,
+    "CV_likes": 0.7180703308172536,
+    "CV_comments": 0.0,
+    "CV_shares": 3.8729833462074175
   },
   "median_stats": {
-    "median_views": 302.5,
+    "median_views": 317.0,
     "median_likes": 2.0,
-    "median_comments": 0.0
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 405.5,
-    "mean_likes": 2.9285714285714284,
-    "mean_comments": 0.0
+    "mean_views": 355.06666666666666,
+    "mean_likes": 2.6666666666666665,
+    "mean_comments": 0.0,
+    "mean_shares": 0.13333333333333333
   },
   "std_stats": {
-    "std_views": 281.61641942952775,
-    "std_likes": 2.786348194992195,
-    "std_comments": 0.0
+    "std_views": 187.7340317221858,
+    "std_likes": 1.9148542155126762,
+    "std_comments": 0.0,
+    "std_shares": 0.5163977794943223
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 15.07,
+    "quality_score": 12.31,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 19.61,
-      "P_VFR": 4.9,
-      "P_CLR": 22.06
+      "P_ERV": 16.67,
+      "P_VFR": 4.02,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

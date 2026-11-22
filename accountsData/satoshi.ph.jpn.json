@@ -1,0 +1,55 @@
+{
+  "account_id": "satoshi.ph.jpn",
+  "full_name": "日本藥師🇯🇵小智",
+  "followers": 11781,
+  "follows": 0,
+  "posts_count": 33,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.47101264748323574,
+    "ERV": 0.00036042530179123707,
+    "CLR": 0.0,
+    "SRV": 0.0028834024143298965,
+    "SLR": 0.0,
+    "VFR_mean": 0.5426225586653395,
+    "CV_views": 0.5343690694358765,
+    "CV_likes": 0.0,
+    "CV_comments": 1.9540251789575283,
+    "CV_shares": 1.031533754160163
+  },
+  "median_stats": {
+    "median_views": 5549.0,
+    "median_likes": -1.0,
+    "median_comments": 3.0,
+    "median_shares": 16.0
+  },
+  "mean_stats": {
+    "mean_views": 6392.636363636364,
+    "mean_likes": -1.0,
+    "mean_comments": 22.727272727272727,
+    "mean_shares": 39.18181818181818
+  },
+  "std_stats": {
+    "std_views": 3416.027144878309,
+    "std_likes": 0.0,
+    "std_comments": 44.40966315812564,
+    "std_shares": 40.41736800391184
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 32.99,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 6.32,
+      "P_VFR": 56.9,
+      "P_SRV": 48.85,
+      "P_CLR": 23.28
+    }
+  }
+}

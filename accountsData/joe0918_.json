@@ -1,38 +1,55 @@
 {
   "account_id": "joe0918_",
-  "followers": 3800,
-  "total_videos_analyzed": 17,
+  "full_name": "高雄健身教練Joe ｜增肌減脂｜訓練計畫｜客製化訓練｜",
+  "followers": 3813,
+  "follows": 925,
+  "posts_count": 114,
+  "verified": false,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.5407894736842105,
-    "ERV": 0.012652068120363957,
+    "VFR": 0.5908733280881195,
+    "ERV": 0.013759431862512458,
     "CLR": 0.0,
-    "VFR_mean": 0.5323993808049535,
-    "CV_views": 0.24636487690345232,
-    "CV_likes": 0.2723038895866595,
-    "CV_comments": 4.123105625617661
+    "SRV": 0.001331557922178625,
+    "SLR": 0.09677419042663901,
+    "VFR_mean": 0.6223970626803041,
+    "CV_views": 0.3243332082009014,
+    "CV_likes": 0.4179259679154944,
+    "CV_comments": 2.8030595529069404,
+    "CV_shares": 0.837114442222333
   },
   "median_stats": {
-    "median_views": 2055.0,
-    "median_likes": 26.0,
-    "median_comments": 0.0
+    "median_views": 2253.0,
+    "median_likes": 31.0,
+    "median_comments": 0.0,
+    "median_shares": 3.0
   },
   "mean_stats": {
-    "mean_views": 2023.1176470588234,
-    "mean_likes": 26.0,
-    "mean_comments": 0.058823529411764705
+    "mean_views": 2373.2,
+    "mean_likes": 30.866666666666667,
+    "mean_comments": 0.2,
+    "mean_shares": 4.466666666666667
   },
   "std_stats": {
-    "std_views": 498.4251300788491,
-    "std_likes": 7.079901129253148,
-    "std_comments": 0.242535625036333
+    "std_views": 769.7075697023791,
+    "std_likes": 12.899981542991595,
+    "std_comments": 0.5606119105813882,
+    "std_shares": 3.739111175259754
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 43.16,
+    "quality_score": 39.86,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 32.35,
-      "P_VFR": 70.59,
-      "P_CLR": 22.06
+      "P_ERV": 40.23,
+      "P_VFR": 67.24,
+      "P_SRV": 25.29,
+      "P_CLR": 23.28
     }
   }
 }

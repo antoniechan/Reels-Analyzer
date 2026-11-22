@@ -1,0 +1,55 @@
+{
+  "account_id": "lily_healthymum",
+  "full_name": "莉莉媽媽｜無工人 Working Mum 🌿 兒童抗敏",
+  "followers": 7272,
+  "follows": 546,
+  "posts_count": 85,
+  "verified": false,
+  "total_videos_analyzed": 5,
+  "metrics": {
+    "VFR": 0.6801430143014301,
+    "ERV": 0.032349373224353134,
+    "CLR": 2.9999999250000022,
+    "SRV": 0.017185604525437603,
+    "SLR": 2.1249999468750014,
+    "VFR_mean": 8.680500550055005,
+    "CV_views": 2.0314009154437986,
+    "CV_likes": 2.105114704615502,
+    "CV_comments": 2.106336540252221,
+    "CV_shares": 2.1564429565862127
+  },
+  "median_stats": {
+    "median_views": 4946.0,
+    "median_likes": 40.0,
+    "median_comments": 120.0,
+    "median_shares": 85.0
+  },
+  "mean_stats": {
+    "mean_views": 63124.6,
+    "mean_likes": 895.4,
+    "mean_comments": 1182.6,
+    "mean_shares": 1365.6
+  },
+  "std_stats": {
+    "std_views": 128231.37022702361,
+    "std_likes": 1884.9197065127203,
+    "std_comments": 2490.9535925022765,
+    "std_shares": 2944.838501514132
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 90.92,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 90.8,
+      "P_VFR": 74.71,
+      "P_SRV": 100.0,
+      "P_CLR": 100.0
+    }
+  }
+}

@@ -14,22 +14,20 @@ import argparse
 import glob
 import json
 import os
-import sys
 import urllib.request
-from pathlib import Path
 import cv2
 import numpy as np
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
+from config import VIDEO_PROC_DIR, DATA_PROC_DIR, DEFAULT_REELS_DIR, NEW_REELS_DIR
 
 # ---------------------------------------------------------------------------
 # 常數與路徑設定
 # ---------------------------------------------------------------------------
 MODEL_FILE_NAME = str(VIDEO_PROC_DIR / "face_landmarker.task")
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
-DEFAULT_VIDEO_CLASS_JSON = str(VIDEO_PROC_DIR / "video_classification_summary.json")
+DEFAULT_VIDEO_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
 
 # MediaPipe Face Mesh 中不受表情牽動的解剖剛性錨點 (Rigid Anchors)
 RIGID_ANCHOR_INDICES = [
@@ -322,7 +320,7 @@ def batch_extract_and_align(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="提取 Face Landmarks 並直接執行 Kabsch 剛體對齊")
-    parser.add_argument("--root_dir", type=str, default=str(DEFAULT_REELS_DIR), help="影片根目錄")
+    parser.add_argument("--root_dir", type=str, default=str(NEW_REELS_DIR), help="影片根目錄")
     parser.add_argument("--model", type=str, default=MODEL_FILE_NAME, help="模型路徑")
     parser.add_argument("--class_json", type=str, default=DEFAULT_VIDEO_CLASS_JSON, help="分類摘要 JSON")
     parser.add_argument("--tier", type=str, default="all", choices=["all", "good", "neutral", "bad"], help="目標分組")

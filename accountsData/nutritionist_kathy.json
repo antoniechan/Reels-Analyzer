@@ -1,0 +1,55 @@
+{
+  "account_id": "nutritionist_kathy",
+  "full_name": "Kathy NG YF 營養師 身營心營",
+  "followers": 26920,
+  "follows": 2211,
+  "posts_count": 2132,
+  "verified": true,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.36900074294205054,
+    "ERV": 0.002214727940583407,
+    "CLR": 0.0,
+    "SRV": 0.0003523430814564511,
+    "SLR": 0.15909090185950445,
+    "VFR_mean": 0.6271863723201019,
+    "CV_views": 1.0473505832849064,
+    "CV_likes": 0.8545184633501562,
+    "CV_comments": 2.1393744592574437,
+    "CV_shares": 1.1689781380419169
+  },
+  "median_stats": {
+    "median_views": 9933.5,
+    "median_likes": 22.0,
+    "median_comments": 0.0,
+    "median_shares": 3.5
+  },
+  "mean_stats": {
+    "mean_views": 16883.85714285714,
+    "mean_likes": 34.57142857142857,
+    "mean_comments": 0.2857142857142857,
+    "mean_shares": 5.571428571428571
+  },
+  "std_stats": {
+    "std_views": 17683.31762667046,
+    "std_likes": 29.541924018676827,
+    "std_comments": 0.6112498455021267,
+    "std_shares": 6.512878197662108
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 22.67,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 9.77,
+      "P_VFR": 44.83,
+      "P_SRV": 15.52,
+      "P_CLR": 23.28
+    }
+  }
+}

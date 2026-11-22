@@ -1,38 +1,55 @@
 {
   "account_id": "dietitianlizachan",
-  "followers": 5900,
-  "total_videos_analyzed": 16,
+  "full_name": "Dietitian Liza Chan",
+  "followers": 5989,
+  "follows": 327,
+  "posts_count": 351,
+  "verified": false,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.9040677966101694,
+    "VFR": 0.8847887794289531,
     "ERV": 0.0,
     "CLR": 0.0,
-    "VFR_mean": 0.954417372881356,
-    "CV_views": 0.2546570964904947,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.938220070128569,
+    "CV_views": 0.2741331435627841,
     "CV_likes": 0.0,
-    "CV_comments": 1.3691338827204969
+    "CV_comments": 1.3985265580026935,
+    "CV_shares": 0.0
   },
   "median_stats": {
-    "median_views": 5334.0,
+    "median_views": 5299.0,
     "median_likes": -1.0,
-    "median_comments": 1.0
+    "median_comments": 1.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 5631.0625,
+    "mean_views": 5619.0,
     "mean_likes": -1.0,
-    "mean_comments": 2.625
+    "mean_comments": 2.533333333333333,
+    "mean_shares": 0.0
   },
   "std_stats": {
-    "std_views": 1433.9900264065066,
+    "std_views": 1540.354133679284,
     "std_likes": 0.0,
-    "std_comments": 3.593976442141304
+    "std_comments": 3.5429339469401566,
+    "std_shares": 0.0
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 36.79,
+    "classification": "bad",
+    "quality_score": 28.0,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 4.41,
-      "P_VFR": 84.31,
-      "P_CLR": 22.06
+      "P_ERV": 2.87,
+      "P_VFR": 83.33,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

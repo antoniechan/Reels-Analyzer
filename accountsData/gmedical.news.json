@@ -1,0 +1,55 @@
+{
+  "account_id": "gmedical.news",
+  "full_name": "初日醫學",
+  "followers": 27047,
+  "follows": 48,
+  "posts_count": 530,
+  "verified": false,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.10001109180315747,
+    "ERV": 0.015526802212374565,
+    "CLR": 0.0,
+    "SRV": 0.005175600737458188,
+    "SLR": 0.3333333253968256,
+    "VFR_mean": 0.32936967273492584,
+    "CV_views": 2.4634235384599994,
+    "CV_likes": 2.5431737486946075,
+    "CV_comments": 2.697896557196612,
+    "CV_shares": 3.1270461475988927
+  },
+  "median_stats": {
+    "median_views": 2705.0,
+    "median_likes": 42.0,
+    "median_comments": 0.0,
+    "median_shares": 14.0
+  },
+  "mean_stats": {
+    "mean_views": 8908.461538461539,
+    "mean_likes": 138.46153846153845,
+    "mean_comments": 0.6153846153846154,
+    "mean_shares": 112.6923076923077
+  },
+  "std_stats": {
+    "std_views": 21945.313845311735,
+    "std_likes": 352.13174981925334,
+    "std_comments": 1.6602440351979153,
+    "std_shares": 352.39404663325985
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 41.47,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 46.55,
+      "P_VFR": 11.49,
+      "P_SRV": 79.89,
+      "P_CLR": 23.28
+    }
+  }
+}

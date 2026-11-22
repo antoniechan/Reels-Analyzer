@@ -1,0 +1,55 @@
+{
+  "account_id": "doctor.kuo",
+  "full_name": "大俠中醫 俠醫 郭于賢",
+  "followers": 146213,
+  "follows": 21,
+  "posts_count": 510,
+  "verified": true,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.9829290145199128,
+    "ERV": 0.024005510830145314,
+    "CLR": 0.00965759437820966,
+    "SRV": 0.009247340258916848,
+    "SLR": 0.38893766450426176,
+    "VFR_mean": 1.5691501702731894,
+    "CV_views": 0.9997638312611246,
+    "CV_likes": 1.2845180482663006,
+    "CV_comments": 1.0927345817048726,
+    "CV_shares": 1.4242633952913846
+  },
+  "median_stats": {
+    "median_views": 143717.0,
+    "median_likes": 3417.0,
+    "median_comments": 33.0,
+    "median_shares": 1329.0
+  },
+  "mean_stats": {
+    "mean_views": 229430.15384615384,
+    "mean_likes": 7954.0,
+    "mean_comments": 52.92307692307692,
+    "mean_shares": 4784.2307692307695
+  },
+  "std_stats": {
+    "std_views": 229375.96961606,
+    "std_likes": 10217.056555910154,
+    "std_comments": 57.83087632407325,
+    "std_shares": 6814.004759242128
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 78.88,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 78.74,
+      "P_VFR": 86.21,
+      "P_SRV": 92.53,
+      "P_CLR": 52.87
+    }
+  }
+}

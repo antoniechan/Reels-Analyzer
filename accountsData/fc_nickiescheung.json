@@ -1,38 +1,55 @@
 {
   "account_id": "fc_nickiescheung",
-  "followers": 1300,
-  "total_videos_analyzed": 16,
+  "full_name": "Nickie丨國家公共營養師",
+  "followers": 1276,
+  "follows": 732,
+  "posts_count": 12,
+  "verified": false,
+  "total_videos_analyzed": 28,
   "metrics": {
-    "VFR": 0.9815384615384616,
-    "ERV": 0.01841692788525319,
-    "CLR": 0.06818181508264476,
-    "VFR_mean": 4.040625,
-    "CV_views": 1.8537177856385163,
-    "CV_likes": 1.8350552585441804,
-    "CV_comments": 1.4865800422415814
+    "VFR": 0.8738244514106583,
+    "ERV": 0.017040358729111783,
+    "CLR": 0.055555552469135974,
+    "SRV": 0.008071748871684528,
+    "SLR": 0.49999997222222375,
+    "VFR_mean": 4.66653605015674,
+    "CV_views": 2.482581748644823,
+    "CV_likes": 1.957676456586572,
+    "CV_comments": 1.653807139076341,
+    "CV_shares": 2.5422385561154597
   },
   "median_stats": {
-    "median_views": 1276.0,
-    "median_likes": 22.0,
-    "median_comments": 1.5
+    "median_views": 1115.0,
+    "median_likes": 18.0,
+    "median_comments": 1.0,
+    "median_shares": 9.0
   },
   "mean_stats": {
-    "mean_views": 5252.8125,
-    "mean_likes": 70.25,
-    "mean_comments": 3.875
+    "mean_views": 5954.5,
+    "mean_likes": 62.285714285714285,
+    "mean_comments": 3.142857142857143,
+    "mean_shares": 60.5
   },
   "std_stats": {
-    "std_views": 9737.231955874318,
-    "std_likes": 128.91263191272867,
-    "std_comments": 5.760497663686127
+    "std_views": 14782.5330223056,
+    "std_likes": 121.93527643882078,
+    "std_comments": 5.197679579954214,
+    "std_shares": 153.8054326449853
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 72.4,
+    "quality_score": 74.45,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 56.86,
-      "P_VFR": 87.25,
-      "P_CLR": 76.47
+      "P_ERV": 55.75,
+      "P_VFR": 81.61,
+      "P_SRV": 89.08,
+      "P_CLR": 75.29
     }
   }
 }

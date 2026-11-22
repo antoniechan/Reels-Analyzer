@@ -1,38 +1,55 @@
 {
   "account_id": "cc_eatfreely",
-  "followers": 5232,
-  "total_videos_analyzed": 17,
+  "full_name": "CC陪你吃｜狠甩10級體態",
+  "followers": 5659,
+  "follows": 344,
+  "posts_count": 139,
+  "verified": false,
+  "total_videos_analyzed": 20,
   "metrics": {
-    "VFR": 0.8799694189602446,
-    "ERV": 0.023240660290347378,
-    "CLR": 0.17582417389204205,
-    "VFR_mean": 2.1666779096959887,
-    "CV_views": 1.736214366110987,
-    "CV_likes": 1.2815679088874703,
-    "CV_comments": 1.3609637108395736
+    "VFR": 0.846527655062732,
+    "ERV": 0.025675816715233103,
+    "CLR": 0.19417475539636161,
+    "SRV": 0.005427408411350087,
+    "SLR": 0.2524271820152701,
+    "VFR_mean": 1.934679271956176,
+    "CV_views": 1.7170291225562593,
+    "CV_likes": 1.2777534203511605,
+    "CV_comments": 1.3997378258247384,
+    "CV_shares": 1.9987425088371746
   },
   "median_stats": {
-    "median_views": 4604.0,
-    "median_likes": 91.0,
-    "median_comments": 16.0
+    "median_views": 4790.5,
+    "median_likes": 103.0,
+    "median_comments": 20.0,
+    "median_shares": 26.0
   },
   "mean_stats": {
-    "mean_views": 11336.058823529413,
-    "mean_likes": 167.41176470588235,
-    "mean_comments": 45.0
+    "mean_views": 10948.35,
+    "mean_likes": 164.75,
+    "mean_comments": 43.5,
+    "mean_shares": 68.45
   },
   "std_stats": {
-    "std_views": 19681.82818449098,
-    "std_likes": 214.54954521727885,
-    "std_comments": 61.24336698778081
+    "std_views": 18798.63579393882,
+    "std_likes": 210.5098760028537,
+    "std_comments": 60.88859542337612,
+    "std_shares": 136.8139247299046
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 81.03,
+    "quality_score": 82.73,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 74.51,
-      "P_VFR": 83.33,
-      "P_CLR": 88.24
+      "P_ERV": 82.18,
+      "P_VFR": 80.46,
+      "P_SRV": 81.03,
+      "P_CLR": 88.51
     }
   }
 }

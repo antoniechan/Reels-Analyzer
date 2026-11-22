@@ -1,0 +1,55 @@
+{
+  "account_id": "pharma.hua_note",
+  "full_name": "小花藥師花逸修 社區藥局筆記",
+  "followers": 107493,
+  "follows": 425,
+  "posts_count": 451,
+  "verified": true,
+  "total_videos_analyzed": 19,
+  "metrics": {
+    "VFR": 0.33210534639464895,
+    "ERV": 0.012773467043536976,
+    "CLR": 0.14572864284992804,
+    "SRV": 0.00577046976089609,
+    "SLR": 0.5175879383980203,
+    "VFR_mean": 0.6371783327873981,
+    "CV_views": 1.2969069019215484,
+    "CV_likes": 1.4811513588649574,
+    "CV_comments": 1.5836394043637485,
+    "CV_shares": 1.5944199181238952
+  },
+  "median_stats": {
+    "median_views": 35699.0,
+    "median_likes": 398.0,
+    "median_comments": 58.0,
+    "median_shares": 206.0
+  },
+  "mean_stats": {
+    "mean_views": 68492.21052631579,
+    "mean_likes": 1093.3157894736842,
+    "mean_comments": 193.26315789473685,
+    "mean_shares": 638.6842105263158
+  },
+  "std_stats": {
+    "std_views": 88828.02055944268,
+    "std_likes": 1619.366167247461,
+    "std_comments": 306.05915225387815,
+    "std_shares": 1018.3308266543931
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 59.22,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 37.36,
+      "P_VFR": 40.23,
+      "P_SRV": 83.33,
+      "P_CLR": 85.63
+    }
+  }
+}

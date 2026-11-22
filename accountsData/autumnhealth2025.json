@@ -1,38 +1,55 @@
 {
   "account_id": "autumnhealth2025",
-  "followers": 2700,
-  "total_videos_analyzed": 22,
+  "full_name": "單眼皮女孩👧Katie",
+  "followers": 2726,
+  "follows": 39,
+  "posts_count": 225,
+  "verified": false,
+  "total_videos_analyzed": 18,
   "metrics": {
-    "VFR": 0.6942592592592592,
-    "ERV": 0.012803414236968036,
-    "CLR": 0.09090908677685969,
-    "VFR_mean": 1.2451515151515151,
-    "CV_views": 1.3165156741540052,
-    "CV_likes": 0.9342898328293714,
-    "CV_comments": 1.533140982949121
+    "VFR": 0.8838958180484225,
+    "ERV": 0.015770906820597258,
+    "CLR": 0.11764705536332191,
+    "SRV": 0.0041502386369992785,
+    "SLR": 0.2941176384083048,
+    "VFR_mean": 5.056513409961686,
+    "CV_views": 3.0940900992827385,
+    "CV_likes": 3.0319655164023858,
+    "CV_comments": 2.3614247221394593,
+    "CV_shares": 2.9814503613557606
   },
   "median_stats": {
-    "median_views": 1874.5,
-    "median_likes": 22.0,
-    "median_comments": 2.0
+    "median_views": 2409.5,
+    "median_likes": 34.0,
+    "median_comments": 4.0,
+    "median_shares": 10.0
   },
   "mean_stats": {
-    "mean_views": 3361.909090909091,
-    "mean_likes": 30.636363636363637,
-    "mean_comments": 6.5
+    "mean_views": 13784.055555555555,
+    "mean_likes": 118.66666666666667,
+    "mean_comments": 19.22222222222222,
+    "mean_shares": 40.611111111111114
   },
   "std_stats": {
-    "std_views": 4426.00601326266,
-    "std_likes": 28.623243060318014,
-    "std_comments": 9.965416389169286
+    "std_views": 42649.10982240767,
+    "std_likes": 359.7932412797498,
+    "std_comments": 45.39183077001405,
+    "std_shares": 121.08001189728118
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 59.85,
+    "quality_score": 69.6,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 33.33,
-      "P_VFR": 75.49,
-      "P_CLR": 80.39
+      "P_ERV": 50.0,
+      "P_VFR": 82.76,
+      "P_SRV": 68.97,
+      "P_CLR": 83.33
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "account_id": "ktgh_health",
+  "full_name": "光田健康學",
+  "followers": 1213,
+  "follows": 47,
+  "posts_count": 172,
+  "verified": false,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.9076669414674361,
+    "ERV": 0.019981834677582345,
+    "CLR": 0.0,
+    "SRV": 0.004995458669395586,
+    "SLR": 0.24999998863636413,
+    "VFR_mean": 1.1061712401366153,
+    "CV_views": 0.6907225337432992,
+    "CV_likes": 0.7386586396491481,
+    "CV_comments": 1.6408253082847342,
+    "CV_shares": 1.393413815351967
+  },
+  "median_stats": {
+    "median_views": 1101.0,
+    "median_likes": 22.0,
+    "median_comments": 0.0,
+    "median_shares": 5.5
+  },
+  "mean_stats": {
+    "mean_views": 1341.7857142857142,
+    "mean_likes": 26.142857142857142,
+    "mean_comments": 0.5714285714285714,
+    "mean_shares": 11.285714285714286
+  },
+  "std_stats": {
+    "std_views": 926.8016283119911,
+    "std_likes": 19.310647293684873,
+    "std_comments": 0.9376144618769909,
+    "std_shares": 15.725670201829343
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 64.77,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 64.37,
+      "P_VFR": 84.48,
+      "P_SRV": 78.74,
+      "P_CLR": 23.28
+    }
+  }
+}

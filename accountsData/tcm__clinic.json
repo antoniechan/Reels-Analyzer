@@ -1,0 +1,55 @@
+{
+  "account_id": "tcm__clinic",
+  "full_name": "養容中醫診所🌿",
+  "followers": 9551,
+  "follows": 141,
+  "posts_count": 311,
+  "verified": false,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.4021568422154748,
+    "ERV": -0.0002603488674146449,
+    "CLR": 0.0,
+    "SRV": 0.0010413954696585797,
+    "SLR": 0.0,
+    "VFR_mean": 0.426656894566014,
+    "CV_views": 0.4497185748718853,
+    "CV_likes": 4.905728573770278,
+    "CV_comments": 3.741657386773941,
+    "CV_shares": 0.9978690309671868
+  },
+  "median_stats": {
+    "median_views": 3841.0,
+    "median_likes": -1.0,
+    "median_comments": 0.0,
+    "median_shares": 4.0
+  },
+  "mean_stats": {
+    "mean_views": 4075.0,
+    "mean_likes": 3.2142857142857144,
+    "mean_comments": 0.14285714285714285,
+    "mean_shares": 5.071428571428571
+  },
+  "std_stats": {
+    "std_views": 1832.6031926029327,
+    "std_likes": 15.768413272833039,
+    "std_comments": 0.5345224838248487,
+    "std_shares": 5.060621514190733
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 23.13,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 1.72,
+      "P_VFR": 48.85,
+      "P_SRV": 22.99,
+      "P_CLR": 23.28
+    }
+  }
+}

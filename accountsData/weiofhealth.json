@@ -1,38 +1,55 @@
 {
   "account_id": "weiofhealth",
-  "followers": 5800,
-  "total_videos_analyzed": 10,
+  "full_name": "威醫師的健康之路《糖尿病｜內分泌｜肥胖｜健康生活型態》",
+  "followers": 5923,
+  "follows": 429,
+  "posts_count": 141,
+  "verified": false,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.39189655172413795,
-    "ERV": 0.03101627803298888,
-    "CLR": 0.08461538331360949,
-    "VFR_mean": 0.39370689655172414,
-    "CV_views": 0.631455277678958,
-    "CV_likes": 0.6410871765336168,
-    "CV_comments": 1.1391852595410263
+    "VFR": 0.44386290731048456,
+    "ERV": 0.02852795738739903,
+    "CLR": 0.10294117495674743,
+    "SRV": 0.0022822365909919225,
+    "SLR": 0.08823529282006923,
+    "VFR_mean": 0.47187625813322254,
+    "CV_views": 0.30425729907690724,
+    "CV_likes": 0.29373108236734075,
+    "CV_comments": 0.8399871534280133,
+    "CV_shares": 0.46230323364150383
   },
   "median_stats": {
-    "median_views": 2273.0,
-    "median_likes": 65.0,
-    "median_comments": 5.5
+    "median_views": 2629.0,
+    "median_likes": 68.0,
+    "median_comments": 7.0,
+    "median_shares": 6.0
   },
   "mean_stats": {
-    "mean_views": 2283.5,
-    "mean_likes": 65.0,
-    "mean_comments": 9.6
+    "mean_views": 2794.923076923077,
+    "mean_likes": 78.23076923076923,
+    "mean_comments": 10.384615384615385,
+    "mean_shares": 6.923076923076923
   },
   "std_stats": {
-    "std_views": 1441.9281265799007,
-    "std_likes": 41.67066647468509,
-    "std_comments": 10.936178491593852
+    "std_views": 850.3757465123346,
+    "std_likes": 22.978808520583502,
+    "std_comments": 8.722943516367831,
+    "std_shares": 3.2005608482873344
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 76.27,
+    "classification": "neutral",
+    "quality_score": 65.0,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 92.16,
-      "P_VFR": 55.88,
-      "P_CLR": 79.41
+      "P_ERV": 86.21,
+      "P_VFR": 52.87,
+      "P_SRV": 37.93,
+      "P_CLR": 82.18
     }
   }
 }

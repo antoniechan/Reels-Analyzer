@@ -1,0 +1,55 @@
+{
+  "account_id": "dietitian.missli",
+  "full_name": "註冊營養師 Dietitian (Melissa Li)",
+  "followers": 16245,
+  "follows": 1375,
+  "posts_count": 250,
+  "verified": true,
+  "total_videos_analyzed": 3,
+  "metrics": {
+    "VFR": 1.5489689135118498,
+    "ERV": 0.0034971982671582404,
+    "CLR": 0.0,
+    "SRV": 0.0005563724515933564,
+    "SLR": 0.1590909072830579,
+    "VFR_mean": 3.6020519134092543,
+    "CV_views": 1.2798624126444105,
+    "CV_likes": 1.3677903093547774,
+    "CV_comments": 1.7320508075688776,
+    "CV_shares": 0.860388380959416
+  },
+  "median_stats": {
+    "median_views": 25163.0,
+    "median_likes": 88.0,
+    "median_comments": 0.0,
+    "median_shares": 14.0
+  },
+  "mean_stats": {
+    "mean_views": 58515.333333333336,
+    "mean_likes": 196.66666666666666,
+    "mean_comments": 0.6666666666666666,
+    "mean_shares": 22.666666666666668
+  },
+  "std_stats": {
+    "std_views": 74891.5756966919,
+    "std_likes": 268.9987608397729,
+    "std_comments": 1.1547005383792517,
+    "std_shares": 19.5021366350801
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 35.57,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 12.07,
+      "P_VFR": 92.53,
+      "P_SRV": 16.67,
+      "P_CLR": 23.28
+    }
+  }
+}

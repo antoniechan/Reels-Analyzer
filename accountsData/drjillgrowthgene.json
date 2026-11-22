@@ -1,0 +1,55 @@
+{
+  "account_id": "drjillgrowthgene",
+  "full_name": "菁兒醫師的成長花園",
+  "followers": 1011,
+  "follows": 140,
+  "posts_count": 219,
+  "verified": false,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.6409495548961425,
+    "ERV": 0.013117283930374563,
+    "CLR": 0.0,
+    "SRV": 0.003858024685404283,
+    "SLR": 0.2941176124567515,
+    "VFR_mean": 0.6725395647873392,
+    "CV_views": 0.23411740635221565,
+    "CV_likes": 0.5631315273691547,
+    "CV_comments": 1.9266551326067674,
+    "CV_shares": 1.175513126728541
+  },
+  "median_stats": {
+    "median_views": 648.0,
+    "median_likes": 8.5,
+    "median_comments": 0.0,
+    "median_shares": 2.5
+  },
+  "mean_stats": {
+    "mean_views": 679.9375,
+    "mean_likes": 9.25,
+    "mean_comments": 0.3125,
+    "mean_shares": 4.6875
+  },
+  "std_stats": {
+    "std_views": 159.18520398160962,
+    "std_likes": 5.208966628164681,
+    "std_comments": 0.6020797289396148,
+    "std_shares": 5.510217781540036
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 50.89,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 39.66,
+      "P_VFR": 71.84,
+      "P_SRV": 65.52,
+      "P_CLR": 23.28
+    }
+  }
+}

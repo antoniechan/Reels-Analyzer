@@ -1,0 +1,55 @@
+{
+  "account_id": "yqnuy",
+  "full_name": "Esmond",
+  "followers": 1190,
+  "follows": 2552,
+  "posts_count": 42,
+  "verified": false,
+  "total_videos_analyzed": 2,
+  "metrics": {
+    "VFR": 3.25,
+    "ERV": 0.027795733670899617,
+    "CLR": 0.03365384583025148,
+    "SRV": 0.012023270843691463,
+    "SLR": 0.4471153803161983,
+    "VFR_mean": 3.25,
+    "CV_views": 0.3991245257479595,
+    "CV_likes": 0.43514263457633695,
+    "CV_comments": 0.6060915267313264,
+    "CV_shares": 0.6234704952397516
+  },
+  "median_stats": {
+    "median_views": 3867.5,
+    "median_likes": 104.0,
+    "median_comments": 3.5,
+    "median_shares": 46.5
+  },
+  "mean_stats": {
+    "mean_views": 3867.5,
+    "mean_likes": 104.0,
+    "mean_comments": 3.5,
+    "mean_shares": 46.5
+  },
+  "std_stats": {
+    "std_views": 1543.6141033302333,
+    "std_likes": 45.254833995939045,
+    "std_comments": 2.1213203435596424,
+    "std_shares": 28.991378028648448
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 87.67,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 85.06,
+      "P_VFR": 97.7,
+      "P_SRV": 97.13,
+      "P_CLR": 67.24
+    }
+  }
+}

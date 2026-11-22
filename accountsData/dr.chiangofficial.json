@@ -1,0 +1,55 @@
+{
+  "account_id": "dr.chiangofficial",
+  "full_name": "DR.C+醫生",
+  "followers": 1524,
+  "follows": 1,
+  "posts_count": 135,
+  "verified": false,
+  "total_videos_analyzed": 19,
+  "metrics": {
+    "VFR": 0.2637795275590551,
+    "ERV": 0.007462686548600282,
+    "CLR": 0.0,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.45375742505870975,
+    "CV_views": 0.8632952444588806,
+    "CV_likes": 0.7182297270273925,
+    "CV_comments": 2.3726840560069578,
+    "CV_shares": 0.0
+  },
+  "median_stats": {
+    "median_views": 402.0,
+    "median_likes": 3.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 691.5263157894736,
+    "mean_likes": 4.157894736842105,
+    "mean_comments": 0.3157894736842105,
+    "mean_shares": 0.0
+  },
+  "std_stats": {
+    "std_views": 596.9913798392228,
+    "std_likes": 2.9863236018507373,
+    "std_comments": 0.7492686492653551,
+    "std_shares": 0.0
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 20.53,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 20.11,
+      "P_VFR": 32.76,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
+    }
+  }
+}

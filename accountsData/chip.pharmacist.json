@@ -1,0 +1,55 @@
+{
+  "account_id": "chip.pharmacist",
+  "full_name": "奇奇藥師",
+  "followers": 13327,
+  "follows": 124,
+  "posts_count": 83,
+  "verified": true,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.2864110452464921,
+    "ERV": 0.012051349223984452,
+    "CLR": 0.04545454442148763,
+    "SRV": 0.003536809011386741,
+    "SLR": 0.3068181748450415,
+    "VFR_mean": 0.32736799979990494,
+    "CV_views": 0.619460707421191,
+    "CV_likes": 0.5563512279655379,
+    "CV_comments": 1.7178672492250946,
+    "CV_shares": 0.9595139526251871
+  },
+  "median_stats": {
+    "median_views": 3817.0,
+    "median_likes": 44.0,
+    "median_comments": 2.0,
+    "median_shares": 13.5
+  },
+  "mean_stats": {
+    "mean_views": 4362.833333333333,
+    "mean_likes": 51.75,
+    "mean_comments": 27.083333333333332,
+    "mean_shares": 16.25
+  },
+  "std_stats": {
+    "std_views": 2702.6038230274194,
+    "std_likes": 28.791176047216588,
+    "std_comments": 46.52557133317964,
+    "std_shares": 15.59210173015929
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 49.37,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 35.06,
+      "P_VFR": 35.63,
+      "P_SRV": 60.92,
+      "P_CLR": 73.56
+    }
+  }
+}

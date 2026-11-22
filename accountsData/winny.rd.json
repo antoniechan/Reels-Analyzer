@@ -1,38 +1,55 @@
 {
   "account_id": "winny.rd",
-  "followers": 30000,
-  "total_videos_analyzed": 13,
+  "full_name": "你的生活營養師 張語希",
+  "followers": 30514,
+  "follows": 2940,
+  "posts_count": 1893,
+  "verified": true,
+  "total_videos_analyzed": 14,
   "metrics": {
-    "VFR": 0.10086666666666666,
-    "ERV": 0.00264375412999215,
+    "VFR": 0.08851674641148326,
+    "ERV": 0.0029618659744680247,
     "CLR": 0.0,
-    "VFR_mean": 0.13917948717948717,
-    "CV_views": 0.6148964970549116,
-    "CV_likes": 1.188276989518355,
-    "CV_comments": 1.2886837929109969
+    "SRV": 0.0018511662340425154,
+    "SLR": 0.0,
+    "VFR_mean": 0.11255489283607524,
+    "CV_views": 0.7252251240423854,
+    "CV_likes": 4.932184737111104,
+    "CV_comments": 2.8738210116878387,
+    "CV_shares": 1.523643343765517
   },
   "median_stats": {
-    "median_views": 3026.0,
+    "median_views": 2701.0,
     "median_likes": -1.0,
-    "median_comments": 9.0
+    "median_comments": 9.0,
+    "median_shares": 5.0
   },
   "mean_stats": {
-    "mean_views": 4175.384615384615,
-    "mean_likes": 37.07692307692308,
-    "mean_comments": 21.615384615384617
+    "mean_views": 3434.5,
+    "mean_likes": 3.142857142857143,
+    "mean_comments": 37.42857142857143,
+    "mean_shares": 15.785714285714286
   },
   "std_stats": {
-    "std_views": 2567.429373856969,
-    "std_likes": 44.057654534449775,
-    "std_comments": 27.85539583138386
+    "std_views": 2490.7856885235724,
+    "std_likes": 15.501152030920613,
+    "std_comments": 107.56301500888769,
+    "std_shares": 24.051798498012804
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 15.66,
+    "quality_score": 18.28,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 10.78,
-      "P_VFR": 16.67,
-      "P_CLR": 22.06
+      "P_ERV": 10.92,
+      "P_VFR": 8.62,
+      "P_SRV": 32.76,
+      "P_CLR": 23.28
     }
   }
 }

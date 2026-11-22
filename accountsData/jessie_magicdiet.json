@@ -1,38 +1,55 @@
 {
   "account_id": "jessie_magicdiet",
-  "followers": 100000,
-  "total_videos_analyzed": 10,
+  "full_name": "欣儀營養師",
+  "followers": 99945,
+  "follows": 1007,
+  "posts_count": 1101,
+  "verified": true,
+  "total_videos_analyzed": 11,
   "metrics": {
-    "VFR": 0.06271,
-    "ERV": 0.006538032210725875,
-    "CLR": 0.07894736634349037,
-    "VFR_mean": 0.376329,
-    "CV_views": 2.4576807406077585,
-    "CV_likes": 0.7549402954111056,
-    "CV_comments": 0.8207541663607086
+    "VFR": 0.05564060233128221,
+    "ERV": 0.006653479588805344,
+    "CLR": 0.08823529152249143,
+    "SRV": 0.0008991188633520735,
+    "SLR": 0.1470588192041524,
+    "VFR_mean": 0.08571350606469923,
+    "CV_views": 0.6716469674586009,
+    "CV_likes": 0.7933875762447484,
+    "CV_comments": 0.9596177914701018,
+    "CV_shares": 1.3793566478701789
   },
   "median_stats": {
-    "median_views": 6271.0,
-    "median_likes": 38.0,
-    "median_comments": 3.0
+    "median_views": 5561.0,
+    "median_likes": 34.0,
+    "median_comments": 3.0,
+    "median_shares": 5.0
   },
   "mean_stats": {
-    "mean_views": 37632.9,
-    "mean_likes": 58.1,
-    "mean_comments": 4.3
+    "mean_views": 8566.636363636364,
+    "mean_likes": 55.72727272727273,
+    "mean_comments": 4.454545454545454,
+    "mean_shares": 16.272727272727273
   },
   "std_stats": {
-    "std_views": 92489.65354321772,
-    "std_likes": 43.86203116338524,
-    "std_comments": 3.529242915351047
+    "std_views": 5753.75533495694,
+    "std_likes": 44.21332583982098,
+    "std_comments": 4.27466107109409,
+    "std_shares": 22.44589454261473
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 29.12,
+    "quality_score": 27.33,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 18.63,
-      "P_VFR": 5.88,
-      "P_CLR": 78.43
+      "P_ERV": 18.39,
+      "P_VFR": 1.72,
+      "P_SRV": 20.69,
+      "P_CLR": 81.03
     }
   }
 }

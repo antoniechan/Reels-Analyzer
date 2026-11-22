@@ -1,38 +1,55 @@
 {
   "account_id": "ethan_pharmac",
-  "followers": 47000,
-  "total_videos_analyzed": 21,
+  "full_name": "Ethan藥師 周藝涵｜實證抗老 • 運動營養",
+  "followers": 49457,
+  "follows": 67,
+  "posts_count": 119,
+  "verified": true,
+  "total_videos_analyzed": 18,
   "metrics": {
-    "VFR": 0.36753191489361703,
-    "ERV": 0.02703485006211446,
-    "CLR": 0.035476718324885324,
-    "VFR_mean": 2.545260385005066,
-    "CV_views": 2.7597821766401482,
-    "CV_likes": 2.71091369019461,
-    "CV_comments": 2.5651171374272614
+    "VFR": 0.6216410214934185,
+    "ERV": 0.0209793621616556,
+    "CLR": 0.03448275856538451,
+    "SRV": 0.011823252939165599,
+    "SLR": 0.5829991971403381,
+    "VFR_mean": 1.2466474805274166,
+    "CV_views": 0.9114408687261797,
+    "CV_likes": 1.1719463652920283,
+    "CV_comments": 2.861499235764444,
+    "CV_shares": 1.5281336023617205
   },
   "median_stats": {
-    "median_views": 17274.0,
-    "median_likes": 451.0,
-    "median_comments": 16.0
+    "median_views": 30744.5,
+    "median_likes": 623.5,
+    "median_comments": 21.5,
+    "median_shares": 363.5
   },
   "mean_stats": {
-    "mean_views": 119627.23809523809,
-    "mean_likes": 3341.809523809524,
-    "mean_comments": 276.0952380952381
+    "mean_views": 61655.444444444445,
+    "mean_likes": 1999.111111111111,
+    "mean_comments": 183.61111111111111,
+    "mean_shares": 1008.7777777777778
   },
   "std_stats": {
-    "std_views": 330145.11953592545,
-    "std_likes": 9059.357188117969,
-    "std_comments": 708.2166268001553
+    "std_views": 56195.291846143155,
+    "std_likes": 2342.851000481575,
+    "std_comments": 525.4030541223049,
+    "std_shares": 1541.5472195380069
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 69.71,
+    "classification": "good",
+    "quality_score": 76.44,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 85.29,
-      "P_VFR": 51.96,
-      "P_CLR": 69.61
+      "P_ERV": 71.26,
+      "P_VFR": 70.11,
+      "P_SRV": 95.4,
+      "P_CLR": 68.39
     }
   }
 }

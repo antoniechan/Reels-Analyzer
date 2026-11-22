@@ -1,0 +1,55 @@
+{
+  "account_id": "phar.smile",
+  "full_name": "微笑藥師 廖偉呈",
+  "followers": 3354,
+  "follows": 124,
+  "posts_count": 482,
+  "verified": false,
+  "total_videos_analyzed": 22,
+  "metrics": {
+    "VFR": 0.3731365533691115,
+    "ERV": 0.01198561724971185,
+    "CLR": 0.0,
+    "SRV": 0.0019976028749519753,
+    "SLR": 0.1666666555555563,
+    "VFR_mean": 0.38389711064129667,
+    "CV_views": 0.28850490291750797,
+    "CV_likes": 0.45134264847716177,
+    "CV_comments": 3.428791880037888,
+    "CV_shares": 0.6891066588463073
+  },
+  "median_stats": {
+    "median_views": 1251.5,
+    "median_likes": 15.0,
+    "median_comments": 0.0,
+    "median_shares": 2.5
+  },
+  "mean_stats": {
+    "mean_views": 1287.590909090909,
+    "mean_likes": 18.272727272727273,
+    "mean_comments": 0.8181818181818182,
+    "mean_shares": 3.227272727272727
+  },
+  "std_stats": {
+    "std_views": 371.47629022473853,
+    "std_likes": 8.247261122173592,
+    "std_comments": 2.805375174576454,
+    "std_shares": 2.223935126276719
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 35.23,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 33.91,
+      "P_VFR": 45.98,
+      "P_SRV": 35.63,
+      "P_CLR": 23.28
+    }
+  }
+}

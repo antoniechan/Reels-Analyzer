@@ -1,0 +1,55 @@
+{
+  "account_id": "nathedietitian",
+  "full_name": "註冊營養師 Dietitian | Natalie",
+  "followers": 20937,
+  "follows": 237,
+  "posts_count": 212,
+  "verified": false,
+  "total_videos_analyzed": 6,
+  "metrics": {
+    "VFR": 0.4716530544012991,
+    "ERV": 0.013012658226530364,
+    "CLR": 0.03629032228798127,
+    "SRV": 0.004253164556531325,
+    "SLR": 0.3387096746878252,
+    "VFR_mean": 1.4100953654614639,
+    "CV_views": 1.6742532475487424,
+    "CV_likes": 1.5336339378277095,
+    "CV_comments": 2.322889432207185,
+    "CV_shares": 1.887454455895435
+  },
+  "median_stats": {
+    "median_views": 9875.0,
+    "median_likes": 124.0,
+    "median_comments": 4.5,
+    "median_shares": 42.0
+  },
+  "mean_stats": {
+    "mean_views": 29523.166666666668,
+    "mean_likes": 319.8333333333333,
+    "mean_comments": 1376.8333333333333,
+    "mean_shares": 215.66666666666666
+  },
+  "std_stats": {
+    "std_views": 49429.257669589446,
+    "std_likes": 490.5072544485624,
+    "std_comments": 3198.2315999105926,
+    "std_shares": 407.06101098811547
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 57.47,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 38.51,
+      "P_VFR": 57.47,
+      "P_SRV": 70.11,
+      "P_CLR": 70.11
+    }
+  }
+}

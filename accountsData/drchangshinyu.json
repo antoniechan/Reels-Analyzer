@@ -1,0 +1,55 @@
+{
+  "account_id": "drchangshinyu",
+  "full_name": "張芯瑜 眼科醫師 近視雷射/老花雷射/乾眼症/白內障 台北/新北",
+  "followers": 25961,
+  "follows": 6,
+  "posts_count": 413,
+  "verified": false,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.6589499634066485,
+    "ERV": 0.020050271817381757,
+    "CLR": 0.03313253002068515,
+    "SRV": 0.0065177997307232245,
+    "SLR": 0.3358433724823995,
+    "VFR_mean": 3.083207228425055,
+    "CV_views": 2.5744791534004876,
+    "CV_likes": 2.4741694638928986,
+    "CV_comments": 2.4219133149319982,
+    "CV_shares": 3.1589234273800146
+  },
+  "median_stats": {
+    "median_views": 17107.0,
+    "median_likes": 332.0,
+    "median_comments": 11.0,
+    "median_shares": 111.5
+  },
+  "mean_stats": {
+    "mean_views": 80043.14285714286,
+    "mean_likes": 1290.4285714285713,
+    "mean_comments": 76.71428571428571,
+    "mean_shares": 2257.0
+  },
+  "std_stats": {
+    "std_views": 206069.40265837143,
+    "std_likes": 3192.7389667635075,
+    "std_comments": 185.79535001692614,
+    "std_shares": 7129.690175596693
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 72.79,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 65.52,
+      "P_VFR": 72.99,
+      "P_SRV": 86.21,
+      "P_CLR": 66.67
+    }
+  }
+}

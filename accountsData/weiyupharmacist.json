@@ -1,0 +1,55 @@
+{
+  "account_id": "weiyupharmacist",
+  "full_name": "鮪魚藥師🐟",
+  "followers": 1224,
+  "follows": 31,
+  "posts_count": 84,
+  "verified": false,
+  "total_videos_analyzed": 39,
+  "metrics": {
+    "VFR": 0.4542483660130719,
+    "ERV": 0.01978417262628746,
+    "CLR": 0.0,
+    "SRV": 0.0017985611478443144,
+    "SLR": 0.09090908264462885,
+    "VFR_mean": 0.5580065359477124,
+    "CV_views": 0.6623667411919378,
+    "CV_likes": 0.43546390370392213,
+    "CV_comments": 2.824484671640529,
+    "CV_shares": 1.3072168104311097
+  },
+  "median_stats": {
+    "median_views": 556.0,
+    "median_likes": 11.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 683.0,
+    "mean_likes": 12.384615384615385,
+    "mean_comments": 0.5897435897435898,
+    "mean_shares": 1.5384615384615385
+  },
+  "std_stats": {
+    "std_views": 452.3964842340935,
+    "std_likes": 5.3930529612562665,
+    "std_comments": 1.6657217294290299,
+    "std_shares": 2.0111027852786303
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 45.17,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 63.22,
+      "P_VFR": 54.6,
+      "P_SRV": 31.61,
+      "P_CLR": 23.28
+    }
+  }
+}

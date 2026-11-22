@@ -1,38 +1,55 @@
 {
   "account_id": "dietitian_bgg",
-  "followers": 200000,
-  "total_videos_analyzed": 16,
+  "full_name": "壯壯營養師",
+  "followers": 199305,
+  "follows": 187,
+  "posts_count": 913,
+  "verified": true,
+  "total_videos_analyzed": 33,
   "metrics": {
-    "VFR": 0.3314575,
-    "ERV": 0.019112555908086068,
-    "CLR": 0.10994305728432495,
-    "VFR_mean": 0.3284653125,
-    "CV_views": 0.3998189900529271,
-    "CV_likes": 0.46390384070638774,
-    "CV_comments": 1.2011409787734473
+    "VFR": 0.3206442387295853,
+    "ERV": 0.021688104403003033,
+    "CLR": 0.12045270806754024,
+    "SRV": 0.0029574687822276863,
+    "SLR": 0.15278900553533628,
+    "VFR_mean": 0.3859151460415854,
+    "CV_views": 0.7175490180352304,
+    "CV_likes": 0.9167239623971593,
+    "CV_comments": 1.1683900743387652,
+    "CV_shares": 1.4757507102108283
   },
   "median_stats": {
-    "median_views": 66291.5,
-    "median_likes": 1141.5,
-    "median_comments": 125.5
+    "median_views": 63906.0,
+    "median_likes": 1237.0,
+    "median_comments": 149.0,
+    "median_shares": 189.0
   },
   "mean_stats": {
-    "mean_views": 65693.0625,
-    "mean_likes": 1347.4375,
-    "mean_comments": 224.3125
+    "mean_views": 76914.81818181818,
+    "mean_likes": 1702.3636363636363,
+    "mean_comments": 280.1818181818182,
+    "mean_shares": 423.6363636363636
   },
   "std_stats": {
-    "std_views": 26265.33390223382,
-    "std_likes": 625.0814313618133,
-    "std_comments": 269.4309358011189
+    "std_views": 55190.15225872192,
+    "std_likes": 1560.5975381681094,
+    "std_comments": 327.36165537382493,
+    "std_shares": 625.1816645074963
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 63.04,
+    "quality_score": 61.52,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 61.76,
-      "P_VFR": 50.0,
-      "P_CLR": 83.33
+      "P_ERV": 72.99,
+      "P_VFR": 39.66,
+      "P_SRV": 51.72,
+      "P_CLR": 83.91
     }
   }
 }

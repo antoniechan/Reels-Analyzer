@@ -1,0 +1,55 @@
+{
+  "account_id": "dr.jeffyang",
+  "full_name": "Dr. Jeff｜傑夫醫師",
+  "followers": 8725,
+  "follows": 1583,
+  "posts_count": 238,
+  "verified": false,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.5559312320916906,
+    "ERV": 0.014946912686331942,
+    "CLR": 0.03571428520408164,
+    "SRV": 0.002577053911436542,
+    "SLR": 0.1785714260204082,
+    "VFR_mean": 0.7431764224314367,
+    "CV_views": 0.8031250193021776,
+    "CV_likes": 0.7312062018300481,
+    "CV_comments": 1.0192306994797669,
+    "CV_shares": 0.9681955785342995
+  },
+  "median_stats": {
+    "median_views": 4850.5,
+    "median_likes": 70.0,
+    "median_comments": 2.5,
+    "median_shares": 12.5
+  },
+  "mean_stats": {
+    "mean_views": 6484.214285714285,
+    "mean_likes": 92.21428571428571,
+    "mean_comments": 3.642857142857143,
+    "mean_shares": 17.642857142857142
+  },
+  "std_stats": {
+    "std_views": 5207.6347233737415,
+    "std_likes": 67.42765761161372,
+    "std_comments": 3.7129118338191507,
+    "std_shares": 17.08173627842657
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 54.34,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 44.25,
+      "P_VFR": 65.52,
+      "P_SRV": 43.1,
+      "P_CLR": 69.54
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "account_id": "yuta.urology",
+  "full_name": "佑達泌尿科診所",
+  "followers": 846,
+  "follows": 13,
+  "posts_count": 183,
+  "verified": false,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 1.0815602836879432,
+    "ERV": 0.022950819647048284,
+    "CLR": 0.0,
+    "SRV": 0.001092896173668966,
+    "SLR": 0.04761904535147403,
+    "VFR_mean": 1.533096926713948,
+    "CV_views": 0.6342772894888237,
+    "CV_likes": 0.5569749282852766,
+    "CV_comments": 2.5062883875327437,
+    "CV_shares": 1.2003468532492163
+  },
+  "median_stats": {
+    "median_views": 915.0,
+    "median_likes": 21.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 1297.0,
+    "mean_likes": 27.125,
+    "mean_comments": 0.75,
+    "mean_shares": 4.125
+  },
+  "std_stats": {
+    "std_views": 822.6576444670043,
+    "std_likes": 15.107944929738128,
+    "std_comments": 1.879716290649558,
+    "std_shares": 4.951430769653017
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 55.4,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 75.29,
+      "P_VFR": 88.51,
+      "P_SRV": 24.14,
+      "P_CLR": 23.28
+    }
+  }
+}

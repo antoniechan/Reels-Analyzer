@@ -1,38 +1,55 @@
 {
   "account_id": "rd.grace.f",
-  "followers": 77000,
-  "total_videos_analyzed": 10,
+  "full_name": "懂你想吃的營養師方慈聲Grace  運動營養.增肌減脂.食安",
+  "followers": 74888,
+  "follows": 1121,
+  "posts_count": 588,
+  "verified": true,
+  "total_videos_analyzed": 5,
   "metrics": {
-    "VFR": 0.17974675324675324,
-    "ERV": 0.03244102452711672,
-    "CLR": 0.020454545408057852,
-    "VFR_mean": 0.2014012987012987,
-    "CV_views": 0.6954051452194484,
-    "CV_likes": 0.6469753594476233,
-    "CV_comments": 0.6604649814861855
+    "VFR": 0.2393040273475056,
+    "ERV": 0.02901623793153193,
+    "CLR": 0.02766798413504351,
+    "SRV": 0.0026226215053500018,
+    "SLR": 0.09288537531050321,
+    "VFR_mean": 0.41838478795000533,
+    "CV_views": 0.988610946236228,
+    "CV_likes": 0.8373375094260735,
+    "CV_comments": 0.3619604524124248,
+    "CV_shares": 1.0093217965910977
   },
   "median_stats": {
-    "median_views": 13840.5,
-    "median_likes": 440.0,
-    "median_comments": 9.0
+    "median_views": 17921.0,
+    "median_likes": 506.0,
+    "median_comments": 14.0,
+    "median_shares": 47.0
   },
   "mean_stats": {
-    "mean_views": 15507.9,
-    "mean_likes": 414.3,
-    "mean_comments": 9.0
+    "mean_views": 31332.0,
+    "mean_likes": 796.8,
+    "mean_comments": 12.6,
+    "mean_shares": 62.0
   },
   "std_stats": {
-    "std_views": 10784.273451548685,
-    "std_likes": 268.0418914191503,
-    "std_comments": 5.94418483337567
+    "std_views": 30975.158167473495,
+    "std_likes": 667.1905275106953,
+    "std_comments": 4.560701700396552,
+    "std_shares": 62.57795138864806
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 63.82,
+    "quality_score": 57.5,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 93.14,
-      "P_VFR": 30.39,
-      "P_CLR": 63.73
+      "P_ERV": 88.51,
+      "P_VFR": 28.16,
+      "P_SRV": 43.68,
+      "P_CLR": 64.94
     }
   }
 }

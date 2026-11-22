@@ -1,38 +1,55 @@
 {
   "account_id": "jinhan_1208",
-  "followers": 1800,
-  "total_videos_analyzed": 12,
+  "full_name": "謹涵🫧第二主業計劃",
+  "followers": 2781,
+  "follows": 478,
+  "posts_count": 242,
+  "verified": false,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 1.4561111111111111,
-    "ERV": 0.011827546733373695,
-    "CLR": 0.10714285331632667,
-    "VFR_mean": 7.978703703703704,
-    "CV_views": 1.6268975683528824,
-    "CV_likes": 1.6801290797945683,
-    "CV_comments": 1.9263681780231496
+    "VFR": 1.5907946781733189,
+    "ERV": 0.018422242310483217,
+    "CLR": 0.03821656002271898,
+    "SRV": 0.011867088604912502,
+    "SLR": 0.6687898003975822,
+    "VFR_mean": 10.474289823804387,
+    "CV_views": 1.8439106144690074,
+    "CV_likes": 2.010225746921052,
+    "CV_comments": 2.2135464324567433,
+    "CV_shares": 2.5533181044920235
   },
   "median_stats": {
-    "median_views": 2621.0,
-    "median_likes": 28.0,
-    "median_comments": 3.0
+    "median_views": 4424.0,
+    "median_likes": 78.5,
+    "median_comments": 3.0,
+    "median_shares": 52.5
   },
   "mean_stats": {
-    "mean_views": 14361.666666666666,
-    "mean_likes": 276.0,
-    "mean_comments": 23.583333333333332
+    "mean_views": 29129.0,
+    "mean_likes": 673.2,
+    "mean_comments": 48.0,
+    "mean_shares": 866.5
   },
   "std_stats": {
-    "std_views": 23364.960577494643,
-    "std_likes": 463.71562602330084,
-    "std_comments": 45.43018286504594
+    "std_views": 53711.272288867716,
+    "std_likes": 1353.2839728272522,
+    "std_comments": 106.25022875792368,
+    "std_shares": 2212.4501375423383
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 64.17,
+    "classification": "good",
+    "quality_score": 79.28,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 27.45,
-      "P_VFR": 93.14,
-      "P_CLR": 82.35
+      "P_ERV": 58.62,
+      "P_VFR": 94.25,
+      "P_SRV": 95.98,
+      "P_CLR": 70.69
     }
   }
 }

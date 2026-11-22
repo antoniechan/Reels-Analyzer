@@ -1,0 +1,55 @@
+{
+  "account_id": "pharkids_tw",
+  "full_name": "藥師健生活 兒童系列｜兒童・親子・孕媽咪",
+  "followers": 5754,
+  "follows": 38,
+  "posts_count": 636,
+  "verified": false,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.8889468196037539,
+    "ERV": 0.012903225803928987,
+    "CLR": 0.0,
+    "SRV": 0.002346041055259816,
+    "SLR": 0.18181817906336092,
+    "VFR_mean": 1.6150503997219325,
+    "CV_views": 0.9712681040204083,
+    "CV_likes": 1.0835670393047043,
+    "CV_comments": 2.251882411278576,
+    "CV_shares": 2.2714024601905822
+  },
+  "median_stats": {
+    "median_views": 5115.0,
+    "median_likes": 66.0,
+    "median_comments": 0.0,
+    "median_shares": 12.0
+  },
+  "mean_stats": {
+    "mean_views": 9293.0,
+    "mean_likes": 133.66666666666666,
+    "mean_comments": 1.9166666666666667,
+    "mean_shares": 66.83333333333333
+  },
+  "std_stats": {
+    "std_views": 9025.994490661655,
+    "std_likes": 144.8367942537288,
+    "std_comments": 4.316107954950604,
+    "std_shares": 151.80539775607056
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 47.07,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 37.93,
+      "P_VFR": 83.91,
+      "P_SRV": 40.23,
+      "P_CLR": 23.28
+    }
+  }
+}

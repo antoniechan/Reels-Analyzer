@@ -1,0 +1,55 @@
+{
+  "account_id": "dr.tsaijili",
+  "full_name": "蔡明劼醫師",
+  "followers": 4447,
+  "follows": 485,
+  "posts_count": 317,
+  "verified": false,
+  "total_videos_analyzed": 7,
+  "metrics": {
+    "VFR": 0.34090398021137847,
+    "ERV": 0.0006596306064250457,
+    "CLR": 0.0,
+    "SRV": 0.0006596306064250457,
+    "SLR": 0.0,
+    "VFR_mean": 0.33701692955122237,
+    "CV_views": 0.8210962696616307,
+    "CV_likes": 0.0,
+    "CV_comments": 0.9941961204540711,
+    "CV_shares": 1.0934314274344676
+  },
+  "median_stats": {
+    "median_views": 1516.0,
+    "median_likes": -1.0,
+    "median_comments": 2.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 1498.7142857142858,
+    "mean_likes": -1.0,
+    "mean_comments": 1.7142857142857142,
+    "mean_shares": 1.5714285714285714
+  },
+  "std_stats": {
+    "std_views": 1230.5887092885955,
+    "std_likes": 0.0,
+    "std_comments": 1.7043362064926932,
+    "std_shares": 1.7182493859684491
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 22.16,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 8.05,
+      "P_VFR": 41.38,
+      "P_SRV": 18.97,
+      "P_CLR": 23.28
+    }
+  }
+}

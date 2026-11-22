@@ -1,38 +1,55 @@
 {
   "account_id": "annettetam_nutrition",
-  "followers": 5500,
-  "total_videos_analyzed": 19,
+  "full_name": "AnnetteTam微營養",
+  "followers": 5462,
+  "follows": 93,
+  "posts_count": 395,
+  "verified": false,
+  "total_videos_analyzed": 42,
   "metrics": {
-    "VFR": 0.21472727272727274,
-    "ERV": 0.02540220150262303,
+    "VFR": 0.25988648846576345,
+    "ERV": 0.023952095791509618,
     "CLR": 0.0,
-    "VFR_mean": 2.360641148325359,
-    "CV_views": 2.6061545480877175,
-    "CV_likes": 2.4165214716343235,
-    "CV_comments": 2.8324630291158877
+    "SRV": 0.01021486438167322,
+    "SLR": 0.42647057569204194,
+    "VFR_mean": 1.6309610991961778,
+    "CV_views": 2.896810016016693,
+    "CV_likes": 2.5015230166213693,
+    "CV_comments": 3.621325145292374,
+    "CV_shares": 2.984927384902876
   },
   "median_stats": {
-    "median_views": 1181.0,
-    "median_likes": 30.0,
-    "median_comments": 0.0
+    "median_views": 1419.5,
+    "median_likes": 34.0,
+    "median_comments": 0.0,
+    "median_shares": 14.5
   },
   "mean_stats": {
-    "mean_views": 12983.526315789473,
-    "mean_likes": 146.05263157894737,
-    "mean_comments": 2.736842105263158
+    "mean_views": 8908.309523809523,
+    "mean_likes": 104.26190476190476,
+    "mean_comments": 1.5238095238095237,
+    "mean_shares": 92.5952380952381
   },
   "std_stats": {
-    "std_views": 33837.076158111304,
-    "std_likes": 352.9393201992236,
-    "std_comments": 7.752004079685587
+    "std_views": 25805.680254348325,
+    "std_likes": 260.8135545186899,
+    "std_comments": 5.518209745207426,
+    "std_shares": 276.39006190207823
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 49.34,
+    "quality_score": 59.71,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 80.39,
-      "P_VFR": 33.33,
-      "P_CLR": 22.06
+      "P_ERV": 78.16,
+      "P_VFR": 31.61,
+      "P_SRV": 94.83,
+      "P_CLR": 23.28
     }
   }
 }

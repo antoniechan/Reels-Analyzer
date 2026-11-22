@@ -1,0 +1,55 @@
+{
+  "account_id": "slow_dr.sloth",
+  "full_name": "樹懶醫生｜醫師生活｜醫學懶人包｜愛抹茶",
+  "followers": 21451,
+  "follows": 919,
+  "posts_count": 334,
+  "verified": false,
+  "total_videos_analyzed": 17,
+  "metrics": {
+    "VFR": 0.6273833387720852,
+    "ERV": 0.023034626242901275,
+    "CLR": 0.04026845624070988,
+    "SRV": 0.004458314756690569,
+    "SLR": 0.20134228120354938,
+    "VFR_mean": 0.9343702610875126,
+    "CV_views": 1.0846568589528431,
+    "CV_likes": 1.0841040878803274,
+    "CV_comments": 1.6280408410661171,
+    "CV_shares": 2.0468352550303837
+  },
+  "median_stats": {
+    "median_views": 13458.0,
+    "median_likes": 298.0,
+    "median_comments": 12.0,
+    "median_shares": 60.0
+  },
+  "mean_stats": {
+    "mean_views": 20043.176470588234,
+    "mean_likes": 502.4117647058824,
+    "mean_comments": 26.176470588235293,
+    "mean_shares": 228.1764705882353
+  },
+  "std_stats": {
+    "std_views": 21739.968834025767,
+    "std_likes": 544.6666479168163,
+    "std_comments": 42.616363192613065,
+    "std_shares": 467.03964436840346
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 73.07,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 75.86,
+      "P_VFR": 70.69,
+      "P_SRV": 73.56,
+      "P_CLR": 71.26
+    }
+  }
+}

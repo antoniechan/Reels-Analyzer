@@ -1,38 +1,55 @@
 {
   "account_id": "eric_chewfit",
-  "followers": 2100,
-  "total_videos_analyzed": 17,
+  "full_name": "𝑬𝒓𝒊𝒄 𝑪𝒉𝒆𝒘🌙｜營養健身教練",
+  "followers": 2128,
+  "follows": 1654,
+  "posts_count": 185,
+  "verified": false,
+  "total_videos_analyzed": 24,
   "metrics": {
-    "VFR": 0.7361904761904762,
-    "ERV": 0.02393272960935787,
-    "CLR": 0.057142855510204135,
-    "VFR_mean": 1.1053221288515405,
-    "CV_views": 0.7365021129807093,
-    "CV_likes": 0.46428640467848403,
-    "CV_comments": 1.8145814865355039
+    "VFR": 1.149671052631579,
+    "ERV": 0.017167381967231807,
+    "CLR": 0.04999999875000003,
+    "SRV": 0.006131207845439932,
+    "SLR": 0.3749999906250003,
+    "VFR_mean": 2.4868029448621556,
+    "CV_views": 1.4047474480432847,
+    "CV_likes": 1.6300646190210044,
+    "CV_comments": 2.163668382531209,
+    "CV_shares": 1.9578863748571127
   },
   "median_stats": {
-    "median_views": 1546.0,
-    "median_likes": 35.0,
-    "median_comments": 2.0
+    "median_views": 2446.5,
+    "median_likes": 40.0,
+    "median_comments": 2.0,
+    "median_shares": 15.0
   },
   "mean_stats": {
-    "mean_views": 2321.176470588235,
-    "mean_likes": 39.705882352941174,
-    "mean_comments": 3.7058823529411766
+    "mean_views": 5291.916666666667,
+    "mean_likes": 88.45833333333333,
+    "mean_comments": 8.333333333333334,
+    "mean_shares": 47.875
   },
   "std_stats": {
-    "std_views": 1709.5513751893404,
-    "std_likes": 18.434901362233923,
-    "std_comments": 6.724625508925691
+    "std_views": 7433.806432757726,
+    "std_likes": 144.19279942423302,
+    "std_comments": 18.03056985442674,
+    "std_shares": 93.73381019628427
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 77.99,
+    "quality_score": 75.26,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 77.45,
-      "P_VFR": 80.39,
-      "P_CLR": 75.49
+      "P_ERV": 56.32,
+      "P_VFR": 89.08,
+      "P_SRV": 85.06,
+      "P_CLR": 74.14
     }
   }
 }

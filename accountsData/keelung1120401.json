@@ -1,0 +1,55 @@
+{
+  "account_id": "keelung1120401",
+  "full_name": "基隆生基中醫診所(減重/助孕/安胎/試管養卵/產後調理/美顏針/疑難雜症)",
+  "followers": 5113,
+  "follows": 3,
+  "posts_count": 743,
+  "verified": false,
+  "total_videos_analyzed": 27,
+  "metrics": {
+    "VFR": 0.08605515353021709,
+    "ERV": 0.00681818180268595,
+    "CLR": 0.0,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.14718473607579807,
+    "CV_views": 1.3877537542607847,
+    "CV_likes": 1.599915065936427,
+    "CV_comments": 5.196152422706632,
+    "CV_shares": 3.464018342463429
+  },
+  "median_stats": {
+    "median_views": 440.0,
+    "median_likes": 3.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 752.5555555555555,
+    "mean_likes": 6.222222222222222,
+    "mean_comments": 0.037037037037037035,
+    "mean_shares": 0.7407407407407407
+  },
+  "std_stats": {
+    "std_views": 1044.3617975120328,
+    "std_likes": 9.955027076937768,
+    "std_comments": 0.19245008972987526,
+    "std_shares": 2.565939512935873
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 14.01,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 18.97,
+      "P_VFR": 8.05,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
+    }
+  }
+}

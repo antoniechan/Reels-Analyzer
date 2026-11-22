@@ -1,38 +1,55 @@
 {
   "account_id": "kingnet.tw",
-  "followers": 4000,
-  "total_videos_analyzed": 10,
+  "full_name": "KingNet 國家網路醫藥｜健康小學堂",
+  "followers": 3966,
+  "follows": 172,
+  "posts_count": 563,
+  "verified": false,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.083,
-    "ERV": 0.00903614455109595,
+    "VFR": 0.10337871911245587,
+    "ERV": 0.00975609753718025,
     "CLR": 0.0,
-    "VFR_mean": 0.10997499999999999,
-    "CV_views": 0.782602495391346,
-    "CV_likes": 0.771722460186015,
-    "CV_comments": 0.0
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.12000077582528414,
+    "CV_views": 0.6224355840797806,
+    "CV_likes": 0.6456892699588136,
+    "CV_comments": 0.0,
+    "CV_shares": 1.925853586604401
   },
   "median_stats": {
-    "median_views": 332.0,
-    "median_likes": 3.0,
-    "median_comments": 0.0
+    "median_views": 410.0,
+    "median_likes": 4.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 439.9,
-    "mean_likes": 5.0,
-    "mean_comments": 0.0
+    "mean_views": 475.9230769230769,
+    "mean_likes": 5.461538461538462,
+    "mean_comments": 0.0,
+    "mean_shares": 1.8461538461538463
   },
   "std_stats": {
-    "std_views": 344.26683772265307,
-    "std_likes": 3.858612300930075,
-    "std_comments": 0.0
+    "std_views": 296.23145836166174,
+    "std_likes": 3.5264567820827515,
+    "std_comments": 0.0,
+    "std_shares": 3.5554220060388944
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 18.31,
+    "quality_score": 17.08,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 22.55,
-      "P_VFR": 10.78,
-      "P_CLR": 22.06
+      "P_ERV": 25.86,
+      "P_VFR": 12.07,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

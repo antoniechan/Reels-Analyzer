@@ -1,0 +1,55 @@
+{
+  "account_id": "abbyhsu227",
+  "full_name": "許瓊月 營養師",
+  "followers": 3724,
+  "follows": 235,
+  "posts_count": 957,
+  "verified": false,
+  "total_videos_analyzed": 8,
+  "metrics": {
+    "VFR": 0.21348012889366272,
+    "ERV": 0.07232704393417982,
+    "CLR": 0.07476635374268498,
+    "SRV": 0.001886792450456865,
+    "SLR": 0.028037382653506866,
+    "VFR_mean": 0.23355263157894737,
+    "CV_views": 0.2768315006793404,
+    "CV_likes": 0.3557455069037102,
+    "CV_comments": 0.2153607639732336,
+    "CV_shares": 1.055764390369263
+  },
+  "median_stats": {
+    "median_views": 795.0,
+    "median_likes": 53.5,
+    "median_comments": 4.0,
+    "median_shares": 1.5
+  },
+  "mean_stats": {
+    "mean_views": 869.75,
+    "mean_likes": 57.125,
+    "mean_comments": 3.875,
+    "mean_shares": 2.25
+  },
+  "std_stats": {
+    "std_views": 240.77419771585633,
+    "std_likes": 20.321962081874446,
+    "std_comments": 0.8345229603962802,
+    "std_shares": 2.3754698783308417
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 60.57,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 99.43,
+      "P_VFR": 24.71,
+      "P_SRV": 33.91,
+      "P_CLR": 80.46
+    }
+  }
+}

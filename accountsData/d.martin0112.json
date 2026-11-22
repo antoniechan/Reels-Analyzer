@@ -1,0 +1,55 @@
+{
+  "account_id": "d.martin0112",
+  "full_name": "馬丁大夫/藥師雙證照-身高成長顧問",
+  "followers": 11064,
+  "follows": 470,
+  "posts_count": 393,
+  "verified": true,
+  "total_videos_analyzed": 34,
+  "metrics": {
+    "VFR": 0.5204266088214028,
+    "ERV": 0.038728725245097476,
+    "CLR": 1.0272727179338843,
+    "SRV": 0.008249392148619417,
+    "SLR": 0.43181817789256205,
+    "VFR_mean": 2.8567213219344136,
+    "CV_views": 2.6757748818694957,
+    "CV_likes": 2.557701943425699,
+    "CV_comments": 2.812749283202934,
+    "CV_shares": 3.547333521592945
+  },
+  "median_stats": {
+    "median_views": 5758.0,
+    "median_likes": 110.0,
+    "median_comments": 113.0,
+    "median_shares": 47.5
+  },
+  "mean_stats": {
+    "mean_views": 31606.764705882353,
+    "mean_likes": 411.1764705882353,
+    "mean_comments": 350.47058823529414,
+    "mean_shares": 919.8529411764706
+  },
+  "std_stats": {
+    "std_views": 84572.5870971593,
+    "std_likes": 1051.6668579144493,
+    "std_comments": 985.7858958425343,
+    "std_shares": 3263.0251731711573
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 86.03,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 94.25,
+      "P_VFR": 61.49,
+      "P_SRV": 91.38,
+      "P_CLR": 97.7
+    }
+  }
+}

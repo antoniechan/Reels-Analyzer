@@ -1,0 +1,55 @@
+{
+  "account_id": "evergreen30healthcare",
+  "full_name": "山拾常青診所｜預防醫學·功能醫學 專業",
+  "followers": 1166,
+  "follows": 14,
+  "posts_count": 168,
+  "verified": false,
+  "total_videos_analyzed": 36,
+  "metrics": {
+    "VFR": 0.5265866209262435,
+    "ERV": 0.01058631920099948,
+    "CLR": 0.0,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.8700686106346484,
+    "CV_views": 0.9782109802170755,
+    "CV_likes": 1.147287866087647,
+    "CV_comments": 2.868548662402545,
+    "CV_shares": 1.8373291884452287
+  },
+  "median_stats": {
+    "median_views": 614.0,
+    "median_likes": 6.5,
+    "median_comments": 0.0,
+    "median_shares": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1014.5,
+    "mean_likes": 11.833333333333334,
+    "mean_comments": 0.2222222222222222,
+    "mean_shares": 1.8888888888888888
+  },
+  "std_stats": {
+    "std_views": 992.3950394302232,
+    "std_likes": 13.576239748703825,
+    "std_comments": 0.6374552583116766,
+    "std_shares": 3.470510689285432
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 30.59,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 28.74,
+      "P_VFR": 62.64,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
+    }
+  }
+}

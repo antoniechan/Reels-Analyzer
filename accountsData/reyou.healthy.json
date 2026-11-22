@@ -1,0 +1,55 @@
+{
+  "account_id": "reyou.healthy",
+  "full_name": "𝐑𝐞: 你｜𝐑𝐞:𝐍𝐞𝐰",
+  "followers": 6026,
+  "follows": 9,
+  "posts_count": 200,
+  "verified": true,
+  "total_videos_analyzed": 44,
+  "metrics": {
+    "VFR": 0.6408065051443744,
+    "ERV": 0.020069921009952113,
+    "CLR": 0.3247863192344219,
+    "SRV": 0.003366567395217774,
+    "SLR": 0.22222221842355183,
+    "VFR_mean": 1.0616004887909964,
+    "CV_views": 1.5929175645614158,
+    "CV_likes": 1.4553050855155665,
+    "CV_comments": 1.2352329620068598,
+    "CV_shares": 2.5691998353691132
+  },
+  "median_stats": {
+    "median_views": 3861.5,
+    "median_likes": 58.5,
+    "median_comments": 19.0,
+    "median_shares": 13.0
+  },
+  "mean_stats": {
+    "mean_views": 6397.204545454545,
+    "mean_likes": 85.20454545454545,
+    "mean_comments": 31.704545454545453,
+    "mean_shares": 32.52272727272727
+  },
+  "std_stats": {
+    "std_views": 10190.219484546673,
+    "std_likes": 123.99860830904224,
+    "std_comments": 39.1624995908993,
+    "std_shares": 83.55738555484548
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 70.83,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 66.67,
+      "P_VFR": 71.26,
+      "P_SRV": 58.05,
+      "P_CLR": 92.53
+    }
+  }
+}

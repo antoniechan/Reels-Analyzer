@@ -1,38 +1,55 @@
 {
   "account_id": "evelyn_nutritionist",
-  "followers": 8300,
-  "total_videos_analyzed": 13,
+  "full_name": "營養師 𝑬𝒗𝒆𝒍𝒚𝒏 ｜正念修身營養計劃🩷",
+  "followers": 8403,
+  "follows": 141,
+  "posts_count": 636,
+  "verified": false,
+  "total_videos_analyzed": 12,
   "metrics": {
-    "VFR": 0.24674698795180722,
-    "ERV": 0.01660156249189377,
-    "CLR": 0.17241378715814526,
-    "VFR_mean": 0.2682483781278962,
-    "CV_views": 0.42274914180496875,
-    "CV_likes": 0.5560975865195478,
-    "CV_comments": 0.9276391557562569
+    "VFR": 0.24021182910865166,
+    "ERV": 0.015357939056052544,
+    "CLR": 0.1481481426611799,
+    "SRV": 0.001981669555619683,
+    "SLR": 0.1481481426611799,
+    "VFR_mean": 0.26596651989368875,
+    "CV_views": 0.44784907376196387,
+    "CV_likes": 0.5803217486377041,
+    "CV_comments": 1.1081750529821306,
+    "CV_shares": 1.2604312233068764
   },
   "median_stats": {
-    "median_views": 2048.0,
-    "median_likes": 29.0,
-    "median_comments": 5.0
+    "median_views": 2018.5,
+    "median_likes": 27.0,
+    "median_comments": 4.0,
+    "median_shares": 4.0
   },
   "mean_stats": {
-    "mean_views": 2226.4615384615386,
-    "mean_likes": 31.153846153846153,
-    "mean_comments": 6.923076923076923
+    "mean_views": 2234.9166666666665,
+    "mean_likes": 30.916666666666668,
+    "mean_comments": 5.833333333333333,
+    "mean_shares": 7.5
   },
   "std_stats": {
-    "std_views": 941.2347046463858,
-    "std_likes": 17.324578656955143,
-    "std_comments": 6.422117232158702
+    "std_views": 1000.9053591018424,
+    "std_likes": 17.94161406204902,
+    "std_comments": 6.464354475729095,
+    "std_shares": 9.453234174801572
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 53.53,
+    "quality_score": 46.98,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 49.02,
-      "P_VFR": 35.29,
-      "P_CLR": 86.27
+      "P_ERV": 45.98,
+      "P_VFR": 28.74,
+      "P_SRV": 35.06,
+      "P_CLR": 86.21
     }
   }
 }

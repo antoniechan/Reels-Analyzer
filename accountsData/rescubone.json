@@ -1,0 +1,55 @@
+{
+  "account_id": "rescubone",
+  "full_name": "骨科 陳沛華醫師",
+  "followers": 14230,
+  "follows": 165,
+  "posts_count": 63,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.8722417427969079,
+    "ERV": 0.01522719948314315,
+    "CLR": 0.010695187108581887,
+    "SRV": 0.004592330002852697,
+    "SLR": 0.3048128325945838,
+    "VFR_mean": 2.036376413467067,
+    "CV_views": 1.9155730010451848,
+    "CV_likes": 1.9096675877954548,
+    "CV_comments": 1.9951163058532133,
+    "CV_shares": 2.1783070316726922
+  },
+  "median_stats": {
+    "median_views": 12412.0,
+    "median_likes": 187.0,
+    "median_comments": 2.0,
+    "median_shares": 57.0
+  },
+  "mean_stats": {
+    "mean_views": 28977.636363636364,
+    "mean_likes": 468.45454545454544,
+    "mean_comments": 5.636363636363637,
+    "mean_shares": 142.54545454545453
+  },
+  "std_stats": {
+    "std_views": 55508.777852286985,
+    "std_likes": 894.592461809998,
+    "std_comments": 11.245200996627203,
+    "std_shares": 310.5077659693437
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 63.36,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 44.83,
+      "P_VFR": 81.03,
+      "P_SRV": 75.86,
+      "P_CLR": 53.45
+    }
+  }
+}

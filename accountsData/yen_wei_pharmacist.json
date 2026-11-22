@@ -1,0 +1,55 @@
+{
+  "account_id": "yen_wei_pharmacist",
+  "full_name": "不藥藥師｜彥瑋",
+  "followers": 650,
+  "follows": 86,
+  "posts_count": 160,
+  "verified": false,
+  "total_videos_analyzed": 49,
+  "metrics": {
+    "VFR": 1.2861538461538462,
+    "ERV": 0.028708133936951992,
+    "CLR": 0.0,
+    "SRV": 0.011961722473729997,
+    "SLR": 0.41666664930555625,
+    "VFR_mean": 1.4399372056514914,
+    "CV_views": 0.41176322685980643,
+    "CV_likes": 0.3508822484288486,
+    "CV_comments": 2.2873064581147258,
+    "CV_shares": 0.7601278723365802
+  },
+  "median_stats": {
+    "median_views": 836.0,
+    "median_likes": 24.0,
+    "median_comments": 0.0,
+    "median_shares": 10.0
+  },
+  "mean_stats": {
+    "mean_views": 935.9591836734694,
+    "mean_likes": 24.571428571428573,
+    "mean_comments": 0.24489795918367346,
+    "mean_shares": 12.612244897959183
+  },
+  "std_stats": {
+    "std_views": 385.39357367845804,
+    "std_likes": 8.621678104251709,
+    "std_comments": 0.5601566836199329,
+    "std_shares": 9.586918879673602
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 77.84,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 87.36,
+      "P_VFR": 91.38,
+      "P_SRV": 96.55,
+      "P_CLR": 23.28
+    }
+  }
+}

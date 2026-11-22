@@ -1,38 +1,55 @@
 {
   "account_id": "rd_yunzheng",
-  "followers": 1100,
-  "total_videos_analyzed": 15,
+  "full_name": "運動營養師阿正（林昀正）",
+  "followers": 1103,
+  "follows": 558,
+  "posts_count": 112,
+  "verified": false,
+  "total_videos_analyzed": 9,
   "metrics": {
-    "VFR": 1.3763636363636365,
-    "ERV": 0.01585204754567236,
-    "CLR": 0.0,
-    "VFR_mean": 1.6307878787878787,
-    "CV_views": 0.47427761116041667,
-    "CV_likes": 0.4158876504867663,
-    "CV_comments": 1.2470781045993518
+    "VFR": 1.7171350861287398,
+    "ERV": 0.017423442440642322,
+    "CLR": 0.06451612695109267,
+    "SRV": 0.0015839493127856655,
+    "SLR": 0.09677419042663901,
+    "VFR_mean": 1.8908028608844567,
+    "CV_views": 0.4638636667335026,
+    "CV_likes": 0.40169484207412465,
+    "CV_comments": 1.0220777158038703,
+    "CV_shares": 0.9854904394513425
   },
   "median_stats": {
-    "median_views": 1514.0,
-    "median_likes": 24.0,
-    "median_comments": 0.0
+    "median_views": 1894.0,
+    "median_likes": 31.0,
+    "median_comments": 2.0,
+    "median_shares": 3.0
   },
   "mean_stats": {
-    "mean_views": 1793.8666666666666,
-    "mean_likes": 29.6,
-    "mean_comments": 1.2666666666666666
+    "mean_views": 2085.5555555555557,
+    "mean_likes": 31.77777777777778,
+    "mean_comments": 1.5555555555555556,
+    "mean_shares": 3.5555555555555554
   },
   "std_stats": {
-    "std_views": 850.790797406966,
-    "std_likes": 12.310274454408283,
-    "std_comments": 1.5796322658258455
+    "std_views": 967.4134471764271,
+    "std_likes": 12.764969425911072,
+    "std_comments": 1.5898986690282428,
+    "std_shares": 3.5039660069381067
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 55.47,
+    "quality_score": 63.36,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 45.1,
-      "P_VFR": 91.18,
-      "P_CLR": 22.06
+      "P_ERV": 56.9,
+      "P_VFR": 94.83,
+      "P_SRV": 27.59,
+      "P_CLR": 78.45
     }
   }
 }

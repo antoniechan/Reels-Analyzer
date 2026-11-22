@@ -1,0 +1,55 @@
+{
+  "account_id": "shawsonclinic",
+  "full_name": "首盛診所 - 簡銘成醫師的簡單說髮 - 生髮植髮專家",
+  "followers": 4212,
+  "follows": 95,
+  "posts_count": 460,
+  "verified": false,
+  "total_videos_analyzed": 15,
+  "metrics": {
+    "VFR": 0.25546058879392214,
+    "ERV": 0.008364312259884467,
+    "CLR": 0.0,
+    "SRV": 0.0009293680288760519,
+    "SLR": 0.11111109876543349,
+    "VFR_mean": 0.337923393478949,
+    "CV_views": 0.5595876918326737,
+    "CV_likes": 0.6624870890993911,
+    "CV_comments": 3.8729833462074175,
+    "CV_shares": 1.0583618805162394
+  },
+  "median_stats": {
+    "median_views": 1076.0,
+    "median_likes": 9.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 1423.3333333333333,
+    "mean_likes": 10.533333333333333,
+    "mean_comments": 0.13333333333333333,
+    "mean_shares": 1.4666666666666666
+  },
+  "std_stats": {
+    "std_views": 796.4798147085055,
+    "std_likes": 6.978197338513587,
+    "std_comments": 0.5163977794943223,
+    "std_shares": 1.5522640914238175
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 24.14,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 21.84,
+      "P_VFR": 30.46,
+      "P_SRV": 21.26,
+      "P_CLR": 23.28
+    }
+  }
+}

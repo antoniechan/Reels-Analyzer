@@ -1,38 +1,55 @@
 {
   "account_id": "fitfitfood__",
-  "followers": 120000,
-  "total_videos_analyzed": 10,
+  "full_name": "𝙁𝙞𝙩 𝙁𝙞𝙩 𝙁𝙤𝙤𝙙 營盈樂🔸中醫 營養🔸獨家調理式減重 PCOS 多囊 瘦身 減肥",
+  "followers": 125410,
+  "follows": 1,
+  "posts_count": 410,
+  "verified": false,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.1596625,
-    "ERV": 0.003784023591232338,
+    "VFR": 0.18477792839486484,
+    "ERV": 0.0055668234580949025,
     "CLR": 0.0,
-    "VFR_mean": 0.20634333333333335,
-    "CV_views": 0.6229002490618455,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.2285745830598713,
+    "CV_views": 0.5517520371818451,
     "CV_likes": 0.0,
-    "CV_comments": 1.7543249125976896
+    "CV_comments": 1.1603134409966738,
+    "CV_shares": 2.6751667101478613
   },
   "median_stats": {
-    "median_views": 19159.5,
+    "median_views": 23173.0,
     "median_likes": -1.0,
-    "median_comments": 73.5
+    "median_comments": 130.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 24761.2,
+    "mean_views": 28665.53846153846,
     "mean_likes": -1.0,
-    "mean_comments": 142.8
+    "mean_comments": 212.0,
+    "mean_shares": 12.307692307692308
   },
   "std_stats": {
-    "std_views": 15423.75764707017,
+    "std_views": 15816.269243068378,
     "std_likes": 0.0,
-    "std_comments": 250.5175975189501
+    "std_comments": 245.98644949129482,
+    "std_shares": 32.92512874028137
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 20.22,
+    "quality_score": 16.36,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 12.75,
-      "P_VFR": 27.45,
-      "P_CLR": 22.06
+      "P_ERV": 14.37,
+      "P_VFR": 22.99,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

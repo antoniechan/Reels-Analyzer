@@ -1,38 +1,55 @@
 {
   "account_id": "anan_lin1211",
-  "followers": 5800,
-  "total_videos_analyzed": 17,
+  "full_name": "林安安營養師",
+  "followers": 6081,
+  "follows": 302,
+  "posts_count": 586,
+  "verified": false,
+  "total_videos_analyzed": 5,
   "metrics": {
-    "VFR": 0.11293103448275862,
-    "ERV": -0.001526717554921042,
+    "VFR": 0.13846406840980102,
+    "ERV": 0.0,
     "CLR": 0.0,
-    "VFR_mean": 0.113052738336714,
-    "CV_views": 0.11954791056404092,
-    "CV_likes": 12.420748769699834,
-    "CV_comments": 1.9987496091306687
+    "SRV": 0.0023752969092929966,
+    "SLR": 0.0,
+    "VFR_mean": 0.5316230883078441,
+    "CV_views": 1.5614708025315844,
+    "CV_likes": 0.0,
+    "CV_comments": 1.0865337342004415,
+    "CV_shares": 1.292771455012215
   },
   "median_stats": {
-    "median_views": 655.0,
+    "median_views": 842.0,
     "median_likes": -1.0,
-    "median_comments": 0.0
+    "median_comments": 1.0,
+    "median_shares": 2.0
   },
   "mean_stats": {
-    "mean_views": 655.7058823529412,
-    "mean_likes": 0.29411764705882354,
-    "mean_comments": 0.29411764705882354
+    "mean_views": 3232.8,
+    "mean_likes": -1.0,
+    "mean_comments": 1.2,
+    "mean_shares": 6.6
   },
   "std_stats": {
-    "std_views": 78.38826817984496,
-    "std_likes": 3.6531614028528927,
-    "std_comments": 0.5878675320972555
+    "std_views": 5047.9228104241065,
+    "std_likes": 0.0,
+    "std_comments": 1.3038404810405297,
+    "std_shares": 8.532291603080617
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 12.43,
+    "quality_score": 20.32,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 0.98,
-      "P_VFR": 18.63,
-      "P_CLR": 22.06
+      "P_ERV": 2.87,
+      "P_VFR": 18.39,
+      "P_SRV": 40.8,
+      "P_CLR": 23.28
     }
   }
 }

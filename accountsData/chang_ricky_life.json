@@ -1,38 +1,55 @@
 {
   "account_id": "chang_ricky_life",
-  "followers": 137920,
-  "total_videos_analyzed": 10,
+  "full_name": "Ricky｜營養師｜減脂結合生活",
+  "followers": 140157,
+  "follows": 1508,
+  "posts_count": 1331,
+  "verified": true,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.09715052204176335,
-    "ERV": 0.018172997983567953,
-    "CLR": 0.1849148409493195,
-    "VFR_mean": 0.13965124709976798,
-    "CV_views": 0.8771351330592364,
-    "CV_likes": 0.7398199246406716,
-    "CV_comments": 1.5703383650010343
+    "VFR": 0.12834892299350015,
+    "ERV": 0.018400133413841783,
+    "CLR": 0.09602648974825666,
+    "SRV": 0.002946244927291887,
+    "SLR": 0.17549668816060698,
+    "VFR_mean": 0.3021107282071772,
+    "CV_views": 1.8903709964187332,
+    "CV_likes": 2.1993116513881374,
+    "CV_comments": 2.668934757094598,
+    "CV_shares": 3.1962291552572486
   },
   "median_stats": {
-    "median_views": 13399.0,
-    "median_likes": 205.5,
-    "median_comments": 38.0
+    "median_views": 17989.0,
+    "median_likes": 302.0,
+    "median_comments": 29.0,
+    "median_shares": 53.0
   },
   "mean_stats": {
-    "mean_views": 19260.7,
-    "mean_likes": 260.6,
-    "mean_comments": 53.0
+    "mean_views": 42342.933333333334,
+    "mean_likes": 774.9333333333333,
+    "mean_comments": 196.4,
+    "mean_shares": 424.26666666666665
   },
   "std_stats": {
-    "std_views": 16894.236657314035,
-    "std_likes": 192.79707236135903,
-    "std_comments": 83.22793334505482
+    "std_views": 80043.85307662532,
+    "std_likes": 1704.319909049047,
+    "std_comments": 524.1787862933791,
+    "std_shares": 1356.0534896038087
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 49.8,
+    "quality_score": 50.55,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 55.88,
-      "P_VFR": 14.71,
-      "P_CLR": 89.22
+      "P_ERV": 58.05,
+      "P_VFR": 16.09,
+      "P_SRV": 51.15,
+      "P_CLR": 81.61
     }
   }
 }

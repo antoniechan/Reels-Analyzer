@@ -1,38 +1,55 @@
 {
   "account_id": "wanpin_li_dietitian",
-  "followers": 11000,
-  "total_videos_analyzed": 11,
+  "full_name": "李婉萍 營養師",
+  "followers": 10643,
+  "follows": 248,
+  "posts_count": 963,
+  "verified": false,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.09063636363636364,
-    "ERV": 0.0240722166258052,
+    "VFR": 0.09593159823358076,
+    "ERV": 0.020568070498953896,
     "CLR": 0.0,
-    "VFR_mean": 0.21164462809917356,
-    "CV_views": 1.2096846465003857,
-    "CV_likes": 1.070928651972297,
-    "CV_comments": 3.3166247903554003
+    "SRV": 0.0029382957855648424,
+    "SLR": 0.14285713605442207,
+    "VFR_mean": 0.19391149112092457,
+    "CV_views": 1.1879572232396716,
+    "CV_likes": 1.0986214785304904,
+    "CV_comments": 2.449489742783178,
+    "CV_shares": 2.1545372397782816
   },
   "median_stats": {
-    "median_views": 997.0,
-    "median_likes": 24.0,
-    "median_comments": 0.0
+    "median_views": 1021.0,
+    "median_likes": 21.0,
+    "median_comments": 0.0,
+    "median_shares": 3.0
   },
   "mean_stats": {
-    "mean_views": 2328.090909090909,
-    "mean_likes": 44.18181818181818,
-    "mean_comments": 0.2727272727272727
+    "mean_views": 2063.8,
+    "mean_likes": 38.733333333333334,
+    "mean_comments": 0.3333333333333333,
+    "mean_shares": 21.2
   },
   "std_stats": {
-    "std_views": 2816.255828384398,
-    "std_likes": 47.31557498713966,
-    "std_comments": 0.9045340337332909
+    "std_views": 2451.7061173220345,
+    "std_likes": 42.553271935081,
+    "std_comments": 0.8164965809277259,
+    "std_shares": 45.67618948329957
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 41.0,
+    "quality_score": 40.72,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 78.43,
-      "P_VFR": 11.76,
-      "P_CLR": 22.06
+      "P_ERV": 68.97,
+      "P_VFR": 10.92,
+      "P_SRV": 50.57,
+      "P_CLR": 23.28
     }
   }
 }

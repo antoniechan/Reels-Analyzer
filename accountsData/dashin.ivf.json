@@ -1,0 +1,55 @@
+{
+  "account_id": "dashin.ivf",
+  "full_name": "大新婦產科診所 生殖中心",
+  "followers": 10356,
+  "follows": 93,
+  "posts_count": 295,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.12321359598300502,
+    "ERV": 0.00940438870736333,
+    "CLR": 0.0,
+    "SRV": 0.0015673981178938885,
+    "SLR": 0.16666665277777895,
+    "VFR_mean": 1.290442080129218,
+    "CV_views": 2.987948427496535,
+    "CV_likes": 1.6912184171037778,
+    "CV_comments": 0.0,
+    "CV_shares": 1.1941000795578232
+  },
+  "median_stats": {
+    "median_views": 1276.0,
+    "median_likes": 12.0,
+    "median_comments": 0.0,
+    "median_shares": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 13363.818181818182,
+    "mean_likes": 23.545454545454547,
+    "mean_comments": 0.0,
+    "mean_shares": 3.6363636363636362
+  },
+  "std_stats": {
+    "std_views": 39930.39952171324,
+    "std_likes": 39.82050636635259,
+    "std_comments": 0.0,
+    "std_shares": 4.342182107482993
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 22.41,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 24.71,
+      "P_VFR": 14.37,
+      "P_SRV": 27.01,
+      "P_CLR": 23.28
+    }
+  }
+}

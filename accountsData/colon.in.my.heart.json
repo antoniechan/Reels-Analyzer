@@ -1,0 +1,55 @@
+{
+  "account_id": "colon.in.my.heart",
+  "full_name": "陳致一醫師",
+  "followers": 8797,
+  "follows": 491,
+  "posts_count": 281,
+  "verified": false,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.5704217346822781,
+    "ERV": 0.015344758865016987,
+    "CLR": 0.013157894563711914,
+    "SRV": 0.0023913909919506993,
+    "SLR": 0.15789473476454297,
+    "VFR_mean": 1.4373956156381984,
+    "CV_views": 1.5866804459175572,
+    "CV_likes": 1.5736105678820618,
+    "CV_comments": 1.8432925087265106,
+    "CV_shares": 0.9936755778277709
+  },
+  "median_stats": {
+    "median_views": 5018.0,
+    "median_likes": 76.0,
+    "median_comments": 1.0,
+    "median_shares": 12.0
+  },
+  "mean_stats": {
+    "mean_views": 12644.76923076923,
+    "mean_likes": 183.3846153846154,
+    "mean_comments": 1.6923076923076923,
+    "mean_shares": 19.692307692307693
+  },
+  "std_stats": {
+    "std_views": 20063.20808160153,
+    "std_likes": 288.5759687562181,
+    "std_comments": 3.119418091691018,
+    "std_shares": 19.567765224916105
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 52.01,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 45.4,
+      "P_VFR": 66.67,
+      "P_SRV": 41.38,
+      "P_CLR": 56.9
+    }
+  }
+}

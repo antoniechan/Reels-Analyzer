@@ -1,0 +1,55 @@
+{
+  "account_id": "chineseessence",
+  "full_name": "德善堂中醫",
+  "followers": 2609,
+  "follows": 10,
+  "posts_count": 470,
+  "verified": false,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.20026830203142967,
+    "ERV": 0.007655502377692819,
+    "CLR": 0.0,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.30862399386738215,
+    "CV_views": 0.6612088935559212,
+    "CV_likes": 0.42529819300295196,
+    "CV_comments": 0.0,
+    "CV_shares": 1.9587765455905264
+  },
+  "median_stats": {
+    "median_views": 522.5,
+    "median_likes": 4.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 805.2,
+    "mean_likes": 4.3,
+    "mean_comments": 0.0,
+    "mean_shares": 3.2
+  },
+  "std_stats": {
+    "std_views": 532.4054010912278,
+    "std_likes": 1.8287822299126935,
+    "std_comments": 0.0,
+    "std_shares": 6.268084945889685
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 18.41,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 20.69,
+      "P_VFR": 23.56,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
+    }
+  }
+}

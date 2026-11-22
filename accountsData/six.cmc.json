@@ -1,0 +1,55 @@
+{
+  "account_id": "six.cmc",
+  "full_name": "惜時堂中醫館",
+  "followers": 5360,
+  "follows": 840,
+  "posts_count": 170,
+  "verified": false,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.8767723880597015,
+    "ERV": 0.013086498560892328,
+    "CLR": 0.008196721177102932,
+    "SRV": 0.0031918289172908117,
+    "SLR": 0.24590163531308795,
+    "VFR_mean": 2.5311567164179105,
+    "CV_views": 2.1535507475101983,
+    "CV_likes": 0.48846157935519635,
+    "CV_comments": 2.2150693535701795,
+    "CV_shares": 0.9576076928098171
+  },
+  "median_stats": {
+    "median_views": 4699.5,
+    "median_likes": 61.0,
+    "median_comments": 0.5,
+    "median_shares": 15.0
+  },
+  "mean_stats": {
+    "mean_views": 13567.0,
+    "mean_likes": 57.6,
+    "mean_comments": 4.6,
+    "mean_shares": 20.2
+  },
+  "std_stats": {
+    "std_views": 29217.22299147086,
+    "std_likes": 28.13538697085931,
+    "std_comments": 10.189319026422826,
+    "std_shares": 19.343675394758304
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 56.18,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 39.08,
+      "P_VFR": 82.18,
+      "P_SRV": 55.17,
+      "P_CLR": 50.57
+    }
+  }
+}

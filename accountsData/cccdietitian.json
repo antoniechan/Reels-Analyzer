@@ -1,38 +1,55 @@
 {
   "account_id": "cccdietitian",
-  "followers": 30311,
-  "total_videos_analyzed": 10,
+  "full_name": "江哲均 營養師 飲食規劃｜運動營養｜增肌減脂",
+  "followers": 30411,
+  "follows": 971,
+  "posts_count": 501,
+  "verified": true,
+  "total_videos_analyzed": 19,
   "metrics": {
-    "VFR": 0.4626208307215202,
-    "ERV": 0.0231770369033213,
-    "CLR": 0.009316770157401335,
-    "VFR_mean": 0.6748045264095542,
-    "CV_views": 0.9170777865451181,
-    "CV_likes": 0.7946318286811609,
-    "CV_comments": 0.7959954870644665
+    "VFR": 0.5633159054289566,
+    "ERV": 0.02404996789305645,
+    "CLR": 0.007334963307249478,
+    "SRV": 0.007471834685221421,
+    "SLR": 0.31295843444264443,
+    "VFR_mean": 0.7848804708822466,
+    "CV_views": 0.8208231159061976,
+    "CV_likes": 0.9883364096890009,
+    "CV_comments": 1.090922314181273,
+    "CV_shares": 1.8947490873950381
   },
   "median_stats": {
-    "median_views": 14022.5,
-    "median_likes": 322.0,
-    "median_comments": 3.0
+    "median_views": 17131.0,
+    "median_likes": 409.0,
+    "median_comments": 3.0,
+    "median_shares": 128.0
   },
   "mean_stats": {
-    "mean_views": 20454.0,
-    "mean_likes": 420.7,
-    "mean_comments": 3.3
+    "mean_views": 23869.0,
+    "mean_likes": 537.3157894736842,
+    "mean_comments": 4.473684210526316,
+    "mean_shares": 230.31578947368422
   },
   "std_stats": {
-    "std_views": 18757.909045993845,
-    "std_likes": 334.3016103261644,
-    "std_comments": 2.6267851073127395
+    "std_views": 19592.22695356503,
+    "std_likes": 531.0487582376321,
+    "std_comments": 4.880441931863589,
+    "std_shares": 436.3906319179309
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 64.12,
+    "classification": "good",
+    "quality_score": 72.18,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 73.53,
-      "P_VFR": 62.75,
-      "P_CLR": 50.98
+      "P_ERV": 79.31,
+      "P_VFR": 66.09,
+      "P_SRV": 87.93,
+      "P_CLR": 49.43
     }
   }
 }

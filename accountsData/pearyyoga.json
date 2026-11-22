@@ -1,38 +1,55 @@
 {
   "account_id": "pearyyoga",
-  "followers": 50000,
-  "total_videos_analyzed": 14,
+  "full_name": "Cynthia 善雅｜Wellness Lifestyle",
+  "followers": 57789,
+  "follows": 942,
+  "posts_count": 432,
+  "verified": false,
+  "total_videos_analyzed": 12,
   "metrics": {
-    "VFR": 2.28945,
-    "ERV": 0.018650767651456457,
-    "CLR": 0.03943524827680855,
-    "VFR_mean": 2.2917642857142857,
-    "CV_views": 0.7534403157269194,
-    "CV_likes": 0.965864050403964,
-    "CV_comments": 2.5673961314126608
+    "VFR": 2.2752859540743047,
+    "ERV": 0.019849946572310845,
+    "CLR": 0.016949152535768886,
+    "SRV": 0.014347480539718164,
+    "SLR": 0.7350477300857012,
+    "VFR_mean": 2.984802471058506,
+    "CV_views": 0.7177223753013481,
+    "CV_likes": 0.7550152229132536,
+    "CV_comments": 1.023914325037989,
+    "CV_shares": 1.132355409455731
   },
   "median_stats": {
-    "median_views": 114472.5,
-    "median_likes": 2054.0,
-    "median_comments": 81.0
+    "median_views": 131486.5,
+    "median_likes": 2566.5,
+    "median_comments": 43.5,
+    "median_shares": 1886.5
   },
   "mean_stats": {
-    "mean_views": 114588.21428571429,
-    "mean_likes": 2119.214285714286,
-    "mean_comments": 479.07142857142856
+    "mean_views": 172488.75,
+    "mean_likes": 3194.5833333333335,
+    "mean_comments": 60.916666666666664,
+    "mean_shares": 3563.1666666666665
   },
   "std_stats": {
-    "std_views": 86335.38035001246,
-    "std_likes": 2046.8728936739433,
-    "std_comments": 1229.9661323846226
+    "std_views": 123799.0353627604,
+    "std_likes": 2411.9590475316318,
+    "std_comments": 62.373447633564155,
+    "std_shares": 4034.7710497923454
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 76.13,
+    "quality_score": 79.45,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 59.8,
-      "P_VFR": 98.04,
-      "P_CLR": 71.57
+      "P_ERV": 63.79,
+      "P_VFR": 96.55,
+      "P_SRV": 98.28,
+      "P_CLR": 58.05
     }
   }
 }

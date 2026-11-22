@@ -1,0 +1,55 @@
+{
+  "account_id": "farhugs_clinic",
+  "full_name": "FarHugs 抱抱醫學診所｜心理諮商",
+  "followers": 8551,
+  "follows": 17,
+  "posts_count": 276,
+  "verified": false,
+  "total_videos_analyzed": 6,
+  "metrics": {
+    "VFR": 0.4379604724593615,
+    "ERV": 0.020694259006490186,
+    "CLR": 0.0,
+    "SRV": 0.0029372496654373166,
+    "SLR": 0.14193548203954218,
+    "VFR_mean": 4.571395158460999,
+    "CV_views": 2.114199153819115,
+    "CV_likes": 0.8340993709035542,
+    "CV_comments": 2.4494897427831783,
+    "CV_shares": 0.9527919500079752
+  },
+  "median_stats": {
+    "median_views": 3745.0,
+    "median_likes": 77.5,
+    "median_comments": 0.0,
+    "median_shares": 11.0
+  },
+  "mean_stats": {
+    "mean_views": 39090.0,
+    "mean_likes": 85.5,
+    "mean_comments": 1.3333333333333333,
+    "mean_shares": 16.0
+  },
+  "std_stats": {
+    "std_views": 82644.04492278921,
+    "std_likes": 71.31549621225389,
+    "std_comments": 3.265986323710904,
+    "std_shares": 15.244671200127604
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 50.95,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 69.54,
+      "P_VFR": 51.72,
+      "P_SRV": 50.0,
+      "P_CLR": 23.28
+    }
+  }
+}

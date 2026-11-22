@@ -1,0 +1,55 @@
+{
+  "account_id": "drjjshaw",
+  "full_name": "蕭捷健 醫師",
+  "followers": 30696,
+  "follows": 1202,
+  "posts_count": 905,
+  "verified": false,
+  "total_videos_analyzed": 21,
+  "metrics": {
+    "VFR": 0.3767266093302059,
+    "ERV": 0.022483569697121793,
+    "CLR": 0.027667984080363698,
+    "SRV": 0.007782774125926774,
+    "SLR": 0.3557312238903904,
+    "VFR_mean": 1.10417675018926,
+    "CV_views": 1.7225122459436841,
+    "CV_likes": 1.457299172229239,
+    "CV_comments": 1.5945126484264325,
+    "CV_shares": 2.5316547642518556
+  },
+  "median_stats": {
+    "median_views": 11564.0,
+    "median_likes": 253.0,
+    "median_comments": 7.0,
+    "median_shares": 90.0
+  },
+  "mean_stats": {
+    "mean_views": 33893.80952380953,
+    "mean_likes": 547.0,
+    "mean_comments": 32.714285714285715,
+    "mean_shares": 389.3809523809524
+  },
+  "std_stats": {
+    "std_views": 58382.50196644458,
+    "std_likes": 797.1426472093938,
+    "std_comments": 52.163342355664724,
+    "std_shares": 985.7781432041631
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 68.85,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 73.56,
+      "P_VFR": 47.13,
+      "P_SRV": 88.51,
+      "P_CLR": 64.37
+    }
+  }
+}

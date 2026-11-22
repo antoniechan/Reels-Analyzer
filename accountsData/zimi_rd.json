@@ -1,38 +1,55 @@
 {
   "account_id": "zimi_rd",
-  "followers": 3200,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師紫米*",
+  "followers": 3202,
+  "follows": 349,
+  "posts_count": 301,
+  "verified": false,
+  "total_videos_analyzed": 19,
   "metrics": {
-    "VFR": 0.4778125,
-    "ERV": -0.0006540222363283046,
+    "VFR": 0.4394128669581512,
+    "ERV": -0.000710732053510496,
     "CLR": 0.0,
-    "VFR_mean": 1.19140625,
-    "CV_views": 1.2748909369088293,
+    "SRV": 0.001421464107020992,
+    "SLR": 0.0,
+    "VFR_mean": 0.6579604852230514,
+    "CV_views": 1.0052090529298583,
     "CV_likes": 0.0,
-    "CV_comments": 1.9364916731037085
+    "CV_comments": 2.2594639815057698,
+    "CV_shares": 1.0835886463987647
   },
   "median_stats": {
-    "median_views": 1529.0,
+    "median_views": 1407.0,
     "median_likes": -1.0,
-    "median_comments": 0.0
+    "median_comments": 0.0,
+    "median_shares": 2.0
   },
   "mean_stats": {
-    "mean_views": 3812.5,
+    "mean_views": 2106.7894736842104,
     "mean_likes": -1.0,
-    "mean_comments": 0.8
+    "mean_comments": 2.4210526315789473,
+    "mean_shares": 3.0526315789473686
   },
   "std_stats": {
-    "std_views": 4860.521696964912,
+    "std_views": 2117.7638515647,
     "std_likes": 0.0,
-    "std_comments": 1.5491933384829668
+    "std_comments": 5.47028121838239,
+    "std_shares": 3.307796920585703
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 29.63,
+    "quality_score": 24.54,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 1.96,
-      "P_VFR": 66.67,
-      "P_CLR": 22.06
+      "P_ERV": 1.15,
+      "P_VFR": 52.3,
+      "P_SRV": 25.86,
+      "P_CLR": 23.28
     }
   }
 }

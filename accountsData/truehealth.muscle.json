@@ -1,0 +1,55 @@
+{
+  "account_id": "truehealth.muscle",
+  "full_name": "肌情藥師-藥師How棒",
+  "followers": 5205,
+  "follows": 14,
+  "posts_count": 318,
+  "verified": true,
+  "total_videos_analyzed": 15,
+  "metrics": {
+    "VFR": 0.13294908741594622,
+    "ERV": 0.018786127140482476,
+    "CLR": 0.0,
+    "SRV": 0.002890173406228073,
+    "SLR": 0.15384614201183525,
+    "VFR_mean": 0.18942042907460774,
+    "CV_views": 0.720656610406292,
+    "CV_likes": 0.7383291660125095,
+    "CV_comments": 3.0243719012094723,
+    "CV_shares": 1.267731382092775
+  },
+  "median_stats": {
+    "median_views": 692.0,
+    "median_likes": 13.0,
+    "median_comments": 0.0,
+    "median_shares": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 985.9333333333333,
+    "mean_likes": 20.333333333333332,
+    "mean_comments": 1.2,
+    "mean_shares": 4.4
+  },
+  "std_stats": {
+    "std_views": 710.5193740865768,
+    "std_likes": 15.012693042254359,
+    "std_comments": 3.629246281451367,
+    "std_shares": 5.57801808120821
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 39.4,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 59.77,
+      "P_VFR": 17.82,
+      "P_SRV": 49.43,
+      "P_CLR": 23.28
+    }
+  }
+}

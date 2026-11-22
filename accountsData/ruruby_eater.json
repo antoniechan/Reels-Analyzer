@@ -1,38 +1,55 @@
 {
   "account_id": "ruruby_eater",
-  "followers": 3500,
-  "total_videos_analyzed": 11,
+  "full_name": "吳念 營養師",
+  "followers": 4275,
+  "follows": 113,
+  "posts_count": 243,
+  "verified": false,
+  "total_videos_analyzed": 32,
   "metrics": {
-    "VFR": 0.2934285714285714,
-    "ERV": 0.03505355400676382,
-    "CLR": 0.0,
-    "VFR_mean": 1.8518701298701299,
-    "CV_views": 2.7704977651707523,
-    "CV_likes": 2.6939679277507933,
-    "CV_comments": 2.404552973007665
+    "VFR": 0.2928654970760234,
+    "ERV": 0.03753993607225244,
+    "CLR": 0.02173912996219283,
+    "SRV": 0.004392971242497626,
+    "SLR": 0.11956521479206056,
+    "VFR_mean": 3.0609795321637425,
+    "CV_views": 3.017215681931496,
+    "CV_likes": 2.527382798780145,
+    "CV_comments": 2.0287607111061736,
+    "CV_shares": 2.9605841459361115
   },
   "median_stats": {
-    "median_views": 1027.0,
-    "median_likes": 36.0,
-    "median_comments": 0.0
+    "median_views": 1252.0,
+    "median_likes": 46.0,
+    "median_comments": 1.0,
+    "median_shares": 5.5
   },
   "mean_stats": {
-    "mean_views": 6481.545454545455,
-    "mean_likes": 186.0909090909091,
-    "mean_comments": 3.6363636363636362
+    "mean_views": 13085.6875,
+    "mean_likes": 275.03125,
+    "mean_comments": 5.5625,
+    "mean_shares": 157.59375
   },
   "std_stats": {
-    "std_views": 17957.10719667083,
-    "std_likes": 501.32294073689764,
-    "std_comments": 8.743828992755144
+    "std_views": 39482.34153385495,
+    "std_likes": 695.1092503770018,
+    "std_comments": 11.28498145552809,
+    "std_shares": 466.56955774861905
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 59.0,
+    "quality_score": 67.82,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 95.1,
-      "P_VFR": 44.12,
-      "P_CLR": 22.06
+      "P_ERV": 93.68,
+      "P_VFR": 36.78,
+      "P_SRV": 72.41,
+      "P_CLR": 62.07
     }
   }
 }

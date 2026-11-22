@@ -1,38 +1,55 @@
 {
   "account_id": "aranthnh",
-  "followers": 68000,
-  "total_videos_analyzed": 10,
+  "full_name": "安曼營養𝑨𝒓𝒂𝒏𝒕𝒉 𝑵𝒖𝒕𝒓𝒊𝒕𝒊𝒐𝒏 𝑪𝒍𝒊𝒏𝒊𝒄  專業營養師診所",
+  "followers": 68151,
+  "follows": 594,
+  "posts_count": 165,
+  "verified": false,
+  "total_videos_analyzed": 7,
   "metrics": {
-    "VFR": 1.6784926470588235,
-    "ERV": 0.0038900449019481764,
-    "CLR": 0.014857142823183674,
-    "VFR_mean": 2.2109514705882356,
-    "CV_views": 0.7191003005336848,
-    "CV_likes": 1.2638962104532598,
-    "CV_comments": 0.9343531843023136
+    "VFR": 1.568825108949245,
+    "ERV": 0.00613560051248973,
+    "CLR": 0.009230769216568048,
+    "SRV": 0.004021811311540524,
+    "SLR": 0.6615384605207101,
+    "VFR_mean": 1.9536763950639022,
+    "CV_views": 0.6597726664324733,
+    "CV_likes": 0.9667805158268622,
+    "CV_comments": 0.84595582691758,
+    "CV_shares": 0.32357918824659637
   },
   "median_stats": {
-    "median_views": 114137.5,
-    "median_likes": 437.5,
-    "median_comments": 6.5
+    "median_views": 106917.0,
+    "median_likes": 650.0,
+    "median_comments": 6.0,
+    "median_shares": 430.0
   },
   "mean_stats": {
-    "mean_views": 150344.7,
-    "mean_likes": 717.7,
-    "mean_comments": 5.6
+    "mean_views": 133145.0,
+    "mean_likes": 478.85714285714283,
+    "mean_comments": 4.714285714285714,
+    "mean_shares": 388.7142857142857
   },
   "std_stats": {
-    "std_views": 108112.91895364669,
-    "std_likes": 907.0983102423047,
-    "std_comments": 5.232377832092956
+    "std_views": 87845.43167215167,
+    "std_likes": 462.949755578806,
+    "std_comments": 3.9880774697543058,
+    "std_shares": 125.7798530312841
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 52.5,
+    "quality_score": 55.11,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 13.73,
-      "P_VFR": 95.1,
-      "P_CLR": 54.9
+      "P_ERV": 16.09,
+      "P_VFR": 93.1,
+      "P_SRV": 66.67,
+      "P_CLR": 51.72
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "account_id": "cosima.medical",
+  "full_name": "康展邁醫學中心",
+  "followers": 10428,
+  "follows": 56,
+  "posts_count": 158,
+  "verified": false,
+  "total_videos_analyzed": 21,
+  "metrics": {
+    "VFR": 0.09570387418488684,
+    "ERV": 0.0200400801402404,
+    "CLR": 0.0,
+    "SRV": 0.00200400801402404,
+    "SLR": 0.09999999500000024,
+    "VFR_mean": 0.09589109905565601,
+    "CV_views": 0.6935913513156478,
+    "CV_likes": 0.7988018667423497,
+    "CV_comments": 2.3874672772626644,
+    "CV_shares": 1.2673791855636576
+  },
+  "median_stats": {
+    "median_views": 998.0,
+    "median_likes": 20.0,
+    "median_comments": 0.0,
+    "median_shares": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 999.952380952381,
+    "mean_likes": 17.19047619047619,
+    "mean_comments": 0.3333333333333333,
+    "mean_shares": 4.0
+  },
+  "std_stats": {
+    "std_views": 693.5583231560613,
+    "std_likes": 13.731784471142296,
+    "std_comments": 0.7958224257542214,
+    "std_shares": 5.06951674225463
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 35.78,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 64.94,
+      "P_VFR": 10.34,
+      "P_SRV": 36.21,
+      "P_CLR": 23.28
+    }
+  }
+}

@@ -1,38 +1,55 @@
 {
   "account_id": "vivinutritionn",
-  "followers": 19000,
-  "total_videos_analyzed": 13,
+  "full_name": "營養師Vivi",
+  "followers": 18929,
+  "follows": 30,
+  "posts_count": 245,
+  "verified": false,
+  "total_videos_analyzed": 11,
   "metrics": {
-    "VFR": 0.15347368421052632,
+    "VFR": 0.1595435575043584,
     "ERV": 0.0,
     "CLR": 0.0,
-    "VFR_mean": 0.3282307692307692,
-    "CV_views": 1.3935220214968647,
+    "SRV": 0.0016556291385246263,
+    "SLR": 0.0,
+    "VFR_mean": 0.5624990995058088,
+    "CV_views": 1.3321887930745562,
     "CV_likes": 0.0,
-    "CV_comments": 1.7460108015153468
+    "CV_comments": 1.8686804860657076,
+    "CV_shares": 1.9002739041205932
   },
   "median_stats": {
-    "median_views": 2916.0,
+    "median_views": 3020.0,
     "median_likes": -1.0,
-    "median_comments": 1.0
+    "median_comments": 1.0,
+    "median_shares": 5.0
   },
   "mean_stats": {
-    "mean_views": 6236.384615384615,
+    "mean_views": 10647.545454545454,
     "mean_likes": -1.0,
-    "mean_comments": 1.6923076923076923
+    "mean_comments": 1.7272727272727273,
+    "mean_shares": 21.181818181818183
   },
   "std_stats": {
-    "std_views": 8690.539296062716,
+    "std_views": 14184.540728297385,
     "std_likes": 0.0,
-    "std_comments": 2.954787510256741
+    "std_comments": 3.2277208395680406,
+    "std_shares": 40.251256332736205
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 16.54,
+    "quality_score": 18.02,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 4.41,
-      "P_VFR": 26.47,
-      "P_CLR": 22.06
+      "P_ERV": 2.87,
+      "P_VFR": 20.11,
+      "P_SRV": 29.89,
+      "P_CLR": 23.28
     }
   }
 }

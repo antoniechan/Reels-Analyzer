@@ -1,38 +1,55 @@
 {
   "account_id": "ss.deititian",
-  "followers": 2300,
-  "total_videos_analyzed": 11,
+  "full_name": "敲敲宛營養師｜減脂增肌｜備孕｜產後瘦身｜運動營養｜MBL治療師",
+  "followers": 2257,
+  "follows": 566,
+  "posts_count": 132,
+  "verified": false,
+  "total_videos_analyzed": 20,
   "metrics": {
-    "VFR": 0.1865217391304348,
-    "ERV": 0.03030303023239387,
+    "VFR": 0.18121400088613204,
+    "ERV": 0.03422982876716423,
     "CLR": 0.0,
-    "VFR_mean": 0.3971146245059289,
-    "CV_views": 1.7195367480341606,
-    "CV_likes": 1.0440975619542852,
-    "CV_comments": 1.4896634593834348
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.3998006202924236,
+    "CV_views": 1.7533817810688077,
+    "CV_likes": 0.8829595203039595,
+    "CV_comments": 1.546338608752132,
+    "CV_shares": 4.472135954999579
   },
   "median_stats": {
-    "median_views": 429.0,
-    "median_likes": 13.0,
-    "median_comments": 0.0
+    "median_views": 409.0,
+    "median_likes": 14.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 913.3636363636364,
-    "mean_likes": 19.818181818181817,
-    "mean_comments": 2.1818181818181817
+    "mean_views": 902.35,
+    "mean_likes": 19.85,
+    "mean_comments": 1.8,
+    "mean_shares": 0.2
   },
   "std_stats": {
-    "std_views": 1570.562337045383,
-    "std_likes": 20.692115318730377,
-    "std_comments": 3.2501748204729486
+    "std_views": 1582.1640501474387,
+    "std_likes": 17.526746478033598,
+    "std_comments": 2.783409495753838,
+    "std_shares": 0.8944271909999157
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 52.97,
+    "quality_score": 39.7,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 91.18,
-      "P_VFR": 31.37,
-      "P_CLR": 22.06
+      "P_ERV": 93.1,
+      "P_VFR": 21.84,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

@@ -1,38 +1,55 @@
 {
   "account_id": "dietitian_claire",
-  "followers": 10000,
-  "total_videos_analyzed": 14,
+  "full_name": "營養大小事-小戴營養師",
+  "followers": 10356,
+  "follows": 73,
+  "posts_count": 208,
+  "verified": false,
+  "total_videos_analyzed": 32,
   "metrics": {
-    "VFR": 0.06275,
-    "ERV": 0.023107569684290726,
+    "VFR": 0.0384318269602163,
+    "ERV": 0.01381909544266559,
     "CLR": 0.0,
-    "VFR_mean": 0.06224285714285714,
-    "CV_views": 0.3181317055322018,
-    "CV_likes": 0.7402241335896086,
-    "CV_comments": 1.8911499790114237
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.07098240150637311,
+    "CV_views": 1.5571723300315967,
+    "CV_likes": 1.0698356606314958,
+    "CV_comments": 2.814809784312929,
+    "CV_shares": 3.15887553152319
   },
   "median_stats": {
-    "median_views": 627.5,
-    "median_likes": 14.5,
-    "median_comments": 0.0
+    "median_views": 398.0,
+    "median_likes": 5.5,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 622.4285714285714,
-    "mean_likes": 17.642857142857142,
-    "mean_comments": 0.6428571428571429
+    "mean_views": 735.09375,
+    "mean_likes": 10.71875,
+    "mean_comments": 0.46875,
+    "mean_shares": 0.1875
   },
   "std_stats": {
-    "std_views": 198.01426300054334,
-    "std_likes": 13.059668642616666,
-    "std_comments": 1.2157392722216296
+    "std_views": 1144.667647479164,
+    "std_likes": 11.467300987393847,
+    "std_comments": 1.3194420863966856,
+    "std_shares": 0.5922891621605981
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 36.94,
+    "classification": "bad",
+    "quality_score": 18.86,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 72.55,
-      "P_VFR": 6.86,
-      "P_CLR": 22.06
+      "P_ERV": 41.38,
+      "P_VFR": 0.57,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

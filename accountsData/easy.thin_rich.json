@@ -1,38 +1,55 @@
 {
   "account_id": "easy.thin_rich",
-  "followers": 2800,
-  "total_videos_analyzed": 11,
+  "full_name": "茶哥| 減肥・小腹・內臟脂肪",
+  "followers": 2845,
+  "follows": 6178,
+  "posts_count": 2740,
+  "verified": false,
+  "total_videos_analyzed": 12,
   "metrics": {
-    "VFR": 0.1075,
+    "VFR": 0.10579964850615114,
     "ERV": 0.016611295625876096,
     "CLR": 0.0,
-    "VFR_mean": 0.10461038961038963,
-    "CV_views": 0.18555774117796706,
-    "CV_likes": 0.5538147479503043,
-    "CV_comments": 1.4526541507298472
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.1093145869947276,
+    "CV_views": 0.2237695155158126,
+    "CV_likes": 0.4753187543487113,
+    "CV_comments": 1.7580981459830651,
+    "CV_shares": 2.0
   },
   "median_stats": {
     "median_views": 301.0,
     "median_likes": 5.0,
-    "median_comments": 0.0
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 292.90909090909093,
-    "mean_likes": 4.181818181818182,
-    "mean_comments": 0.6363636363636364
+    "mean_views": 311.0,
+    "mean_likes": 5.416666666666667,
+    "mean_comments": 1.0,
+    "mean_shares": 0.5
   },
   "std_stats": {
-    "std_views": 54.35154927958272,
-    "std_likes": 2.315952582337636,
-    "std_comments": 0.9244162777371755
+    "std_views": 69.59231932541772,
+    "std_likes": 2.5746432527221863,
+    "std_comments": 1.7580981459830651,
+    "std_shares": 1.0
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 31.69,
+    "classification": "bad",
+    "quality_score": 25.33,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 50.0,
-      "P_VFR": 17.65,
-      "P_CLR": 22.06
+      "P_ERV": 52.87,
+      "P_VFR": 12.64,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

@@ -1,38 +1,55 @@
 {
   "account_id": "nutritionlife_crystal",
-  "followers": 33000,
-  "total_videos_analyzed": 13,
+  "full_name": "營養師Crystal 張郁靖｜開箱好物｜減重營養｜保健食品",
+  "followers": 33607,
+  "follows": 441,
+  "posts_count": 397,
+  "verified": true,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.4468787878787879,
-    "ERV": 0.001356208042221726,
+    "VFR": 0.3695063528431577,
+    "ERV": 8.052826541467803e-05,
     "CLR": 0.0,
-    "VFR_mean": 2.154086247086247,
-    "CV_views": 1.8426903761605753,
-    "CV_likes": 1.9538443313855025,
-    "CV_comments": 2.3812961226941796
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 1.3597881393757254,
+    "CV_views": 1.5172982913015227,
+    "CV_likes": 3.174265066006773,
+    "CV_comments": 2.474434076327812,
+    "CV_shares": 3.1622776601683795
   },
   "median_stats": {
-    "median_views": 14747.0,
+    "median_views": 12418.0,
     "median_likes": -1.0,
-    "median_comments": 21.0
+    "median_comments": 2.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 71084.84615384616,
-    "mean_likes": 962.3846153846154,
-    "mean_comments": 123.07692307692308
+    "mean_views": 45698.4,
+    "mean_likes": 263.8,
+    "mean_comments": 26.7,
+    "mean_shares": 108.5
   },
   "std_stats": {
-    "std_views": 130987.3618985474,
-    "std_likes": 1880.3497253818477,
-    "std_comments": 293.08259971620674
+    "std_views": 69338.10423521351,
+    "std_likes": 837.3711244125868,
+    "std_comments": 66.06738983795258,
+    "std_shares": 343.10712612826916
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 30.66,
+    "classification": "bad",
+    "quality_score": 18.86,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 8.82,
-      "P_VFR": 61.76,
-      "P_CLR": 22.06
+      "P_ERV": 4.02,
+      "P_VFR": 45.4,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

@@ -1,38 +1,55 @@
 {
   "account_id": "ilikeheho",
-  "followers": 220000,
-  "total_videos_analyzed": 10,
+  "full_name": "Heho健康",
+  "followers": 221243,
+  "follows": 16,
+  "posts_count": 6409,
+  "verified": false,
+  "total_videos_analyzed": 20,
   "metrics": {
-    "VFR": 0.052120454545454546,
-    "ERV": 0.002877948807144469,
+    "VFR": 0.04615061267475129,
+    "ERV": 0.003231967092382159,
     "CLR": 0.0,
-    "VFR_mean": 0.05660909090909091,
-    "CV_views": 0.3563247053973332,
-    "CV_likes": 0.761709070271632,
-    "CV_comments": 2.3333992867608053
+    "SRV": 0.0005876303804331198,
+    "SLR": 0.18181817630854014,
+    "VFR_mean": 0.049643378547569866,
+    "CV_views": 0.34758708711925734,
+    "CV_likes": 0.6774731693560135,
+    "CV_comments": 2.823105526194526,
+    "CV_shares": 1.4672830690282825
   },
   "median_stats": {
-    "median_views": 11466.5,
+    "median_views": 10210.5,
     "median_likes": 33.0,
-    "median_comments": 0.0
+    "median_comments": 0.0,
+    "median_shares": 6.0
   },
   "mean_stats": {
-    "mean_views": 12454.0,
-    "mean_likes": 59.5,
-    "mean_comments": 1.9
+    "mean_views": 10983.25,
+    "mean_likes": 44.7,
+    "mean_comments": 0.35,
+    "mean_shares": 25.9
   },
   "std_stats": {
-    "std_views": 4437.667881018388,
-    "std_likes": 45.321689681162106,
-    "std_comments": 4.43345864484553
+    "std_views": 3817.6358746025835,
+    "std_likes": 30.283050670213807,
+    "std_comments": 0.9880869341680841,
+    "std_shares": 38.00263148783252
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 11.25,
+    "quality_score": 12.84,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 11.76,
-      "P_VFR": 2.94,
-      "P_CLR": 22.06
+      "P_ERV": 11.49,
+      "P_VFR": 1.15,
+      "P_SRV": 17.82,
+      "P_CLR": 23.28
     }
   }
 }

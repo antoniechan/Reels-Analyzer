@@ -1,38 +1,55 @@
 {
   "account_id": "tzuyu_diet",
-  "followers": 12000,
-  "total_videos_analyzed": 14,
+  "full_name": "子瑜｜營養師",
+  "followers": 12091,
+  "follows": 3,
+  "posts_count": 127,
+  "verified": false,
+  "total_videos_analyzed": 30,
   "metrics": {
-    "VFR": 0.3214166666666667,
-    "ERV": 0.012056002071025149,
-    "CLR": 0.02197802149498854,
-    "VFR_mean": 0.7047083333333334,
-    "CV_views": 1.3468549105675744,
-    "CV_likes": 1.4104587630713976,
-    "CV_comments": 2.4550343194373854
+    "VFR": 0.4880489620378794,
+    "ERV": 0.013811218435212469,
+    "CLR": 0.012422360094132173,
+    "SRV": 0.0028808676490627233,
+    "SLR": 0.21118012160024693,
+    "VFR_mean": 2.91878256554462,
+    "CV_views": 2.487073445599242,
+    "CV_likes": 2.1639333780858276,
+    "CV_comments": 4.145864018254145,
+    "CV_shares": 2.154875146395198
   },
   "median_stats": {
-    "median_views": 3857.0,
-    "median_likes": 45.5,
-    "median_comments": 1.0
+    "median_views": 5901.0,
+    "median_likes": 80.5,
+    "median_comments": 1.0,
+    "median_shares": 17.0
   },
   "mean_stats": {
-    "mean_views": 8456.5,
-    "mean_likes": 99.64285714285714,
-    "mean_comments": 4.571428571428571
+    "mean_views": 35291.0,
+    "mean_likes": 289.56666666666666,
+    "mean_comments": 48.0,
+    "mean_shares": 83.33333333333333
   },
   "std_stats": {
-    "std_views": 11389.678551214693,
-    "std_likes": 140.54214103461425,
-    "std_comments": 11.223014031713761
+    "std_views": 87771.30896864286,
+    "std_likes": 626.6029751810528,
+    "std_comments": 199.00147287619896,
+    "std_shares": 179.5729288662665
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 45.64,
+    "quality_score": 50.55,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 30.39,
-      "P_VFR": 48.04,
-      "P_CLR": 66.67
+      "P_ERV": 40.8,
+      "P_VFR": 60.34,
+      "P_SRV": 48.28,
+      "P_CLR": 55.75
     }
   }
 }

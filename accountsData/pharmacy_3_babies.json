@@ -1,0 +1,55 @@
+{
+  "account_id": "pharmacy_3_babies",
+  "full_name": "維克與尼娜 三寶藥師",
+  "followers": 39750,
+  "follows": 267,
+  "posts_count": 453,
+  "verified": false,
+  "total_videos_analyzed": 15,
+  "metrics": {
+    "VFR": 0.23122012578616352,
+    "ERV": 0.015558698725322739,
+    "CLR": 0.02877697821023757,
+    "SRV": 0.006310521161319712,
+    "SLR": 0.41726618404844473,
+    "VFR_mean": 25.270851153039832,
+    "CV_views": 2.964869053562524,
+    "CV_likes": 3.370033724544928,
+    "CV_comments": 2.385847613867673,
+    "CV_shares": 3.6330677712092245
+  },
+  "median_stats": {
+    "median_views": 9191.0,
+    "median_likes": 139.0,
+    "median_comments": 4.0,
+    "median_shares": 58.0
+  },
+  "mean_stats": {
+    "mean_views": 1004516.3333333334,
+    "mean_likes": 5957.133333333333,
+    "mean_comments": 37.13333333333333,
+    "mean_shares": 4044.2
+  },
+  "std_stats": {
+    "std_views": 2978259.390498097,
+    "std_likes": 20075.740234944074,
+    "std_comments": 88.59447472828626,
+    "std_shares": 14692.852680324346
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 55.29,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 47.7,
+      "P_VFR": 25.86,
+      "P_SRV": 85.63,
+      "P_CLR": 65.52
+    }
+  }
+}

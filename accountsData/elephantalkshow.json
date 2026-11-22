@@ -1,0 +1,55 @@
+{
+  "account_id": "elephantalkshow",
+  "full_name": "大象醫師 | Wei-Shin",
+  "followers": 26867,
+  "follows": 1546,
+  "posts_count": 291,
+  "verified": true,
+  "total_videos_analyzed": 19,
+  "metrics": {
+    "VFR": 0.27662187814046973,
+    "ERV": 0.002556512378558058,
+    "CLR": 0.0,
+    "SRV": 0.00309472551088607,
+    "SLR": 0.0,
+    "VFR_mean": 1.8101368730569491,
+    "CV_views": 2.8529348489489323,
+    "CV_likes": 3.6156058695966746,
+    "CV_comments": 2.123299401581999,
+    "CV_shares": 3.516006845484535
+  },
+  "median_stats": {
+    "median_views": 7432.0,
+    "median_likes": -1.0,
+    "median_comments": 20.0,
+    "median_shares": 23.0
+  },
+  "mean_stats": {
+    "mean_views": 48632.94736842105,
+    "mean_likes": 129.78947368421052,
+    "mean_comments": 191.05263157894737,
+    "mean_shares": 266.7894736842105
+  },
+  "std_stats": {
+    "std_views": 138746.6303544677,
+    "std_likes": 469.26758286449467,
+    "std_comments": 405.66193830224506,
+    "std_shares": 938.0336157769003
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 29.89,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 10.34,
+      "P_VFR": 35.06,
+      "P_SRV": 53.45,
+      "P_CLR": 23.28
+    }
+  }
+}

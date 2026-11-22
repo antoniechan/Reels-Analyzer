@@ -1,0 +1,55 @@
+{
+  "account_id": "gymbeginner.hk",
+  "full_name": "GymBeginner 健身入門 | 減肥 | 增肌｜長者運動訓練",
+  "followers": 78040,
+  "follows": 516,
+  "posts_count": 1024,
+  "verified": true,
+  "total_videos_analyzed": 9,
+  "metrics": {
+    "VFR": 0.11014864172219374,
+    "ERV": 0.00744532340536932,
+    "CLR": 0.0,
+    "SRV": 0.0034899953462668686,
+    "SLR": 0.4687499926757814,
+    "VFR_mean": 0.16871404977504414,
+    "CV_views": 0.918614537062226,
+    "CV_likes": 1.332712895678127,
+    "CV_comments": 2.121320343559643,
+    "CV_shares": 1.3449952957832279
+  },
+  "median_stats": {
+    "median_views": 8596.0,
+    "median_likes": 64.0,
+    "median_comments": 0.0,
+    "median_shares": 30.0
+  },
+  "mean_stats": {
+    "mean_views": 13166.444444444445,
+    "mean_likes": 145.0,
+    "mean_comments": 0.3333333333333333,
+    "mean_shares": 45.0
+  },
+  "std_stats": {
+    "std_views": 12094.88726808885,
+    "std_likes": 193.2433698733284,
+    "std_comments": 0.7071067811865476,
+    "std_shares": 60.52478831024525
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 29.05,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 19.54,
+      "P_VFR": 13.79,
+      "P_SRV": 60.34,
+      "P_CLR": 23.28
+    }
+  }
+}

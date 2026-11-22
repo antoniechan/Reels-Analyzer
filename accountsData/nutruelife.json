@@ -1,38 +1,55 @@
 {
   "account_id": "nutruelife",
-  "followers": 270000,
-  "total_videos_analyzed": 14,
+  "full_name": "營養師杯蓋",
+  "followers": 273604,
+  "follows": 654,
+  "posts_count": 1164,
+  "verified": true,
+  "total_videos_analyzed": 18,
   "metrics": {
-    "VFR": 0.1526888888888889,
-    "ERV": 0.01524523359008283,
-    "CLR": 0.003993610217262604,
-    "VFR_mean": 0.23302619047619047,
-    "CV_views": 1.0403631762745889,
-    "CV_likes": 0.7386056319787111,
-    "CV_comments": 3.215886560336119
+    "VFR": 0.1485705618338913,
+    "ERV": 0.0116852605810235,
+    "CLR": 0.0063559321899238725,
+    "SRV": 0.0031980713169116946,
+    "SLR": 0.27542372823003447,
+    "VFR_mean": 0.1938923488772906,
+    "CV_views": 1.106061600269257,
+    "CV_likes": 0.8589170669315576,
+    "CV_comments": 2.2982220462847427,
+    "CV_shares": 1.3055279127240398
   },
   "median_stats": {
-    "median_views": 41226.0,
-    "median_likes": 626.0,
-    "median_comments": 2.5
+    "median_views": 40649.5,
+    "median_likes": 472.0,
+    "median_comments": 3.0,
+    "median_shares": 130.0
   },
   "mean_stats": {
-    "mean_views": 62917.07142857143,
-    "mean_likes": 763.3571428571429,
-    "mean_comments": 22.785714285714285
+    "mean_views": 53049.72222222222,
+    "mean_likes": 606.6111111111111,
+    "mean_comments": 29.833333333333332,
+    "mean_shares": 309.3333333333333
   },
   "std_stats": {
-    "std_views": 65456.604273323755,
-    "std_likes": 563.8198849254633,
-    "std_comments": 73.27627233908728
+    "std_views": 58676.26065495067,
+    "std_likes": 521.0286363236487,
+    "std_comments": 68.56362438082816,
+    "std_shares": 403.8433010026363
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 37.3,
+    "quality_score": 38.13,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 42.16,
-      "P_VFR": 25.49,
-      "P_CLR": 46.08
+      "P_ERV": 32.18,
+      "P_VFR": 19.54,
+      "P_SRV": 55.75,
+      "P_CLR": 48.28
     }
   }
 }

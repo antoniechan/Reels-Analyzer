@@ -1,38 +1,55 @@
 {
   "account_id": "mamamia_dietitian",
-  "followers": 16000,
-  "total_videos_analyzed": 11,
+  "full_name": "Mia營養師",
+  "followers": 15793,
+  "follows": 882,
+  "posts_count": 244,
+  "verified": true,
+  "total_videos_analyzed": 20,
   "metrics": {
-    "VFR": 0.20725,
-    "ERV": 0.020808202647524667,
-    "CLR": 0.21052631209602962,
-    "VFR_mean": 0.3260681818181818,
-    "CV_views": 0.9144777606711713,
-    "CV_likes": 0.9562190808492986,
-    "CV_comments": 1.6283749104373677
+    "VFR": 0.35006015323244477,
+    "ERV": 0.01682192276081723,
+    "CLR": 0.2567567532870709,
+    "SRV": 0.0036176177980252115,
+    "SLR": 0.2702702666179694,
+    "VFR_mean": 3.86659912619515,
+    "CV_views": 3.5463177879888277,
+    "CV_likes": 4.029450697874375,
+    "CV_comments": 1.4696812874729097,
+    "CV_shares": 4.256705521431256
   },
   "median_stats": {
-    "median_views": 3316.0,
-    "median_likes": 57.0,
-    "median_comments": 12.0
+    "median_views": 5528.5,
+    "median_likes": 74.0,
+    "median_comments": 19.0,
+    "median_shares": 20.0
   },
   "mean_stats": {
-    "mean_views": 5217.090909090909,
-    "mean_likes": 96.36363636363636,
-    "mean_comments": 40.27272727272727
+    "mean_views": 61065.2,
+    "mean_likes": 1486.8,
+    "mean_comments": 66.8,
+    "mean_shares": 996.0
   },
   "std_stats": {
-    "std_views": 4770.91361176338,
-    "std_likes": 92.14474779093241,
-    "std_comments": 65.57909866579581
+    "std_views": 216556.60498709534,
+    "std_likes": 5990.98729759962,
+    "std_comments": 98.17471000319037,
+    "std_shares": 4239.678699345531
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 60.54,
+    "quality_score": 60.43,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 66.67,
-      "P_VFR": 32.35,
-      "P_CLR": 90.2
+      "P_ERV": 54.6,
+      "P_VFR": 42.53,
+      "P_SRV": 61.49,
+      "P_CLR": 90.23
     }
   }
 }

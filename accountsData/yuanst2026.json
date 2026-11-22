@@ -1,0 +1,55 @@
+{
+  "account_id": "yuanst2026",
+  "full_name": "藥師一哥｜元善堂盛德大業中西藥局",
+  "followers": 3416,
+  "follows": 16,
+  "posts_count": 88,
+  "verified": false,
+  "total_videos_analyzed": 24,
+  "metrics": {
+    "VFR": 1.0182962529274004,
+    "ERV": 0.022710938616440725,
+    "CLR": 0.1285714267346939,
+    "SRV": 0.005174644241720672,
+    "SLR": 0.2571428534693878,
+    "VFR_mean": 3.150907494145199,
+    "CV_views": 3.0864170017326775,
+    "CV_likes": 2.869762643471123,
+    "CV_comments": 1.9014823956794435,
+    "CV_shares": 3.9275110945311287
+  },
+  "median_stats": {
+    "median_views": 3478.5,
+    "median_likes": 70.0,
+    "median_comments": 9.0,
+    "median_shares": 18.0
+  },
+  "mean_stats": {
+    "mean_views": 10763.5,
+    "mean_likes": 218.875,
+    "mean_comments": 25.083333333333332,
+    "mean_shares": 115.54166666666667
+  },
+  "std_stats": {
+    "std_views": 33220.649398149675,
+    "std_likes": 628.1192985897421,
+    "std_comments": 47.695516758292705,
+    "std_shares": 453.79117771395084
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 80.78,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 74.14,
+      "P_VFR": 86.78,
+      "P_SRV": 79.31,
+      "P_CLR": 85.06
+    }
+  }
+}

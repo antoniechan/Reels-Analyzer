@@ -1,38 +1,55 @@
 {
   "account_id": "shalomlammm",
-  "followers": 9900,
-  "total_videos_analyzed": 11,
+  "full_name": "Shalom｜愛吃的營養師(´∀`)｜24孝狗媽媽",
+  "followers": 9858,
+  "follows": 2078,
+  "posts_count": 656,
+  "verified": true,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.757979797979798,
-    "ERV": 0.017590618334542826,
-    "CLR": 0.7599999898666668,
-    "VFR_mean": 1.840853994490358,
-    "CV_views": 1.8174407248172926,
-    "CV_likes": 1.3845793971894869,
-    "CV_comments": 1.1377954952302394
+    "VFR": 0.7084094136741732,
+    "ERV": 0.023197537048299913,
+    "CLR": 1.0636942539656784,
+    "SRV": 0.004797021550111402,
+    "SLR": 0.42675158692036197,
+    "VFR_mean": 0.8967437614120511,
+    "CV_views": 0.6495257873326716,
+    "CV_likes": 0.48219788429063715,
+    "CV_comments": 0.9978356441408294,
+    "CV_shares": 0.7452054643458288
   },
   "median_stats": {
-    "median_views": 7504.0,
-    "median_likes": 75.0,
-    "median_comments": 57.0
+    "median_views": 6983.5,
+    "median_likes": 78.5,
+    "median_comments": 83.5,
+    "median_shares": 33.5
   },
   "mean_stats": {
-    "mean_views": 18224.454545454544,
-    "mean_likes": 142.0,
-    "mean_comments": 84.45454545454545
+    "mean_views": 8840.1,
+    "mean_likes": 92.4,
+    "mean_comments": 98.7,
+    "mean_shares": 48.5
   },
   "std_stats": {
-    "std_views": 33121.86587849071,
-    "std_likes": 196.61027440090714,
-    "std_comments": 96.09200136989931
+    "std_views": 5741.872912599551,
+    "std_likes": 44.555084508454875,
+    "std_comments": 98.48637807669986,
+    "std_shares": 36.1424650207727
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 74.56,
+    "quality_score": 80.95,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 53.92,
-      "P_VFR": 81.37,
-      "P_CLR": 98.04
+      "P_ERV": 76.44,
+      "P_VFR": 76.44,
+      "P_SRV": 77.01,
+      "P_CLR": 98.28
     }
   }
 }

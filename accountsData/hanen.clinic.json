@@ -1,0 +1,55 @@
+{
+  "account_id": "hanen.clinic",
+  "full_name": "涵恩婦產科診所",
+  "followers": 269,
+  "follows": 13,
+  "posts_count": 43,
+  "verified": false,
+  "total_videos_analyzed": 9,
+  "metrics": {
+    "VFR": 5.710037174721189,
+    "ERV": 0.015624999989827472,
+    "CLR": 0.0,
+    "SRV": 0.001953124998728434,
+    "SLR": 0.12499999479166687,
+    "VFR_mean": 6.451053283767038,
+    "CV_views": 0.753265254750458,
+    "CV_likes": 0.48115479794999877,
+    "CV_comments": 3.0,
+    "CV_shares": 0.72975638311578
+  },
+  "median_stats": {
+    "median_views": 1536.0,
+    "median_likes": 24.0,
+    "median_comments": 0.0,
+    "median_shares": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 1735.3333333333333,
+    "mean_likes": 28.555555555555557,
+    "mean_comments": 0.2222222222222222,
+    "mean_shares": 4.333333333333333
+  },
+  "std_stats": {
+    "std_views": 1307.1663054102949,
+    "std_likes": 13.739642563683299,
+    "std_comments": 0.6666666666666666,
+    "std_shares": 3.1622776601683795
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 52.47,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 48.28,
+      "P_VFR": 98.85,
+      "P_SRV": 34.48,
+      "P_CLR": 23.28
+    }
+  }
+}

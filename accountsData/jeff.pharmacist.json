@@ -1,0 +1,55 @@
+{
+  "account_id": "jeff.pharmacist",
+  "full_name": "姐夫藥師Jeff",
+  "followers": 17211,
+  "follows": 139,
+  "posts_count": 168,
+  "verified": true,
+  "total_videos_analyzed": 19,
+  "metrics": {
+    "VFR": 0.27552146882807504,
+    "ERV": 0.008435259382447224,
+    "CLR": 0.05263157756232691,
+    "SRV": 0.0033741037529788896,
+    "SLR": 0.4210526204986153,
+    "VFR_mean": 4.236865040411732,
+    "CV_views": 1.7722459836268347,
+    "CV_likes": 2.691515340823239,
+    "CV_comments": 3.623463434537829,
+    "CV_shares": 2.721520938454012
+  },
+  "median_stats": {
+    "median_views": 4742.0,
+    "median_likes": 38.0,
+    "median_comments": 2.0,
+    "median_shares": 16.0
+  },
+  "mean_stats": {
+    "mean_views": 72920.68421052632,
+    "mean_likes": 676.578947368421,
+    "mean_comments": 720.6315789473684,
+    "mean_shares": 653.7368421052631
+  },
+  "std_stats": {
+    "std_views": 129233.38971542602,
+    "std_likes": 1821.022616120144,
+    "std_comments": 2611.1821760890502,
+    "std_shares": 1779.158504028278
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 44.94,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 22.41,
+      "P_VFR": 34.48,
+      "P_SRV": 58.62,
+      "P_CLR": 74.71
+    }
+  }
+}

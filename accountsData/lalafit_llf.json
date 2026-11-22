@@ -1,38 +1,55 @@
 {
   "account_id": "lalafit_llf",
-  "followers": 3200,
-  "total_videos_analyzed": 18,
+  "full_name": "LaLafit 香港營養中心💚增肌減脂 · 三高",
+  "followers": 3357,
+  "follows": 107,
+  "posts_count": 512,
+  "verified": false,
+  "total_videos_analyzed": 20,
   "metrics": {
-    "VFR": 0.69203125,
-    "ERV": 0.030255136586021615,
-    "CLR": 0.8108107888970058,
-    "VFR_mean": 2.0616493055555556,
-    "CV_views": 2.5515340068105665,
-    "CV_likes": 2.0236198040579176,
-    "CV_comments": 3.2222419515120997
+    "VFR": 0.252755436401549,
+    "ERV": 0.06776664694429388,
+    "CLR": 0.3068181748450415,
+    "SRV": 0.004124926335739627,
+    "SLR": 0.07954545273760336,
+    "VFR_mean": 1.5807566279416148,
+    "CV_views": 3.0487155001510393,
+    "CV_likes": 1.8830675203489975,
+    "CV_comments": 3.8361343918868815,
+    "CV_shares": 3.079056791853586
   },
   "median_stats": {
-    "median_views": 2214.5,
-    "median_likes": 37.0,
-    "median_comments": 30.0
+    "median_views": 848.5,
+    "median_likes": 44.0,
+    "median_comments": 13.5,
+    "median_shares": 3.5
   },
   "mean_stats": {
-    "mean_views": 6597.277777777777,
-    "mean_likes": 75.5,
-    "mean_comments": 177.16666666666666
+    "mean_views": 5306.6,
+    "mean_likes": 76.0,
+    "mean_comments": 142.45,
+    "mean_shares": 26.55
   },
   "std_stats": {
-    "std_views": 16833.178602375643,
-    "std_likes": 152.78329520637277,
-    "std_comments": 570.8738657428936
+    "std_views": 16178.313673101507,
+    "std_likes": 143.11313154652382,
+    "std_comments": 546.4573441242862,
+    "std_shares": 81.7489578237127
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 86.91,
+    "quality_score": 72.44,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 90.2,
-      "P_VFR": 74.51,
-      "P_CLR": 99.02
+      "P_ERV": 98.28,
+      "P_VFR": 29.89,
+      "P_SRV": 68.39,
+      "P_CLR": 91.95
     }
   }
 }

@@ -1,38 +1,55 @@
 {
   "account_id": "emma_dietitian",
-  "followers": 5800,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師 Emma",
+  "followers": 5847,
+  "follows": 23,
+  "posts_count": 711,
+  "verified": false,
+  "total_videos_analyzed": 32,
   "metrics": {
-    "VFR": 0.13344827586206898,
-    "ERV": 0.02713178291068245,
+    "VFR": 0.13109286813750642,
+    "ERV": 0.022831050198524397,
     "CLR": 0.0,
-    "VFR_mean": 0.2493103448275862,
-    "CV_views": 0.9562594763595612,
-    "CV_likes": 1.0265307658780194,
-    "CV_comments": 3.162277660168379
+    "SRV": 0.0032615785997891994,
+    "SLR": 0.142857134693878,
+    "VFR_mean": 1.0549427056610228,
+    "CV_views": 3.842866631265286,
+    "CV_likes": 2.9525216706216777,
+    "CV_comments": 5.366097763078272,
+    "CV_shares": 3.8896801954596025
   },
   "median_stats": {
-    "median_views": 774.0,
-    "median_likes": 21.0,
-    "median_comments": 0.0
+    "median_views": 766.5,
+    "median_likes": 17.5,
+    "median_comments": 0.0,
+    "median_shares": 2.5
   },
   "mean_stats": {
-    "mean_views": 1446.0,
-    "mean_likes": 31.9,
-    "mean_comments": 0.2
+    "mean_views": 6168.25,
+    "mean_likes": 89.0625,
+    "mean_comments": 15.5,
+    "mean_shares": 138.3125
   },
   "std_stats": {
-    "std_views": 1382.7512028159256,
-    "std_likes": 32.746331431508814,
-    "std_comments": 0.6324555320336759
+    "std_views": 23703.7620983021,
+    "std_likes": 262.9589612897432,
+    "std_comments": 83.17451532771321,
+    "std_shares": 537.9913920345062
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 47.57,
+    "quality_score": 45.6,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 86.27,
-      "P_VFR": 21.57,
-      "P_CLR": 22.06
+      "P_ERV": 74.71,
+      "P_VFR": 17.24,
+      "P_SRV": 56.9,
+      "P_CLR": 23.28
     }
   }
 }

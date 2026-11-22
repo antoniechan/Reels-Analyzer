@@ -1,38 +1,55 @@
 {
   "account_id": "dietitian.lab",
-  "followers": 12000,
-  "total_videos_analyzed": 12,
+  "full_name": "吳映澄 營養師",
+  "followers": 11585,
+  "follows": 609,
+  "posts_count": 300,
+  "verified": true,
+  "total_videos_analyzed": 9,
   "metrics": {
-    "VFR": 0.29441666666666666,
-    "ERV": 0.0002830455702567094,
+    "VFR": 0.3351747949935261,
+    "ERV": 0.00103013134148078,
     "CLR": 0.0,
-    "VFR_mean": 0.566375,
-    "CV_views": 1.125215878760151,
-    "CV_likes": 3.8048329215447474,
-    "CV_comments": 0.8035173141952218
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.36591377739413994,
+    "CV_views": 0.43735105952661485,
+    "CV_likes": 3.216,
+    "CV_comments": 0.8509103612640843,
+    "CV_shares": 2.8935184429327276
   },
   "median_stats": {
-    "median_views": 3533.0,
+    "median_views": 3883.0,
     "median_likes": -1.0,
-    "median_comments": 2.0
+    "median_comments": 5.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 6796.5,
-    "mean_likes": 10.166666666666666,
-    "mean_comments": 2.3333333333333335
+    "mean_views": 4239.111111111111,
+    "mean_likes": 13.88888888888889,
+    "mean_comments": 5.666666666666667,
+    "mean_shares": 14.0
   },
   "std_stats": {
-    "std_views": 7647.529719993367,
-    "std_likes": 38.68246803570493,
-    "std_comments": 1.8748737331221843
+    "std_views": 1853.97973589549,
+    "std_likes": 44.66666666666667,
+    "std_comments": 4.8218253804964775,
+    "std_shares": 40.50925820105819
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 24.04,
+    "quality_score": 19.09,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 6.86,
-      "P_VFR": 45.1,
-      "P_CLR": 22.06
+      "P_ERV": 8.62,
+      "P_VFR": 40.8,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

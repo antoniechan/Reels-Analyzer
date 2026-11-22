@@ -1,38 +1,55 @@
 {
   "account_id": "health_dietitian",
-  "followers": 8300,
-  "total_videos_analyzed": 13,
+  "full_name": "芝士安營養師｜飲食規劃｜賀爾蒙｜功能營養｜消化道調理",
+  "followers": 8261,
+  "follows": 679,
+  "posts_count": 268,
+  "verified": false,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.6221686746987952,
-    "ERV": 0.018590240120334965,
-    "CLR": 0.02127659551833409,
-    "VFR_mean": 0.6483595922150139,
-    "CV_views": 0.4215914708860264,
-    "CV_likes": 0.4026884944768659,
-    "CV_comments": 1.997903360661287
+    "VFR": 0.6970100472097809,
+    "ERV": 0.019711705449859028,
+    "CLR": 0.01793721957006978,
+    "SRV": 0.002344564084344466,
+    "SLR": 0.12107623209797101,
+    "VFR_mean": 0.8616390267522092,
+    "CV_views": 0.4849998468142886,
+    "CV_likes": 0.4386895712187676,
+    "CV_comments": 0.6718548123582125,
+    "CV_shares": 1.2827520044063754
   },
   "median_stats": {
-    "median_views": 5164.0,
-    "median_likes": 94.0,
-    "median_comments": 2.0
+    "median_views": 5758.0,
+    "median_likes": 111.5,
+    "median_comments": 2.0,
+    "median_shares": 13.5
   },
   "mean_stats": {
-    "mean_views": 5381.384615384615,
-    "mean_likes": 90.15384615384616,
-    "mean_comments": 9.846153846153847
+    "mean_views": 7118.0,
+    "mean_likes": 133.0,
+    "mean_comments": 1.6,
+    "mean_shares": 22.1
   },
   "std_stats": {
-    "std_views": 2268.7458554034333,
-    "std_likes": 36.3039165789913,
-    "std_comments": 19.671663858818828
+    "std_views": 3452.228909624106,
+    "std_likes": 58.345712972096095,
+    "std_comments": 1.07496769977314,
+    "std_shares": 28.3488192973809
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 65.69,
+    "quality_score": 59.86,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 58.82,
-      "P_VFR": 73.53,
-      "P_CLR": 65.69
+      "P_ERV": 62.64,
+      "P_VFR": 75.86,
+      "P_SRV": 39.66,
+      "P_CLR": 60.92
     }
   }
 }

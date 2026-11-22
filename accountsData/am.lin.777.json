@@ -1,38 +1,55 @@
 {
   "account_id": "am.lin.777",
-  "followers": 11000,
-  "total_videos_analyzed": 14,
+  "full_name": "林雨薇 營養師",
+  "followers": 10419,
+  "follows": 75,
+  "posts_count": 119,
+  "verified": false,
+  "total_videos_analyzed": 40,
   "metrics": {
-    "VFR": 0.30636363636363634,
-    "ERV": 0.0,
+    "VFR": 0.08249352145119493,
+    "ERV": -0.0011634671306998638,
     "CLR": 0.0,
-    "VFR_mean": 0.9343571428571428,
-    "CV_views": 1.7099294690159221,
-    "CV_likes": 3.3800227192074783,
-    "CV_comments": 2.0119252019538947
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.6386097514156829,
+    "CV_views": 2.547419682486876,
+    "CV_likes": 4.253283677130352,
+    "CV_comments": 2.6782964656701758,
+    "CV_shares": 4.990942165170917
   },
   "median_stats": {
-    "median_views": 3370.0,
+    "median_views": 859.5,
     "median_likes": -1.0,
-    "median_comments": 1.0
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 10277.92857142857,
-    "mean_likes": 85.21428571428571,
-    "mean_comments": 2.7857142857142856
+    "mean_views": 6653.675,
+    "mean_likes": 50.95,
+    "mean_comments": 2.225,
+    "mean_shares": 60.925
   },
   "std_stats": {
-    "std_views": 17574.53294472643,
-    "std_likes": 288.02622171532295,
-    "std_comments": 5.604648776871564
+    "std_views": 16949.702655870864,
+    "std_likes": 216.70480334979146,
+    "std_comments": 5.9592096361161415,
+    "std_shares": 304.07315141303815
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 23.41,
+    "quality_score": 8.35,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 4.41,
-      "P_VFR": 46.08,
-      "P_CLR": 22.06
+      "P_ERV": 0.57,
+      "P_VFR": 7.47,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

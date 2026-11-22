@@ -1,38 +1,55 @@
 {
   "account_id": "myhealth.hk",
-  "followers": 15000,
-  "total_videos_analyzed": 13,
+  "full_name": "MYHEALTH|Physio|物理治療|普拉提|中醫|放鬆|痛症治療|運動復康|增肌減脂",
+  "followers": 15185,
+  "follows": 45,
+  "posts_count": 312,
+  "verified": false,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.07333333333333333,
-    "ERV": 0.006363636357851239,
+    "VFR": 0.06598617056305564,
+    "ERV": 0.0049900199550997806,
     "CLR": 0.0,
-    "VFR_mean": 0.06646153846153846,
-    "CV_views": 0.3872778540724392,
-    "CV_likes": 0.38766487250666787,
-    "CV_comments": 3.605551275463989
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.06646910328174734,
+    "CV_views": 0.30731477761745174,
+    "CV_likes": 0.41307979935470174,
+    "CV_comments": 2.8030595529069404,
+    "CV_shares": 1.8419709940325184
   },
   "median_stats": {
-    "median_views": 1100.0,
-    "median_likes": 7.0,
-    "median_comments": 0.0
+    "median_views": 1002.0,
+    "median_likes": 5.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 996.9230769230769,
-    "mean_likes": 6.6923076923076925,
-    "mean_comments": 0.07692307692307693
+    "mean_views": 1009.3333333333334,
+    "mean_likes": 6.0,
+    "mean_comments": 0.2,
+    "mean_shares": 0.4
   },
   "std_stats": {
-    "std_views": 386.08622990606244,
-    "std_likes": 2.5943726083138543,
-    "std_comments": 0.2773500981126146
+    "std_views": 310.18304887521464,
+    "std_likes": 2.4784787961282104,
+    "std_comments": 0.5606119105813882,
+    "std_shares": 0.7367883976130074
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 16.0,
+    "quality_score": 11.42,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 17.65,
-      "P_VFR": 9.8,
-      "P_CLR": 22.06
+      "P_ERV": 13.22,
+      "P_VFR": 4.6,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

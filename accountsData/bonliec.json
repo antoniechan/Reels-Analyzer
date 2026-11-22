@@ -1,0 +1,55 @@
+{
+  "account_id": "bonliec",
+  "full_name": "李騫賢👩🏻‍⚕️Bon醫幫你「養心X養身」",
+  "followers": 21011,
+  "follows": 461,
+  "posts_count": 99,
+  "verified": false,
+  "total_videos_analyzed": 23,
+  "metrics": {
+    "VFR": 0.8034362952739041,
+    "ERV": 0.021029559858952104,
+    "CLR": 0.06287425130875973,
+    "SRV": 0.009715064272868014,
+    "SLR": 0.49101796260174263,
+    "VFR_mean": 6.797816050805686,
+    "CV_views": 1.919663663135036,
+    "CV_likes": 1.9512519032752702,
+    "CV_comments": 1.6411072674874603,
+    "CV_shares": 1.9778760014192294
+  },
+  "median_stats": {
+    "median_views": 16881.0,
+    "median_likes": 334.0,
+    "median_comments": 21.0,
+    "median_shares": 164.0
+  },
+  "mean_stats": {
+    "mean_views": 142828.91304347827,
+    "mean_likes": 2394.8260869565215,
+    "mean_comments": 68.34782608695652,
+    "mean_shares": 3724.8695652173915
+  },
+  "std_stats": {
+    "std_views": 274183.474414639,
+    "std_likes": 4672.90896018718,
+    "std_comments": 112.16611410827336,
+    "std_shares": 7367.330121460358
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 80.46,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 71.84,
+      "P_VFR": 79.31,
+      "P_SRV": 94.25,
+      "P_CLR": 77.59
+    }
+  }
+}

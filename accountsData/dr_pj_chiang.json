@@ -1,0 +1,55 @@
+{
+  "account_id": "dr_pj_chiang",
+  "full_name": "江佩璋醫師｜泌尿專科",
+  "followers": 5221,
+  "follows": 1613,
+  "posts_count": 379,
+  "verified": true,
+  "total_videos_analyzed": 29,
+  "metrics": {
+    "VFR": 0.6690289216625167,
+    "ERV": 0.012596621811452442,
+    "CLR": 0.07317072992266513,
+    "SRV": 0.004294302890267878,
+    "SLR": 0.3658536496133256,
+    "VFR_mean": 6.530384587441962,
+    "CV_views": 1.8029673722455306,
+    "CV_likes": 1.976876491724882,
+    "CV_comments": 1.6228825525113104,
+    "CV_shares": 2.2280869377863572
+  },
+  "median_stats": {
+    "median_views": 3493.0,
+    "median_likes": 41.0,
+    "median_comments": 3.0,
+    "median_shares": 15.0
+  },
+  "mean_stats": {
+    "mean_views": 34095.137931034486,
+    "mean_likes": 449.62068965517244,
+    "mean_comments": 7.724137931034483,
+    "mean_shares": 627.5172413793103
+  },
+  "std_stats": {
+    "std_views": 61472.42124186616,
+    "std_likes": 888.8445715724392,
+    "std_comments": 12.535368681466673,
+    "std_shares": 1398.1629687529698
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 63.07,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 36.21,
+      "P_VFR": 74.14,
+      "P_SRV": 71.26,
+      "P_CLR": 79.31
+    }
+  }
+}

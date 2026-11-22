@@ -1,0 +1,55 @@
+{
+  "account_id": "pcos.rere.pharm",
+  "full_name": "瑞瑞藥師SZUHSUN｜多囊女生控糖減重",
+  "followers": 71999,
+  "follows": 106,
+  "posts_count": 354,
+  "verified": true,
+  "total_videos_analyzed": 21,
+  "metrics": {
+    "VFR": 0.5518548868734288,
+    "ERV": 0.02129212493339813,
+    "CLR": 0.2533333329580247,
+    "SRV": 0.004555407343906692,
+    "SLR": 0.26814814775089163,
+    "VFR_mean": 1.7138386181289555,
+    "CV_views": 2.135741101606746,
+    "CV_likes": 2.0862629540603637,
+    "CV_comments": 1.6367677353877648,
+    "CV_shares": 1.05266349211687
+  },
+  "median_stats": {
+    "median_views": 39733.0,
+    "median_likes": 675.0,
+    "median_comments": 171.0,
+    "median_shares": 181.0
+  },
+  "mean_stats": {
+    "mean_views": 123394.66666666667,
+    "mean_likes": 1559.142857142857,
+    "mean_comments": 388.5238095238095,
+    "mean_shares": 335.42857142857144
+  },
+  "std_stats": {
+    "std_views": 263539.0613190639,
+    "std_likes": 3252.7819829449727,
+    "std_comments": 635.923235858513,
+    "std_shares": 353.093411355773
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 74.57,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 72.41,
+      "P_VFR": 64.94,
+      "P_SRV": 74.71,
+      "P_CLR": 89.66
+    }
+  }
+}

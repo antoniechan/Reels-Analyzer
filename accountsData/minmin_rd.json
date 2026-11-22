@@ -1,38 +1,55 @@
 {
   "account_id": "minmin_rd",
-  "followers": 370000,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師高敏敏",
+  "followers": 370938,
+  "follows": 7006,
+  "posts_count": 5360,
+  "verified": true,
+  "total_videos_analyzed": 15,
   "metrics": {
-    "VFR": 0.1277391891891892,
-    "ERV": 0.014683635363130457,
-    "CLR": 0.041260315016863745,
-    "VFR_mean": 0.4018867567567568,
-    "CV_views": 1.5139996991924747,
-    "CV_likes": 1.3039665587589035,
-    "CV_comments": 0.8165291665458984
+    "VFR": 0.1275307463781009,
+    "ERV": 0.0005918910920265528,
+    "CLR": 0.0,
+    "SRV": 0.0031285672007117793,
+    "SLR": 0.0,
+    "VFR_mean": 0.2859915493514639,
+    "CV_views": 1.512945241110494,
+    "CV_likes": 1.4731484064746208,
+    "CV_comments": 0.5722695928663845,
+    "CV_shares": 1.234685650861594
   },
   "median_stats": {
-    "median_views": 47263.5,
-    "median_likes": 666.5,
-    "median_comments": 27.5
+    "median_views": 47306.0,
+    "median_likes": -1.0,
+    "median_comments": 29.0,
+    "median_shares": 148.0
   },
   "mean_stats": {
-    "mean_views": 148698.1,
-    "mean_likes": 1043.9,
-    "mean_comments": 46.6
+    "mean_views": 106085.13333333333,
+    "mean_likes": 1014.4666666666667,
+    "mean_comments": 38.53333333333333,
+    "mean_shares": 509.6666666666667
   },
   "std_stats": {
-    "std_views": 225128.87867049253,
-    "std_likes": 1361.2106906884196,
-    "std_comments": 38.050259161038866
+    "std_views": 160500.9976292389,
+    "std_likes": 1494.4599534216204,
+    "std_comments": 22.051454978451346,
+    "std_shares": 629.2781200557924
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 40.93,
+    "classification": "bad",
+    "quality_score": 24.28,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 39.22,
-      "P_VFR": 19.61,
-      "P_CLR": 73.53
+      "P_ERV": 7.47,
+      "P_VFR": 15.52,
+      "P_SRV": 54.02,
+      "P_CLR": 23.28
     }
   }
 }

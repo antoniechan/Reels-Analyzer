@@ -1,38 +1,55 @@
 {
   "account_id": "kenny_nutlife",
-  "followers": 5900,
-  "total_videos_analyzed": 11,
+  "full_name": "營養師 Kenny",
+  "followers": 5905,
+  "follows": 3115,
+  "posts_count": 421,
+  "verified": false,
+  "total_videos_analyzed": 7,
   "metrics": {
-    "VFR": 0.2684745762711864,
-    "ERV": 0.1691919190851061,
-    "CLR": 0.011320754674261304,
-    "VFR_mean": 1.3471032357473036,
-    "CV_views": 2.5396681522239297,
-    "CV_likes": 2.0429657128712675,
-    "CV_comments": 2.039872074824505
+    "VFR": 0.2687552921253175,
+    "ERV": 0.16383112781107048,
+    "CLR": 0.007751937954449853,
+    "SRV": 0.0006301197223502711,
+    "SLR": 0.0038759689772249264,
+    "VFR_mean": 1.9852909156888834,
+    "CV_views": 2.1954838364924343,
+    "CV_likes": 1.9006743285420618,
+    "CV_comments": 1.9723689303806384,
+    "CV_shares": 2.573789159990221
   },
   "median_stats": {
-    "median_views": 1584.0,
-    "median_likes": 265.0,
-    "median_comments": 3.0
+    "median_views": 1587.0,
+    "median_likes": 258.0,
+    "median_comments": 2.0,
+    "median_shares": 1.0
   },
   "mean_stats": {
-    "mean_views": 7947.909090909091,
-    "mean_likes": 538.0,
-    "mean_comments": 7.909090909090909
+    "mean_views": 11723.142857142857,
+    "mean_likes": 732.8571428571429,
+    "mean_comments": 10.285714285714286,
+    "mean_shares": 382.85714285714283
   },
   "std_stats": {
-    "std_views": 20185.051594952864,
-    "std_likes": 1099.115553524742,
-    "std_comments": 16.133533682702904
+    "std_views": 25737.97065574888,
+    "std_likes": 1392.9227579172539,
+    "std_comments": 20.28722328391514,
+    "std_shares": 985.3935641105418
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 66.52,
+    "quality_score": 52.93,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
       "P_ERV": 100.0,
-      "P_VFR": 37.25,
-      "P_CLR": 53.92
+      "P_VFR": 33.33,
+      "P_SRV": 18.39,
+      "P_CLR": 50.0
     }
   }
 }

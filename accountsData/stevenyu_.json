@@ -1,0 +1,55 @@
+{
+  "account_id": "stevenyu_",
+  "full_name": "Steven Yu",
+  "followers": 59371,
+  "follows": 1498,
+  "posts_count": 187,
+  "verified": false,
+  "total_videos_analyzed": 43,
+  "metrics": {
+    "VFR": 1.0276060703036836,
+    "ERV": 0.031224389443841594,
+    "CLR": 0.18470149242244932,
+    "SRV": 0.014604163251686541,
+    "SLR": 0.5541044772673479,
+    "VFR_mean": 2.5543407967165863,
+    "CV_views": 1.9208192975641343,
+    "CV_likes": 1.824809297066984,
+    "CV_comments": 1.6665964276501266,
+    "CV_shares": 2.404419677643414
+  },
+  "median_stats": {
+    "median_views": 61010.0,
+    "median_likes": 1608.0,
+    "median_comments": 297.0,
+    "median_shares": 891.0
+  },
+  "mean_stats": {
+    "mean_views": 151653.76744186046,
+    "mean_likes": 3952.139534883721,
+    "mean_comments": 1463.8837209302326,
+    "mean_shares": 3661.2558139534885
+  },
+  "std_stats": {
+    "std_views": 291299.483050629,
+    "std_likes": 7211.9009665618,
+    "std_comments": 2439.7033797975005,
+    "std_shares": 8803.195523956123
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 91.35,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 90.23,
+      "P_VFR": 87.36,
+      "P_SRV": 99.43,
+      "P_CLR": 87.93
+    }
+  }
+}

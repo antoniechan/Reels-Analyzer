@@ -1,0 +1,55 @@
+{
+  "account_id": "pharm.nana",
+  "full_name": "藥師奶爸Nana",
+  "followers": 491,
+  "follows": 326,
+  "posts_count": 73,
+  "verified": true,
+  "total_videos_analyzed": 29,
+  "metrics": {
+    "VFR": 1.2851323828920571,
+    "ERV": 0.04912836759250655,
+    "CLR": 0.47619045351474026,
+    "SRV": 0.003169572102742358,
+    "SLR": 0.09523809070294806,
+    "VFR_mean": 3.261535220169956,
+    "CV_views": 2.623670538789611,
+    "CV_likes": 0.2537586249562764,
+    "CV_comments": 1.0271466896956658,
+    "CV_shares": 0.984588626411307
+  },
+  "median_stats": {
+    "median_views": 631.0,
+    "median_likes": 21.0,
+    "median_comments": 10.0,
+    "median_shares": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 1601.4137931034484,
+    "mean_likes": 21.620689655172413,
+    "mean_comments": 12.793103448275861,
+    "mean_shares": 3.4827586206896552
+  },
+  "std_stats": {
+    "std_views": 4201.582189376839,
+    "std_likes": 5.486436477502941,
+    "std_comments": 13.140393857830757,
+    "std_shares": 3.4290845264669656
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 84.97,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 97.7,
+      "P_VFR": 90.8,
+      "P_SRV": 54.6,
+      "P_CLR": 96.55
+    }
+  }
+}

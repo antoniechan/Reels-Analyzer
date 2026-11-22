@@ -1,38 +1,55 @@
 {
   "account_id": "healthy.foodie.gloria",
-  "followers": 74000,
-  "total_videos_analyzed": 10,
+  "full_name": "Gloria Tse 為食營養師",
+  "followers": 75687,
+  "follows": 1568,
+  "posts_count": 1305,
+  "verified": true,
+  "total_videos_analyzed": 4,
   "metrics": {
-    "VFR": 1.4318783783783784,
-    "ERV": 0.010121839579364455,
-    "CLR": 0.03124999996995192,
-    "VFR_mean": 2.3950716216216215,
-    "CV_views": 0.9788377442742374,
-    "CV_likes": 0.7641422919928991,
-    "CV_comments": 2.4367760130942036
+    "VFR": 3.1268381624321218,
+    "ERV": 0.011717181960645322,
+    "CLR": 0.01780143144877907,
+    "SRV": 0.008180477560695761,
+    "SLR": 0.7105890986564181,
+    "VFR_mean": 2.976630729187311,
+    "CV_views": 0.4077156224788159,
+    "CV_likes": 0.3689347534730086,
+    "CV_comments": 1.9604681051749937,
+    "CV_shares": 0.548830931942687
   },
   "median_stats": {
-    "median_views": 105959.0,
-    "median_likes": 1040.0,
-    "median_comments": 32.5
+    "median_views": 236661.0,
+    "median_likes": 2724.5,
+    "median_comments": 48.5,
+    "median_shares": 1936.0
   },
   "mean_stats": {
-    "mean_views": 177235.3,
-    "mean_likes": 1651.7,
-    "mean_comments": 994.9
+    "mean_views": 225292.25,
+    "mean_likes": 3087.25,
+    "mean_comments": 2090.5,
+    "mean_shares": 2186.0
   },
   "std_stats": {
-    "std_views": 173484.60125776773,
-    "std_likes": 1262.1338236846714,
-    "std_comments": 2424.3484554274232
+    "std_views": 91855.16994840301,
+    "std_likes": 1138.9938176595458,
+    "std_comments": 4098.358573868324,
+    "std_shares": 1199.7444172267137
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 59.22,
+    "quality_score": 68.88,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 24.51,
-      "P_VFR": 92.16,
-      "P_CLR": 68.63
+      "P_ERV": 32.76,
+      "P_VFR": 97.13,
+      "P_SRV": 90.8,
+      "P_CLR": 60.34
     }
   }
 }

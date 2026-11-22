@@ -1,38 +1,55 @@
 {
   "account_id": "_bw.health_",
-  "followers": 93000,
-  "total_videos_analyzed": 28,
+  "full_name": "良醫健康網",
+  "followers": 93138,
+  "follows": 33,
+  "posts_count": 788,
+  "verified": false,
+  "total_videos_analyzed": 44,
   "metrics": {
-    "VFR": 0.13053225806451613,
-    "ERV": 0.009473207297708043,
-    "CLR": 0.004366812188936138,
-    "VFR_mean": 1.8429976958525345,
-    "CV_views": 4.227672672178829,
-    "CV_likes": 4.361057127197955,
-    "CV_comments": 4.481088976491567
+    "VFR": 0.12458931907492109,
+    "ERV": 0.010255084452752923,
+    "CLR": 0.0,
+    "SRV": 0.0038348845222479417,
+    "SLR": 0.37394957668949935,
+    "VFR_mean": 1.225450650940247,
+    "CV_views": 5.077596762451658,
+    "CV_likes": 5.325742237062133,
+    "CV_comments": 5.545378640765036,
+    "CV_shares": 5.320136991447416
   },
   "median_stats": {
-    "median_views": 12139.5,
-    "median_likes": 114.5,
-    "median_comments": 0.5
+    "median_views": 11604.0,
+    "median_likes": 119.0,
+    "median_comments": 0.0,
+    "median_shares": 44.5
   },
   "mean_stats": {
-    "mean_views": 171398.7857142857,
-    "mean_likes": 4215.285714285715,
-    "mean_comments": 34.75
+    "mean_views": 114136.02272727272,
+    "mean_likes": 2759.159090909091,
+    "mean_comments": 22.431818181818183,
+    "mean_shares": 2003.1363636363637
   },
   "std_stats": {
-    "std_views": 724617.9624089208,
-    "std_likes": 18383.10180746144,
-    "std_comments": 155.71784193308196
+    "std_views": 579536.6994791088,
+    "std_likes": 14694.570109228502,
+    "std_comments": 124.39292541897933,
+    "std_shares": 10656.959867095282
   },
   "quality_evaluation": {
-    "classification": "bad",
-    "quality_score": 28.63,
+    "classification": "neutral",
+    "quality_score": 32.59,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 23.53,
-      "P_VFR": 20.59,
-      "P_CLR": 48.04
+      "P_ERV": 27.01,
+      "P_VFR": 14.94,
+      "P_SRV": 64.37,
+      "P_CLR": 23.28
     }
   }
 }

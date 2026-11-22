@@ -1,38 +1,55 @@
 {
   "account_id": "healthsmarthk",
-  "followers": 2900,
-  "total_videos_analyzed": 14,
+  "full_name": "Health Smart 樂本健 - 經濟日報集團",
+  "followers": 3047,
+  "follows": 106,
+  "posts_count": 727,
+  "verified": false,
+  "total_videos_analyzed": 25,
   "metrics": {
-    "VFR": 4.74051724137931,
-    "ERV": 0.005164575376965661,
+    "VFR": 3.893009517558254,
+    "ERV": 0.005479683020950962,
     "CLR": 0.0,
-    "VFR_mean": 5.7240886699507385,
-    "CV_views": 0.6361245725936473,
-    "CV_likes": 0.3565951917154094,
-    "CV_comments": 3.741657386773941
+    "SRV": 0.0018546619455526334,
+    "SLR": 0.33846153325443795,
+    "VFR_mean": 4.351375123071874,
+    "CV_views": 0.7331564494945839,
+    "CV_likes": 0.5722763866794848,
+    "CV_comments": 3.4610932762158644,
+    "CV_shares": 1.0275675770952477
   },
   "median_stats": {
-    "median_views": 13747.5,
-    "median_likes": 71.0,
-    "median_comments": 0.0
+    "median_views": 11862.0,
+    "median_likes": 65.0,
+    "median_comments": 0.0,
+    "median_shares": 22.0
   },
   "mean_stats": {
-    "mean_views": 16599.85714285714,
-    "mean_likes": 64.92857142857143,
-    "mean_comments": 0.07142857142857142
+    "mean_views": 13258.64,
+    "mean_likes": 59.6,
+    "mean_comments": 0.08,
+    "mean_shares": 26.4
   },
   "std_stats": {
-    "std_views": 10559.577030115603,
-    "std_likes": 23.15321637637908,
-    "std_comments": 0.26726124191242434
+    "std_views": 9720.65742752687,
+    "std_likes": 34.10767264609729,
+    "std_comments": 0.27688746209726917,
+    "std_shares": 27.12778403531454
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 46.45,
+    "quality_score": 41.7,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 15.69,
-      "P_VFR": 99.02,
-      "P_CLR": 22.06
+      "P_ERV": 13.79,
+      "P_VFR": 98.28,
+      "P_SRV": 33.33,
+      "P_CLR": 23.28
     }
   }
 }

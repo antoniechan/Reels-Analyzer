@@ -1,0 +1,55 @@
+{
+  "account_id": "fit1world",
+  "full_name": "Beryl Chuk | 香港減脂教練 · 體態重塑陪跑",
+  "followers": 126652,
+  "follows": 300,
+  "posts_count": 5197,
+  "verified": true,
+  "total_videos_analyzed": 24,
+  "metrics": {
+    "VFR": 0.06439693017086189,
+    "ERV": 0.011034820989328736,
+    "CLR": 1.1176470325259522,
+    "SRV": 0.0016552231483993106,
+    "SLR": 0.3176470513494812,
+    "VFR_mean": 0.12623205055322195,
+    "CV_views": 1.3441171523829356,
+    "CV_likes": 1.6650578946406693,
+    "CV_comments": 1.5315337184047437,
+    "CV_shares": 2.2438310099482703
+  },
+  "median_stats": {
+    "median_views": 8156.0,
+    "median_likes": 42.5,
+    "median_comments": 47.5,
+    "median_shares": 13.5
+  },
+  "mean_stats": {
+    "mean_views": 15987.541666666666,
+    "mean_likes": 116.54166666666667,
+    "mean_comments": 205.0,
+    "mean_shares": 70.20833333333333
+  },
+  "std_stats": {
+    "std_views": 21489.12897860353,
+    "std_likes": 194.0486221379147,
+    "std_comments": 313.9644122729725,
+    "std_shares": 157.53563549011812
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 36.61,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 29.31,
+      "P_VFR": 2.87,
+      "P_SRV": 29.31,
+      "P_CLR": 98.85
+    }
+  }
+}

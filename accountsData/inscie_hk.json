@@ -1,38 +1,55 @@
 {
   "account_id": "inscie_hk",
-  "followers": 12000,
-  "total_videos_analyzed": 10,
+  "full_name": "香港科學知識 | 冷知識 | 文化 | 健康 | 飲食 | 電影 🇭🇰",
+  "followers": 12342,
+  "follows": 45,
+  "posts_count": 423,
+  "verified": false,
+  "total_videos_analyzed": 9,
   "metrics": {
-    "VFR": 0.698,
-    "ERV": 0.022265998087122013,
-    "CLR": 0.0026881720285582148,
-    "VFR_mean": 0.7324416666666667,
-    "CV_views": 0.6624882213426223,
-    "CV_likes": 0.7556945164223494,
-    "CV_comments": 1.3808408801709071
+    "VFR": 0.6077621131097067,
+    "ERV": 0.018130915875465815,
+    "CLR": 0.0,
+    "SRV": 0.00026663111581567376,
+    "SLR": 0.01470588224480969,
+    "VFR_mean": 0.6384612614559139,
+    "CV_views": 0.6328457178289628,
+    "CV_likes": 0.7259796833179984,
+    "CV_comments": 1.59800914202425,
+    "CV_shares": 1.6735544207927666
   },
   "median_stats": {
-    "median_views": 8376.0,
-    "median_likes": 186.0,
-    "median_comments": 0.5
+    "median_views": 7501.0,
+    "median_likes": 136.0,
+    "median_comments": 0.0,
+    "median_shares": 2.0
   },
   "mean_stats": {
-    "mean_views": 8789.3,
-    "mean_likes": 217.8,
-    "mean_comments": 1.8
+    "mean_views": 7879.888888888889,
+    "mean_likes": 167.22222222222223,
+    "mean_comments": 1.8888888888888888,
+    "mean_shares": 27.11111111111111
   },
   "std_stats": {
-    "std_views": 5822.807723846709,
-    "std_likes": 164.5902656767877,
-    "std_comments": 2.485513584307633
+    "std_views": 4986.753940301357,
+    "std_likes": 121.39993593262085,
+    "std_comments": 3.018461712712472,
+    "std_shares": 45.371919852603895
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 66.03,
+    "quality_score": 42.87,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 70.59,
-      "P_VFR": 76.47,
-      "P_CLR": 44.12
+      "P_ERV": 57.47,
+      "P_VFR": 68.97,
+      "P_SRV": 14.94,
+      "P_CLR": 23.28
     }
   }
 }

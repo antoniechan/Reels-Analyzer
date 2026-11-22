@@ -1,38 +1,55 @@
 {
   "account_id": "nutri_by_bella",
-  "followers": 29000,
-  "total_videos_analyzed": 11,
+  "full_name": "Bella營養師｜減脂結合生活",
+  "followers": 32636,
+  "follows": 639,
+  "posts_count": 140,
+  "verified": true,
+  "total_videos_analyzed": 17,
   "metrics": {
-    "VFR": 0.9510689655172414,
-    "ERV": 0.03433523077356386,
-    "CLR": 0.24605263125519392,
-    "VFR_mean": 2.352852664576803,
-    "CV_views": 1.6058098968818226,
-    "CV_likes": 2.115437689402013,
-    "CV_comments": 1.4125869929689028
+    "VFR": 0.5321730604240715,
+    "ERV": 0.03961308152696839,
+    "CLR": 0.37051792754876905,
+    "SRV": 0.004836480884106605,
+    "SLR": 0.1673306769575086,
+    "VFR_mean": 2.009302250131576,
+    "CV_views": 1.5507027695180526,
+    "CV_likes": 1.8758474809149062,
+    "CV_comments": 1.4344514150256067,
+    "CV_shares": 2.1843308370408745
   },
   "median_stats": {
-    "median_views": 27581.0,
-    "median_likes": 760.0,
-    "median_comments": 187.0
+    "median_views": 17368.0,
+    "median_likes": 502.0,
+    "median_comments": 186.0,
+    "median_shares": 84.0
   },
   "mean_stats": {
-    "mean_views": 68232.72727272728,
-    "mean_likes": 1866.7272727272727,
-    "mean_comments": 610.6363636363636
+    "mean_views": 65575.58823529411,
+    "mean_likes": 1940.0,
+    "mean_comments": 580.0,
+    "mean_shares": 885.4117647058823
   },
   "std_stats": {
-    "std_views": 109568.78874578372,
-    "std_likes": 3948.9452285619027,
-    "std_comments": 862.5769847065563
+    "std_views": 101688.246289246,
+    "std_likes": 3639.144112974918,
+    "std_comments": 831.9818207148519,
+    "std_shares": 1934.0322211258376
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 90.64,
+    "quality_score": 82.67,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 94.12,
-      "P_VFR": 86.27,
-      "P_CLR": 91.18
+      "P_ERV": 95.4,
+      "P_VFR": 63.22,
+      "P_SRV": 77.59,
+      "P_CLR": 94.25
     }
   }
 }

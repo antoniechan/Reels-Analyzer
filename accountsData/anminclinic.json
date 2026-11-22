@@ -1,38 +1,55 @@
 {
   "account_id": "anminclinic",
-  "followers": 4800,
+  "full_name": "安民家醫｜家庭醫學x運動醫學",
+  "followers": 5390,
+  "follows": 12,
+  "posts_count": 221,
+  "verified": false,
   "total_videos_analyzed": 16,
   "metrics": {
-    "VFR": 0.23729166666666668,
-    "ERV": 0.01624231780839129,
+    "VFR": 0.6632653061224489,
+    "ERV": 0.024615384608499193,
     "CLR": 0.0,
-    "VFR_mean": 15.390221354166666,
-    "CV_views": 3.7587112746997544,
-    "CV_likes": 3.8008896883715426,
-    "CV_comments": 3.5490241987390587
+    "SRV": 0.005734265732661744,
+    "SLR": 0.23295454280733474,
+    "VFR_mean": 21.820037105751393,
+    "CV_views": 3.726958316627466,
+    "CV_likes": 3.7937719576106654,
+    "CV_comments": 3.414294312899524,
+    "CV_shares": 3.864057604825551
   },
   "median_stats": {
-    "median_views": 1139.0,
-    "median_likes": 18.5,
-    "median_comments": 0.0
+    "median_views": 3575.0,
+    "median_likes": 88.0,
+    "median_comments": 0.0,
+    "median_shares": 20.5
   },
   "mean_stats": {
-    "mean_views": 73873.0625,
-    "mean_likes": 2729.0625,
-    "mean_comments": 13.625
+    "mean_views": 117610.0,
+    "mean_likes": 4580.4375,
+    "mean_comments": 22.625,
+    "mean_shares": 3711.3125
   },
   "std_stats": {
-    "std_views": 277667.5129153496,
-    "std_likes": 10372.865515171463,
-    "std_comments": 48.355454707819675
+    "std_views": 438327.56761855626,
+    "std_likes": 17377.135341088302,
+    "std_comments": 77.24840882935173,
+    "std_shares": 14340.725289509128
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 36.74,
+    "quality_score": 67.9,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 48.04,
-      "P_VFR": 34.31,
-      "P_CLR": 22.06
+      "P_ERV": 81.03,
+      "P_VFR": 73.56,
+      "P_SRV": 82.18,
+      "P_CLR": 23.28
     }
   }
 }

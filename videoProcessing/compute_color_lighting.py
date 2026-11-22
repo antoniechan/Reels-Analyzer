@@ -22,7 +22,7 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 import urllib.request
-from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR
+from config import VIDEO_PROC_DIR, DEFAULT_REELS_DIR, NEW_REELS_DIR
 
 # ---------------------------------------------------------------------------
 # 1. 動態定位專案根目錄與設定路徑
@@ -284,7 +284,7 @@ def process_single_video(video_path: Path) -> Optional[Dict[str, Any]]:
 def main():
     parser = argparse.ArgumentParser(description="提取短影音色彩豐富度與光影對比度特徵")
     parser.add_argument("--video", type=str, default="", help="單支影片路徑 (測試用)")
-    parser.add_argument("--reels_dir", type=str, default=str(DEFAULT_REELS_DIR), help="影片存放根目錄")
+    parser.add_argument("--reels_dir", type=str, default=str(NEW_REELS_DIR), help="影片存放根目錄")
     parser.add_argument("--max_videos", type=int, default=0, help="處理影片上限數量 (0 代表全部)")
     parser.add_argument("--overwrite", action="store_true", help="強制重新提取並覆蓋已存在的 JSON 檔案")
     args = parser.parse_args()

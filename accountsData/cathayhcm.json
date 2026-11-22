@@ -1,38 +1,55 @@
 {
   "account_id": "cathayhcm",
-  "followers": 2777,
-  "total_videos_analyzed": 16,
+  "full_name": "國泰健康管理",
+  "followers": 2802,
+  "follows": 11,
+  "posts_count": 169,
+  "verified": false,
+  "total_videos_analyzed": 18,
   "metrics": {
-    "VFR": 0.7086784299603889,
-    "ERV": 0.015752032512321122,
+    "VFR": 0.7582084225553176,
+    "ERV": 0.016239115078258832,
     "CLR": 0.0,
-    "VFR_mean": 1.4250090025207058,
-    "CV_views": 1.1372476657413586,
-    "CV_likes": 0.997894152701253,
-    "CV_comments": 2.6555323104514943
+    "SRV": 0.009649329249400176,
+    "SLR": 0.5942028813274528,
+    "VFR_mean": 1.3483424538028392,
+    "CV_views": 1.1268509025787623,
+    "CV_likes": 0.9028461542431641,
+    "CV_comments": 2.2599262014468877,
+    "CV_shares": 1.0724695771262835
   },
   "median_stats": {
-    "median_views": 1968.0,
-    "median_likes": 31.0,
-    "median_comments": 0.0
+    "median_views": 2124.5,
+    "median_likes": 34.5,
+    "median_comments": 0.0,
+    "median_shares": 20.5
   },
   "mean_stats": {
-    "mean_views": 3957.25,
-    "mean_likes": 49.875,
-    "mean_comments": 1.5
+    "mean_views": 3778.0555555555557,
+    "mean_likes": 50.888888888888886,
+    "mean_comments": 1.8888888888888888,
+    "mean_shares": 31.833333333333332
   },
   "std_stats": {
-    "std_views": 4500.373325254991,
-    "std_likes": 49.769970865975,
-    "std_comments": 3.9832984656772417
+    "std_views": 4257.305312770485,
+    "std_likes": 45.94483762704101,
+    "std_comments": 4.268749491621899,
+    "std_shares": 34.14028153852003
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 49.88,
+    "quality_score": 62.99,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 43.14,
-      "P_VFR": 77.45,
-      "P_CLR": 22.06
+      "P_ERV": 51.72,
+      "P_VFR": 77.59,
+      "P_SRV": 93.68,
+      "P_CLR": 23.28
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "account_id": "_hanyitang_",
+  "full_name": "翰醫堂中醫診所",
+  "followers": 3441,
+  "follows": 15,
+  "posts_count": 502,
+  "verified": false,
+  "total_videos_analyzed": 16,
+  "metrics": {
+    "VFR": 0.2927927927927928,
+    "ERV": 0.008933002472523075,
+    "CLR": 0.0,
+    "SRV": 0.0004962779151401708,
+    "SLR": 0.05555554938271674,
+    "VFR_mean": 0.29653443766346993,
+    "CV_views": 0.43033865171026653,
+    "CV_likes": 0.5993193418115152,
+    "CV_comments": 0.0,
+    "CV_shares": 1.5682806292980238
+  },
+  "median_stats": {
+    "median_views": 1007.5,
+    "median_likes": 9.0,
+    "median_comments": 0.0,
+    "median_shares": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 1020.375,
+    "mean_likes": 10.5,
+    "mean_comments": 0.0,
+    "mean_shares": 1.375
+  },
+  "std_stats": {
+    "std_views": 439.1068017388632,
+    "std_likes": 6.29285308902091,
+    "std_comments": 0.0,
+    "std_shares": 2.1563858652847827
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 24.8,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 23.56,
+      "P_VFR": 36.21,
+      "P_SRV": 16.09,
+      "P_CLR": 23.28
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "account_id": "ivf.taiwan",
+  "full_name": "茂盛醫院｜試管嬰兒 凍卵 生殖醫學科｜IVF Taiwan",
+  "followers": 6625,
+  "follows": 152,
+  "posts_count": 1190,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.5240754716981132,
+    "ERV": 0.011232718890773987,
+    "CLR": 0.0,
+    "SRV": 0.0037442396302579954,
+    "SLR": 0.33333332478632505,
+    "VFR_mean": 0.7913825042881647,
+    "CV_views": 1.1159877875516708,
+    "CV_likes": 1.4348357281686013,
+    "CV_comments": 2.587535289863939,
+    "CV_shares": 2.192278047982767
+  },
+  "median_stats": {
+    "median_views": 3472.0,
+    "median_likes": 39.0,
+    "median_comments": 0.0,
+    "median_shares": 13.0
+  },
+  "mean_stats": {
+    "mean_views": 5242.909090909091,
+    "mean_likes": 72.36363636363636,
+    "mean_comments": 5.7272727272727275,
+    "mean_shares": 46.27272727272727
+  },
+  "std_stats": {
+    "std_views": 5851.022516698178,
+    "std_likes": 103.82993087474605,
+    "std_comments": 14.819520296493469,
+    "std_shares": 101.4426842202935
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 45.09,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 29.89,
+      "P_VFR": 62.07,
+      "P_SRV": 63.79,
+      "P_CLR": 23.28
+    }
+  }
+}

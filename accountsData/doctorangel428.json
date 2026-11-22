@@ -1,0 +1,55 @@
+{
+  "account_id": "doctorangel428",
+  "full_name": "安琪拉的醫世界-蔡孟璇醫師",
+  "followers": 32105,
+  "follows": 194,
+  "posts_count": 776,
+  "verified": true,
+  "total_videos_analyzed": 6,
+  "metrics": {
+    "VFR": 0.2714997663915278,
+    "ERV": 0.011243044798801921,
+    "CLR": 0.0261780101970889,
+    "SRV": 0.0022944989385310045,
+    "SLR": 0.2094240815767112,
+    "VFR_mean": 0.8798785235944557,
+    "CV_views": 1.1493585442878604,
+    "CV_likes": 1.34313165022971,
+    "CV_comments": 1.380217374184226,
+    "CV_shares": 1.9471393237841426
+  },
+  "median_stats": {
+    "median_views": 8716.5,
+    "median_likes": 95.5,
+    "median_comments": 2.5,
+    "median_shares": 20.0
+  },
+  "mean_stats": {
+    "mean_views": 28248.5,
+    "mean_likes": 195.0,
+    "mean_comments": 6.666666666666667,
+    "mean_shares": 105.33333333333333
+  },
+  "std_stats": {
+    "std_views": 32467.654838315626,
+    "std_likes": 261.9106717947934,
+    "std_comments": 9.201449161228174,
+    "std_shares": 205.09867543859633
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 40.0,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 30.46,
+      "P_VFR": 33.91,
+      "P_SRV": 38.51,
+      "P_CLR": 63.79
+    }
+  }
+}

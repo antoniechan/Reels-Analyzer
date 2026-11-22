@@ -1,0 +1,55 @@
+{
+  "account_id": "seedsee_tw",
+  "full_name": "🌿蒔見中醫診所 Seed&See Chinese Medical Clinic",
+  "followers": 2508,
+  "follows": 0,
+  "posts_count": 179,
+  "verified": false,
+  "total_videos_analyzed": 29,
+  "metrics": {
+    "VFR": 0.5366826156299841,
+    "ERV": 0.010401188699553351,
+    "CLR": 0.0,
+    "SRV": 0.0037147102498404825,
+    "SLR": 0.3571428316326549,
+    "VFR_mean": 0.5705604135731177,
+    "CV_views": 0.25018843385129247,
+    "CV_likes": 0.6150048038495253,
+    "CV_comments": 3.7392703642746743,
+    "CV_shares": 0.8324614429806707
+  },
+  "median_stats": {
+    "median_views": 1346.0,
+    "median_likes": 14.0,
+    "median_comments": 0.0,
+    "median_shares": 5.0
+  },
+  "mean_stats": {
+    "mean_views": 1430.9655172413793,
+    "mean_likes": 16.93103448275862,
+    "mean_comments": 0.13793103448275862,
+    "mean_shares": 5.655172413793103
+  },
+  "std_stats": {
+    "std_views": 358.0110216538253,
+    "std_likes": 10.412667541038513,
+    "std_comments": 0.5157614295551275,
+    "std_shares": 4.707712987890689
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 44.71,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 28.16,
+      "P_VFR": 64.37,
+      "P_SRV": 62.07,
+      "P_CLR": 23.28
+    }
+  }
+}

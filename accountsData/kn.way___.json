@@ -1,38 +1,55 @@
 {
   "account_id": "kn.way___",
-  "followers": 160000,
-  "total_videos_analyzed": 11,
+  "full_name": "Keelan",
+  "followers": 173660,
+  "follows": 2,
+  "posts_count": 89,
+  "verified": false,
+  "total_videos_analyzed": 7,
   "metrics": {
-    "VFR": 1.54709375,
-    "ERV": 0.03708970448608443,
-    "CLR": 0.009566747304864004,
-    "VFR_mean": 5.0537392045454546,
-    "CV_views": 1.567015584986634,
-    "CV_likes": 1.6619260458099858,
-    "CV_comments": 1.4878884052066303
+    "VFR": 1.2166186801796615,
+    "ERV": 0.033150635655235516,
+    "CLR": 0.007045291156427708,
+    "SRV": 0.009347873417916925,
+    "SLR": 0.2839683680396882,
+    "VFR_mean": 1.0643194419308666,
+    "CV_views": 0.5617976673095643,
+    "CV_likes": 0.4836624745576071,
+    "CV_comments": 0.451889219648978,
+    "CV_shares": 0.6251637015300674
   },
   "median_stats": {
-    "median_views": 247535.0,
-    "median_likes": 9094.0,
-    "median_comments": 87.0
+    "median_views": 211278.0,
+    "median_likes": 6955.0,
+    "median_comments": 49.0,
+    "median_shares": 1975.0
   },
   "mean_stats": {
-    "mean_views": 808598.2727272727,
-    "mean_likes": 31107.090909090908,
-    "mean_comments": 281.72727272727275
+    "mean_views": 184829.7142857143,
+    "mean_likes": 6689.142857142857,
+    "mean_comments": 55.57142857142857,
+    "mean_shares": 2151.8571428571427
   },
   "std_stats": {
-    "std_views": 1267086.095356909,
-    "std_likes": 51697.68459119721,
-    "std_comments": 419.17874252139524
+    "std_views": 103836.90233520753,
+    "std_likes": 3235.2873869550563,
+    "std_comments": 25.112129491921777,
+    "std_shares": 1345.2629765924864
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 84.75,
+    "quality_score": 83.05,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 97.06,
-      "P_VFR": 94.12,
-      "P_CLR": 51.96
+      "P_ERV": 91.95,
+      "P_VFR": 89.66,
+      "P_SRV": 93.1,
+      "P_CLR": 48.85
     }
   }
 }

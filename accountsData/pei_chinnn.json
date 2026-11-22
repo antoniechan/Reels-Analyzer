@@ -1,38 +1,55 @@
 {
   "account_id": "pei_chinnn",
-  "followers": 6800,
-  "total_videos_analyzed": 15,
+  "full_name": "Peggy 💫 營養師",
+  "followers": 6870,
+  "follows": 616,
+  "posts_count": 479,
+  "verified": true,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.5414705882352941,
-    "ERV": 0.01602390004996635,
-    "CLR": 0.017241379013079674,
-    "VFR_mean": 5.761803921568628,
-    "CV_views": 2.074062497986665,
-    "CV_likes": 2.148886723039102,
-    "CV_comments": 2.7955980426795377
+    "VFR": 0.23508005822416303,
+    "ERV": 0.02600619193436149,
+    "CLR": 0.024390243307555043,
+    "SRV": 0.0037151702763373556,
+    "SLR": 0.14634145984533026,
+    "VFR_mean": 0.26719292352480123,
+    "CV_views": 0.4426959981370471,
+    "CV_likes": 0.3889198662179585,
+    "CV_comments": 1.2879402820520542,
+    "CV_shares": 0.9281398079339087
   },
   "median_stats": {
-    "median_views": 3682.0,
-    "median_likes": 58.0,
-    "median_comments": 1.0
+    "median_views": 1615.0,
+    "median_likes": 41.0,
+    "median_comments": 1.0,
+    "median_shares": 6.0
   },
   "mean_stats": {
-    "mean_views": 39180.26666666667,
-    "mean_likes": 729.6666666666666,
-    "mean_comments": 5.266666666666667
+    "mean_views": 1835.6153846153845,
+    "mean_likes": 48.23076923076923,
+    "mean_comments": 1.7692307692307692,
+    "mean_shares": 8.23076923076923
   },
   "std_stats": {
-    "std_views": 81262.32175445033,
-    "std_likes": 1567.9710122441982,
-    "std_comments": 14.723483024778899
+    "std_views": 812.6195848880272,
+    "std_likes": 18.75790431682,
+    "std_comments": 2.27866357593825,
+    "std_shares": 7.639304572994479
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 57.57,
+    "quality_score": 59.89,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 46.08,
-      "P_VFR": 71.57,
-      "P_CLR": 56.37
+      "P_ERV": 82.76,
+      "P_VFR": 27.01,
+      "P_SRV": 62.64,
+      "P_CLR": 63.22
     }
   }
 }

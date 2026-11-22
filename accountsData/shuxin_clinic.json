@@ -1,0 +1,55 @@
+{
+  "account_id": "shuxin_clinic",
+  "full_name": "書心健康管理診所",
+  "followers": 2309,
+  "follows": 2,
+  "posts_count": 403,
+  "verified": false,
+  "total_videos_analyzed": 22,
+  "metrics": {
+    "VFR": 0.23516673884798614,
+    "ERV": 0.016574585604835018,
+    "CLR": 0.0,
+    "SRV": 0.0018416206227594464,
+    "SLR": 0.11111109876543349,
+    "VFR_mean": 0.25150596480176385,
+    "CV_views": 0.23844345930665073,
+    "CV_likes": 0.4503226956314084,
+    "CV_comments": 3.5256282241170944,
+    "CV_shares": 1.5998614898495436
+  },
+  "median_stats": {
+    "median_views": 543.0,
+    "median_likes": 9.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 580.7272727272727,
+    "mean_likes": 10.454545454545455,
+    "mean_comments": 1.5454545454545454,
+    "mean_shares": 1.7272727272727273
+  },
+  "std_stats": {
+    "std_views": 138.47061982280772,
+    "std_likes": 4.707919090691997,
+    "std_comments": 5.4486981645446,
+    "std_shares": 2.76339711883103
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 35.29,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 52.3,
+      "P_VFR": 27.59,
+      "P_SRV": 32.18,
+      "P_CLR": 23.28
+    }
+  }
+}

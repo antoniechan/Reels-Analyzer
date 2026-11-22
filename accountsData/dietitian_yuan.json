@@ -1,38 +1,55 @@
 {
   "account_id": "dietitian_yuan",
-  "followers": 4100,
-  "total_videos_analyzed": 13,
+  "full_name": "顏元瀅營養師 健康減重｜正念飲食",
+  "followers": 4107,
+  "follows": 326,
+  "posts_count": 197,
+  "verified": false,
+  "total_videos_analyzed": 8,
   "metrics": {
-    "VFR": 0.7348780487804878,
-    "ERV": 0.02588781944046206,
-    "CLR": 0.03999999946666667,
-    "VFR_mean": 0.7860037523452158,
-    "CV_views": 0.5197710140779602,
-    "CV_likes": 0.3973876557582254,
-    "CV_comments": 1.035509010856316
+    "VFR": 0.6908935962990017,
+    "ERV": 0.026784140959723653,
+    "CLR": 0.04109588984800151,
+    "SRV": 0.002643171805235887,
+    "SLR": 0.10273972462000378,
+    "VFR_mean": 0.7999756513270027,
+    "CV_views": 0.4971247340195145,
+    "CV_likes": 0.3774935198287752,
+    "CV_comments": 1.0750905104804376,
+    "CV_shares": 0.6941116061445108
   },
   "median_stats": {
-    "median_views": 3013.0,
-    "median_likes": 75.0,
-    "median_comments": 3.0
+    "median_views": 2837.5,
+    "median_likes": 73.0,
+    "median_comments": 3.0,
+    "median_shares": 7.5
   },
   "mean_stats": {
-    "mean_views": 3222.6153846153848,
-    "mean_likes": 78.6923076923077,
-    "mean_comments": 3.230769230769231
+    "mean_views": 3285.5,
+    "mean_likes": 81.125,
+    "mean_comments": 2.875,
+    "mean_shares": 9.875
   },
   "std_stats": {
-    "std_views": 1675.0220664447745,
-    "std_likes": 31.27135168005112,
-    "std_comments": 3.345490650458867
+    "std_views": 1633.303313621115,
+    "std_likes": 30.624161796109387,
+    "std_comments": 3.090885217631258,
+    "std_shares": 6.854352110677045
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 78.87,
+    "classification": "neutral",
+    "quality_score": 69.54,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 82.35,
-      "P_VFR": 79.41,
-      "P_CLR": 72.55
+      "P_ERV": 83.91,
+      "P_VFR": 75.29,
+      "P_SRV": 44.25,
+      "P_CLR": 72.41
     }
   }
 }

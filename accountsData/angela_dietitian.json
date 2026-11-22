@@ -1,38 +1,55 @@
 {
   "account_id": "angela_dietitian",
-  "followers": 87000,
-  "total_videos_analyzed": 12,
+  "full_name": "Angela安琪拉營養師",
+  "followers": 86405,
+  "follows": 1005,
+  "posts_count": 543,
+  "verified": false,
+  "total_videos_analyzed": 31,
   "metrics": {
-    "VFR": 0.27438505747126435,
-    "ERV": 0.0005655279307724471,
+    "VFR": 0.23291476187720617,
+    "ERV": 0.00039751552793055824,
     "CLR": 0.0,
-    "VFR_mean": 0.7789444444444446,
-    "CV_views": 1.8429717244370014,
-    "CV_likes": 3.524086058689923,
-    "CV_comments": 1.1999135197462123
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.9664046472818366,
+    "CV_views": 2.7476967384610975,
+    "CV_likes": 5.81973618070992,
+    "CV_comments": 1.3496354695781851,
+    "CV_shares": 0.0
   },
   "median_stats": {
-    "median_views": 23871.5,
+    "median_views": 20125.0,
     "median_likes": -1.0,
-    "median_comments": 14.5
+    "median_comments": 9.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 67768.16666666667,
-    "mean_likes": 57.75,
-    "mean_comments": 24.166666666666668
+    "mean_views": 83502.19354838709,
+    "mean_likes": 22.096774193548388,
+    "mean_comments": 19.677419354838708,
+    "mean_shares": 0.0
   },
   "std_stats": {
-    "std_views": 124894.8149836008,
-    "std_likes": 203.51596988934307,
-    "std_comments": 28.997910060533464
+    "std_views": 229438.70486725052,
+    "std_likes": 128.5973962511708,
+    "std_comments": 26.55734311105461,
+    "std_shares": 0.0
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 22.03,
+    "quality_score": 14.99,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 7.84,
-      "P_VFR": 38.24,
-      "P_CLR": 22.06
+      "P_ERV": 6.9,
+      "P_VFR": 26.44,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

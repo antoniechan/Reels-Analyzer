@@ -1,0 +1,55 @@
+{
+  "account_id": "drbonespine",
+  "full_name": "骨科好鄰居 陳宇聖醫師",
+  "followers": 1823,
+  "follows": 118,
+  "posts_count": 93,
+  "verified": false,
+  "total_videos_analyzed": 4,
+  "metrics": {
+    "VFR": 1.324190894130554,
+    "ERV": 0.024647887313733272,
+    "CLR": 0.0,
+    "SRV": 0.0037282518625815033,
+    "SLR": 0.15126050165948737,
+    "VFR_mean": 1.8335161821173889,
+    "CV_views": 0.7866090925101188,
+    "CV_likes": 0.6528440132617228,
+    "CV_comments": 2.0,
+    "CV_shares": 0.9591531656680752
+  },
+  "median_stats": {
+    "median_views": 2414.0,
+    "median_likes": 59.5,
+    "median_comments": 0.0,
+    "median_shares": 9.0
+  },
+  "mean_stats": {
+    "mean_views": 3342.5,
+    "mean_likes": 85.0,
+    "mean_comments": 0.5,
+    "mean_shares": 11.5
+  },
+  "std_stats": {
+    "std_views": 2629.240891715072,
+    "std_likes": 55.491741127246435,
+    "std_comments": 1.0,
+    "std_shares": 11.030261405182864
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 67.93,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 81.61,
+      "P_VFR": 91.95,
+      "P_SRV": 63.22,
+      "P_CLR": 23.28
+    }
+  }
+}

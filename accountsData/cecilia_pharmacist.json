@@ -1,0 +1,55 @@
+{
+  "account_id": "cecilia_pharmacist",
+  "full_name": "CC藥師  西西莉亞",
+  "followers": 282,
+  "follows": 185,
+  "posts_count": 346,
+  "verified": false,
+  "total_videos_analyzed": 24,
+  "metrics": {
+    "VFR": 1.7429078014184398,
+    "ERV": 0.04272634782761679,
+    "CLR": 0.39999997333333515,
+    "SRV": 0.004069175983582552,
+    "SLR": 0.13333332444444504,
+    "VFR_mean": 1.7929964539007093,
+    "CV_views": 0.4361816539701314,
+    "CV_likes": 0.3318192993644413,
+    "CV_comments": 0.870076575987333,
+    "CV_shares": 0.9995783767317479
+  },
+  "median_stats": {
+    "median_views": 491.5,
+    "median_likes": 15.0,
+    "median_comments": 6.0,
+    "median_shares": 2.0
+  },
+  "mean_stats": {
+    "mean_views": 505.625,
+    "mean_likes": 15.041666666666666,
+    "mean_comments": 6.375,
+    "mean_shares": 2.375
+  },
+  "std_stats": {
+    "std_views": 220.5443487886477,
+    "std_likes": 4.9911152946068045,
+    "std_comments": 5.546738171919248,
+    "std_shares": 2.373998644737901
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 88.71,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 96.55,
+      "P_VFR": 95.4,
+      "P_SRV": 67.24,
+      "P_CLR": 95.4
+    }
+  }
+}

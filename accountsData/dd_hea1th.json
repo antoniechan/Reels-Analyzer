@@ -1,0 +1,55 @@
+{
+  "account_id": "dd_hea1th",
+  "full_name": "DD姐養生論",
+  "followers": 46881,
+  "follows": 0,
+  "posts_count": 104,
+  "verified": false,
+  "total_videos_analyzed": 44,
+  "metrics": {
+    "VFR": 0.36862481602354896,
+    "ERV": 0.02005034285102275,
+    "CLR": 0.008733624428723073,
+    "SRV": 0.007406764458675071,
+    "SLR": 0.37263464229218446,
+    "VFR_mean": 2.033802218770543,
+    "CV_views": 2.2884640377934264,
+    "CV_likes": 2.369961356500514,
+    "CV_comments": 2.3364175110376353,
+    "CV_shares": 2.5347136889178032
+  },
+  "median_stats": {
+    "median_views": 17281.5,
+    "median_likes": 343.5,
+    "median_comments": 3.0,
+    "median_shares": 128.0
+  },
+  "mean_stats": {
+    "mean_views": 95346.68181818182,
+    "mean_likes": 1884.0227272727273,
+    "mean_comments": 14.363636363636363,
+    "mean_shares": 1349.8863636363637
+  },
+  "std_stats": {
+    "std_views": 218197.45246384144,
+    "std_likes": 4465.061058405071,
+    "std_comments": 33.55945152217694,
+    "std_shares": 3421.5754443925666
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 62.96,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 66.09,
+      "P_VFR": 44.25,
+      "P_SRV": 87.36,
+      "P_CLR": 51.15
+    }
+  }
+}

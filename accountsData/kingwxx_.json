@@ -1,0 +1,55 @@
+{
+  "account_id": "kingwxx_",
+  "full_name": "朱子揚 香港註冊中醫師🇭🇰  痛症/神經/整脊復位🌟",
+  "followers": 4477,
+  "follows": 1237,
+  "posts_count": 49,
+  "verified": true,
+  "total_videos_analyzed": 6,
+  "metrics": {
+    "VFR": 1.584208175117266,
+    "ERV": 0.00021149101160218667,
+    "CLR": 0.0,
+    "SRV": 0.008812125483424445,
+    "SLR": 0.0,
+    "VFR_mean": 2.0545380090834633,
+    "CV_views": 0.8000272888011373,
+    "CV_likes": 2.539105221177685,
+    "CV_comments": 1.1716881776290005,
+    "CV_shares": 0.8646329520761105
+  },
+  "median_stats": {
+    "median_views": 7092.5,
+    "median_likes": -1.0,
+    "median_comments": 2.5,
+    "median_shares": 62.5
+  },
+  "mean_stats": {
+    "mean_views": 9198.166666666666,
+    "mean_likes": 27.333333333333332,
+    "mean_comments": 3.1666666666666665,
+    "mean_shares": 102.16666666666667
+  },
+  "std_stats": {
+    "std_views": 7358.7843402743265,
+    "std_likes": 69.40220937885671,
+    "std_comments": 3.710345895825168,
+    "std_shares": 88.33666660377595
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 52.44,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 4.6,
+      "P_VFR": 93.68,
+      "P_SRV": 91.95,
+      "P_CLR": 23.28
+    }
+  }
+}

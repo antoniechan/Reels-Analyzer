@@ -6,22 +6,22 @@ import time
 import argparse
 import warnings
 import numpy as np
-import soundfile as sf
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchaudio
 import torchaudio.transforms as T
 import torchvision.models as models
-from config import DEFAULT_REELS_DIR, REELS_DATA_DIR, DATA_PROC_DIR, AUDIO_PROC_DIR
+from config import DEFAULT_REELS_DIR, REELS_DATA_DIR, DATA_PROC_DIR, AUDIO_PROC_DIR, NEW_REELS_DIR
 
 warnings.filterwarnings("ignore")
 
 # 預設路徑設定
-DEFAULT_REELS_AUDIO_DIR = DEFAULT_REELS_DIR
+# DEFAULT_REELS_AUDIO_DIR = DEFAULT_REELS_DIR
+DEFAULT_REELS_AUDIO_DIR = str(NEW_REELS_DIR)
 DEFAULT_TRANSCRIPT_DATA_DIR = str(REELS_DATA_DIR)
 DEFAULT_VIDEO_CLASSIFICATION_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
-OUTPUT_JSON_DIR = str(AUDIO_PROC_DIR / "audioProcessing")
+OUTPUT_JSON_DIR = str(AUDIO_PROC_DIR)
 
 # ==============================================================================
 # 0. 萬能音訊載入器 (PyAV / librosa，自動處理假 MP3 與 MP4 容器)
@@ -118,7 +118,7 @@ def load_all_transcripts_from_dir(transcript_dir: str) -> dict:
             "accounts_followers.json",
             "video_classification_summary.json",
             "merged_accounts_data.json",
-        ] or fname.endswith("_audio_saliency.json") or fname.endswith("_qc.json") or fname.endswith("_face.json"):
+        ] or fname.endswith(("_audio_saliency.json", "_qc.json", "_face.json", "_color_lighting.json")):
             continue
 
         try:
@@ -160,6 +160,7 @@ def load_all_transcripts_from_dir(transcript_dir: str) -> dict:
                 "videoDuration": post.get("videoDuration"),
                 "likesCount": post.get("likesCount"),
                 "commentsCount": post.get("commentsCount"),
+                "sharesCount": post.get("sharesCount"),
                 "caption": post.get("caption", ""),
                 "timestamp": post.get("timestamp", ""),
             }
@@ -553,6 +554,12 @@ def analyze_single_audio_with_local_transcript(
     plays = class_info.get("plays") if class_info else transcript_record.get("videoPlayCount")
     likes = class_info.get("likes") if class_info else transcript_record.get("likesCount")
     comments = class_info.get("comments") if class_info else transcript_record.get("commentsCount")
+    shares = class_info.get("shares") if class_info else transcript_record.get("sharesCount")
+
+    safe_plays = float(max(1, plays or 0))
+    safe_likes = float(max(1, likes or 0))
+    srv_val = class_info.get("SRV") if class_info else (float(shares or 0) / safe_plays if plays else None)
+    slr_val = class_info.get("SLR") if class_info else (float(shares or 0) / safe_likes if likes else None)
 
     return {
         "video_id": video_id,
@@ -566,7 +573,13 @@ def analyze_single_audio_with_local_transcript(
             "plays": plays,
             "likes": likes,
             "comments": comments,
+            "shares": shares,
             "followers": class_info.get("followers") if class_info else None,
+            "VFR": class_info.get("VFR") if class_info else None,
+            "ERV": class_info.get("ERV") if class_info else None,
+            "CLR": class_info.get("CLR") if class_info else None,
+            "SRV": srv_val,
+            "SLR": slr_val,
         },
         "summary_metrics": {
             "mean_engagement_score": round(float(np.mean(scores_np)), 6),
@@ -760,6 +773,12 @@ def run_pipeline(
                     "account_id": existing.get("account_id"),
                     "video_classification": vid_tier,
                     "video_quality_score": vid_q_score,
+                    "shares": class_info.get("shares") if class_info else tx_record.get("sharesCount"),
+                    "VFR": class_info.get("VFR"),
+                    "ERV": class_info.get("ERV"),
+                    "CLR": class_info.get("CLR"),
+                    "SRV": class_info.get("SRV"),
+                    "SLR": class_info.get("SLR"),
                     "duration_seconds": existing.get("duration_seconds"),
                     **sm,
                 })
@@ -792,11 +811,18 @@ def run_pipeline(
             )
             processed_count += 1
 
+            v_info = result_data.get("video_classification_info", {})
             batch_summary.append({
                 "video_id": result_data["video_id"],
                 "account_id": result_data["account_id"],
                 "video_classification": vid_tier,
                 "video_quality_score": vid_q_score,
+                "shares": v_info.get("shares"),
+                "VFR": v_info.get("VFR"),
+                "ERV": v_info.get("ERV"),
+                "CLR": v_info.get("CLR"),
+                "SRV": v_info.get("SRV"),
+                "SLR": v_info.get("SLR"),
                 "duration_seconds": result_data["duration_seconds"],
                 **sm,
             })
@@ -829,6 +855,7 @@ def run_pipeline(
         )
     print("=" * 84)
 
+    os.makedirs(OUTPUT_JSON_DIR, exist_ok=True)
     suffix = f"_{target_tier.lower()}" if target_tier.lower() != "all" else "_all_tiers"
     summary_file_path = os.path.join(
         OUTPUT_JSON_DIR, f"local_transcript_audio_saliency_summary{suffix}.json"

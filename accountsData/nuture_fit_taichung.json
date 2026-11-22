@@ -1,38 +1,55 @@
 {
   "account_id": "nuture_fit_taichung",
-  "followers": 280000,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師團隊Nuture Fit |敬鈞營養師",
+  "followers": 277959,
+  "follows": 345,
+  "posts_count": 1525,
+  "verified": true,
+  "total_videos_analyzed": 38,
   "metrics": {
-    "VFR": 0.14600535714285715,
-    "ERV": 0.00776634908191318,
-    "CLR": 0.1441441436247058,
-    "VFR_mean": 0.13978892857142858,
-    "CV_views": 0.7490377295164806,
-    "CV_likes": 0.9418844985203245,
-    "CV_comments": 1.6825097687984931
+    "VFR": 0.16546684942743353,
+    "ERV": 0.008229513186610365,
+    "CLR": 0.12816691467014332,
+    "SRV": 0.0026525775660936972,
+    "SLR": 0.36363636255249965,
+    "VFR_mean": 0.2505722634973995,
+    "CV_views": 0.95949351603309,
+    "CV_likes": 1.4297776550054206,
+    "CV_comments": 2.074590863091222,
+    "CV_shares": 2.3693486560196315
   },
   "median_stats": {
-    "median_views": 40881.5,
-    "median_likes": 277.5,
-    "median_comments": 40.0
+    "median_views": 45993.0,
+    "median_likes": 335.5,
+    "median_comments": 43.0,
+    "median_shares": 122.0
   },
   "mean_stats": {
-    "mean_views": 39140.9,
-    "mean_likes": 425.3,
-    "mean_comments": 121.8
+    "mean_views": 69648.81578947368,
+    "mean_likes": 764.2368421052631,
+    "mean_comments": 189.89473684210526,
+    "mean_shares": 484.7105263157895
   },
   "std_stats": {
-    "std_views": 29318.010867231616,
-    "std_likes": 400.583477220694,
-    "std_comments": 204.92968983965645
+    "std_views": 66827.5871493831,
+    "std_likes": 1092.688759974011,
+    "std_comments": 393.9538860017436,
+    "std_shares": 1148.448234084884
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 37.79,
+    "quality_score": 39.66,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 20.59,
-      "P_VFR": 23.53,
-      "P_CLR": 85.29
+      "P_ERV": 21.26,
+      "P_VFR": 20.69,
+      "P_SRV": 44.83,
+      "P_CLR": 84.48
     }
   }
 }

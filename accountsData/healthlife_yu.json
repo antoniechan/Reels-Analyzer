@@ -1,38 +1,55 @@
 {
   "account_id": "healthlife_yu",
-  "followers": 1500,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師🐟Yu",
+  "followers": 1474,
+  "follows": 506,
+  "posts_count": 187,
+  "verified": false,
+  "total_videos_analyzed": 5,
   "metrics": {
-    "VFR": 0.5326666666666666,
-    "ERV": 0.017521902356042677,
-    "CLR": 0.03703703429355302,
-    "VFR_mean": 0.8956666666666667,
-    "CV_views": 1.0019773778943621,
-    "CV_likes": 0.8458992123475699,
-    "CV_comments": 1.8392161508052054
+    "VFR": 0.48032564450474896,
+    "ERV": 0.01271186438882505,
+    "CLR": 0.0,
+    "SRV": 0.0028248587530722334,
+    "SLR": 0.22222219753086697,
+    "VFR_mean": 0.4561736770691994,
+    "CV_views": 0.09455545004642285,
+    "CV_likes": 0.5061943174124037,
+    "CV_comments": 2.2360679774997902,
+    "CV_shares": 0.4648111258522642
   },
   "median_stats": {
-    "median_views": 799.0,
-    "median_likes": 13.5,
-    "median_comments": 0.5
+    "median_views": 708.0,
+    "median_likes": 9.0,
+    "median_comments": 0.0,
+    "median_shares": 2.0
   },
   "mean_stats": {
-    "mean_views": 1343.5,
-    "mean_likes": 16.8,
-    "mean_comments": 1.5
+    "mean_views": 672.4,
+    "mean_likes": 11.4,
+    "mean_comments": 0.2,
+    "mean_shares": 1.8
   },
   "std_stats": {
-    "std_views": 1346.1566072010755,
-    "std_likes": 14.211106767439176,
-    "std_comments": 2.758824226207808
+    "std_views": 63.579084611214725,
+    "std_likes": 5.770615218501403,
+    "std_comments": 0.44721359549995804,
+    "std_shares": 0.8366600265340756
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 63.19,
+    "quality_score": 42.27,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 52.94,
-      "P_VFR": 69.61,
-      "P_CLR": 70.59
+      "P_ERV": 36.78,
+      "P_VFR": 59.2,
+      "P_SRV": 47.13,
+      "P_CLR": 23.28
     }
   }
 }

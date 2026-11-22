@@ -1,0 +1,55 @@
+{
+  "account_id": "dr.uncle.cheung",
+  "full_name": "Uncle張 中醫博士",
+  "followers": 1543,
+  "follows": 0,
+  "posts_count": 41,
+  "verified": false,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 6.001944264419961,
+    "ERV": 0.018950437315737992,
+    "CLR": 0.005730658992947513,
+    "SRV": 0.0029694417446313095,
+    "SLR": 0.1575931223060566,
+    "VFR_mean": 8.963275005400735,
+    "CV_views": 1.0384913955960322,
+    "CV_likes": 0.9836557878507021,
+    "CV_comments": 1.1479626221346153,
+    "CV_shares": 1.6334962493320409
+  },
+  "median_stats": {
+    "median_views": 9261.0,
+    "median_likes": 174.5,
+    "median_comments": 1.0,
+    "median_shares": 27.5
+  },
+  "mean_stats": {
+    "mean_views": 13830.333333333334,
+    "mean_likes": 215.58333333333334,
+    "mean_comments": 2.0833333333333335,
+    "mean_shares": 81.41666666666667
+  },
+  "std_stats": {
+    "std_views": 14362.68216489166,
+    "std_likes": 212.05979359748054,
+    "std_comments": 2.391588796113782,
+    "std_shares": 132.993819633117
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 65.57,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 60.34,
+      "P_VFR": 99.43,
+      "P_SRV": 52.3,
+      "P_CLR": 47.7
+    }
+  }
+}

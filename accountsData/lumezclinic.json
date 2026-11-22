@@ -1,0 +1,55 @@
+{
+  "account_id": "lumezclinic",
+  "full_name": "小宙醫學診所｜專業控糖減重",
+  "followers": 2341,
+  "follows": 13,
+  "posts_count": 174,
+  "verified": false,
+  "total_videos_analyzed": 20,
+  "metrics": {
+    "VFR": 0.3549765057667663,
+    "ERV": 0.012033694329682678,
+    "CLR": 0.0,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.5073900042716788,
+    "CV_views": 0.8286953860643945,
+    "CV_likes": 0.5775769449486682,
+    "CV_comments": 1.2478777111877448,
+    "CV_shares": 3.8793062425079543
+  },
+  "median_stats": {
+    "median_views": 831.0,
+    "median_likes": 10.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
+  },
+  "mean_stats": {
+    "mean_views": 1187.8,
+    "mean_likes": 12.95,
+    "mean_comments": 0.55,
+    "mean_shares": 1.55
+  },
+  "std_stats": {
+    "std_views": 984.3243795672878,
+    "std_likes": 7.479621437085252,
+    "std_comments": 0.6863327411532597,
+    "std_shares": 6.012924675887329
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 27.57,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 34.48,
+      "P_VFR": 43.68,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
+    }
+  }
+}

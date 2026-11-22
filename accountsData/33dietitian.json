@@ -1,38 +1,55 @@
 {
   "account_id": "33dietitian",
-  "followers": 7800,
-  "total_videos_analyzed": 14,
+  "full_name": "珊珊營養師 ｜ Samantha",
+  "followers": 9834,
+  "follows": 657,
+  "posts_count": 342,
+  "verified": true,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 0.31326923076923074,
-    "ERV": 0.02209944750476798,
-    "CLR": 0.17391303969754263,
-    "VFR_mean": 3.4704304029304027,
-    "CV_views": 2.1945330712171334,
-    "CV_likes": 2.3368731423371254,
-    "CV_comments": 2.99325656975787
+    "VFR": 0.43644498678055726,
+    "ERV": 0.024580615092129398,
+    "CLR": 0.2634730507368497,
+    "SRV": 0.006523765142934817,
+    "SLR": 0.3353293373014451,
+    "VFR_mean": 7.801382957087656,
+    "CV_views": 1.7785114934120683,
+    "CV_likes": 1.7218166660776952,
+    "CV_comments": 2.557021048641371,
+    "CV_shares": 1.6123008322827106
   },
   "median_stats": {
-    "median_views": 2443.5,
-    "median_likes": 46.0,
-    "median_comments": 8.0
+    "median_views": 4292.0,
+    "median_likes": 83.5,
+    "median_comments": 22.0,
+    "median_shares": 28.0
   },
   "mean_stats": {
-    "mean_views": 27069.35714285714,
-    "mean_likes": 501.2142857142857,
-    "mean_comments": 122.0
+    "mean_views": 76718.8,
+    "mean_likes": 1310.9,
+    "mean_comments": 279.5,
+    "mean_shares": 1051.4
   },
   "std_stats": {
-    "std_views": 59404.59946658773,
-    "std_likes": 1171.2742028414007,
-    "std_comments": 365.17730151046015
+    "std_views": 136445.2675607818,
+    "std_likes": 2257.1294675612507,
+    "std_comments": 714.6873830952633,
+    "std_shares": 1695.173095062042
   },
   "quality_evaluation": {
-    "classification": "neutral",
-    "quality_score": 66.13,
+    "classification": "good",
+    "quality_score": 76.78,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 69.61,
-      "P_VFR": 47.06,
-      "P_CLR": 87.25
+      "P_ERV": 80.46,
+      "P_VFR": 51.15,
+      "P_SRV": 86.78,
+      "P_CLR": 90.8
     }
   }
 }

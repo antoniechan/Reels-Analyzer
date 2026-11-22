@@ -1,0 +1,55 @@
+{
+  "account_id": "hsinyu_an",
+  "full_name": "安欣瑜醫師",
+  "followers": 4995,
+  "follows": 120,
+  "posts_count": 482,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.34534534534534533,
+    "ERV": 0.026086956506616254,
+    "CLR": 0.022727272210743815,
+    "SRV": 0.0023188405783658894,
+    "SLR": 0.09090908884297526,
+    "VFR_mean": 0.3989079989079989,
+    "CV_views": 0.6763696754305294,
+    "CV_likes": 0.5114332936374307,
+    "CV_comments": 1.0,
+    "CV_shares": 0.9113745739237064
+  },
+  "median_stats": {
+    "median_views": 1725.0,
+    "median_likes": 44.0,
+    "median_comments": 1.0,
+    "median_shares": 4.0
+  },
+  "mean_stats": {
+    "mean_views": 1992.5454545454545,
+    "mean_likes": 46.36363636363637,
+    "mean_comments": 1.0,
+    "mean_shares": 4.636363636363637
+  },
+  "std_stats": {
+    "std_views": 1347.6973223714858,
+    "std_likes": 23.711907250462698,
+    "std_comments": 1.0,
+    "std_shares": 4.225463933646275
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 57.79,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 83.33,
+      "P_VFR": 41.95,
+      "P_SRV": 39.08,
+      "P_CLR": 62.64
+    }
+  }
+}

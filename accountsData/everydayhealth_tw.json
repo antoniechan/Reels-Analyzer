@@ -1,0 +1,55 @@
+{
+  "account_id": "everydayhealth_tw",
+  "full_name": "早安健康",
+  "followers": 488714,
+  "follows": 0,
+  "posts_count": 2871,
+  "verified": false,
+  "total_videos_analyzed": 10,
+  "metrics": {
+    "VFR": 0.0796099559251423,
+    "ERV": 0.006644134013425928,
+    "CLR": 0.0,
+    "SRV": 0.004780692172136258,
+    "SLR": 0.7195357805820666,
+    "VFR_mean": 0.14529499871090248,
+    "CV_views": 0.8142844189612396,
+    "CV_likes": 1.300692123448128,
+    "CV_comments": 2.5379070554735104,
+    "CV_shares": 1.5094810223710569
+  },
+  "median_stats": {
+    "median_views": 38906.5,
+    "median_likes": 258.5,
+    "median_comments": 0.0,
+    "median_shares": 186.0
+  },
+  "mean_stats": {
+    "mean_views": 71007.7,
+    "mean_likes": 800.0,
+    "mean_comments": 1.6,
+    "mean_shares": 668.8
+  },
+  "std_stats": {
+    "std_views": 57820.46373627401,
+    "std_likes": 1040.5536987585024,
+    "std_comments": 4.060651288757617,
+    "std_shares": 1009.5409077617628
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 30.66,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 17.24,
+      "P_VFR": 6.9,
+      "P_SRV": 76.44,
+      "P_CLR": 23.28
+    }
+  }
+}

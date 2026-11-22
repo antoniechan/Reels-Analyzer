@@ -1,0 +1,55 @@
+{
+  "account_id": "hiiamdrlee",
+  "full_name": "李炎諭醫師的復健聊天室",
+  "followers": 4666,
+  "follows": 199,
+  "posts_count": 531,
+  "verified": false,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.37548221174453494,
+    "ERV": 0.029109589024480825,
+    "CLR": 0.0624999986979167,
+    "SRV": 0.000570776255381977,
+    "SLR": 0.020833332899305567,
+    "VFR_mean": 0.3950434477652652,
+    "CV_views": 0.3042053713366484,
+    "CV_likes": 0.1688517230100236,
+    "CV_comments": 0.9511749196707464,
+    "CV_shares": 1.6741037771865046
+  },
+  "median_stats": {
+    "median_views": 1752.0,
+    "median_likes": 48.0,
+    "median_comments": 3.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 1843.2727272727273,
+    "mean_likes": 49.18181818181818,
+    "mean_comments": 2.3636363636363638,
+    "mean_shares": 3.272727272727273
+  },
+  "std_stats": {
+    "std_views": 560.7334644747166,
+    "std_likes": 8.304434740765705,
+    "std_comments": 2.2482316283126735,
+    "std_shares": 5.478885088974016
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 58.25,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 89.66,
+      "P_VFR": 46.55,
+      "P_SRV": 17.24,
+      "P_CLR": 77.01
+    }
+  }
+}

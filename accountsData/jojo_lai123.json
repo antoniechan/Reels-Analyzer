@@ -1,38 +1,55 @@
 {
   "account_id": "jojo_lai123",
-  "followers": 160000,
+  "full_name": "Jojo",
+  "followers": 156832,
+  "follows": 1492,
+  "posts_count": 833,
+  "verified": true,
   "total_videos_analyzed": 23,
   "metrics": {
-    "VFR": 0.05573125,
-    "ERV": 0.02455982953632838,
-    "CLR": 1.027777768261317,
-    "VFR_mean": 0.10447989130434783,
-    "CV_views": 1.7986096654742572,
-    "CV_likes": 1.9609405509508953,
-    "CV_comments": 1.1203894884825383
+    "VFR": 0.06468705366251785,
+    "ERV": 0.020798422866357965,
+    "CLR": 0.8034187965519761,
+    "SRV": 0.0022671266631575033,
+    "SLR": 0.19658119490101544,
+    "VFR_mean": 0.12580451638086285,
+    "CV_views": 1.8558490831775796,
+    "CV_likes": 2.058158225878707,
+    "CV_comments": 1.154580270826554,
+    "CV_shares": 3.757035012162647
   },
   "median_stats": {
-    "median_views": 8917.0,
-    "median_likes": 108.0,
-    "median_comments": 111.0
+    "median_views": 10145.0,
+    "median_likes": 117.0,
+    "median_comments": 94.0,
+    "median_shares": 23.0
   },
   "mean_stats": {
-    "mean_views": 16716.782608695652,
-    "mean_likes": 233.7391304347826,
-    "mean_comments": 148.08695652173913
+    "mean_views": 19730.17391304348,
+    "mean_likes": 267.30434782608694,
+    "mean_comments": 176.04347826086956,
+    "mean_shares": 184.52173913043478
   },
   "std_stats": {
-    "std_views": 30066.966775631965,
-    "std_likes": 458.34853921356574,
-    "std_comments": 165.91506946832718
+    "std_views": 36616.22516745594,
+    "std_likes": 550.1546422914039,
+    "std_comments": 203.25632680768337,
+    "std_shares": 693.2546344181858
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 58.14,
+    "quality_score": 50.66,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 79.41,
-      "P_VFR": 3.92,
-      "P_CLR": 100.0
+      "P_ERV": 70.11,
+      "P_VFR": 3.45,
+      "P_SRV": 37.36,
+      "P_CLR": 97.13
     }
   }
 }

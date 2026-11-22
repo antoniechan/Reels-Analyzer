@@ -1,38 +1,55 @@
 {
   "account_id": "ningning_dietitian",
-  "followers": 2200,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師寧寧",
+  "followers": 2166,
+  "follows": 304,
+  "posts_count": 189,
+  "verified": false,
+  "total_videos_analyzed": 9,
   "metrics": {
-    "VFR": 0.4727272727272727,
-    "ERV": 0.035576923042714495,
-    "CLR": 0.10447760882156393,
-    "VFR_mean": 0.609,
-    "CV_views": 0.8941691089623347,
-    "CV_likes": 0.8773958937798655,
-    "CV_comments": 0.8894442709417556
+    "VFR": 0.45244690674053556,
+    "ERV": 0.03367346935339442,
+    "CLR": 0.06451612695109267,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.6243459526008002,
+    "CV_views": 0.9394233537266347,
+    "CV_likes": 0.9333431456272762,
+    "CV_comments": 0.9819805060619656,
+    "CV_shares": 1.5874507866387544
   },
   "median_stats": {
-    "median_views": 1040.0,
-    "median_likes": 33.5,
-    "median_comments": 3.5
+    "median_views": 980.0,
+    "median_likes": 31.0,
+    "median_comments": 2.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 1339.8,
-    "mean_likes": 44.8,
-    "mean_comments": 5.0
+    "mean_views": 1352.3333333333333,
+    "mean_likes": 44.666666666666664,
+    "mean_comments": 4.666666666666667,
+    "mean_shares": 1.1111111111111112
   },
   "std_stats": {
-    "std_views": 1198.007772187736,
-    "std_likes": 39.30733604133797,
-    "std_comments": 4.447221354708778
+    "std_views": 1270.4135153563188,
+    "std_likes": 41.689327171351664,
+    "std_comments": 4.58257569495584,
+    "std_shares": 1.763834207376394
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 81.76,
+    "classification": "neutral",
+    "quality_score": 58.61,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 96.08,
-      "P_VFR": 65.69,
-      "P_CLR": 81.37
+      "P_ERV": 92.53,
+      "P_VFR": 54.02,
+      "P_SRV": 6.61,
+      "P_CLR": 78.45
     }
   }
 }

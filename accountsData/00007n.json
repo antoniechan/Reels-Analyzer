@@ -1,0 +1,55 @@
+{
+  "account_id": "00007n",
+  "full_name": "林品辰 營養師",
+  "followers": 2289,
+  "follows": 999,
+  "posts_count": 515,
+  "verified": false,
+  "total_videos_analyzed": 18,
+  "metrics": {
+    "VFR": 0.7948885976408913,
+    "ERV": 0.0002748007692911235,
+    "CLR": 0.0,
+    "SRV": 0.001648804615746741,
+    "SLR": 0.0,
+    "VFR_mean": 1.2434105140527159,
+    "CV_views": 1.3723450005355695,
+    "CV_likes": 2.2316792235585172,
+    "CV_comments": 1.1665134703339641,
+    "CV_shares": 1.1787118273318649
+  },
+  "median_stats": {
+    "median_views": 1819.5,
+    "median_likes": -1.0,
+    "median_comments": 1.5,
+    "median_shares": 3.0
+  },
+  "mean_stats": {
+    "mean_views": 2846.1666666666665,
+    "mean_likes": 18.0,
+    "mean_comments": 1.7777777777777777,
+    "mean_shares": 5.166666666666667
+  },
+  "std_stats": {
+    "std_views": 3905.9225956909863,
+    "std_likes": 40.170226024053306,
+    "std_comments": 2.0738017250381584,
+    "std_shares": 6.090011107881302
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 33.25,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 5.75,
+      "P_VFR": 78.74,
+      "P_SRV": 28.74,
+      "P_CLR": 23.28
+    }
+  }
+}

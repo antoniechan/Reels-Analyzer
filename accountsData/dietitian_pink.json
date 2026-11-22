@@ -1,0 +1,55 @@
+{
+  "account_id": "dietitian_pink",
+  "full_name": "Daphne 品瑄營養師 🌸",
+  "followers": 80883,
+  "follows": 40,
+  "posts_count": 1486,
+  "verified": true,
+  "total_videos_analyzed": 13,
+  "metrics": {
+    "VFR": 0.18259708467786803,
+    "ERV": 0.00027083756515195085,
+    "CLR": 0.0,
+    "SRV": 0.0012187690431837788,
+    "SLR": 0.0,
+    "VFR_mean": 0.40492962769584556,
+    "CV_views": 1.5189977577522404,
+    "CV_likes": 2.9687831455695726,
+    "CV_comments": 0.9875563222985989,
+    "CV_shares": 3.234756810546964
+  },
+  "median_stats": {
+    "median_views": 14769.0,
+    "median_likes": -1.0,
+    "median_comments": 5.0,
+    "median_shares": 18.0
+  },
+  "mean_stats": {
+    "mean_views": 32751.923076923078,
+    "mean_likes": 248.0,
+    "mean_comments": 6.923076923076923,
+    "mean_shares": 394.0769230769231
+  },
+  "std_stats": {
+    "std_views": 49750.09771592001,
+    "std_likes": 736.258220101254,
+    "std_comments": 6.836928385144146,
+    "std_shares": 1274.7430108024691
+  },
+  "quality_evaluation": {
+    "classification": "bad",
+    "quality_score": 17.99,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 5.17,
+      "P_VFR": 22.41,
+      "P_SRV": 24.71,
+      "P_CLR": 23.28
+    }
+  }
+}

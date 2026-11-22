@@ -1,38 +1,55 @@
 {
   "account_id": "cadee_fit",
-  "followers": 7124,
-  "total_videos_analyzed": 12,
+  "full_name": "Cadee Chak翟佩君",
+  "followers": 7159,
+  "follows": 1001,
+  "posts_count": 396,
+  "verified": true,
+  "total_videos_analyzed": 14,
   "metrics": {
-    "VFR": 0.3987226277372263,
-    "ERV": 0.018130610801573452,
-    "CLR": 0.01980197980590139,
-    "VFR_mean": 0.5906326034063261,
-    "CV_views": 0.8139475570271463,
-    "CV_likes": 0.47098050693074045,
-    "CV_comments": 1.6937198318160147
+    "VFR": 0.4782790892582763,
+    "ERV": 0.01620911214479874,
+    "CLR": 0.018348623516539018,
+    "SRV": 0.00540303738159958,
+    "SLR": 0.33944953505597186,
+    "VFR_mean": 0.6261848223015984,
+    "CV_views": 0.7059557316255505,
+    "CV_likes": 0.421321474132809,
+    "CV_comments": 1.4610712426672747,
+    "CV_shares": 1.0583030537543205
   },
   "median_stats": {
-    "median_views": 2840.5,
-    "median_likes": 50.5,
-    "median_comments": 1.0
+    "median_views": 3424.0,
+    "median_likes": 54.5,
+    "median_comments": 1.0,
+    "median_shares": 18.5
   },
   "mean_stats": {
-    "mean_views": 4207.666666666667,
-    "mean_likes": 57.083333333333336,
-    "mean_comments": 1.5
+    "mean_views": 4482.857142857143,
+    "mean_likes": 63.357142857142854,
+    "mean_comments": 1.8571428571428572,
+    "mean_shares": 27.928571428571427
   },
   "std_stats": {
-    "std_views": 3424.8200041178893,
-    "std_likes": 26.88513727062977,
-    "std_comments": 2.540579747724022
+    "std_views": 3164.6986940585393,
+    "std_likes": 26.6937248254144,
+    "std_comments": 2.7134180220963673,
+    "std_shares": 29.556892429852805
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 57.75,
+    "quality_score": 62.41,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 54.9,
-      "P_VFR": 58.82,
-      "P_CLR": 60.78
+      "P_ERV": 51.15,
+      "P_VFR": 58.62,
+      "P_SRV": 80.46,
+      "P_CLR": 61.49
     }
   }
 }

@@ -5,7 +5,6 @@ from config import REELS_DATA_DIR
 
 TARGET_DIR = REELS_DATA_DIR
 
-
 def check_transcript_field(target_dir):
     if not os.path.exists(target_dir):
         print(f"錯誤：找不到目錄 -> {target_dir}")

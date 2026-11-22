@@ -1,8 +1,9 @@
 import argparse
 import glob
 import os
+from config import NEW_REELS_DIR
 
-DEFAULT_DIR = r"D:\reels"
+DEFAULT_DIR = NEW_REELS_DIR
 VIDEO_EXTS = ("*.mp4", "*.mov", "*.avi", "*.mkv")
 
 

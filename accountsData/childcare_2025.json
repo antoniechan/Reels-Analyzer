@@ -1,0 +1,55 @@
+{
+  "account_id": "childcare_2025",
+  "full_name": "陪你長大｜小兒科診所",
+  "followers": 139,
+  "follows": 12,
+  "posts_count": 74,
+  "verified": false,
+  "total_videos_analyzed": 23,
+  "metrics": {
+    "VFR": 2.1007194244604315,
+    "ERV": 0.04109589027021955,
+    "CLR": 0.0,
+    "SRV": 0.003424657522518296,
+    "SLR": 0.08333332638888948,
+    "VFR_mean": 2.406318423522052,
+    "CV_views": 0.7159282664188082,
+    "CV_likes": 0.37850963062075693,
+    "CV_comments": 1.9400093720485898,
+    "CV_shares": 1.2244138503116242
+  },
+  "median_stats": {
+    "median_views": 292.0,
+    "median_likes": 12.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 334.4782608695652,
+    "mean_likes": 13.08695652173913,
+    "mean_comments": 0.21739130434782608,
+    "mean_shares": 1.2608695652173914
+  },
+  "std_stats": {
+    "std_views": 239.4624414591257,
+    "std_likes": 4.953539078993384,
+    "std_comments": 0.42174116783664994,
+    "std_shares": 1.5438261590885696
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 72.39,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 95.98,
+      "P_VFR": 95.98,
+      "P_SRV": 59.77,
+      "P_CLR": 23.28
+    }
+  }
+}

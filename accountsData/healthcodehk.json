@@ -1,38 +1,55 @@
 {
   "account_id": "healthcodehk",
-  "followers": 120000,
-  "total_videos_analyzed": 16,
+  "full_name": "健康嗎 Health Code",
+  "followers": 119093,
+  "follows": 38,
+  "posts_count": 2871,
+  "verified": false,
+  "total_videos_analyzed": 19,
   "metrics": {
-    "VFR": 0.09411666666666667,
-    "ERV": 0.005224012749670266,
-    "CLR": 0.017241379013079674,
-    "VFR_mean": 0.34682291666666665,
-    "CV_views": 2.1288229845045272,
-    "CV_likes": 1.8142804331483593,
-    "CV_comments": 3.6226921918118626
+    "VFR": 0.0922472353538831,
+    "ERV": 0.005643546331181181,
+    "CLR": 0.0,
+    "SRV": 0.0020935736389865673,
+    "SLR": 0.3709677359521333,
+    "VFR_mean": 0.29925308261964223,
+    "CV_views": 2.259117211356723,
+    "CV_likes": 1.2967704809932672,
+    "CV_comments": 3.7032963946415687,
+    "CV_shares": 2.158934379539091
   },
   "median_stats": {
-    "median_views": 11294.0,
-    "median_likes": 58.0,
-    "median_comments": 1.0
+    "median_views": 10986.0,
+    "median_likes": 62.0,
+    "median_comments": 0.0,
+    "median_shares": 23.0
   },
   "mean_stats": {
-    "mean_views": 41618.75,
-    "mean_likes": 207.5,
-    "mean_comments": 124.0
+    "mean_views": 35638.94736842105,
+    "mean_likes": 107.57894736842105,
+    "mean_comments": 9.842105263157896,
+    "mean_shares": 97.3157894736842
   },
   "std_stats": {
-    "std_views": 88598.95158634779,
-    "std_likes": 376.46318987828454,
-    "std_comments": 449.21383178467096
+    "std_views": 80512.5593946364,
+    "std_likes": 139.50520332369675,
+    "std_comments": 36.448232936735444,
+    "std_shares": 210.09840356672524
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 25.56,
+    "quality_score": 20.63,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 16.67,
-      "P_VFR": 13.73,
-      "P_CLR": 56.37
+      "P_ERV": 14.94,
+      "P_VFR": 9.2,
+      "P_SRV": 36.78,
+      "P_CLR": 23.28
     }
   }
 }

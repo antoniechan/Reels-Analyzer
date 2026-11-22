@@ -1,38 +1,55 @@
 {
   "account_id": "rita_wang_health",
-  "followers": 41000,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師Rita｜HealthHome醫敏家",
+  "followers": 41243,
+  "follows": 0,
+  "posts_count": 59,
+  "verified": false,
+  "total_videos_analyzed": 40,
   "metrics": {
-    "VFR": 0.04935365853658537,
-    "ERV": 0.011860637503404676,
-    "CLR": 0.0,
-    "VFR_mean": 0.06195853658536586,
-    "CV_views": 0.6590330175148649,
-    "CV_likes": 0.8406560266441518,
-    "CV_comments": 1.738137018145453
+    "VFR": 0.10623620978105376,
+    "ERV": 0.01905740042929193,
+    "CLR": 0.01212121197428834,
+    "SRV": 0.004906995320117084,
+    "SLR": 0.26060605744719934,
+    "VFR_mean": 0.5757152728947942,
+    "CV_views": 2.332463385512317,
+    "CV_likes": 2.3151209279458898,
+    "CV_comments": 3.258960646107646,
+    "CV_shares": 2.724760674883713
   },
   "median_stats": {
-    "median_views": 2023.5,
-    "median_likes": 24.0,
-    "median_comments": 0.0
+    "median_views": 4381.5,
+    "median_likes": 82.5,
+    "median_comments": 1.0,
+    "median_shares": 21.5
   },
   "mean_stats": {
-    "mean_views": 2540.3,
-    "mean_likes": 30.9,
-    "mean_comments": 1.1
+    "mean_views": 23744.225,
+    "mean_likes": 487.6,
+    "mean_comments": 14.85,
+    "mean_shares": 469.2
   },
   "std_stats": {
-    "std_views": 1674.1415743930113,
-    "std_likes": 25.97627122330429,
-    "std_comments": 1.9119507199599983
+    "std_views": 55382.53542986619,
+    "std_likes": 1128.8529644664159,
+    "std_comments": 48.395565594698546,
+    "std_shares": 1278.4577086554382
   },
   "quality_evaluation": {
-    "classification": "bad",
-    "quality_score": 17.57,
+    "classification": "neutral",
+    "quality_score": 52.16,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 28.43,
-      "P_VFR": 1.96,
-      "P_CLR": 22.06
+      "P_ERV": 60.92,
+      "P_VFR": 13.22,
+      "P_SRV": 78.16,
+      "P_CLR": 55.17
     }
   }
 }

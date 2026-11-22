@@ -1,38 +1,55 @@
 {
   "account_id": "taro_dietitian",
-  "followers": 2400,
-  "total_videos_analyzed": 14,
+  "full_name": "小芋頭營養師｜瘦身｜減脂",
+  "followers": 2870,
+  "follows": 10,
+  "posts_count": 84,
+  "verified": false,
+  "total_videos_analyzed": 19,
   "metrics": {
-    "VFR": 0.9072916666666667,
-    "ERV": 0.011710677376941135,
-    "CLR": 0.01999999920000003,
-    "VFR_mean": 1.4839880952380953,
-    "CV_views": 1.0790048444583906,
-    "CV_likes": 0.8502542506991732,
-    "CV_comments": 1.7686732677928754
+    "VFR": 0.6073170731707317,
+    "ERV": 0.01663798048385658,
+    "CLR": 0.035714284438775556,
+    "SRV": 0.004589787719684574,
+    "SLR": 0.28571427551020445,
+    "VFR_mean": 1.657986429488355,
+    "CV_views": 1.241798914855211,
+    "CV_likes": 1.1312117736778111,
+    "CV_comments": 1.5070298125317316,
+    "CV_shares": 1.7094257107116855
   },
   "median_stats": {
-    "median_views": 2177.5,
-    "median_likes": 25.0,
-    "median_comments": 0.5
+    "median_views": 1743.0,
+    "median_likes": 28.0,
+    "median_comments": 1.0,
+    "median_shares": 8.0
   },
   "mean_stats": {
-    "mean_views": 3561.5714285714284,
-    "mean_likes": 34.142857142857146,
-    "mean_comments": 3.0
+    "mean_views": 4758.421052631579,
+    "mean_likes": 65.84210526315789,
+    "mean_comments": 3.0526315789473686,
+    "mean_shares": 18.68421052631579
   },
   "std_stats": {
-    "std_views": 3842.9528253131625,
-    "std_likes": 29.030109416728916,
-    "std_comments": 5.306019803378626
+    "std_views": 5909.002099582086,
+    "std_likes": 74.48136467741799,
+    "std_comments": 4.600406796149497,
+    "std_shares": 31.939269858034127
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 55.88,
+    "quality_score": 65.75,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 26.47,
-      "P_VFR": 85.29,
-      "P_CLR": 61.76
+      "P_ERV": 53.45,
+      "P_VFR": 68.39,
+      "P_SRV": 75.29,
+      "P_CLR": 68.97
     }
   }
 }

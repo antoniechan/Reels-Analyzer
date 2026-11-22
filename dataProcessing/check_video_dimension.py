@@ -1,9 +1,10 @@
 import glob
 import os
 import cv2
-from config import DEFAULT_REELS_DIR
+from config import DEFAULT_REELS_DIR, NEW_REELS_DIR
 
-TARGET_DIR = DEFAULT_REELS_DIR
+# TARGET_DIR = DEFAULT_REELS_DIR
+TARGET_DIR = NEW_REELS_DIR
 VIDEO_EXTENSIONS = ("*.mp4", "*.mov", "*.avi", "*.mkv")
 
 

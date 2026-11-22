@@ -1,0 +1,55 @@
+{
+  "account_id": "dr_alley",
+  "full_name": "鄔翔帆醫師｜減重｜長高",
+  "followers": 1996,
+  "follows": 1,
+  "posts_count": 79,
+  "verified": true,
+  "total_videos_analyzed": 28,
+  "metrics": {
+    "VFR": 1.218937875751503,
+    "ERV": 0.028976572121259116,
+    "CLR": 0.02919707986573606,
+    "SRV": 0.0026715988480593513,
+    "SLR": 0.0948905095636422,
+    "VFR_mean": 1.269485399370169,
+    "CV_views": 0.22583614528294885,
+    "CV_likes": 0.21798997725421523,
+    "CV_comments": 1.1051692978701195,
+    "CV_shares": 0.8759268140587054
+  },
+  "median_stats": {
+    "median_views": 2433.0,
+    "median_likes": 68.5,
+    "median_comments": 2.0,
+    "median_shares": 6.5
+  },
+  "mean_stats": {
+    "mean_views": 2533.8928571428573,
+    "mean_likes": 68.03571428571429,
+    "mean_comments": 2.142857142857143,
+    "mean_shares": 8.607142857142858
+  },
+  "std_stats": {
+    "std_views": 572.2445954171407,
+    "std_likes": 14.831103809617145,
+    "std_comments": 2.368219924007399,
+    "std_shares": 7.539227221005286
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 73.51,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 87.93,
+      "P_VFR": 90.23,
+      "P_SRV": 45.4,
+      "P_CLR": 66.09
+    }
+  }
+}

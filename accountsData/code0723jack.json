@@ -1,38 +1,55 @@
 {
   "account_id": "code0723jack",
-  "followers": 6287,
-  "total_videos_analyzed": 23,
+  "full_name": "吳政儒",
+  "followers": 6562,
+  "follows": 1154,
+  "posts_count": 399,
+  "verified": true,
+  "total_videos_analyzed": 22,
   "metrics": {
-    "VFR": 1.3650389693017337,
-    "ERV": 0.028198555112071946,
-    "CLR": 0.0041493775761436615,
-    "VFR_mean": 2.3023284762899285,
-    "CV_views": 1.1352257182966274,
-    "CV_likes": 1.1922416935776476,
-    "CV_comments": 1.9728258520343518
+    "VFR": 1.0302499238037184,
+    "ERV": 0.02788255306147732,
+    "CLR": 0.01072386053231174,
+    "SRV": 0.012868870643758764,
+    "SLR": 0.4664879331555607,
+    "VFR_mean": 1.7140492089440582,
+    "CV_views": 1.0301446722286791,
+    "CV_likes": 1.2126634768005105,
+    "CV_comments": 1.9766469810227079,
+    "CV_shares": 1.7931688650695967
   },
   "median_stats": {
-    "median_views": 8582.0,
-    "median_likes": 241.0,
-    "median_comments": 1.0
+    "median_views": 6760.5,
+    "median_likes": 186.5,
+    "median_comments": 2.0,
+    "median_shares": 87.0
   },
   "mean_stats": {
-    "mean_views": 14474.739130434782,
-    "mean_likes": 418.0,
-    "mean_comments": 6.217391304347826
+    "mean_views": 11247.59090909091,
+    "mean_likes": 288.0,
+    "mean_comments": 4.590909090909091,
+    "mean_shares": 184.1818181818182
   },
   "std_stats": {
-    "std_views": 16432.096126504126,
-    "std_likes": 498.3570279154567,
-    "std_comments": 12.26583029743097
+    "std_views": 11586.645850407725,
+    "std_likes": 349.24708131854703,
+    "std_comments": 9.074606594695158,
+    "std_shares": 330.26910187554574
   },
   "quality_evaluation": {
     "classification": "good",
-    "quality_score": 78.63,
+    "quality_score": 82.9,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 88.24,
-      "P_VFR": 90.2,
-      "P_CLR": 47.06
+      "P_ERV": 85.63,
+      "P_VFR": 87.93,
+      "P_SRV": 97.7,
+      "P_CLR": 54.02
     }
   }
 }

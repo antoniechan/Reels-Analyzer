@@ -1,38 +1,55 @@
 {
   "account_id": "dn26256",
-  "followers": 9,
-  "total_videos_analyzed": 16,
+  "full_name": "Dn伴你左右（领食谱-看主页）",
+  "followers": 18,
+  "follows": 7,
+  "posts_count": 103,
+  "verified": false,
+  "total_videos_analyzed": 10,
   "metrics": {
-    "VFR": 60.888888888888886,
-    "ERV": 0.00456204378729554,
+    "VFR": 8.36111111111111,
+    "ERV": 0.006644518228275626,
     "CLR": 0.0,
-    "VFR_mean": 91.41666666666667,
-    "CV_views": 0.7082815548503251,
-    "CV_likes": 1.1633822730747154,
-    "CV_comments": 0.0
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 11.8,
+    "CV_views": 0.647998794177814,
+    "CV_likes": 1.1486707293408518,
+    "CV_comments": 0.0,
+    "CV_shares": 0.0
   },
   "median_stats": {
-    "median_views": 548.0,
-    "median_likes": 2.5,
-    "median_comments": 0.0
+    "median_views": 150.5,
+    "median_likes": 1.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 822.75,
-    "mean_likes": 4.9375,
-    "mean_comments": 0.0
+    "mean_views": 212.4,
+    "mean_likes": 0.8,
+    "mean_comments": 0.0,
+    "mean_shares": 0.0
   },
   "std_stats": {
-    "std_views": 582.738649253105,
-    "std_likes": 5.744199973306407,
-    "std_comments": 0.0
+    "std_views": 137.6349438833677,
+    "std_likes": 0.9189365834726815,
+    "std_comments": 0.0,
+    "std_shares": 0.0
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 46.4,
+    "quality_score": 36.65,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 14.71,
+      "P_ERV": 17.82,
       "P_VFR": 100.0,
-      "P_CLR": 22.06
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

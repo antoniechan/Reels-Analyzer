@@ -1,38 +1,55 @@
 {
   "account_id": "madonnatung",
-  "followers": 11000,
-  "total_videos_analyzed": 10,
+  "full_name": "Madonna Tung ｜ 減肥瘦身・體態管理教練",
+  "followers": 11136,
+  "follows": 896,
+  "posts_count": 466,
+  "verified": false,
+  "total_videos_analyzed": 7,
   "metrics": {
-    "VFR": 0.09104545454545454,
-    "ERV": 0.026959560632092303,
-    "CLR": 0.2558139415900492,
-    "VFR_mean": 0.09083636363636365,
-    "CV_views": 0.7799674012865121,
-    "CV_likes": 0.8121190726487946,
-    "CV_comments": 1.0257111354242643
+    "VFR": 0.06842672413793104,
+    "ERV": 0.03937007868849071,
+    "CLR": 0.3043478128544429,
+    "SRV": 0.003937007868849071,
+    "SLR": 0.1304347769376184,
+    "VFR_mean": 0.10602678571428573,
+    "CV_views": 0.6827839743213836,
+    "CV_likes": 0.6453707084462336,
+    "CV_comments": 0.9133272505880173,
+    "CV_shares": 1.0796274113848394
   },
   "median_stats": {
-    "median_views": 1001.5,
-    "median_likes": 21.5,
-    "median_comments": 5.5
+    "median_views": 762.0,
+    "median_likes": 23.0,
+    "median_comments": 7.0,
+    "median_shares": 3.0
   },
   "mean_stats": {
-    "mean_views": 999.2,
-    "mean_likes": 23.7,
-    "mean_comments": 8.0
+    "mean_views": 1180.7142857142858,
+    "mean_likes": 27.571428571428573,
+    "mean_comments": 8.571428571428571,
+    "mean_shares": 4.714285714285714
   },
   "std_stats": {
-    "std_views": 779.343427365483,
-    "std_likes": 19.24722202177643,
-    "std_comments": 8.205689083394114
+    "std_views": 806.1727925380337,
+    "std_likes": 17.793792390017583,
+    "std_comments": 7.828519290754434,
+    "std_shares": 5.0896720822428145
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 61.23,
+    "quality_score": 64.54,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 84.31,
-      "P_VFR": 12.75,
-      "P_CLR": 92.16
+      "P_ERV": 94.83,
+      "P_VFR": 5.17,
+      "P_SRV": 66.09,
+      "P_CLR": 91.38
     }
   }
 }

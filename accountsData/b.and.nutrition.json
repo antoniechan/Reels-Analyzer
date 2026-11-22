@@ -1,0 +1,55 @@
+{
+  "account_id": "b.and.nutrition",
+  "full_name": "包營養．包總",
+  "followers": 1872,
+  "follows": 0,
+  "posts_count": 382,
+  "verified": false,
+  "total_videos_analyzed": 2,
+  "metrics": {
+    "VFR": 0.31463675213675213,
+    "ERV": 0.019524617963455657,
+    "CLR": 0.0,
+    "SRV": 0.0008488964331937242,
+    "SLR": 0.043478257088847214,
+    "VFR_mean": 0.31463675213675213,
+    "CV_views": 0.4778072986625567,
+    "CV_likes": 0.30743773095067284,
+    "CV_comments": 0.0,
+    "CV_shares": 1.4142135623730951
+  },
+  "median_stats": {
+    "median_views": 589.0,
+    "median_likes": 11.5,
+    "median_comments": 0.0,
+    "median_shares": 0.5
+  },
+  "mean_stats": {
+    "mean_views": 589.0,
+    "mean_likes": 11.5,
+    "mean_comments": 0.0,
+    "mean_shares": 0.5
+  },
+  "std_stats": {
+    "std_views": 281.4284989122459,
+    "std_likes": 3.5355339059327378,
+    "std_comments": 0.0,
+    "std_shares": 0.7071067811865476
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 38.07,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 62.07,
+      "P_VFR": 39.08,
+      "P_SRV": 20.11,
+      "P_CLR": 23.28
+    }
+  }
+}

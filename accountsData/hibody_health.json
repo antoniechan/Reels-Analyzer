@@ -1,0 +1,55 @@
+{
+  "account_id": "hibody_health",
+  "full_name": "黃琳玲 物理治療師 | 𝐇𝐢𝐁𝐎𝐃𝐘 嗨健康",
+  "followers": 33384,
+  "follows": 734,
+  "posts_count": 186,
+  "verified": true,
+  "total_videos_analyzed": 4,
+  "metrics": {
+    "VFR": 0.43637670740474477,
+    "ERV": 0.013934651289543201,
+    "CLR": 0.041025640815253124,
+    "SRV": 0.0001029654036173143,
+    "SLR": 0.007692307652859961,
+    "VFR_mean": 0.43151659477594057,
+    "CV_views": 0.708158848897595,
+    "CV_likes": 0.8099283270905938,
+    "CV_comments": 0.8518409600145531,
+    "CV_shares": 1.8066350490006589
+  },
+  "median_stats": {
+    "median_views": 14568.0,
+    "median_likes": 195.0,
+    "median_comments": 8.0,
+    "median_shares": 1.5
+  },
+  "mean_stats": {
+    "mean_views": 14405.75,
+    "mean_likes": 213.0,
+    "mean_comments": 7.75,
+    "mean_shares": 10.25
+  },
+  "std_stats": {
+    "std_views": 10201.55933750653,
+    "std_likes": 172.5147336702965,
+    "std_comments": 6.601767440112787,
+    "std_shares": 18.518009252256753
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 42.9,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 41.95,
+      "P_VFR": 50.57,
+      "P_SRV": 13.22,
+      "P_CLR": 71.84
+    }
+  }
+}

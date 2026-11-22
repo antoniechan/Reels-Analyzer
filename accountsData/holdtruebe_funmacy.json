@@ -1,0 +1,55 @@
+{
+  "account_id": "holdtruebe_funmacy",
+  "full_name": "好厝邊藥師 | 有溫度的藥師 子毓🌱",
+  "followers": 56775,
+  "follows": 636,
+  "posts_count": 282,
+  "verified": true,
+  "total_videos_analyzed": 11,
+  "metrics": {
+    "VFR": 0.25847644209599296,
+    "ERV": 0.03264054514257986,
+    "CLR": 1.7371428472163266,
+    "SRV": 0.005792163543046531,
+    "SLR": 0.48571428293877555,
+    "VFR_mean": 4.348802690044434,
+    "CV_views": 2.7773004871960114,
+    "CV_likes": 3.0082342826341133,
+    "CV_comments": 1.0593189995578627,
+    "CV_shares": 3.0658261269191156
+  },
+  "median_stats": {
+    "median_views": 14675.0,
+    "median_likes": 175.0,
+    "median_comments": 304.0,
+    "median_shares": 85.0
+  },
+  "mean_stats": {
+    "mean_views": 246903.27272727274,
+    "mean_likes": 5116.909090909091,
+    "mean_comments": 278.09090909090907,
+    "mean_shares": 3834.7272727272725
+  },
+  "std_stats": {
+    "std_views": 685724.5796357442,
+    "std_likes": 15392.861348394881,
+    "std_comments": 294.58698360431833,
+    "std_shares": 11756.607062336558
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 76.03,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 91.38,
+      "P_VFR": 31.03,
+      "P_SRV": 83.91,
+      "P_CLR": 99.43
+    }
+  }
+}

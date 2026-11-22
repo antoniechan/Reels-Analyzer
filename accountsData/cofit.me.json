@@ -1,0 +1,55 @@
+{
+  "account_id": "cofit.me",
+  "full_name": "Cofit我的專屬營養師",
+  "followers": 115657,
+  "follows": 44,
+  "posts_count": 1074,
+  "verified": true,
+  "total_videos_analyzed": 24,
+  "metrics": {
+    "VFR": 0.07482902029276221,
+    "ERV": 0.009185972614340981,
+    "CLR": 0.17777777514403298,
+    "SRV": 0.0016176555547267137,
+    "SLR": 0.20740740433470514,
+    "VFR_mean": 0.1715028057099873,
+    "CV_views": 1.3950287054114576,
+    "CV_likes": 1.694996722879598,
+    "CV_comments": 1.3852733462581968,
+    "CV_shares": 3.1724039872006577
+  },
+  "median_stats": {
+    "median_views": 8654.5,
+    "median_likes": 67.5,
+    "median_comments": 12.0,
+    "median_shares": 14.0
+  },
+  "mean_stats": {
+    "mean_views": 19835.5,
+    "mean_likes": 225.16666666666666,
+    "mean_comments": 24.208333333333332,
+    "mean_shares": 155.375
+  },
+  "std_stats": {
+    "std_views": 27671.09188618897,
+    "std_likes": 381.6567621017228,
+    "std_comments": 33.53515892400051,
+    "std_shares": 492.9122695113022
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 33.19,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 24.14,
+      "P_VFR": 5.75,
+      "P_SRV": 28.16,
+      "P_CLR": 87.36
+    }
+  }
+}

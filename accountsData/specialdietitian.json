@@ -1,38 +1,55 @@
 {
   "account_id": "specialdietitian",
-  "followers": 8200,
-  "total_videos_analyzed": 13,
+  "full_name": "營養師教練-世昕｜ 2024癌友友善營養師",
+  "followers": 8264,
+  "follows": 2717,
+  "posts_count": 735,
+  "verified": false,
+  "total_videos_analyzed": 12,
   "metrics": {
-    "VFR": 0.1703658536585366,
-    "ERV": 0.019327129549515296,
-    "CLR": 0.0,
-    "VFR_mean": 0.21152908067542212,
-    "CV_views": 0.49658267292006025,
-    "CV_likes": 0.5381045110675464,
-    "CV_comments": 2.9143323992525856
+    "VFR": 0.21375847047434657,
+    "ERV": 0.028587602587836058,
+    "CLR": 0.041237112551812116,
+    "SRV": 0.0033965468421191356,
+    "SLR": 0.12371133765543635,
+    "VFR_mean": 1.1589928202646014,
+    "CV_views": 1.9925520849324092,
+    "CV_likes": 1.6659403807878395,
+    "CV_comments": 2.277390249147955,
+    "CV_shares": 2.173019879626312
   },
   "median_stats": {
-    "median_views": 1397.0,
-    "median_likes": 27.0,
-    "median_comments": 0.0
+    "median_views": 1766.5,
+    "median_likes": 48.5,
+    "median_comments": 2.0,
+    "median_shares": 6.0
   },
   "mean_stats": {
-    "mean_views": 1734.5384615384614,
-    "mean_likes": 34.07692307692308,
-    "mean_comments": 0.38461538461538464
+    "mean_views": 9577.916666666666,
+    "mean_likes": 199.75,
+    "mean_comments": 76.08333333333333,
+    "mean_shares": 84.41666666666667
   },
   "std_stats": {
-    "std_views": 861.3417455134183,
-    "std_likes": 18.336946030994085,
-    "std_comments": 1.12089707663561
+    "std_views": 19084.497823475536,
+    "std_likes": 332.77159106237093,
+    "std_comments": 173.27144145600693,
+    "std_shares": 183.4390948384545
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 40.56,
+    "quality_score": 61.75,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 62.75,
-      "P_VFR": 28.43,
-      "P_CLR": 22.06
+      "P_ERV": 86.78,
+      "P_VFR": 25.29,
+      "P_SRV": 59.2,
+      "P_CLR": 72.99
     }
   }
 }

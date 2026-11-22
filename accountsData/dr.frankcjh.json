@@ -1,0 +1,55 @@
+{
+  "account_id": "dr.frankcjh",
+  "full_name": "鍾睿翔醫師｜減重｜腸胃科",
+  "followers": 9951,
+  "follows": 18,
+  "posts_count": 21,
+  "verified": false,
+  "total_videos_analyzed": 9,
+  "metrics": {
+    "VFR": 0.9388001205908953,
+    "ERV": 0.01573538856607414,
+    "CLR": 0.05755395642047514,
+    "SRV": 0.001070434596331574,
+    "SLR": 0.07194244552559392,
+    "VFR_mean": 39.61072589019529,
+    "CV_views": 2.9296387678641733,
+    "CV_likes": 2.930156644154669,
+    "CV_comments": 2.7437294249537394,
+    "CV_shares": 2.60464349731487
+  },
+  "median_stats": {
+    "median_views": 9342.0,
+    "median_likes": 139.0,
+    "median_comments": 8.0,
+    "median_shares": 10.0
+  },
+  "mean_stats": {
+    "mean_views": 394166.3333333333,
+    "mean_likes": 5769.222222222223,
+    "mean_comments": 91.88888888888889,
+    "mean_shares": 121.0
+  },
+  "std_stats": {
+    "std_views": 1154764.9711202057,
+    "std_likes": 16904.72482604921,
+    "std_comments": 252.11824827074915,
+    "std_shares": 315.16186317509926
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 57.13,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 48.85,
+      "P_VFR": 85.63,
+      "P_SRV": 23.56,
+      "P_CLR": 75.86
+    }
+  }
+}

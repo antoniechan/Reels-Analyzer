@@ -1,38 +1,55 @@
 {
   "account_id": "yanliu.ty",
-  "followers": 6200,
-  "total_videos_analyzed": 16,
+  "full_name": "YAN｜無壓力減脂",
+  "followers": 6258,
+  "follows": 723,
+  "posts_count": 1388,
+  "verified": false,
+  "total_videos_analyzed": 18,
   "metrics": {
-    "VFR": 0.24701612903225806,
-    "ERV": 0.017303297409530984,
-    "CLR": 0.01923076849112429,
-    "VFR_mean": 0.38160282258064515,
-    "CV_views": 1.203877330068271,
-    "CV_likes": 0.9243878387888819,
-    "CV_comments": 2.925861443799625
+    "VFR": 0.24480664749121125,
+    "ERV": 0.016971279362290287,
+    "CLR": 0.0,
+    "SRV": 0.003263707569671209,
+    "SLR": 0.1923076849112429,
+    "VFR_mean": 0.4914775753701928,
+    "CV_views": 1.5653558598352881,
+    "CV_likes": 1.281217945415733,
+    "CV_comments": 3.721160181825855,
+    "CV_shares": 2.368534481277971
   },
   "median_stats": {
-    "median_views": 1531.5,
+    "median_views": 1532.0,
     "median_likes": 26.0,
-    "median_comments": 0.5
+    "median_comments": 0.0,
+    "median_shares": 5.0
   },
   "mean_stats": {
-    "mean_views": 2365.9375,
-    "mean_likes": 32.125,
-    "mean_comments": 38.375
+    "mean_views": 3075.6666666666665,
+    "mean_likes": 40.27777777777778,
+    "mean_comments": 53.55555555555556,
+    "mean_shares": 18.166666666666668
   },
   "std_stats": {
-    "std_views": 2848.2985206084,
-    "std_likes": 29.69595932109283,
-    "std_comments": 112.27993290581061
+    "std_views": 4814.512839566734,
+    "std_likes": 51.60461169035592,
+    "std_comments": 199.2888008488958,
+    "std_shares": 43.028376409883144
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 48.19,
+    "quality_score": 42.9,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 51.96,
-      "P_VFR": 36.27,
-      "P_CLR": 58.82
+      "P_ERV": 55.17,
+      "P_VFR": 29.31,
+      "P_SRV": 57.47,
+      "P_CLR": 23.28
     }
   }
 }

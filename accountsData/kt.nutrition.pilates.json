@@ -1,38 +1,55 @@
 {
   "account_id": "kt.nutrition.pilates",
-  "followers": 200000,
-  "total_videos_analyzed": 10,
+  "full_name": "營養師凱蒂 KaiHui",
+  "followers": 205331,
+  "follows": 572,
+  "posts_count": 705,
+  "verified": true,
+  "total_videos_analyzed": 11,
   "metrics": {
-    "VFR": 0.51567,
-    "ERV": 0.022863459188794545,
-    "CLR": 0.2881726302714162,
-    "VFR_mean": 2.8918805,
-    "CV_views": 2.6815605973954852,
-    "CV_likes": 0.730627215506921,
-    "CV_comments": 1.0665298157150533
+    "VFR": 0.4859909122343923,
+    "ERV": 0.023589774423798317,
+    "CLR": 0.3428408440713971,
+    "SRV": 0.0028059204922105054,
+    "SLR": 0.15972618359399532,
+    "VFR_mean": 0.7596975349336172,
+    "CV_views": 0.9978443489314623,
+    "CV_likes": 0.7082347448273596,
+    "CV_comments": 1.1385655334659583,
+    "CV_shares": 1.1456510003385132
   },
   "median_stats": {
-    "median_views": 103134.0,
-    "median_likes": 1830.5,
-    "median_comments": 527.5
+    "median_views": 99789.0,
+    "median_likes": 1753.0,
+    "median_comments": 601.0,
+    "median_shares": 280.0
   },
   "mean_stats": {
-    "mean_views": 578376.1,
-    "mean_likes": 1900.0,
-    "mean_comments": 637.3
+    "mean_views": 155989.45454545456,
+    "mean_likes": 1811.1818181818182,
+    "mean_comments": 866.0909090909091,
+    "mean_shares": 520.7272727272727
   },
   "std_stats": {
-    "std_views": 1550950.5602352708,
-    "std_likes": 1388.19170946315,
-    "std_comments": 679.6994515552035
+    "std_views": 155653.19571108304,
+    "std_likes": 1282.7418928359532,
+    "std_comments": 986.1012579391078,
+    "std_shares": 596.5717209035458
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 75.59,
+    "classification": "neutral",
+    "quality_score": 68.3,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 71.57,
-      "P_VFR": 67.65,
-      "P_CLR": 93.14
+      "P_ERV": 77.01,
+      "P_VFR": 59.77,
+      "P_SRV": 46.55,
+      "P_CLR": 93.1
     }
   }
 }

@@ -1,38 +1,55 @@
 {
   "account_id": "annhealthy_diet",
-  "followers": 1200,
-  "total_videos_analyzed": 10,
+  "full_name": "Ann 營養師",
+  "followers": 1185,
+  "follows": 1405,
+  "posts_count": 128,
+  "verified": true,
+  "total_videos_analyzed": 8,
   "metrics": {
-    "VFR": 0.41083333333333333,
-    "ERV": 0.04259634879797901,
-    "CLR": 0.04999999750000012,
-    "VFR_mean": 0.46975000000000006,
-    "CV_views": 0.4318142774294376,
-    "CV_likes": 0.29508475611188156,
-    "CV_comments": 1.4138865009528165
+    "VFR": 0.4189873417721519,
+    "ERV": 0.04632426979592292,
+    "CLR": 0.14999999250000037,
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.4985232067510548,
+    "CV_views": 0.4548048861381506,
+    "CV_likes": 0.30472934540984026,
+    "CV_comments": 1.1901183744509982,
+    "CV_shares": 1.5269016246728442
   },
   "median_stats": {
-    "median_views": 493.0,
+    "median_views": 496.5,
     "median_likes": 20.0,
-    "median_comments": 1.0
+    "median_comments": 3.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 563.7,
-    "mean_likes": 21.1,
-    "mean_comments": 3.1
+    "mean_views": 590.75,
+    "mean_likes": 21.75,
+    "mean_comments": 3.875,
+    "mean_shares": 1.25
   },
   "std_stats": {
-    "std_views": 243.413708186974,
-    "std_likes": 6.226288353960702,
-    "std_comments": 4.383048152953731
+    "std_views": 268.6759864861125,
+    "std_likes": 6.627863262664026,
+    "std_comments": 4.611708700997618,
+    "std_shares": 1.9086270308410553
   },
   "quality_evaluation": {
-    "classification": "good",
-    "quality_score": 78.77,
+    "classification": "neutral",
+    "quality_score": 60.5,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 98.04,
-      "P_VFR": 59.8,
-      "P_CLR": 74.51
+      "P_ERV": 97.13,
+      "P_VFR": 49.43,
+      "P_SRV": 6.61,
+      "P_CLR": 86.78
     }
   }
 }

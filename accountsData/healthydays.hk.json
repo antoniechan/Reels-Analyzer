@@ -1,0 +1,55 @@
+{
+  "account_id": "healthydays.hk",
+  "full_name": "HealthyDays 日日健康",
+  "followers": 40033,
+  "follows": 575,
+  "posts_count": 863,
+  "verified": false,
+  "total_videos_analyzed": 21,
+  "metrics": {
+    "VFR": 0.6121699597831789,
+    "ERV": 0.004366099481602558,
+    "CLR": 0.0094339621751513,
+    "SRV": 0.0038356387969218737,
+    "SLR": 0.8867924444642222,
+    "VFR_mean": 0.8929383258811481,
+    "CV_views": 0.8913364443630265,
+    "CV_likes": 1.2404439482011895,
+    "CV_comments": 1.4706824282399407,
+    "CV_shares": 1.8661745322281083
+  },
+  "median_stats": {
+    "median_views": 24507.0,
+    "median_likes": 106.0,
+    "median_comments": 1.0,
+    "median_shares": 94.0
+  },
+  "mean_stats": {
+    "mean_views": 35747.0,
+    "mean_likes": 318.3809523809524,
+    "mean_comments": 2.4761904761904763,
+    "mean_shares": 360.8095238095238
+  },
+  "std_stats": {
+    "std_views": 31862.60387664511,
+    "std_likes": 394.93372560348354,
+    "std_comments": 3.6416898223084244,
+    "std_shares": 673.3335443186845
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 47.87,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 12.64,
+      "P_VFR": 69.54,
+      "P_SRV": 64.94,
+      "P_CLR": 52.3
+    }
+  }
+}

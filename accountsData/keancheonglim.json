@@ -1,38 +1,55 @@
 {
   "account_id": "keancheonglim",
-  "followers": 230000,
-  "total_videos_analyzed": 14,
+  "full_name": "KC Lim | Personal Trainer & Online Coach",
+  "followers": 241633,
+  "follows": 447,
+  "posts_count": 1709,
+  "verified": true,
+  "total_videos_analyzed": 26,
   "metrics": {
-    "VFR": 0.38494782608695655,
-    "ERV": 0.025904131559037882,
-    "CLR": 0.00680421422001571,
-    "VFR_mean": 0.5171664596273292,
-    "CV_views": 0.6527622530556638,
-    "CV_likes": 0.8895442529762951,
-    "CV_comments": 2.119715759566265
+    "VFR": 0.46265410767569,
+    "ERV": 0.024125053111576134,
+    "CLR": 0.01200750468592589,
+    "SRV": 0.005760672674770127,
+    "SLR": 0.24165103180425854,
+    "VFR_mean": 0.6331119125667056,
+    "CV_views": 0.7764470770203127,
+    "CV_likes": 1.1977838144421318,
+    "CV_comments": 0.903275975884252,
+    "CV_shares": 1.723113047444656
   },
   "median_stats": {
-    "median_views": 88538.0,
-    "median_likes": 2278.0,
-    "median_comments": 15.5
+    "median_views": 111792.5,
+    "median_likes": 2665.0,
+    "median_comments": 32.0,
+    "median_shares": 644.0
   },
   "mean_stats": {
-    "mean_views": 118948.28571428571,
-    "mean_likes": 3378.214285714286,
-    "mean_comments": 70.07142857142857
+    "mean_views": 152980.73076923078,
+    "mean_likes": 4401.076923076923,
+    "mean_comments": 39.65384615384615,
+    "mean_shares": 1701.8076923076924
   },
   "std_stats": {
-    "std_views": 77644.95097996597,
-    "std_likes": 3005.0711031795627,
-    "std_comments": 148.53151143817897
+    "std_views": 118781.44124620064,
+    "std_likes": 5271.538704576317,
+    "std_comments": 35.81836658217938,
+    "std_shares": 2932.4070388570653
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 64.71,
+    "quality_score": 69.66,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 83.33,
-      "P_VFR": 53.92,
-      "P_CLR": 50.0
+      "P_ERV": 79.89,
+      "P_VFR": 56.32,
+      "P_SRV": 82.76,
+      "P_CLR": 54.6
     }
   }
 }

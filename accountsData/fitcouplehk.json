@@ -1,0 +1,55 @@
+{
+  "account_id": "fitcouplehk",
+  "full_name": "達達Kinder 輕鬆管理體重，活出理想自己",
+  "followers": 42985,
+  "follows": 3637,
+  "posts_count": 2179,
+  "verified": true,
+  "total_videos_analyzed": 25,
+  "metrics": {
+    "VFR": 0.6552750959637083,
+    "ERV": 0.027372457129713052,
+    "CLR": 0.3743315501348814,
+    "SRV": 0.014520538217967106,
+    "SLR": 0.7290552571674594,
+    "VFR_mean": 1.8289561474933114,
+    "CV_views": 1.9429785009474283,
+    "CV_likes": 1.5349766405926804,
+    "CV_comments": 1.4939662778941953,
+    "CV_shares": 2.1950703427324334
+  },
+  "median_stats": {
+    "median_views": 28167.0,
+    "median_likes": 561.0,
+    "median_comments": 210.0,
+    "median_shares": 409.0
+  },
+  "mean_stats": {
+    "mean_views": 78617.68,
+    "mean_likes": 1222.6,
+    "mean_comments": 588.96,
+    "mean_shares": 859.16
+  },
+  "std_stats": {
+    "std_views": 152752.4620343646,
+    "std_likes": 1876.6624407886109,
+    "std_comments": 879.8863790285653,
+    "std_shares": 1885.9166356619974
+  },
+  "quality_evaluation": {
+    "classification": "good",
+    "quality_score": 87.13,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 84.48,
+      "P_VFR": 72.41,
+      "P_SRV": 98.85,
+      "P_CLR": 94.83
+    }
+  }
+}

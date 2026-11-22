@@ -3,9 +3,10 @@ import glob
 import json
 import os
 import numpy as np
-from config import DEFAULT_REELS_DIR, VIDEO_PROC_DIR
+from config import DEFAULT_REELS_DIR, NEW_REELS_DIR, VIDEO_PROC_DIR
 
-DEFAULT_DIR = DEFAULT_REELS_DIR
+# DEFAULT_DIR = DEFAULT_REELS_DIR
+DEFAULT_DIR = NEW_REELS_DIR
 
 # -------------------------------------------------------------------------
 # 官方標準 Canonical Face Mesh 三角剖分索引 (468 點皮膚網格)

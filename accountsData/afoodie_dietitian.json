@@ -1,38 +1,55 @@
 {
   "account_id": "afoodie_dietitian",
-  "followers": 1400,
-  "total_videos_analyzed": 13,
+  "full_name": "愛吃鬼營養師鄭玲君｜減重營養",
+  "followers": 1440,
+  "follows": 409,
+  "posts_count": 803,
+  "verified": false,
+  "total_videos_analyzed": 19,
   "metrics": {
-    "VFR": 0.2842857142857143,
-    "ERV": 0.030150753693088558,
+    "VFR": 0.26180555555555557,
+    "ERV": 0.023872678981770083,
     "CLR": 0.0,
-    "VFR_mean": 17.95532967032967,
-    "CV_views": 3.5257848434763392,
-    "CV_likes": 3.5753784554988397,
-    "CV_comments": 3.452303578771716
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.35014619883040937,
+    "CV_views": 0.6419720774073802,
+    "CV_likes": 0.38762581478896546,
+    "CV_comments": 2.1538876071924014,
+    "CV_shares": 1.7191729277636838
   },
   "median_stats": {
-    "median_views": 398.0,
-    "median_likes": 12.0,
-    "median_comments": 0.0
+    "median_views": 377.0,
+    "median_likes": 9.0,
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 25137.46153846154,
-    "mean_likes": 1175.0,
-    "mean_comments": 3.8461538461538463
+    "mean_views": 504.2105263157895,
+    "mean_likes": 9.473684210526315,
+    "mean_comments": 0.47368421052631576,
+    "mean_shares": 0.2631578947368421
   },
   "std_stats": {
-    "std_views": 88629.28089577712,
-    "std_likes": 4201.069685211137,
-    "std_comments": 13.278090687583523
+    "std_views": 323.68907902961587,
+    "std_likes": 3.6722445611586196,
+    "std_comments": 1.020262550775348,
+    "std_shares": 0.4524139283588641
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 55.61,
+    "quality_score": 37.63,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 89.22,
-      "P_VFR": 41.18,
-      "P_CLR": 22.06
+      "P_ERV": 77.59,
+      "P_VFR": 32.18,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

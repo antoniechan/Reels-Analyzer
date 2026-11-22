@@ -1,38 +1,55 @@
 {
   "account_id": "cynthia_dietitian",
-  "followers": 11116,
-  "total_videos_analyzed": 11,
+  "full_name": "陳怡婷 Cynthia 營養師",
+  "followers": 11144,
+  "follows": 152,
+  "posts_count": 624,
+  "verified": false,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.14816480748470673,
-    "ERV": 0.0018214936236663668,
+    "VFR": 0.14788226848528357,
+    "ERV": 0.0018203883484099585,
     "CLR": 0.0,
-    "VFR_mean": 0.1879273119827276,
-    "CV_views": 0.5032946473917503,
-    "CV_likes": 4.358992581609955,
-    "CV_comments": 0.5256097551674181
+    "SRV": 0.002427184464546611,
+    "SLR": 0.0,
+    "VFR_mean": 0.19609034181898502,
+    "CV_views": 0.5399857349919099,
+    "CV_likes": 4.98414441020022,
+    "CV_comments": 0.5700877125495689,
+    "CV_shares": 0.37172607133323804
   },
   "median_stats": {
-    "median_views": 1647.0,
+    "median_views": 1648.0,
     "median_likes": -1.0,
-    "median_comments": 4.0
+    "median_comments": 4.0,
+    "median_shares": 4.0
   },
   "mean_stats": {
-    "mean_views": 2089.0,
-    "mean_likes": 3.1818181818181817,
-    "mean_comments": 3.5454545454545454
+    "mean_views": 2185.230769230769,
+    "mean_likes": 2.6153846153846154,
+    "mean_comments": 3.8461538461538463,
+    "mean_shares": 4.3076923076923075
   },
   "std_stats": {
-    "std_views": 1051.3825184013665,
-    "std_likes": 13.869521850577128,
-    "std_comments": 1.8635254955935734
+    "std_views": 1179.9934430500136,
+    "std_likes": 13.035454611292884,
+    "std_comments": 2.192645048267573,
+    "std_shares": 1.6012815380508714
   },
   "quality_evaluation": {
     "classification": "bad",
-    "quality_score": 18.01,
+    "quality_score": 22.64,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 9.8,
-      "P_VFR": 24.51,
-      "P_CLR": 22.06
+      "P_ERV": 9.2,
+      "P_VFR": 18.97,
+      "P_SRV": 41.95,
+      "P_CLR": 23.28
     }
   }
 }

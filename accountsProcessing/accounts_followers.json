@@ -1,311 +1,1742 @@
-{
-  "total_accounts": 102,
-  "accounts": {
-    "33dietitian": {
-      "followersCount": 7800
-    },
-    "_bw.health_": {
-      "followersCount": 93000
-    },
-    "afoodie_dietitian": {
-      "followersCount": 1400
-    },
-    "am.lin.777": {
-      "followersCount": 11000
-    },
-    "anan_lin1211": {
-      "followersCount": 5800
-    },
-    "angela_dietitian": {
-      "followersCount": 87000
-    },
-    "anminclinic": {
-      "followersCount": 4800
-    },
-    "annettetam_nutrition": {
-      "followersCount": 5500
-    },
-    "annhealthy_diet": {
-      "followersCount": 1200
-    },
-    "aranthnh": {
-      "followersCount": 68000
-    },
-    "autumnhealth2025": {
-      "followersCount": 2700
-    },
-    "bodymind.nutrition": {
-      "followersCount": 3189
-    },
-    "cadee_fit": {
-      "followersCount": 7124
-    },
-    "cathayhcm": {
-      "followersCount": 2777
-    },
-    "cc_eatfreely": {
-      "followersCount": 5232
-    },
-    "cccdietitian": {
-      "followersCount": 30311
-    },
-    "chang_ricky_life": {
-      "followersCount": 137920
-    },
-    "chobi.h.h": {
-      "followersCount": 3497
-    },
-    "code0723jack": {
-      "followersCount": 6287
-    },
-    "cynthia_dietitian": {
-      "followersCount": 11116
-    },
-    "dietitian._.zoe_": {
-      "followersCount": 8900
-    },
-    "dietitian.lab": {
-      "followersCount": 12000
-    },
-    "dietitian_bgg": {
-      "followersCount": 200000
-    },
-    "dietitian_claire": {
-      "followersCount": 10000
-    },
-    "dietitian_yuan": {
-      "followersCount": 4100
-    },
-    "dietitianlizachan": {
-      "followersCount": 5900
-    },
-    "dn26256": {
-      "followersCount": 9
-    },
-    "donna_dietitian": {
-      "followersCount": 2900
-    },
-    "easy.thin_rich": {
-      "followersCount": 2800
-    },
-    "eat.well.nutrition": {
-      "followersCount": 54000
-    },
-    "emma_dietitian": {
-      "followersCount": 5800
-    },
-    "eric_chewfit": {
-      "followersCount": 2100
-    },
-    "ethan_pharmac": {
-      "followersCount": 47000
-    },
-    "evelyn_nutritionist": {
-      "followersCount": 8300
-    },
-    "fc_nickiescheung": {
-      "followersCount": 1300
-    },
-    "femfitnesshk": {
-      "followersCount": 37000
-    },
-    "fitfitfood__": {
-      "followersCount": 120000
-    },
-    "fitlo_health": {
-      "followersCount": 3900
-    },
-    "foodpower.tw": {
-      "followersCount": 1500
-    },
-    "goodfoodlab_h2s": {
-      "followersCount": 19000
-    },
-    "guiguisay": {
-      "followersCount": 1000
-    },
-    "health_dietitian": {
-      "followersCount": 8300
-    },
-    "healthcodehk": {
-      "followersCount": 120000
-    },
-    "healthlife_yu": {
-      "followersCount": 1500
-    },
-    "healthsmarthk": {
-      "followersCount": 2900
-    },
-    "healthy.foodie.gloria": {
-      "followersCount": 74000
-    },
-    "healthylady2020": {
-      "followersCount": 30000
-    },
-    "hip_concept": {
-      "followersCount": 1600
-    },
-    "ilikeheho": {
-      "followersCount": 220000
-    },
-    "inscie_hk": {
-      "followersCount": 12000
-    },
-    "inutrition333": {
-      "followersCount": 4900
-    },
-    "jerry_dietitian": {
-      "followersCount": 4600
-    },
-    "jessie_magicdiet": {
-      "followersCount": 100000
-    },
-    "jinhan_1208": {
-      "followersCount": 1800
-    },
-    "joe0918_": {
-      "followersCount": 3800
-    },
-    "jojo_lai123": {
-      "followersCount": 160000
-    },
-    "keancheonglim": {
-      "followersCount": 230000
-    },
-    "kenny_nutlife": {
-      "followersCount": 5900
-    },
-    "kingnet.tw": {
-      "followersCount": 4000
-    },
-    "kn.way___": {
-      "followersCount": 160000
-    },
-    "kt.nutrition.pilates": {
-      "followersCount": 200000
-    },
-    "lalafit_llf": {
-      "followersCount": 3200
-    },
-    "madonnatung": {
-      "followersCount": 11000
-    },
-    "mamamia_dietitian": {
-      "followersCount": 16000
-    },
-    "minichen921": {
-      "followersCount": 7200
-    },
-    "minmin_rd": {
-      "followersCount": 370000
-    },
-    "myhealth.hk": {
-      "followersCount": 15000
-    },
-    "ningning_dietitian": {
-      "followersCount": 2200
-    },
-    "nutri_by_bella": {
-      "followersCount": 29000
-    },
-    "nutrition.sarah.c": {
-      "followersCount": 8000
-    },
-    "nutritioniseasy": {
-      "followersCount": 29000
-    },
-    "nutritionlife_crystal": {
-      "followersCount": 33000
-    },
-    "nutroduction": {
-      "followersCount": 20000
-    },
-    "nutruelife": {
-      "followersCount": 270000
-    },
-    "nuture_fit_taichung": {
-      "followersCount": 280000
-    },
-    "ocean_healthyfit": {
-      "followersCount": 3800
-    },
-    "parkernash9": {
-      "followersCount": 33000
-    },
-    "pearyyoga": {
-      "followersCount": 50000
-    },
-    "pei_chinnn": {
-      "followersCount": 6800
-    },
-    "rd.grace.f": {
-      "followersCount": 77000
-    },
-    "rd_yunzheng": {
-      "followersCount": 1100
-    },
-    "rdhuanhuan": {
-      "followersCount": 2300
-    },
-    "rita_wang_health": {
-      "followersCount": 41000
-    },
-    "ruby597599": {
-      "followersCount": 2600
-    },
-    "ruirui.dietitian": {
-      "followersCount": 5100
-    },
-    "ruruby_eater": {
-      "followersCount": 3500
-    },
-    "shalomlammm": {
-      "followersCount": 9900
-    },
-    "simplylita26726": {
-      "followersCount": 3600
-    },
-    "specialdietitian": {
-      "followersCount": 8200
-    },
-    "ss.deititian": {
-      "followersCount": 2300
-    },
-    "suanyuying": {
-      "followersCount": 38000
-    },
-    "taro_dietitian": {
-      "followersCount": 2400
-    },
-    "topshow_get_fit": {
-      "followersCount": 8000
-    },
-    "tuwiene": {
-      "followersCount": 10000
-    },
-    "tzuyu_diet": {
-      "followersCount": 12000
-    },
-    "vivinutritionn": {
-      "followersCount": 19000
-    },
-    "wanpin_li_dietitian": {
-      "followersCount": 11000
-    },
-    "weiofhealth": {
-      "followersCount": 5800
-    },
-    "winny.rd": {
-      "followersCount": 30000
-    },
-    "yanliu.ty": {
-      "followersCount": 6200
-    },
-    "yuhsuan.rd": {
-      "followersCount": 2800
-    },
-    "zimi_rd": {
-      "followersCount": 3200
-    }
+[
+  {
+    "username": "00007n",
+    "fullName": "林品辰 營養師",
+    "followersCount": 2289,
+    "followsCount": 999,
+    "postsCount": 515,
+    "verified": false,
+    "biography": "⟣ 推廣 #自在飲食 的營養師 ⟢\n培養飲食自信，讓妳吃得更自在、身體更健康！\n也在這分享日常的學習與樂趣 🤤🤍✨\n​\n❒ 專長｜增肌減脂・體質調整・消除健檢紅字\n❒ 風格｜身心平衡・做法彈性・習慣成自然\n​\n🔗點擊下方連結預約線上諮詢",
+    "status": "OK"
+  },
+  {
+    "username": "33dietitian",
+    "fullName": "珊珊營養師 ｜ Samantha",
+    "followersCount": 9834,
+    "followsCount": 657,
+    "postsCount": 342,
+    "verified": true,
+    "biography": "📊 閱 𝟓𝟎𝟎𝟎+ 份健檢報告 ‧ 碩士營養師珊珊\n🌸 代謝專家 ‧ 帶妳由內而外吃出貴氣體態\n👑 帶領女性打造「健康 × 影響力 × 事業」\n🎁 私訊【控糖】領《完整控糖避坑筆記》\n✉️ 合作：sam1998tw@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "_bw.health_",
+    "fullName": "良醫健康網",
+    "followersCount": 93138,
+    "followsCount": 33,
+    "postsCount": 788,
+    "verified": false,
+    "biography": "讓好醫師被看見，讓民眾有正確的醫病觀念，是《良醫健康網》不變的初衷✨",
+    "status": "OK"
+  },
+  {
+    "username": "_hanyitang_",
+    "fullName": "翰醫堂中醫診所",
+    "followersCount": 3441,
+    "followsCount": 15,
+    "postsCount": 502,
+    "verified": false,
+    "biography": "📍雙北_翰醫堂總院、幸福院、新板院、復興院、中山院\n📍桃園_翰醫堂藝文院\n📍新竹_翰醫堂關新院\n📍台中_翰醫堂公益院、崇德院、河南院⠀⠀ \n📍台南_翰醫堂崇學院\n📍高雄_翰醫堂博愛院、澄清院",
+    "status": "OK"
+  },
+  {
+    "username": "abbyhsu227",
+    "fullName": "許瓊月 營養師",
+    "followersCount": 3724,
+    "followsCount": 235,
+    "postsCount": 957,
+    "verified": false,
+    "biography": "💙Facebook🔍許瓊月 營養師\n💖天璽營養諮詢中心執行長\n💜我的YouTube 頻道：許瓊月 營養師\n❤️專家來賓/媒體採訪/演講/戲劇/其他合作\n💛工作邀約➡️coolabby227@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "afoodie_dietitian",
+    "fullName": "愛吃鬼營養師鄭玲君｜減重營養",
+    "followersCount": 1440,
+    "followsCount": 409,
+    "postsCount": 803,
+    "verified": false,
+    "biography": "高考營養師|北市大學運科所碩士\n👉9年減重飲食輔導經驗\n👉協助上百位學員吃飽輕鬆減重不復胖\n沒有產品，純用飲食陪你走過減重路\n合作邀約請寄信📧 \noneplusone0110@gmail.com\n👇減肉肉社群 & 外食免費菜單連結👇",
+    "status": "OK"
+  },
+  {
+    "username": "alfalfamedical",
+    "fullName": "初苜中醫診所｜提供多元化中醫治療",
+    "followersCount": 8981,
+    "followsCount": 9,
+    "postsCount": 295,
+    "verified": false,
+    "biography": "🌱全科｜婦科｜痛症｜線上中醫｜生髮治療\n中醫美容｜小顏正骨｜美顏針\n👩🏻‍⚕️碩士博士資深 註冊中醫師主診\n📞電話：3165 1393/ 6288 2727\n@alfalfa_organic\n📍地址：​\n尖沙咀海防道34號寶豐大廈3樓A室\n了解更多⤵️⋯⋯",
+    "status": "OK"
+  },
+  {
+    "username": "am.lin.777",
+    "fullName": "林雨薇 營養師",
+    "followersCount": 10419,
+    "followsCount": 75,
+    "postsCount": 119,
+    "verified": false,
+    "biography": "·臺師大｜健促與衛教｜博士生\n·國體大｜運動科學｜學術傑出學生獎 \n·《逆齡飲食：補出抗老力，越吃越年輕》 #作者 \n·15+年銀髮/保健品/臨床實務\n·主講數百場講座｜企業/校園/社區/品牌\n·熟齡保健/增肌減脂\n#龜速跑者 #貓奴",
+    "status": "OK"
+  },
+  {
+    "username": "anan_lin1211",
+    "fullName": "林安安營養師",
+    "followersCount": 6081,
+    "followsCount": 302,
+    "postsCount": 586,
+    "verified": false,
+    "biography": "跨領域營養顧問：寵物營養、美容保健與專欄作家\t\n除了人類健康，林安安營養師更致力於寵物健康與美容養生領域。\n擔任多個品牌營養顧問與專欄作家，提供產品置入、直播帶貨及講座服務\n📩營養師alannalin1211@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "angela_dietitian",
+    "fullName": "Angela安琪拉營養師",
+    "followersCount": 86405,
+    "followsCount": 1005,
+    "postsCount": 543,
+    "verified": false,
+    "biography": "喜歡珍珠奶茶的營養師\n不哭不哭，奶茶加珍珠\n-\n減脂｜外食｜多囊性卵巢\n-\n💌dietitianangela520@gmail.com\n團購合作暫勿來信謝謝\n#angela教你吃外食 #angela生活營養\n#angela說增肌減脂",
+    "status": "OK"
+  },
+  {
+    "username": "anminclinic",
+    "fullName": "安民家醫｜家庭醫學x運動醫學",
+    "followersCount": 5390,
+    "followsCount": 12,
+    "postsCount": 221,
+    "verified": false,
+    "biography": "👋 安民家醫診所｜身心整合健康站\n📍台北大安區｜預約制診療\n💡家庭醫學/運動醫學/心理諮詢/營養諮詢/恢復保養/體態雕塑 六大核心服務",
+    "status": "OK"
+  },
+  {
+    "username": "annettetam_nutrition",
+    "fullName": "AnnetteTam微營養",
+    "followersCount": 5462,
+    "followsCount": 93,
+    "postsCount": 395,
+    "verified": false,
+    "biography": "- 耀升&卓越營業培訓總監\n- 幼聯星級講師\n- 燃點健康教育平台創辦人\n- 肝臟內調創辦人\n- Podcast Host #annettetam微營養\n👇🏻立即預約一對一營養諮詢👇🏻",
+    "status": "OK"
+  },
+  {
+    "username": "annhealthy_diet",
+    "fullName": "Ann 營養師",
+    "followersCount": 1185,
+    "followsCount": 1405,
+    "postsCount": 128,
+    "verified": true,
+    "biography": "1.慢性腎臟病專科認證\n2. 具數百位腎臟病個案營養照護經驗\n3. 輔導腎臟病患者改善體重下降\n電子報不定期開放免費諮詢名額↓\nhttps://reurl.cc/1lQDQX",
+    "status": "OK"
+  },
+  {
+    "username": "aranthnh",
+    "fullName": "安曼營養𝑨𝒓𝒂𝒏𝒕𝒉 𝑵𝒖𝒕𝒓𝒊𝒕𝒊𝒐𝒏 𝑪𝒍𝒊𝒏𝒊𝒄  專業營養師診所",
+    "followersCount": 68151,
+    "followsCount": 594,
+    "postsCount": 165,
+    "verified": false,
+    "biography": "👩🏻‍⚕️ 香港專業註冊營養師\n增肌減脂｜三高｜脂肪肝飲食治療\n𝐒𝐢𝐧𝐜𝐞 𝟐𝟎𝟏𝟖·成功個案逾萬+\n📩 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥查詢 9681 0662\n.\n醫學營養《不做機 不吃藥 無副作用》\n🔰營養學碩士 持PT 中醫營養 自然療法 行為治療執照",
+    "status": "OK"
+  },
+  {
+    "username": "aspira_tcm",
+    "fullName": "承志中醫診所｜荔枝角中醫｜埋線減肥｜中醫婦科｜中醫皮膚科｜中醫濕疹",
+    "followersCount": 18284,
+    "followsCount": 168,
+    "postsCount": 240,
+    "verified": true,
+    "biography": "良心 • 人本 • 長遠\n📍荔枝角中醫\n針灸｜正骨｜拔罐｜埋線\n中醫紥肚｜中醫美容\n物理治療｜兒童生長發展\n想了解更多承志中醫診所資料：",
+    "status": "OK"
+  },
+  {
+    "username": "autumnhealth2025",
+    "fullName": "單眼皮女孩👧Katie",
+    "followersCount": 2726,
+    "followsCount": 39,
+    "postsCount": 225,
+    "verified": false,
+    "biography": "做過業務，搞到身體很差\n✨跟著營養師學習飲控📑\n從56kg👉52kg，體脂22％\n沒有不能吃的食物！\n✖️節食 ✖️挨餓 ✖️打針\n陪伴外食族好好變瘦，減脂觀念分享😊\n北高360、三鐵515，下一站是台北馬🔥",
+    "status": "OK"
+  },
+  {
+    "username": "b.and.nutrition",
+    "fullName": "包營養．包總",
+    "followersCount": 1872,
+    "followsCount": 0,
+    "postsCount": 382,
+    "verified": false,
+    "biography": "我是包總，一間保健生技工廠的老闆\n包總自己出來站在幕前的初衷～\n就是希望大家不再被【外行話術】\n人人都吃得到【內行配方】的保健食品\n　\nFB直播時間 ➡️ 每週二＆週四．晚上8點\n產品詢問 ➡️ IG私訊／FB粉專私訊／加入LINE社群／LINE官方帳號",
+    "status": "OK"
+  },
+  {
+    "username": "bodymind.nutrition",
+    "fullName": "營養師朱瑞君｜壓力胖飲食｜減脂食譜",
+    "followersCount": 3153,
+    "followsCount": 593,
+    "postsCount": 394,
+    "verified": false,
+    "biography": "朱瑞君 Judy｜MBA營養師｜健康產業發展顧問\n🧠NLP + 教育肌應學｜神經可塑｜自律神經反應測試\n🧘‍♀️NGH催眠認證｜靈氣大師｜ SRT前世清理｜14年資歷",
+    "status": "OK"
+  },
+  {
+    "username": "bonliec",
+    "fullName": "李騫賢👩🏻‍⚕️Bon醫幫你「養心X養身」",
+    "followersCount": 21011,
+    "followsCount": 461,
+    "postsCount": 99,
+    "verified": false,
+    "biography": "👩🏻‍⚕️全科醫師 . 針灸碩士. 香港美顏針學會證書\n👩🏻‍⚕️濕疹｜婦科｜面癱｜美顏針｜埋線減肥｜痛症｜乳房病\n🏥香港大學 針灸學碩士 \n🏥香港中文大學 中醫學學士\nCo-founder of @kingxmedic_ \n❣️敬請預約wtsapp97279331\n🙏週四、日休息🔻合作/查詢IG DM",
+    "status": "OK"
+  },
+  {
+    "username": "cadee_fit",
+    "fullName": "Cadee Chak翟佩君",
+    "followersCount": 7159,
+    "followsCount": 1001,
+    "postsCount": 396,
+    "verified": true,
+    "biography": "🇭🇰運動營養師｜抗炎減脂增肌🍀\n2025世錦賽健體小姐冠軍 🥇x19\n👩🏽‍🎓CUHK運動醫學與健康科學碩士\n-真實的我在Story🤫-1對1諮詢/合作DM📩",
+    "status": "OK"
+  },
+  {
+    "username": "cathayhcm",
+    "fullName": "國泰健康管理",
+    "followersCount": 2802,
+    "followsCount": 11,
+    "postsCount": 169,
+    "verified": false,
+    "biography": "『客戶最推薦的健康管理機構』\n結合預防醫學專業及創新科技，提供高品質、有效果、普及化、且持續的健康管理策略，以專業、貼心建構多元化的專業安心服務，持續為顧客帶來優良的體驗。\n  \n國泰產後護理之家 @cathaybabycare",
+    "status": "OK"
+  },
+  {
+    "username": "cc_eatfreely",
+    "fullName": "CC陪你吃｜狠甩10級體態",
+    "followersCount": 5659,
+    "followsCount": 344,
+    "postsCount": 139,
+    "verified": false,
+    "biography": "曾經重複減重輪迴 花了破百萬減重\n💝療癒減肥法💝創始人\n* 一對一陪跑中，養成易so體質\n* 不是教你少吃，是陪你聰明吃\n* 不要你so一陣子，要你so一輩子\n私藏20頁 享so筆記 加入官方免費送你⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "cccdietitian",
+    "fullName": "江哲均 營養師 飲食規劃｜運動營養｜增肌減脂",
+    "followersCount": 30411,
+    "followsCount": 971,
+    "postsCount": 501,
+    "verified": true,
+    "biography": "直男營養師-這裡沒有心靈雞湯\n運動科學碩士\n📪cccdietitian@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "cecilia_pharmacist",
+    "fullName": "CC藥師  西西莉亞",
+    "followersCount": 282,
+    "followsCount": 185,
+    "postsCount": 346,
+    "verified": false,
+    "biography": "💊執業超過20年專業藥師\n🌐不安於室開斜槓\n💫亮澤肌膚零底妝\n⭐️美顏保養不藏私\n🩺營養保健來問我\n🏋‍♀️健身重訓10幾年\n🌍新加坡外商公司：全美世界\n💯一套解決所有肌膚問題的保養品\n#斜槓藥師藥斜槓\n#你可以不跟上時代\n#絕不能被潮流淘汰",
+    "status": "OK"
+  },
+  {
+    "username": "chang_ricky_life",
+    "fullName": "Ricky｜營養師｜減脂結合生活",
+    "followersCount": 140157,
+    "followsCount": 1508,
+    "postsCount": 1331,
+    "verified": true,
+    "biography": "▫️國家營養師｜3C 減肥法創始人｜2 本暢銷減脂書\n▫️50+ 位營養師團隊，陪學員減下破萬公斤\n▫️減脂卡關不是你不夠努力，是還沒搞懂自己是哪一型\n👇 11/8（日）19:00 免費直播｜代謝卡關",
+    "status": "OK"
+  },
+  {
+    "username": "chiang_kun_chun",
+    "fullName": "江坤俊 醫師",
+    "followersCount": 17671,
+    "followsCount": 2,
+    "postsCount": 236,
+    "verified": false,
+    "biography": "天成醫療體系天祥醫院副院長\n-\n合作邀約請洽\nRobertviolet6292@yahoo.com.tw",
+    "status": "OK"
+  },
+  {
+    "username": "childcare_2025",
+    "fullName": "陪你長大｜小兒科診所",
+    "followersCount": 139,
+    "followsCount": 12,
+    "postsCount": 74,
+    "verified": false,
+    "biography": "🌱 陪你長大｜兒童健康・成長發育\n👩🏻‍⚕️ 周易宣醫師 x 陳安婕醫師｜兒童內分泌・耳鼻喉專科\n從日常看診到身高、體重與發育追蹤\n提供孩子成長路上的一站式照護\n📍新竹竹北市光明六路東二段341號\n👇🏻 官方網站｜LINE 預約",
+    "status": "OK"
+  },
+  {
+    "username": "chineseessence",
+    "fullName": "德善堂中醫",
+    "followersCount": 2609,
+    "followsCount": 10,
+    "postsCount": 470,
+    "verified": false,
+    "biography": "德善堂中醫始創於2000年，由星級醫師帶領，以豐富的臨床經驗提供全面而專業的中醫服務。",
+    "status": "OK"
+  },
+  {
+    "username": "chip.pharmacist",
+    "fullName": "奇奇藥師",
+    "followersCount": 13327,
+    "followsCount": 124,
+    "postsCount": 83,
+    "verified": true,
+    "biography": "🔛我的試管日記連載中📝\n👶 安心育兒｜🍳健康料理｜💊用藥知識\n神隊友 @jeff.pharmacist\n商業合作📩boen2425@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "code0723jack",
+    "fullName": "吳政儒",
+    "followersCount": 6562,
+    "followsCount": 1154,
+    "postsCount": 399,
+    "verified": true,
+    "biography": "健康培育講師\n親子教育顧問\n幫助超過兩千位朋友改善健康及情緒\n台南陽風講座空間負責人\n🍻Titok儒哥降落傘",
+    "status": "OK"
+  },
+  {
+    "username": "cofit.me",
+    "fullName": "Cofit我的專屬營養師",
+    "followersCount": 115657,
+    "followsCount": 44,
+    "postsCount": 1074,
+    "verified": true,
+    "biography": "🏆 ８週高速燃脂 👉 個人化荷爾蒙飲控方案\n🛒 健康嚴選商城 👉 專家團隊把關有效劑量\n—教授級醫師、藥師、營養師，共同監製—\n✨雙十一慶 ing ⭐️",
+    "status": "OK"
+  },
+  {
+    "username": "colon.in.my.heart",
+    "fullName": "陳致一醫師",
+    "followersCount": 8797,
+    "followsCount": 491,
+    "postsCount": 281,
+    "verified": false,
+    "biography": "📌義大醫院大腸直腸外科主任                                       \n📌中華民國大腸直腸外科醫學會第20屆常務理事  \n👉大腸•直腸•肛門專科醫師\n👉微創腹腔鏡•達文西機械人手術\n👉微創痔瘡手術\n🏅SNQ大腸直腸癌治療團隊\n🏅SNQ精準微創痔瘡團隊",
+    "status": "OK"
+  },
+  {
+    "username": "cosima.medical",
+    "fullName": "康展邁醫學中心",
+    "followersCount": 10428,
+    "followsCount": 56,
+    "postsCount": 158,
+    "verified": false,
+    "biography": "COSIMA 康展邁醫學中心\n沙田石門大圍 | 香港首間專科中醫診所\n▪️ 精準國醫學及亞健康專科\n▪️ 中醫婦科及助孕生育調理\n▪️ 脾胃營養專科及中醫減肥\n▪️ 痛症治療及運動創傷治療\n📍 沙田京瑞廣場一期17樓G室\n🕐 診症時間：星期二、四、六、日\n📩 查詢預約：6728 3773",
+    "status": "OK"
+  },
+  {
+    "username": "cynthia_dietitian",
+    "fullName": "陳怡婷 Cynthia 營養師",
+    "followersCount": 11144,
+    "followsCount": 152,
+    "postsCount": 624,
+    "verified": false,
+    "biography": "#營養師 #作家 #講師\n👩‍⚕️臨床營養師｜體重管理營養師｜糖尿病衛教師｜腎臟專科營養師｜長照Level 3 認證（10年醫院營養師資歷）\n📖出版書：2026《脂肪肝，可逆轉》、2025《吃出好腎力》、2023《選食》\n💌合作邀約：service.kol2@learneating.com",
+    "status": "OK"
+  },
+  {
+    "username": "d.martin0112",
+    "fullName": "馬丁大夫/藥師雙證照-身高成長顧問",
+    "followersCount": 11064,
+    "followsCount": 470,
+    "postsCount": 393,
+    "verified": true,
+    "biography": "T.A.L.L 創辦人｜專注孩子身高\n全球7000 位家長首選\n陪孩子一年長高 6-10cm\n告別錯誤傳統方法，少走冤枉路\n私訊領取成長秘訣",
+    "status": "OK"
+  },
+  {
+    "username": "dashin.ivf",
+    "fullName": "大新婦產科診所 生殖中心",
+    "followersCount": 10356,
+    "followsCount": 93,
+    "postsCount": 295,
+    "verified": false,
+    "biography": "Dashin Reproductive Center\n備孕/人工受孕/試管/借卵/凍卵\n📍台中巿南屯區大進街449號",
+    "status": "OK"
+  },
+  {
+    "username": "dd_hea1th",
+    "fullName": "DD姐養生論",
+    "followersCount": 46881,
+    "followsCount": 0,
+    "postsCount": 104,
+    "verified": false,
+    "biography": "54歲的我，比年輕時更懂得享受生活。\n步入中年，最不該省的投資就是「愛自己」❤️\n🧡 好心態｜遠離焦慮，優雅地面對歲月\n🥦 吃營養｜乾淨飲食，身體細胞最懂你\n🏃‍♀️ 多運動｜流汗，是最奢侈、最天然的保養\n⬇️ 讓我陪你由內而外輕鬆順暢，點擊下方",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian.lab",
+    "fullName": "吳映澄 營養師",
+    "followersCount": 11585,
+    "followsCount": 609,
+    "postsCount": 300,
+    "verified": true,
+    "biography": "#營養師 #作家 #食品顧問 \n📘著作《#外食族必學的健康擇食法》\n📧合作邀約請聯繫 \ndietitianlab1@gmail.com\n網站連結 • 優惠資訊👇",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian.missli",
+    "fullName": "註冊營養師 Dietitian (Melissa Li)",
+    "followersCount": 16245,
+    "followsCount": 1375,
+    "postsCount": 250,
+    "verified": true,
+    "biography": "🏢 @nutriwise.wellness \n🎓 𝑀𝑜𝓃𝒶𝓈𝒽 澳洲營養學碩士🇦🇺\n👩🏻‍⚕️ 營養咨詢 [體重管理| PCOS | 𝑀𝐵-𝐸𝒜𝒯 | 糖尿病 | 三高 | 備孕懷孕| 脂肪肝]\n📍 地點 : 中環/ 新蒲崗\n📺 𝐻𝑜𝓈𝓉 學人沙龍 | 醫度講",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian_bgg",
+    "fullName": "壯壯營養師",
+    "followersCount": 199305,
+    "followsCount": 187,
+    "postsCount": 913,
+    "verified": true,
+    "biography": "-\n🎖️幫助1000+學員吃飽開心減重不復胖\n-\n• 放縱減肥法創始人\n• 國家營養師\n• 100公斤肥宅到健美選手\n• 大肉帳 @dietitian_bgg_pig \n-\n— 減肥別再用痛苦的方式反覆失敗了\n.\n免費減肥教學 ✚ 官方line: @ fatbyebye",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian_claire",
+    "fullName": "營養大小事-小戴營養師",
+    "followersCount": 10356,
+    "followsCount": 73,
+    "postsCount": 208,
+    "verified": false,
+    "biography": "營養知識｜飲食觀點｜生活紀錄\n👀讓我們來一探究竟👀\n-\n📍 寵物營養師\n📍 體重管理師\n📍 腎臟專科營養師\n📍 保健食品工程師\n📍 糖尿病衛教師\n-\n️💌歡迎工作邀約喔⤵️\nclaire@fjb100.com",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian_pink",
+    "fullName": "Daphne 品瑄營養師 🌸",
+    "followersCount": 80883,
+    "followsCount": 40,
+    "postsCount": 1486,
+    "verified": true,
+    "biography": "飲控穩糖｜懶人健康料理｜雙寶媽&貓奴\n🇹🇼營養碩士x 心理碩士生 x 🇬🇧TQUK心理諮詢師\n✨一人份的飲控生活提案✨新書熱賣中🌈\nYT頻道「營養師品瑄」邁向40萬訂閱💪\n-\n合作邀約：nutri.pinky@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "dietitian_yuan",
+    "fullName": "顏元瀅營養師 健康減重｜正念飲食",
+    "followersCount": 4107,
+    "followsCount": 326,
+    "postsCount": 197,
+    "verified": false,
+    "biography": "👩🏻‍⚕️健康減脂/穩定三高/兒童成長/正念飲食\n💪🏻營養諮詢門診執業中\n🌟正念飲食：吃的均衡且自由\n分享營養師的日常，維持體態的技巧",
+    "status": "OK"
+  },
+  {
+    "username": "dietitianlizachan",
+    "fullName": "Dietitian Liza Chan",
+    "followersCount": 5989,
+    "followsCount": 327,
+    "postsCount": 351,
+    "verified": false,
+    "biography": "Accredited Practicing Dietitian\nRegistered Dietitan, UK. \nSports Dietitian, Aust. \nHKUSpace adjunct lecturer\n歡迎DM查詢\nDM for Collab\n#註冊營養師運動營養師 \n#減肥運動營養",
+    "status": "OK"
+  },
+  {
+    "username": "dn26256",
+    "fullName": "Dn伴你左右（领食谱-看主页）",
+    "followersCount": 18,
+    "followsCount": 7,
+    "postsCount": 103,
+    "verified": false,
+    "biography": "想瘦5-15公斤嗎？吃對三餐，比少吃更重要\n分享三餐食譜⬇️私信小盒子免費領取💬\nLINE：miye808\nWhatsApp: +886 912406060\nWeChat: 13144627931",
+    "status": "OK"
+  },
+  {
+    "username": "doctor.kuo",
+    "fullName": "大俠中醫 俠醫 郭于賢",
+    "followersCount": 146213,
+    "followsCount": 21,
+    "postsCount": 510,
+    "verified": true,
+    "biography": "大俠中醫｜郭于賢醫師\n中國醫藥大學 中醫傷科主治醫師\n筋骨痠痛｜手腳麻｜五十肩｜產後調理｜椎間盤突出｜徒手治療｜免開刀｜術後調理｜脊椎側彎矯正\n中醫 × 運動醫學 × 太極\n合作·演講·義診·邀約\na0985155531@gmail.com\n👇 私訊可聊",
+    "status": "OK"
+  },
+  {
+    "username": "doctorangel428",
+    "fullName": "安琪拉的醫世界-蔡孟璇醫師",
+    "followersCount": 32105,
+    "followsCount": 194,
+    "postsCount": 776,
+    "verified": true,
+    "biography": "金牛座｜O型｜ESFJ\n診所打工仔+保養狂熱份子❤️‍🔥\n把複雜醫學變成簡單保養\n陪你一起養出發光好皮膚✨\n聯絡信箱: doctorangel428@gmail.com\n📍超亮皮膚科診所\n📍小千醫師診所\n📍樂瑅診所林口\n📍琢美妍診所\n#醫師保養日常 #護膚研究天地 #aesthetic",
+    "status": "OK"
+  },
+  {
+    "username": "donna_dietitian",
+    "fullName": "Donna 營養師",
+    "followersCount": 2905,
+    "followsCount": 178,
+    "postsCount": 785,
+    "verified": false,
+    "biography": "台灣少數專精保健食品和功能醫學的營養師，擁有千場以上演講經驗，擅長將艱難的營養知識轉化成民眾聽得懂的語言，也是「治本保健營養攻略」及「保健食品研發」課程創辦人，幫助更多人得到健康是我的夢想。",
+    "status": "OK"
+  },
+  {
+    "username": "dr.chiangofficial",
+    "fullName": "DR.C+醫生",
+    "followersCount": 1524,
+    "followsCount": 1,
+    "postsCount": 135,
+    "verified": false,
+    "biography": "－DR.C ✜ C醫生醫能補品－\n｜醫科專業配方、成份堅持足量｜\n全台唯一，醫能等級保健食品\n醫師級調理配方\n關鍵營養、科學專利\n足量添加、絕不妥協\n波蘭IWIS發明金獎，SNQ認證生技大廠\n51項科技專利，頂規製程、有感補給\n@dr.chiangofficial",
+    "status": "OK"
+  },
+  {
+    "username": "dr.frankcjh",
+    "fullName": "鍾睿翔醫師｜減重｜腸胃科",
+    "followersCount": 9951,
+    "followsCount": 18,
+    "postsCount": 21,
+    "verified": false,
+    "biography": "鍾睿翔醫師｜醫學減重｜內視鏡減重\n前台大醫院腸胃科主治醫師\n內科、腸胃科、內視鏡專科醫師",
+    "status": "OK"
+  },
+  {
+    "username": "dr.jeffyang",
+    "fullName": "Dr. Jeff｜傑夫醫師",
+    "followersCount": 8725,
+    "followsCount": 1583,
+    "postsCount": 238,
+    "verified": false,
+    "biography": "《約診制》\n預約/諮詢請加官方賴\n本人回覆 請稍待🙏🏻\n-\n台大醫學系畢業\n麻醉專科醫師/資深微整醫師\n蒔恩美學診所院長 @sheand_daan_clinic \n逆時整形外科診所 共同創辦人\n@needs_clinic \n-\n合作邀約🉑DM",
+    "status": "OK"
+  },
+  {
+    "username": "dr.joesfsays",
+    "fullName": "陳炳曄醫師的疼痛診療間",
+    "followersCount": 1160,
+    "followsCount": 55,
+    "postsCount": 407,
+    "verified": false,
+    "biography": "身體陪你走了很遠的路，\n它不會說話，只會用痠、用痛提醒你。\n保養自己不是奢侈，\n是對一直撐著的自己，說聲謝謝。\n🌿 中西醫師・微創針刀\n高雄｜頸肩腰膝的痛，慢慢陪你鬆開",
+    "status": "OK"
+  },
+  {
+    "username": "dr.tsaijili",
+    "fullName": "蔡明劼醫師",
+    "followersCount": 4447,
+    "followsCount": 485,
+    "postsCount": 317,
+    "verified": false,
+    "biography": "🧑‍⚕️高雄減重門診｜線上瘦身課程\n📍台大醫學系畢｜糖尿病、肥胖症專科\n🔥健力三項金牌｜半馬破二跑者\n✨臉書《蔡醫師瘦身班》創辦人\n📗著作《搞懂內分泌練成你的易瘦體質》",
+    "status": "OK"
+  },
+  {
+    "username": "dr.uncle.cheung",
+    "fullName": "Uncle張 中醫博士",
+    "followersCount": 1543,
+    "followsCount": 0,
+    "postsCount": 41,
+    "verified": false,
+    "biography": "張桂鴻中醫博士以經方腹診進行辨證，著力從病根為患者調理各種疑難雜症。\n本頻道將深入淺出地講解養生知識，從飲食調養到穴位療法，讓中醫智慧轉化為您每日可實踐的健康習慣。\n歡迎訂閱、按讚及分享給親友，一同邁向真正嘅健康。\n聲明：本頻道所有內容僅供公眾教育及參考之用，並不構成任何專業醫療建議、診斷或治療。",
+    "status": "OK"
+  },
+  {
+    "username": "dr_alley",
+    "fullName": "鄔翔帆醫師｜減重｜長高",
+    "followersCount": 1996,
+    "followsCount": 1,
+    "postsCount": 79,
+    "verified": true,
+    "biography": "📍光田綜合醫院｜主治醫師｜減重門診主任\n🫶 減肥不孤單\n📏 孩子長高有方法\n✨ 有效改善關節炎、異位性皮膚炎、慢性蕁麻疹\n💬 整個台灣都是我的健康諮詢室\n💪 一起找回自信與健康\n#鄔翔帆醫師",
+    "status": "OK"
+  },
+  {
+    "username": "dr_pj_chiang",
+    "fullName": "江佩璋醫師｜泌尿專科",
+    "followersCount": 5221,
+    "followsCount": 1613,
+    "postsCount": 379,
+    "verified": true,
+    "biography": "台北內湖三總｜汀州三總\n泌尿科專科｜外科專科\n攝護腺微創｜雷射、拉提、水蒸氣消融\n⬇️⬇️⬇️ 我的泌尿健康網站",
+    "status": "OK"
+  },
+  {
+    "username": "drbonespine",
+    "fullName": "骨科好鄰居 陳宇聖醫師",
+    "followersCount": 1823,
+    "followsCount": 118,
+    "postsCount": 93,
+    "verified": false,
+    "biography": "🏥臺北市立聯合醫院 陽明院區\n台灣大醫學系 | 成大醫院骨科 \n脊椎問題 | 關節退化評估 | 骨折創傷 | 增生療法 | 骨質疏鬆評估\n🌟好鄰居與你分享，在日常活出強筋健骨",
+    "status": "OK"
+  },
+  {
+    "username": "drchangshinyu",
+    "fullName": "張芯瑜 眼科醫師 近視雷射/老花雷射/乾眼症/白內障 台北/新北",
+    "followersCount": 25961,
+    "followsCount": 6,
+    "postsCount": 413,
+    "verified": false,
+    "biography": "📍 台北 & 新北 \n近視雷射 | 老花雷射 | 白內障 | 乾眼症\n遠見眼科台北101旗艦中心副院長\n☎️ 官方Line預約｜請點下方連結👇\n--------------------------\n德國蔡司原廠認證醫師 \n​中華民國眼科醫學會年會講師",
+    "status": "OK"
+  },
+  {
+    "username": "drjillgrowthgene",
+    "fullName": "菁兒醫師的成長花園",
+    "followersCount": 1011,
+    "followsCount": 140,
+    "postsCount": 219,
+    "verified": false,
+    "biography": "兒童遺傳內分泌科醫師\n陪爸媽一起看懂身高、體重與青春期\n🔆桂格優成長素代言人\n📍台北禾馨｜成長空間📍新竹沐橙\n⬇️ 預約門診&衛教文章",
+    "status": "OK"
+  },
+  {
+    "username": "drjjshaw",
+    "fullName": "蕭捷健 醫師",
+    "followersCount": 30696,
+    "followsCount": 1202,
+    "postsCount": 905,
+    "verified": false,
+    "biography": "碳水循環，飲食自由",
+    "status": "OK"
+  },
+  {
+    "username": "easy.thin_rich",
+    "fullName": "茶哥| 減肥・小腹・內臟脂肪",
+    "followersCount": 2845,
+    "followsCount": 6178,
+    "postsCount": 2740,
+    "verified": false,
+    "biography": "茶哥｜帶你健康瘦\n❗️減肥反覆｜小腹卡住｜內臟脂肪\n📉 分享代謝・體脂・腰圍管理\n🥗 不挨餓、不走極端減肥\n👇 加入群組，看真實見證",
+    "status": "OK"
+  },
+  {
+    "username": "eat.well.nutrition",
+    "fullName": "Nutri Life 🧡 智悅營養顧問中心｜註冊營養師",
+    "followersCount": 54519,
+    "followsCount": 227,
+    "postsCount": 352,
+    "verified": false,
+    "biography": "“Better 𝙉𝙪𝙩𝙧𝙞𝘵𝘪𝘰𝘯, Better 𝙇𝙞𝙛𝙚” ♡ \n識揀「適」食，就可以越食越fit! 😋\n┈┈┈┈┈┈┈┈┈┈┈\n🌻 「為食」 #註冊營養師 @healthy.foodie.gloria \n👩🏻‍⚕️ 最新營養資訊 #體重管理 #病患管理\n🍿 健康好味的食肆和零食\n🍳 簡易食譜",
+    "status": "OK"
+  },
+  {
+    "username": "elephantalkshow",
+    "fullName": "大象醫師 | Wei-Shin",
+    "followersCount": 26867,
+    "followsCount": 1546,
+    "postsCount": 291,
+    "verified": true,
+    "biography": "❤婦產科專科醫師❤\n•初悅婦研婦產科診所 院長\n•女性荷爾蒙專家 肥胖專科醫師\n•多囊性卵巢實戰攻略班 創辦人\n•女性荷爾蒙全套檢查服務\n•亂經 / 減重 / 失眠 / 抗衰\n👇網站及資料庫👇\nportaly.cc/drelephant\n♀抗衰老♀減重♀女性荷爾蒙\n♀多囊性卵巢♀性教育",
+    "status": "OK"
+  },
+  {
+    "username": "emma_dietitian",
+    "fullName": "營養師 Emma",
+    "followersCount": 5847,
+    "followsCount": 23,
+    "postsCount": 711,
+    "verified": false,
+    "biography": "營養師Emma的百變日常\n_\n臨床營養師 / 衛教師（糖尿病/腎臟病） / 基因健康管理師\n＿\n合作邀約請寄信📧emmaliu0001@gmail.com\n＿\n從吃開始，品嚐營養\n#營養師 #營養師Emma #營養",
+    "status": "OK"
+  },
+  {
+    "username": "eric_chewfit",
+    "fullName": "𝑬𝒓𝒊𝒄 𝑪𝒉𝒆𝒘🌙｜營養健身教練",
+    "followersCount": 2128,
+    "followsCount": 1654,
+    "postsCount": 185,
+    "verified": false,
+    "biography": "𝐀𝐦𝐰𝐚𝐲 營養講師 + 𝐂𝐀𝐅𝐢𝐭 纖體教練🍳\n🌟個人化體態管理｜幫繁忙的都市人愈食愈Fit\n🏃🏻營養+訓練，由內而外重塑健康\n🧠 𝑪𝒐-𝒇𝒐𝒖𝒏𝒅𝒆𝒓｜ @hoholivinglab\n📩1vs1體重管理諮詢 / 商務交流合作請DM",
+    "status": "OK"
+  },
+  {
+    "username": "ethan_pharmac",
+    "fullName": "Ethan藥師 周藝涵｜實證抗老 • 運動營養",
+    "followersCount": 49457,
+    "followsCount": 67,
+    "postsCount": 119,
+    "verified": true,
+    "biography": "幫想變強、想變年輕的你看懂研究\n💊 執業藥師｜累積百萬人一起用研究做正確選擇\n📩 合作：ethanpharmac@gmail.com\n👇 加 LINE｜藥師挑過的團購＋獨家優惠",
+    "status": "OK"
+  },
+  {
+    "username": "evelyn_nutritionist",
+    "fullName": "營養師 𝑬𝒗𝒆𝒍𝒚𝒏 ｜正念修身營養計劃🩷",
+    "followersCount": 8403,
+    "followsCount": 141,
+    "postsCount": 636,
+    "verified": false,
+    "biography": "身心靈營養師 Evelyn🇭🇰\n樂健營養 @evexiahk \n𝟏𝟑年✨飲食生理心理從根源全面改善 \n累積幫助𝟐𝟎𝟎𝟎+客人｜減走𝟕𝟎𝟎𝟎𝟎+ 𝐜𝐦²內臟脂肪｜改善𝟐𝟎𝟎𝟎𝟎+健康訊號 腸胃便秘 • 體重管理 • 過敏濕疹\n.\n🔸9月皮膚主題｜點連結預約諮詢👇🏻",
+    "status": "OK"
+  },
+  {
+    "username": "evergreen30healthcare",
+    "fullName": "山拾常青診所｜預防醫學·功能醫學 專業",
+    "followersCount": 1166,
+    "followsCount": 14,
+    "postsCount": 168,
+    "verified": false,
+    "biography": "山拾常青 一起健康常青\n提供抗衰老、健康管理等全方位一站式醫療服務\n台北館 (02)2567-5200 \n台中館 (04)2706-3800\n#減重門診 #靜脈雷射 #EECP #高壓氧 #血液淨化",
+    "status": "OK"
+  },
+  {
+    "username": "everydayhealth_tw",
+    "fullName": "早安健康",
+    "followersCount": 488714,
+    "followsCount": 0,
+    "postsCount": 2871,
+    "verified": false,
+    "biography": "每日實用健康好文，幫助你越來越健康💪\n📧合作邀約service@everydayhealth.com.tw\n毛孩健康也是家人大事 👇\nhttps://daypets.tw/\n-\n⬇️點擊看更多健康好物、收聽最新Podcast ⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "farhugs_clinic",
+    "fullName": "FarHugs 抱抱醫學診所｜心理諮商",
+    "followersCount": 8551,
+    "followsCount": 17,
+    "postsCount": 276,
+    "verified": false,
+    "biography": "抱抱心身醫學診所 - 理解你心 照顧你身 🫶🏻 \n📍雙北實體館：士林｜中山｜林口｜線上遠距\n▶ 心理諮商：個人／伴侶家庭／團體／企業\n▶ 門診服務：身心科／精神科\n▶ dTMS 深層經顱磁刺激治療\n▶ 自律神經 HRV 檢測\n◈ 預約諮詢 LINE【@farhugs_clinic】",
+    "status": "OK"
+  },
+  {
+    "username": "fc_nickiescheung",
+    "fullName": "Nickie丨國家公共營養師",
+    "followersCount": 1276,
+    "followsCount": 732,
+    "postsCount": 12,
+    "verified": false,
+    "biography": "🌟丨簡單分享·傳播健康\n🍀丨醫療中心",
+    "status": "OK"
+  },
+  {
+    "username": "femfitnesshk",
+    "fullName": "Fem Fitnesshk | 香港最大規模連鎖女性專屬健身室",
+    "followersCount": 38323,
+    "followsCount": 47,
+    "postsCount": 1041,
+    "verified": false,
+    "biography": "𝑳𝒂𝒅𝒊𝒆𝒔 𝑶𝒏𝒍𝒚 \n📍旺角 • 觀塘 • 灣仔 • 荃灣 • 新蒲崗 • 鰂魚涌\n#私人教練 #教練租場\n⬩旺角友誠商業中心17樓\n⬩荃灣恆生大廈19樓\n⬩觀塘Eastcore 12樓\n⬩新蒲崗The Burrow 21樓\n⬩灣仔The Hennessy 1樓\n⬩鰂魚涌英皇道1001號 20樓",
+    "status": "OK"
+  },
+  {
+    "username": "fit1world",
+    "fullName": "Beryl Chuk | 香港減脂教練 · 體態重塑陪跑",
+    "followersCount": 126652,
+    "followsCount": 300,
+    "postsCount": 5197,
+    "verified": true,
+    "biography": "協助返工族唔挨餓健康變Fit🌈\n🏆8年體態管理經驗｜已1:1指導380+ 學員\n📍三區實體運動店 @jumping.fit.studio\n👇免費減脂評估｜運動試堂｜合作",
+    "status": "OK"
+  },
+  {
+    "username": "fitcouplehk",
+    "fullName": "達達Kinder 輕鬆管理體重，活出理想自己",
+    "followersCount": 42985,
+    "followsCount": 3637,
+    "postsCount": 2179,
+    "verified": true,
+    "biography": "健康體重管理達人｜棟篤笑 @kinderlam8787 @giggle_generation\n優質磷蝦油魚油 @fitcouplehk2\n超過1000位有效果滿意客戶\n全球7間分店招募合作夥伴\n贊助及合作Dm",
+    "status": "OK"
+  },
+  {
+    "username": "fitfitfood__",
+    "fullName": "𝙁𝙞𝙩 𝙁𝙞𝙩 𝙁𝙤𝙤𝙙 營盈樂🔸中醫 營養🔸獨家調理式減重 PCOS 多囊 瘦身 減肥",
+    "followersCount": 125410,
+    "followsCount": 1,
+    "postsCount": 410,
+    "verified": false,
+    "biography": "👩🏻‍⚕️ 註冊中醫×營養師｜50+人專家團隊\n-\n🎯Result First, Sustain After\n⚡️78%參加「10-3減肥法則」會員首10天健康減4-8磅\n💪🏻3-6個月調理鞏固期\n-\n專治：內臟脂肪高｜大肚腩｜產後肥｜PCOS | 平台期| 易反彈體質\n-\n👇🏻預約10-3減肥法則 體質評估",
+    "status": "OK"
+  },
+  {
+    "username": "fitlo_health",
+    "fullName": "FiTLO 營養師線上服務平台",
+    "followersCount": 3916,
+    "followsCount": 160,
+    "postsCount": 494,
+    "verified": false,
+    "biography": "| 專業 x 客製 x 陪伴 | 👩‍⚕️ \n💡 全台首創！最多元的#營養師 線上服務平台\n💻與營養師一對一視訊解決你的營養大小事\n👇我們有多元的營養師課程私訊我們詢問吧👇",
+    "status": "OK"
+  },
+  {
+    "username": "foodpower.tw",
+    "fullName": "食物的力量．呂美寶營養師",
+    "followersCount": 1487,
+    "followsCount": 8,
+    "postsCount": 911,
+    "verified": false,
+    "biography": "你選擇的食物，就是你的健康解方！\n呂美寶營養師，芮霖健康精準營養諮詢中心執行長，擁有功能醫學專業背景，國際生活型態醫學會 (IBLM) 專業人員認證，擅長透過深度諮詢引導提供個人化營養建議與營養實作教學，猶如全家人的家庭營養師，著有《逆轉胰島素阻抗 21天重啟健康代謝》",
+    "status": "OK"
+  },
+  {
+    "username": "gmedical.news",
+    "fullName": "初日醫學",
+    "followersCount": 27047,
+    "followsCount": 48,
+    "postsCount": 530,
+    "verified": false,
+    "biography": "控糖減重門診  | 營養保健 | 三高肥胖 | 體態管理\n.\n宋晏仁 X Cofit團隊共同打造初日醫學，集結各領域醫師，用行為科學及營養學，改善肥胖和飲食相關問題💪\n.\n🎬YT：Cofit x 宋晏仁醫師 - 初日醫學\n.\n 歡迎預約初日控糖減重門診👇\n台北/新竹/高雄皆有據點",
+    "status": "OK"
+  },
+  {
+    "username": "goodfoodlab_h2s",
+    "fullName": "好醣食驗室 by 智抗糖｜營養知識 & 血糖管理",
+    "followersCount": 19446,
+    "followsCount": 100,
+    "postsCount": 291,
+    "verified": false,
+    "biography": "我們研究血糖波動，分享健康的飲食方法\n-\n營養師推薦的保健配方  👉🏼 點連結，前往商城選購\n諮詢血糖探索計畫 👉🏼 點連結、加 Line@詢問\n更多飲食營養知識 🔍 智抗糖部落格\n- \n做實驗帶你吃好醣🤤\nby 智抗糖團隊",
+    "status": "OK"
+  },
+  {
+    "username": "gymbeginner.hk",
+    "fullName": "GymBeginner 健身入門 | 減肥 | 增肌｜長者運動訓練",
+    "followersCount": 78040,
+    "followsCount": 516,
+    "postsCount": 1024,
+    "verified": true,
+    "biography": "佐敦店：\n長樂街19號一樓全層\n灣仔店：\n駱克道114號嘉洛商業大廈1樓全層",
+    "status": "OK"
+  },
+  {
+    "username": "hanen.clinic",
+    "fullName": "涵恩婦產科診所",
+    "followersCount": 269,
+    "followsCount": 13,
+    "postsCount": 43,
+    "verified": false,
+    "biography": "涵恩婦產科診所 📍新竹竹北・台中北屯\n婦科疾病｜子宮鏡｜婦女健檢｜私密美型與功能性療程\n女醫師團隊✨全方位守護女性健康 🤍\n  \n👇🏻官方LINE預約/專人諮詢",
+    "status": "OK"
+  },
+  {
+    "username": "health_dietitian",
+    "fullName": "芝士安營養師｜飲食規劃｜賀爾蒙｜功能營養｜消化道調理",
+    "followersCount": 8261,
+    "followsCount": 679,
+    "postsCount": 268,
+    "verified": false,
+    "biography": "🥗功能醫學|賀爾蒙平衡|覺察覺知👩‍⚕️\n💻營養視訊課程開課中  @fitlo_health\n📖陪你一起漲知識的芝士安/何埻安營養師\n✨這裡沒有熱量文✨\n腸道直播課程報名⬇️\n👇飲食營養調整官方Line/團購連結/合作請📫",
+    "status": "OK"
+  },
+  {
+    "username": "healthcodehk",
+    "fullName": "健康嗎 Health Code",
+    "followersCount": 119093,
+    "followsCount": 38,
+    "postsCount": 2871,
+    "verified": false,
+    "biography": "⭐️加入會員制✨健康不求人⭐️\n推薦欄目：#Chat醫D｜#自療淨院｜#醫檔案\n｜#健康不求人 | #生活解碼 | #飲食解碼｜#時事解碼 \n———\n💌 如有商業合作，歡迎DM查詢",
+    "status": "OK"
+  },
+  {
+    "username": "healthlife_yu",
+    "fullName": "營養師🐟Yu",
+    "followersCount": 1474,
+    "followsCount": 506,
+    "postsCount": 187,
+    "verified": false,
+    "biography": "營養師日常\nJacqueline is right here\n合作邀約：featherworld0516@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "healthsmarthk",
+    "fullName": "Health Smart 樂本健 - 經濟日報集團",
+    "followersCount": 3047,
+    "followsCount": 106,
+    "postsCount": 727,
+    "verified": false,
+    "biography": "#healthylifestyle #healthychoices \n🛒一站式健康產品網購店\n🔍網羅優質國際保健品、天然健康食品、個人護理及頭髮用品等\n🖱健康資訊天天更新\n🇭🇰經濟日報集團成員 \n🔸🔸🔸🔸🔸🔸🔸🔸\n📲下載最新應用程式！✨",
+    "status": "OK"
+  },
+  {
+    "username": "healthy.foodie.gloria",
+    "fullName": "Gloria Tse 為食營養師",
+    "followersCount": 75687,
+    "followsCount": 1568,
+    "postsCount": 1305,
+    "verified": true,
+    "biography": "👩🏻‍⚕️ 註冊營養師提供一對一營養諮詢服務✨\n (@eat.well.nutrition創辦人 🇭🇰)\n💪🏻 私人體適能運動教練\n❤️ NLP 身心語言程式執行師及催眠治療師\n📖 兩本健康食譜著作多度登上《誠品暢銷書榜》\n分享健康食譜、零食、健康貼士；👩🏻‍⚕️\n真實營養師飲食日記及日常生活😋",
+    "status": "OK"
+  },
+  {
+    "username": "healthydays.hk",
+    "fullName": "HealthyDays 日日健康",
+    "followersCount": 40033,
+    "followsCount": 575,
+    "postsCount": 863,
+    "verified": false,
+    "biography": "📌 為忙碌生活準備的健康指南\n醫生專訪・日常保健・迷思拆解\n採訪邀請\nhealthydays@nmg.com.hk\n廣告合作\nhealthydays_salesig@nmg.com.hk",
+    "status": "OK"
+  },
+  {
+    "username": "healthylady2020",
+    "fullName": "小葳營養師",
+    "followersCount": 31873,
+    "followsCount": 768,
+    "postsCount": 544,
+    "verified": false,
+    "biography": "Nuturefit團隊運動營養師\nACECPT私人教練｜中國醫藥大學營養系\n協助上千位客戶健康管理飲食調整運動建議規劃\n專注提供所有人正確健康營養價值觀",
+    "status": "OK"
+  },
+  {
+    "username": "hibody_health",
+    "fullName": "黃琳玲 物理治療師 | 𝐇𝐢𝐁𝐎𝐃𝐘 嗨健康",
+    "followersCount": 33384,
+    "followsCount": 734,
+    "postsCount": 186,
+    "verified": true,
+    "biography": "🖥️ 專治久坐上班族痠痛｜居家自主修復系統\n🥇 臺大物治碩士｜奧運國手隨隊｜企業百場講師\n🌱 《10分鐘終結痠痛手冊》作者\n-\n📧 聯絡我hibody.com.tw@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "hiiamdrlee",
+    "fullName": "李炎諭醫師的復健聊天室",
+    "followersCount": 4666,
+    "followsCount": 199,
+    "postsCount": 531,
+    "verified": false,
+    "biography": "⭐️河堤復健科診所院長\n⭐️復健科/職業醫學科雙專科中西醫師\n⭐️著作：身體消痛復健一本通\n本身很喜歡動漫跟籃球，希望可以在此跟你聊聊天",
+    "status": "OK"
+  },
+  {
+    "username": "hip_concept",
+    "fullName": "HIP CONCEPT (增肌減脂)",
+    "followersCount": 1618,
+    "followsCount": 1025,
+    "postsCount": 802,
+    "verified": false,
+    "biography": "荃灣眾安街114號1樓前座\n#增肌減脂 小組班及一對一/二10年經驗，實例無數weighttrain,kickboxing\nwww.facebook.com/hipconcepthk\n及wts: 9130 6847 #荃灣瘦身 #荃灣市中心 #荃灣gym ig shop @on99design",
+    "status": "OK"
+  },
+  {
+    "username": "holdtruebe_funmacy",
+    "fullName": "好厝邊藥師 | 有溫度的藥師 子毓🌱",
+    "followersCount": 56775,
+    "followsCount": 636,
+    "postsCount": 282,
+    "verified": true,
+    "biography": "「亞健康」題材\n藥品、疾病、保健都講\n保健商城/提問交流/商品客服🔽\n-\n🏡「藥師好鄰」 @holdtruebe 創辦人\n🏥醫院藥局都待過\n🥼鑽研心臟病.糖尿病.腎臟病.兒科\n🤝合作洽mail.  since 2021\n#醫療#斜槓#藥師",
+    "status": "OK"
+  },
+  {
+    "username": "hsinyu_an",
+    "fullName": "安欣瑜醫師",
+    "followersCount": 4995,
+    "followsCount": 120,
+    "postsCount": 482,
+    "verified": false,
+    "biography": "👩‍⚕️台灣肥胖醫學專科醫師\n💪ACE CPT 美國運動指導員 \n🦿中華民國骨質疏鬆學會認證專科醫師\n⭕️嘉義基督教醫院減重中心副主任\n      嘉義基督教醫院部落健康中心主任\n      嘉義基督教醫院健檢中心醫師\n      嘉義基督教醫院家庭醫學科主治醫師\n🩺衛生局糖尿病共同照護網醫師",
+    "status": "OK"
+  },
+  {
+    "username": "ilikeheho",
+    "fullName": "Heho健康",
+    "followersCount": 221243,
+    "followsCount": 16,
+    "postsCount": 6409,
+    "verified": false,
+    "biography": "Heho健康提供醫生、護理師、營養師等專家對於生活的建議及正確的健康資訊📣",
+    "status": "OK"
+  },
+  {
+    "username": "inscie_hk",
+    "fullName": "香港科學知識 | 冷知識 | 文化 | 健康 | 飲食 | 電影 🇭🇰",
+    "followersCount": 12342,
+    "followsCount": 45,
+    "postsCount": 423,
+    "verified": false,
+    "biography": "話理知你唔識嘅科學知識🧬🥼\n📖 《我港理學》 作者\n🎙️ RTHK「Sci時間」主持\n-\nDM for any Collaboration",
+    "status": "OK"
+  },
+  {
+    "username": "inutrition333",
+    "fullName": "愛營養iNutrition",
+    "followersCount": 4868,
+    "followsCount": 2,
+    "postsCount": 714,
+    "verified": true,
+    "biography": "愛營養 iNutrition｜做給家人的保健品 🌿\n黃君聖 Sunny 營養師 👨‍⚕️\n《營養三點鐘》每週跟你聊營養、答疑惑 🥗\n👇 加官方 LINE，健康問題直接問營養師",
+    "status": "OK"
+  },
+  {
+    "username": "ivf.taiwan",
+    "fullName": "茂盛醫院｜試管嬰兒 凍卵 生殖醫學科｜IVF Taiwan",
+    "followersCount": 6625,
+    "followsCount": 152,
+    "postsCount": 1190,
+    "verified": false,
+    "biography": "🧡🧡🧡🧡🧡生命美好 • 因愛茂盛💚💚💚💚💚\n👶🏻 台灣的試管嬰兒權威代表\n👶🏻 台灣每3名試管嬰兒就有1名來自茂盛\n👶🏻 擁有500位醫護同仁，從1986年開始守護全球38個國家，實現每個家庭的未來幸福～\n🏨 #茂盛板橋 #茂盛台中 \n🧑🏻‍⚕️ #每月好孕講座 為你們的好孕領路",
+    "status": "OK"
+  },
+  {
+    "username": "jeff.pharmacist",
+    "fullName": "姐夫藥師Jeff",
+    "followersCount": 17211,
+    "followsCount": 139,
+    "postsCount": 168,
+    "verified": true,
+    "biography": "💊 藥師爸爸｜全家健康我包辦\n🥼 把專業藥學講成妳聽得懂的日常\n👶 育兒少焦慮｜用藥不踩雷\n❤️ @chip.pharmacist 的神隊友\n📩 service@pharmaketing.com\nLINE官方帳號",
+    "status": "OK"
+  },
+  {
+    "username": "jessie_magicdiet",
+    "fullName": "欣儀營養師",
+    "followersCount": 99945,
+    "followsCount": 1007,
+    "postsCount": 1101,
+    "verified": true,
+    "biography": "前醫學中心營養師，利用紀錄生活講解營養\n人生重心是美食、輕旅、養生\n〈專業執照〉\n營養師、糖尿病衛教師、丙級廚師\n〈最高學歷〉\n輔仁大學食品營養系碩士\n〈著作〉\n2026 吃出抗癌體質\n2024 日式減醣料理(合著)\n2023 吃出不老體質\n2021 就算天天外食也能瘦\n2016 這些餐徹底改變了我",
+    "status": "OK"
+  },
+  {
+    "username": "jinhan_1208",
+    "fullName": "謹涵🫧第二主業計劃",
+    "followersCount": 2781,
+    "followsCount": 478,
+    "postsCount": 242,
+    "verified": false,
+    "biography": "🏹 熱愛生活的射手女孩\n🌿 美麗× 健康 × 品質生活\n🌷 限時動態有最真實的謹涵老師\n💎 陪你一起變美、變健康，活出喜歡的自己♡\n-\n💌 私訊我｜線上一對一諮詢",
+    "status": "OK"
+  },
+  {
+    "username": "joe0918_",
+    "fullName": "高雄健身教練Joe ｜增肌減脂｜訓練計畫｜客製化訓練｜",
+    "followersCount": 3813,
+    "followsCount": 925,
+    "postsCount": 114,
+    "verified": false,
+    "biography": "有家健身中正店｜共同經營者\n▪️高雄新興區/苓雅區健身教練\n▫️協助 500+ 學員建立安全的自主訓練能力\n▪️協助100+學員改善長期身體痠痛問題\n▫️美國國家運動醫學學院認證教練\n/\n基礎重訓｜銀髮族訓練｜增肌減脂\n關節損傷/特殊族群訓練｜體態調整\n/\n一對一諮詢表單&官方Line 連結⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "jojo_lai123",
+    "fullName": "Jojo",
+    "followersCount": 156832,
+    "followsCount": 1492,
+    "postsCount": 833,
+    "verified": true,
+    "biography": "📌十週高效減脂、不復胖\n👉不需放棄美食、天天運動\n@newme.coach 學員改變\n（限量）2小時體驗課輕鬆享瘦👇\n✉️商業合作jojofitness123@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "keancheonglim",
+    "fullName": "KC Lim | Personal Trainer & Online Coach",
+    "followersCount": 241633,
+    "followsCount": 447,
+    "postsCount": 1709,
+    "verified": true,
+    "biography": "💼 @vitruviogym \n🗣️我可以帮你简化健身和减脂\n💪🏽线上1:1私教\n👇领取免费健身减肥贴士",
+    "status": "OK"
+  },
+  {
+    "username": "keelung1120401",
+    "fullName": "基隆生基中醫診所(減重/助孕/安胎/試管養卵/產後調理/美顏針/疑難雜症)",
+    "followersCount": 5113,
+    "followsCount": 3,
+    "postsCount": 743,
+    "verified": false,
+    "biography": "溫氏針灸丨體質調理\n備孕養卵．男女性不孕\n傷科針灸．肩頸腰背\n更年期調理．過敏體質\n中風後針灸復健",
+    "status": "OK"
+  },
+  {
+    "username": "kenny_nutlife",
+    "fullName": "營養師 Kenny",
+    "followersCount": 5905,
+    "followsCount": 3115,
+    "postsCount": 421,
+    "verified": false,
+    "biography": "#營養師 #減重 \n#旅遊 #減脂 \nAFAA-國際體適能教練\nTSSN-運動營養認證\n台灣運動保健學會-整合伸展專家\n中華民國運動學會-健身教練\n_\n講座 減重 諮詢 合作 邀約\n📫kenny021010@gmail.com\n💑rebecca_0819",
+    "status": "OK"
+  },
+  {
+    "username": "kingnet.tw",
+    "fullName": "KingNet 國家網路醫藥｜健康小學堂",
+    "followersCount": 3966,
+    "followsCount": 172,
+    "postsCount": 563,
+    "verified": false,
+    "biography": "💁‍♀一分鐘看懂醫學常識，\n讓健康也能變得很簡單\n🧰#健康 #醫學\n🚀#疾病 #保養\n🥝#營養 #飲食\n-\n我們的網站在這邊👇👇",
+    "status": "OK"
+  },
+  {
+    "username": "kingwxx_",
+    "fullName": "朱子揚 香港註冊中醫師🇭🇰  痛症/神經/整脊復位🌟",
+    "followersCount": 4477,
+    "followsCount": 1237,
+    "postsCount": 49,
+    "verified": true,
+    "biography": "《中醫/心理/神經/心態》🌔\n主治：神經痛症❌/關節痛症🦾/情緒治療❤️/慢性皮膚病🌟\nFounder of @kingxmedic_ \n-👨🏼‍⚕️:心平能癒三千疾\n診所預約電話：27271082\n敬請預約❤️",
+    "status": "OK"
+  },
+  {
+    "username": "kn.way___",
+    "fullName": "Keelan",
+    "followersCount": 173660,
+    "followsCount": 2,
+    "postsCount": 89,
+    "verified": false,
+    "biography": "吃少、動多，還是瘦不下來？教你真正有效的方式，不是又一個節食法💪\n✨愷達生醫植感蛋白粉絲專屬優惠在這👇",
+    "status": "OK"
+  },
+  {
+    "username": "kt.nutrition.pilates",
+    "fullName": "營養師凱蒂 KaiHui",
+    "followersCount": 205331,
+    "followsCount": 572,
+    "postsCount": 705,
+    "verified": true,
+    "biography": "• 致力於打造「極精緻瘦」體態🍒\n• 國考通過營養師｜TMU\n• 不復胖減脂知識｜越瘦越辣專門\n📩 合作kt.nutri.pila@gmail.com\n- 沒賣任何瘦身減肥藥 看到都是詐騙",
+    "status": "OK"
+  },
+  {
+    "username": "ktgh_health",
+    "fullName": "光田健康學",
+    "followersCount": 1213,
+    "followsCount": 47,
+    "postsCount": 172,
+    "verified": false,
+    "biography": "光田健康學｜健康這裡學\n光田健康學 Kuang Tien Health Academy\n台灣歷史最悠久的非集團私人醫院 #光田綜合醫院\n提倡生活型態醫學 邁向永續健康樂活\n營養 | 運動 | 睡眠 | 壓力管理 | 正向連結 | 日常保健",
+    "status": "OK"
+  },
+  {
+    "username": "lalafit_llf",
+    "fullName": "LaLafit 香港營養中心💚增肌減脂 · 三高",
+    "followersCount": 3357,
+    "followsCount": 107,
+    "postsCount": 512,
+    "verified": false,
+    "biography": "增肌減脂｜婚前孕後修身｜癌症三高管理\n💚 營養師控卡餐品牌 @laresbeauty\n🥗 1,000+位客人 累積成功減脂10,000+磅\n🍀 減體脂小tips · 健康飲食 · 食住瘦秘訣\nDM 報名21日減10磅挑戰賽！",
+    "status": "OK"
+  },
+  {
+    "username": "lily_healthymum",
+    "fullName": "莉莉媽媽｜無工人 Working Mum 🌿 兒童抗敏",
+    "followersCount": 7272,
+    "followsCount": 546,
+    "postsCount": 85,
+    "verified": false,
+    "biography": "🇭🇰 港媽過來人！用飲食營養幫阿仔搞掂敏感症問題 \n⚡️ 10 min 快搜超市健康食材 ｜ 1小時快手三餸一湯\n📊 1對1 營養諮詢：改善小朋友過敏 & 媽媽健康\n👇加入抗敏健康飲食Channel, 守護家人健康",
+    "status": "OK"
+  },
+  {
+    "username": "lumezclinic",
+    "fullName": "小宙醫學診所｜專業控糖減重",
+    "followersCount": 2341,
+    "followsCount": 13,
+    "postsCount": 174,
+    "verified": false,
+    "biography": "科學減重／運動醫學／醫學美容／疼痛治療及再生醫學\n小吳 吳榛槿醫師 ｜老吳 吳銘鋐醫師 ｜ 楊智雯醫師 ｜黃致遠醫師\n北屯院 台中市北屯區梅川東五路131號3F\n南屯院 台中市南屯區干城街328號4F-2\n請\"點選\"地址下方連結🔗 \n進入 減重｜運動醫學｜預約｜Line@連結唷✨",
+    "status": "OK"
+  },
+  {
+    "username": "madonnatung",
+    "fullName": "Madonna Tung ｜ 減肥瘦身・體態管理教練",
+    "followersCount": 11136,
+    "followsCount": 896,
+    "postsCount": 466,
+    "verified": false,
+    "biography": "🌿 曾經餓到胃病，40歲學識同身體和解\n✨ 43kg 平衡體態：唔捱餓・唔反彈・不焦慮\n🤝 陪 30+ 女性用【SET代謝重設系統】重新學識點樣食\n👇 預約 1對1 免費診斷",
+    "status": "OK"
+  },
+  {
+    "username": "mamamia_dietitian",
+    "fullName": "Mia營養師",
+    "followersCount": 15793,
+    "followsCount": 882,
+    "postsCount": 244,
+    "verified": true,
+    "biography": "👩🏻‍⚕️#營養師 #食品技師 #糖尿病衛教師 #功能醫學 #婦科調理 #多囊性卵巢 #保健品團購\n👩🏻‍💼#美國NGH催眠師 \n👩‍🏫碩士 ｜台灣大學 食品科技研究所\n生命中的每一刻，都有其存在的意義\n🏠有雙胞胎父子檔\n👦🏻@ollie_wooli\n✍🏻課程預約/產品折扣碼/廠商合作請詳下方連結🔗",
+    "status": "OK"
+  },
+  {
+    "username": "minichen921",
+    "fullName": "陳明苓_營養師MiNi",
+    "followersCount": 7211,
+    "followsCount": 422,
+    "postsCount": 556,
+    "verified": true,
+    "biography": "𝟸𝟺年食品產業｜從現場到自有品牌創業\n@mimateabar_tw  迷馬杯子蛋糕&茶店\n陪伴 忙碌不懂得照顧自己卻想變好ᵕ̈的人\n用真實日常分享好懂的健康知識\n一起研修美食與人生營養學分",
+    "status": "OK"
+  },
+  {
+    "username": "minmin_rd",
+    "fullName": "營養師高敏敏",
+    "followersCount": 370938,
+    "followsCount": 7006,
+    "postsCount": 5360,
+    "verified": true,
+    "biography": "🍑 🫛 🦀 🍓🍣🥑🍠🥗🥦#出版23本書 #節目專家 #大學老師 #國考營養師 #醫美診所ㄨ動物醫院ㄨ控卡餐創辦人 #三寶媽  #浪浪貓奴🐈#浪浪狗奴🐶\n🧘🏻‍♀️ 北商碩士/中山醫營養/TV expert  \n合作 請 聯繫 #白袍聯盟",
+    "status": "OK"
+  },
+  {
+    "username": "myhealth.hk",
+    "fullName": "MYHEALTH|Physio|物理治療|普拉提|中醫|放鬆|痛症治療|運動復康|增肌減脂",
+    "followersCount": 15185,
+    "followsCount": 45,
+    "postsCount": 312,
+    "verified": false,
+    "biography": "🥝註冊物理治療師🥝註冊中醫師\n🥝運動治療教練🥝處方普拉提導師\n🥇HK01 《卓越處方普拉提痛症管理大獎》\n🥇《女性專屬體態管理與康復大獎》\n.\n公司醫療/個人意外保險索償\n📍沙田 📍尖沙咀 📍旺角\n.\n星期一至日\n9:00AM-11:00PM\n致力為有需要的客人服務。",
+    "status": "OK"
+  },
+  {
+    "username": "nathedietitian",
+    "fullName": "註冊營養師 Dietitian | Natalie",
+    "followersCount": 20937,
+    "followsCount": 237,
+    "postsCount": 212,
+    "verified": false,
+    "biography": "🎓 MSc Dietetics | BSc Nutrition \n🏋🏻‍♀️ NASM -Certified Personal Trainer\n💻 1:1 consultation available\n💌 dm for enquiry / collab",
+    "status": "OK"
+  },
+  {
+    "username": "ningning_dietitian",
+    "fullName": "營養師寧寧",
+    "followersCount": 2166,
+    "followsCount": 304,
+    "postsCount": 189,
+    "verified": false,
+    "biography": "(つ´ω`)つ ⭐️ 新進社區營養師努力中💪\n有時候走著走著就會發現不知不覺好像離夢想越來越近\n \n｜關注｜鐵與貧血、食農教育、環境永續\n｜技能｜專欄文案、講座課程、保健食品、藥局銷售\n｜興趣｜六年火寶、很多貓咪\n  \n#營養師寧寧  ningningdietitian@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "nutri_by_bella",
+    "fullName": "Bella營養師｜減脂結合生活",
+    "followersCount": 32636,
+    "followsCount": 639,
+    "postsCount": 140,
+    "verified": true,
+    "biography": "國家營養師｜NSCA-CSCS國際教練證照\n•破解情緒飲食\n•幫助生活忙碌的你把體態變好\n🔽60秒找到你減脂卡關的問題",
+    "status": "OK"
+  },
+  {
+    "username": "nutrition.sarah.c",
+    "fullName": "營養師Sarah陳宣希｜減脂增肌 ｜一對一營養咨詢｜重磅專家｜逆轉三高｜擊退脂肪肝｜孕媽媽飲食｜濕疹食療",
+    "followersCount": 7990,
+    "followsCount": 4832,
+    "postsCount": 901,
+    "verified": true,
+    "biography": "香港中文大學營養及食品科技理學碩士\n《宣希營養教室》創辦人｜平均3個月減15-20磅｜6個月30磅｜1年50磅+｜脂肪肝殺手｜濕疹食療｜備孕懷孕方案｜正念飲食｜ESFJ｜#結婚減肥 #產後肥胖 #重磅專家\n@nutrifitstyle 營養飲食貼士\n@inspiredshe.sarah 正能量分享",
+    "status": "OK"
+  },
+  {
+    "username": "nutritioniseasy",
+    "fullName": "溫蒂營養師  減脂｜保健食品｜日本",
+    "followersCount": 28968,
+    "followsCount": 532,
+    "postsCount": 208,
+    "verified": false,
+    "biography": "🇯🇵住日本的台灣營養師\n- 無痛減脂秘訣\n- 日本保健食品挑選\n- 紀錄在日本冒險打怪的自己！\n✉️ wendy.nutri.jp@gmail.com\n#減脂 #自律 #日本生活#保健食品",
+    "status": "OK"
+  },
+  {
+    "username": "nutritionist_kathy",
+    "fullName": "Kathy NG YF 營養師 身營心營",
+    "followersCount": 26920,
+    "followsCount": 2211,
+    "postsCount": 2132,
+    "verified": true,
+    "biography": "🎥傳媒訪問 Tel 60902081\n吳耀芬(Kathy) - 認可營養師(香港營養師學會)\n「家營營養中心」創辦人\n傳媒專訪 + 專欄\n食物及營養科學學士 (CUHK)\n心理輔導學碩士 (HKU)\n認可身心語言程式學(NLP)導師\n催眠治療師\n預約／FB / YouTube／家營/AI營養師試玩👇",
+    "status": "OK"
+  },
+  {
+    "username": "nutritionlife_crystal",
+    "fullName": "營養師Crystal 張郁靖｜開箱好物｜減重營養｜保健食品",
+    "followersCount": 33607,
+    "followsCount": 441,
+    "postsCount": 397,
+    "verified": true,
+    "biography": "👩🏻‍⚕️這裡開箱飲控好物、還有很多懶人包，限動有功能醫學內容\n🍑 短髮、愛運動、會說台語的營養師，逃出醫院走進妳的日常\n✉️crystal109757@gmail.com或官方line（勿小盒子會收不到）\n🍎折扣碼、團購資訊，podcast頻道，看下方連結👇",
+    "status": "OK"
+  },
+  {
+    "username": "nutruelife",
+    "fullName": "營養師杯蓋",
+    "followersCount": 273604,
+    "followsCount": 654,
+    "postsCount": 1164,
+    "verified": true,
+    "biography": "@nutruelife_gym 來健身\n👇🏻預約健身、線上飲食討論\n_\n營養初，營養吃，營養師。\n就讓營養、健康的生活從這開始吧💪🏻\n_\n#營養師 #營養師杯蓋 #增肌減脂",
+    "status": "OK"
+  },
+  {
+    "username": "nuture_fit_taichung",
+    "fullName": "營養師團隊Nuture Fit |敬鈞營養師",
+    "followersCount": 277959,
+    "followsCount": 345,
+    "postsCount": 1525,
+    "verified": true,
+    "biography": "👩🏻‍⚕️🧑🏻‍⚕️一群營養師所構成的團隊\n💪🏻增肌減脂的最強夥伴\n免費領取12週減重衝刺表\n加入官方留言：衝刺⤵️⤵️",
+    "status": "OK"
+  },
+  {
+    "username": "parkernash9",
+    "fullName": "黃韋堯parker_品牌營養師（博寈建）",
+    "followersCount": 33333,
+    "followsCount": 515,
+    "postsCount": 997,
+    "verified": false,
+    "biography": "碩士至今10年營養領域，愛吃美食維持身材《營養肌生活》，協助品牌研發有感營養品，熱愛協助解決健康\n🥇國家營養師榜首\n💊保健食品開發及培訓\n🏋️‍♀️AFAA-PFT國際運動教練\n🥗NCSF-SNS美國運動營養專家\n❤️糖尿病及腎臟病衛教師",
+    "status": "OK"
+  },
+  {
+    "username": "pcos.rere.pharm",
+    "fullName": "瑞瑞藥師SZUHSUN｜多囊女生控糖減重",
+    "followersCount": 71999,
+    "followsCount": 106,
+    "postsCount": 354,
+    "verified": true,
+    "biography": "一名有多囊性卵巢的藥師\n分享我的控糖實驗跟減重歷程\n已減重12kg，開始恢復規律經期.ᐟ.ᐟ",
+    "status": "OK"
+  },
+  {
+    "username": "pearyyoga",
+    "fullName": "Cynthia 善雅｜Wellness Lifestyle",
+    "followersCount": 57789,
+    "followsCount": 942,
+    "postsCount": 432,
+    "verified": false,
+    "biography": "💬 從不節食的瑜伽導師｜📍HK → NYC\n✨ 飲食迷思｜食物選擇｜蛋奶素｜ashtanga yoga\n⬇️ 最新「我的雪櫃Tour」on Youtube📺",
+    "status": "OK"
+  },
+  {
+    "username": "pei_chinnn",
+    "fullName": "Peggy 💫 營養師",
+    "followersCount": 6870,
+    "followsCount": 616,
+    "postsCount": 479,
+    "verified": true,
+    "biography": "用營養科學，和你一起「內外」兼具✨\n🎓 TMU M.S. ｜ 國家高考合格營養師\n🍄 10年靈芝保健食品講師\n📩 諮詢或合作請私訊",
+    "status": "OK"
+  },
+  {
+    "username": "phar.smile",
+    "fullName": "微笑藥師 廖偉呈",
+    "followersCount": 3354,
+    "followsCount": 124,
+    "postsCount": 482,
+    "verified": false,
+    "biography": "號稱行走的保健辭典\n保健諮詢/預防保健/產品配方顧問\n10年up保健諮詢及實證經驗/千萬點閱部落客\n好容益新鮮益生菌 創辦人 @smile_for.fresh\n連結：保健文章·FB·商城",
+    "status": "OK"
+  },
+  {
+    "username": "pharkids_tw",
+    "fullName": "藥師健生活 兒童系列｜兒童・親子・孕媽咪",
+    "followersCount": 5754,
+    "followsCount": 38,
+    "postsCount": 636,
+    "verified": false,
+    "biography": "你陪伴孩子長大、我們陪伴你👶🏻\n和兒童專科醫師 #蒼藍鴿 一起為孩子打造每日所需 🙌🏻\n-\n成人保健⮕藥師健生活 @phargoods_tw",
+    "status": "OK"
+  },
+  {
+    "username": "pharm.nana",
+    "fullName": "藥師奶爸Nana",
+    "followersCount": 491,
+    "followsCount": 326,
+    "postsCount": 73,
+    "verified": true,
+    "biography": "Nana藥師｜Phurna 芙娜萃研 創辦人\n源自對家人的極致講究，化為守護你的最高標準。\n-\n💌合作邀約請洽詢➡️我藥行銷service@pharmaketing.com\n-",
+    "status": "OK"
+  },
+  {
+    "username": "pharma.hua_note",
+    "fullName": "小花藥師花逸修 社區藥局筆記",
+    "followersCount": 107493,
+    "followsCount": 425,
+    "postsCount": 451,
+    "verified": true,
+    "biography": "@pharma.selectshop \n推薦給親朋好友的嚴選保健品\n用得放心、吃得安心  \n.\n6年社區藥局經驗｜科學實證｜透明配方\n. \n加入官方LINE，點擊「找配方」輸入代號\n領取藥師推薦的保健組合\n.\n合作邀約📪pr.pharmahuanote@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "pharmacy_3_babies",
+    "fullName": "維克與尼娜 三寶藥師",
+    "followersCount": 39750,
+    "followsCount": 267,
+    "postsCount": 453,
+    "verified": false,
+    "biography": "健康保健✨育兒分享✨藥師夫妻\n⊹₊⋆\n藥局×1｜餐廳×2｜小孩×3\n𓏸社區藥局藥師\n𓏸實習指導藥師\n𓏸糖尿病衛教師",
+    "status": "OK"
+  },
+  {
+    "username": "rd.grace.f",
+    "fullName": "懂你想吃的營養師方慈聲Grace  運動營養.增肌減脂.食安",
+    "followersCount": 74888,
+    "followsCount": 1121,
+    "postsCount": 588,
+    "verified": true,
+    "biography": "🎓台大食品安全研究所 碩士\n沒有什麼食物不能吃！只有懂不懂聰明吃\n🍎一對一飲食調整/營養諮詢 請點連結🔗填表單\n📩 合作邀約請聯繫有魚娛樂經紀人 小哈\n0921088017\nfishchen0703@gmail.com\nLine : fishchen0703",
+    "status": "OK"
+  },
+  {
+    "username": "rd_yunzheng",
+    "fullName": "運動營養師阿正（林昀正）",
+    "followersCount": 1103,
+    "followsCount": 558,
+    "postsCount": 112,
+    "verified": false,
+    "biography": "想減脂，就找阿正\n🏋️ 外食運動族｜減脂・保肌・練得動\n🏅 運動員｜科學補給・提升運動表現\n🎓 高考營養師｜運動科學碩士\n👇諮詢・講座・合作 私訊粉專小盒子\n✉️ service@pharmaketing.com\n加入社群免費領取外食減脂策略",
+    "status": "OK"
+  },
+  {
+    "username": "rdhuanhuan",
+    "fullName": "營養師環環 郭環棻|運動營養|健康講座|料理活動",
+    "followersCount": 2349,
+    "followsCount": 2635,
+    "postsCount": 653,
+    "verified": false,
+    "biography": "營養師環環 郭環棻\n擅長👉🏻運動傷害恢復/專項補給調整/選手營養培訓\n服務👉🏻營養講座/營養門診/食安輔導/食譜設計\n工作邀請 sindykuo84@gmail.com\n👇 德國 Medisana 體脂機 獨家優惠倒數中 👇",
+    "status": "OK"
+  },
+  {
+    "username": "rescubone",
+    "fullName": "骨科 陳沛華醫師",
+    "followersCount": 14230,
+    "followsCount": 165,
+    "postsCount": 63,
+    "verified": false,
+    "biography": "陳沛華　骨科醫師🦴/醫學博士👨‍⚕️\nPei-Hua Chen, MD, PhD\n📍衛福部雙和醫院 骨科部\n微創骨折修復。微創關節重建。運動傷害治療。骨質疏鬆治療\n🦴解決你的骨科大小事\n🔗掛號連結⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "reyou.healthy",
+    "fullName": "𝐑𝐞: 你｜𝐑𝐞:𝐍𝐞𝐰",
+    "followersCount": 6026,
+    "followsCount": 9,
+    "postsCount": 200,
+    "verified": true,
+    "biography": "#正念減脂 給外食／忙碌／容易嘴饞的你\n⟡開心吃、不批判、不壓抑\n⟡不再情緒性進食\n⟡穩定不復胖，回到你愛的體態✨\n-\n🍀國考合格體重管理營養師 \n創辦人 @ocean_healthyfit \n💌正念減脂班 𝟏𝟏/𝟐𝟑～𝟏𝟐/𝟐𝟐 招生中\n-\n🍁漢方乳清下單連結🔗⬇️\n🍯優惠碼［reyou］",
+    "status": "OK"
+  },
+  {
+    "username": "rita_wang_health",
+    "fullName": "營養師Rita｜HealthHome醫敏家",
+    "followersCount": 41243,
+    "followsCount": 0,
+    "postsCount": 59,
+    "verified": false,
+    "biography": "HealthHome醫敏家｜健康+醫家計畫\n📚用輕鬆的方式懂健康，用專業的角度照顧你\n📖健康知識｜營養諮詢｜保健品挑選\n📲 加入醫敏家官方看更多",
+    "status": "OK"
+  },
+  {
+    "username": "ruirui.dietitian",
+    "fullName": "芮伶營養師",
+    "followersCount": 5271,
+    "followsCount": 501,
+    "postsCount": 295,
+    "verified": false,
+    "biography": "👩🏻‍🌾營養師·糖尿病衛教師·愛貓貓小狗的人類\n📖1+1減重營養線上課_私訊索取報名表單\n📬保健品研發|營養顧問 | 營養講座|有趣的合作\n歡迎來信至 amneginho@gmail.com\n📫成為你生活中的Lar個營養師",
+    "status": "OK"
+  },
+  {
+    "username": "ruruby_eater",
+    "fullName": "吳念 營養師",
+    "followersCount": 4275,
+    "followsCount": 113,
+    "postsCount": 243,
+    "verified": false,
+    "biography": "懂健康，也懂情緒的 ♏ 營養師\n健康管理｜抗老抗發炎｜自我成長\n分享健康知識，也分享人生進化✨",
+    "status": "OK"
+  },
+  {
+    "username": "satoshi.ph.jpn",
+    "fullName": "日本藥師🇯🇵小智",
+    "followersCount": 11781,
+    "followsCount": 0,
+    "postsCount": 33,
+    "verified": false,
+    "biography": "■日本人🇯🇵藥師\n■分享親身體驗的美容與健康知識\n■在東京上野開藥局💊 Grand藥局上野店\n■專業介紹📍美容保養、健康知識、日本人氣藥品\n■我會全力守護大家的健康與美麗📣",
+    "status": "OK"
+  },
+  {
+    "username": "seedsee_tw",
+    "fullName": "🌿蒔見中醫診所 Seed&See Chinese Medical Clinic",
+    "followersCount": 2508,
+    "followsCount": 0,
+    "postsCount": 179,
+    "verified": false,
+    "biography": "「耕耘、實現，看見中醫的美」\n🤓提供您簡單易懂的中醫保健知識\n整體治療|肝膽腸胃|婦幼兒專科|皮膚疾患|美顏針|豐胸體雕|針刀埋線減重|AMCT脊骨治療|失眠|內科|青春痘\n📍中華院-台南永康區中華路11號\n📍東橋院-台南永康區東橋七路357號\nEng available\n各院LINE線上預約👇",
+    "status": "OK"
+  },
+  {
+    "username": "shalomlammm",
+    "fullName": "Shalom｜愛吃的營養師(´∀`)｜24孝狗媽媽",
+    "followersCount": 9858,
+    "followsCount": 2078,
+    "postsCount": 656,
+    "verified": true,
+    "biography": "曾用錯方法減肥20kg，停經4年+爆濕疹🥵\n依家識揀飲擇食，輕鬆Keep Fit💪🏻\n🔖《100間減肥可以食既餐廳》更新中！\n🐶 @bichon.eggegg\n📩 DM for Enquiry",
+    "status": "OK"
+  },
+  {
+    "username": "shawsonclinic",
+    "fullName": "首盛診所 - 簡銘成醫師的簡單說髮 - 生髮植髮專家",
+    "followersCount": 4212,
+    "followsCount": 95,
+    "postsCount": 460,
+    "verified": false,
+    "biography": "〰️簡單的說法，\n明白掉髮與生髮，\n成功找回失去的頭髮。\n \n👨‍⚕️簡銘成醫師：\n「堅持」是我從事這個職業的座右銘。\n十年來、上千例的植髮經驗，毫無例外。",
+    "status": "OK"
+  },
+  {
+    "username": "shuxin_clinic",
+    "fullName": "書心健康管理診所",
+    "followersCount": 2309,
+    "followsCount": 2,
+    "postsCount": 403,
+    "verified": false,
+    "biography": "👩🏻‍⚕️ 書心院長 ✧ 許書華醫師  @crazysophiahsu \n🩺 激素平衡減重｜個人化健康管理｜預防醫學\n✨ 減重是場改腦行動，書心陪你寫日記\n-\n📍 台北旗艦院\n◼台北市中山區民生東路二段145號3樓\n📍 新莊創始院\n◼新北市新莊區中原東路 170號1樓\n-\n點擊了解更多 ⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "six.cmc",
+    "fullName": "惜時堂中醫館",
+    "followersCount": 5360,
+    "followsCount": 840,
+    "postsCount": 170,
+    "verified": false,
+    "biography": "主張無痛治療痛症的中醫診所\n痛症唔使硬捱，身體問題一齊慢慢傾 🌿\n---\n🩺 痛症骨傷｜針灸拔罐｜婦科調理｜火龍灸\n💡 分享痛症迷思・診症日常・生活保健\n📩 預約查詢，請點擊下方連結\n---\n📍尖沙咀廣東道58號帝國大廈10樓C\n📍新蒲崗大有街宏基中心一期10樓01",
+    "status": "OK"
+  },
+  {
+    "username": "slow_dr.sloth",
+    "fullName": "樹懶醫生｜醫師生活｜醫學懶人包｜愛抹茶",
+    "followersCount": 21451,
+    "followsCount": 919,
+    "postsCount": 334,
+    "verified": false,
+    "biography": "🩺醫學知識的懶人包\n想知道更多醫學健康大小事嗎？\n📩演講合作邀約請私訊",
+    "status": "OK"
+  },
+  {
+    "username": "specialdietitian",
+    "fullName": "營養師教練-世昕｜ 2024癌友友善營養師",
+    "followersCount": 8264,
+    "followsCount": 2717,
+    "postsCount": 735,
+    "verified": false,
+    "biography": "連癌友都放心交給我，你當然也可以\n我是世昕，讓你健康放心🍚\n🧑‍⚕️雙證照｜營養師 x 教練\n陪30+女性、婆媽 吃得安心不復胖\n👇LINE官方 免費領【外食懶人包】+【AI熱量計算機】",
+    "status": "OK"
+  },
+  {
+    "username": "ss.deititian",
+    "fullName": "敲敲宛營養師｜減脂增肌｜備孕｜產後瘦身｜運動營養｜MBL治療師",
+    "followersCount": 2257,
+    "followsCount": 566,
+    "postsCount": 132,
+    "verified": false,
+    "biography": "☘️科學塑身團隊總教練\n☘️減重營養師、體適能教練\n☘️比利時Mozart Brain Lab 授證訓練師\n🌐自媒體創業輔導\n☘️熱愛學習、登山、瑜伽🧘‍♂️、健身\n☘️健康講座＆社區、企業減重班邀約👉https://lin.ee/OM1ibx",
+    "status": "OK"
+  },
+  {
+    "username": "stevenyu_",
+    "fullName": "Steven Yu",
+    "followersCount": 59371,
+    "followsCount": 1498,
+    "postsCount": 187,
+    "verified": false,
+    "biography": "🇭🇰 註冊物理治療師 & 營養學家\n🔬 科學拆解營養迷思x減脂策略x訓練與復康\n📧 stevenyu.blog@gmail.com\n📘 私信我 「biceps」，獲取《四星期肌力入門訓練指南》",
+    "status": "OK"
+  },
+  {
+    "username": "suanyuying",
+    "fullName": "孫語霙營養師｜減脂攻略/低卡料理/營養知識",
+    "followersCount": 40369,
+    "followsCount": 1216,
+    "postsCount": 1253,
+    "verified": true,
+    "biography": "10年營養師經驗/2本書作家/雙寶媽\n分享#減脂攻略、#健康料理、#營養知識 \nFB、YT🔍營養師愛碎念\n合作邀約：suanyuying@gmail.com",
+    "status": "OK"
+  },
+  {
+    "username": "taro_dietitian",
+    "fullName": "小芋頭營養師｜瘦身｜減脂",
+    "followersCount": 2870,
+    "followsCount": 10,
+    "postsCount": 84,
+    "verified": false,
+    "biography": "我是小芋頭營養師\n陪你走一條不傷身也不傷心的減脂路\n#生活 #健康 #減脂 \n🥗 合作邀約歡迎直接私訊或是mail\n📥 Direct Message / Email\n✉️ taro.dietitian @gmail.com\n豆漿機團購連結在下方⬇️",
+    "status": "OK"
+  },
+  {
+    "username": "tcm__clinic",
+    "fullName": "養容中醫診所🌿",
+    "followersCount": 9551,
+    "followsCount": 141,
+    "postsCount": 311,
+    "verified": false,
+    "biography": "👩🏻‍⚕️香港註冊中醫🎈中藥材零售商牌照｜註冊商標\n⭐專利暖宮.外用中藥｜助孕｜調經\n⭐中醫診療\n⭐皮膚病｜濕疹｜暗瘡\n⭐針灸拔罐｜痛症\n⭐減肥埋線｜豐胸針灸｜美顏針｜生髮\n☎️敬請預約\n🏥旺角商業大廈11樓\n👩‍⚕️周一至周五 12:00-20:00；星期六 12:00-17:30；周日、紅日休息",
+    "status": "OK"
+  },
+  {
+    "username": "topshow_get_fit",
+    "fullName": "北秀健康管理診所",
+    "followersCount": 8063,
+    "followsCount": 22,
+    "postsCount": 457,
+    "verified": false,
+    "biography": "每個人都是獨一無二的存在。\n我們重視你的感受與人生經歷。\n減重，有時候慢慢來，反而比較快。\n我們承諾，會用專業和誠摯的心\n讓減重，不再是辛苦的事。\n讓復胖，不再是必然的惡夢。\n你打造全方位個人減重計劃\n立即前往官網預約",
+    "status": "OK"
+  },
+  {
+    "username": "truehealth.muscle",
+    "fullName": "肌情藥師-藥師How棒",
+    "followersCount": 5205,
+    "followsCount": 14,
+    "postsCount": 318,
+    "verified": true,
+    "biography": "集肌肉與藥理知識於一身的 #藥理猛男\n💊 帶你看懂吃｜練｜睡\n💪 增肌 × 減脂 × 精神體力 × 睡眠恢復\n🥗 外食選擇｜營養迷思｜保健品解析\n✉️ 合作邀約｜Email：brad.chen00@truehealth.com.tw",
+    "status": "OK"
+  },
+  {
+    "username": "tzuyu_diet",
+    "fullName": "子瑜｜營養師",
+    "followersCount": 12091,
+    "followsCount": 3,
+    "postsCount": 127,
+    "verified": false,
+    "biography": "臨床營養師｜醫院營養科現職\n減脂飲食｜慢性病營養｜生活化菜單客製\n本帳號無販售任何減肥瘦身產品\n-\n·減肥≠戒澱粉！90%人錯誤瘦身法\n·真正瘦身是靠吃對，不靠代餐或燃脂丸\n-\n📩 20頁免費減脂筆記、1對1飲食諮詢",
+    "status": "OK"
+  },
+  {
+    "username": "vivinutritionn",
+    "fullName": "營養師Vivi",
+    "followersCount": 18929,
+    "followsCount": 30,
+    "postsCount": 245,
+    "verified": false,
+    "biography": "PhD 就讀中｜國家高考營養師｜保健營養碩士\n🌟一對一體態管理請填寫表單\n商業合作邀約請洽vivinutritionn@gmail.com\n@goaldailytw 折扣碼｜VIVI",
+    "status": "OK"
+  },
+  {
+    "username": "wanpin_li_dietitian",
+    "fullName": "李婉萍 營養師",
+    "followersCount": 10643,
+    "followsCount": 248,
+    "postsCount": 963,
+    "verified": false,
+    "biography": "✨愛挑食的三寶媽\n🫧慢性病友危機百科\n🪄27年臨床實戰 #國民營養師\n🕯️520瘦身法創始人 #變美變健康\n週一吃素｜控醣生活｜外食500卡｜100卡點心｜營養料理\n💌 各式合作邀約 dietitianli@nutrition168.com",
+    "status": "OK"
+  },
+  {
+    "username": "weiofhealth",
+    "fullName": "威醫師的健康之路《糖尿病｜內分泌｜肥胖｜健康生活型態》",
+    "followersCount": 5923,
+    "followsCount": 429,
+    "postsCount": 141,
+    "verified": false,
+    "biography": "威醫師\n👨‍⚕️ 臺大醫院內科總醫師｜新陳代謝內分泌科\n📌 糖尿病 x 肥胖 × 內分泌 x 健康生活型態\n⬇️ 追蹤我，掌握更多健康知識＆血糖實測",
+    "status": "OK"
+  },
+  {
+    "username": "weiyupharmacist",
+    "fullName": "鮪魚藥師🐟",
+    "followersCount": 1224,
+    "followsCount": 31,
+    "postsCount": 84,
+    "verified": false,
+    "biography": "💊鮪魚藥師藥局｜負責藥師\n— 藥理學碩士藥師\n— 健康保健衛教｜諮詢｜\n#體態管理 #落髮",
+    "status": "OK"
+  },
+  {
+    "username": "winny.rd",
+    "fullName": "你的生活營養師 張語希",
+    "followersCount": 30514,
+    "followsCount": 2940,
+    "postsCount": 1893,
+    "verified": true,
+    "biography": "想減脂又不想餓肚子？營養師教你吃對、補對\n師大＋政大 IMBA｜節目專家\nPodcast《語希生活營養課》每週更新↓\n合作 winnyrdtw@gmail.com\n節目通告 家瑜Line :Yu781023",
+    "status": "OK"
+  },
+  {
+    "username": "yanliu.ty",
+    "fullName": "YAN｜無壓力減脂",
+    "followersCount": 6258,
+    "followsCount": 723,
+    "postsCount": 1388,
+    "verified": false,
+    "biography": "⚡️ 10年經驗｜幫「冇時間備餐、經常出街食飯」的妳健康減重\n🧡 Health is Wealth｜用「3分鐘早餐」換身型變健康\n💌 按以下連結👇🏻即可預約免費 1對1 健康分析",
+    "status": "OK"
+  },
+  {
+    "username": "yen_wei_pharmacist",
+    "fullName": "不藥藥師｜彥瑋",
+    "followersCount": 650,
+    "followsCount": 86,
+    "postsCount": 160,
+    "verified": false,
+    "biography": "👨‍👩‍👧‍👦 4寶爸，更懂如何照顧全家健康\n👨‍⚕️幫你減少用藥依賴，學會健康生活！\n💡 分享實用營養知識 & 健康秘訣\n👉 點擊追蹤，打造更輕鬆的健康人生！",
+    "status": "OK"
+  },
+  {
+    "username": "yqnuy",
+    "fullName": "Esmond",
+    "followersCount": 1190,
+    "followsCount": 2552,
+    "postsCount": 42,
+    "verified": false,
+    "biography": "hku nutrition 28‘\ni share knowledge, run @blackshibahk, and believe in empowering myself.\n@creation_in_all_form",
+    "status": "OK"
+  },
+  {
+    "username": "yu_health_tw",
+    "fullName": "庭宇健康生活 YU HEALTH",
+    "followersCount": 1383,
+    "followsCount": 0,
+    "postsCount": 25,
+    "verified": false,
+    "biography": "健康生活老師｜庭宇健康生活 YU HEALTH\n台北中山區筋膜調理、筋膜放鬆、運動按摩\n預約請加 LINE｜完整服務介紹見網站",
+    "status": "OK"
+  },
+  {
+    "username": "yuanst2026",
+    "fullName": "藥師一哥｜元善堂盛德大業中西藥局",
+    "followersCount": 3416,
+    "followsCount": 16,
+    "postsCount": 88,
+    "verified": false,
+    "biography": "✨變美/變帥 專家\n💊處方箋領藥｜中西藥諮詢\n🔥減重管理｜美白保養｜腸胃調理\n🌿睡眠保健｜私密保養｜漢方調理\n📍台北中正區｜杭州南路一段14-5號\n🕘平日09:00-22:00｜六12:00-20:00\nLINE：@399redih",
+    "status": "OK"
+  },
+  {
+    "username": "yuta.urology",
+    "fullName": "佑達泌尿科診所",
+    "followersCount": 846,
+    "followsCount": 13,
+    "postsCount": 183,
+    "verified": false,
+    "biography": "佑達泌尿科診所 📍新竹・台中\n攝護腺疾患｜低能量震波｜包皮手術｜性病治療\n無刀口結紮｜男性更年期｜泌尿疾病｜私密整形\n  \n🏥微創技術x客製療程：專業守護你的生活品質\n👇 線上預約/專人諮詢",
+    "status": "OK"
+  },
+  {
+    "username": "yuyachin7",
+    "fullName": "Claire 岑岑",
+    "followersCount": 3777,
+    "followsCount": 319,
+    "postsCount": 43,
+    "verified": false,
+    "biography": "▫️27y女生的複利實驗室⏱️\n▫️飲控·訓練·日常\n⬇️🔗團購-Oolab良杯製所11/5~11/22❗️",
+    "status": "OK"
+  },
+  {
+    "username": "yuyenmagic",
+    "fullName": "黃醫師本尊",
+    "followersCount": 3278,
+    "followsCount": 10,
+    "postsCount": 183,
+    "verified": false,
+    "biography": "家醫／減重｜好日子診所總院長\n告訴你為什麼瘦不下來\n偶爾分享人生感悟、偶爾變魔術\n預約請至官網，這裡只聊天與紀錄",
+    "status": "OK"
+  },
+  {
+    "username": "zimi_rd",
+    "fullName": "營養師紫米*",
+    "followersCount": 3202,
+    "followsCount": 349,
+    "postsCount": 301,
+    "verified": false,
+    "biography": "紫米營養師「預防勝於治療 好營養帶給你好生活」 🌷\n️證照/國考🈴格營養師\n腎臟專科營養師｜糖尿病衛教師\n📖新陳代謝科營養師｜生技營養師\n📩合作這邊請hanhonglw@gmail.com",
+    "status": "OK"
   }
-}
+]

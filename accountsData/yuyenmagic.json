@@ -1,0 +1,55 @@
+{
+  "account_id": "yuyenmagic",
+  "full_name": "黃醫師本尊",
+  "followers": 3278,
+  "follows": 10,
+  "posts_count": 183,
+  "verified": false,
+  "total_videos_analyzed": 14,
+  "metrics": {
+    "VFR": 0.9299877974374618,
+    "ERV": 0.019517795630796198,
+    "CLR": 0.01709401680181168,
+    "SRV": 0.004100377233360546,
+    "SLR": 0.213675210022646,
+    "VFR_mean": 11.893815915627997,
+    "CV_views": 2.4668154169310412,
+    "CV_likes": 2.4762087834359154,
+    "CV_comments": 1.7321527594791875,
+    "CV_shares": 2.5251424194948244
+  },
+  "median_stats": {
+    "median_views": 3048.5,
+    "median_likes": 58.5,
+    "median_comments": 1.0,
+    "median_shares": 12.5
+  },
+  "mean_stats": {
+    "mean_views": 38987.92857142857,
+    "mean_likes": 503.14285714285717,
+    "mean_comments": 4.714285714285714,
+    "mean_shares": 736.8571428571429
+  },
+  "std_stats": {
+    "std_views": 96176.02327420622,
+    "std_likes": 1245.8867621801849,
+    "std_comments": 8.165863008973313,
+    "std_shares": 1860.6692285363292
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 68.39,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 61.49,
+      "P_VFR": 85.06,
+      "P_SRV": 67.82,
+      "P_CLR": 58.62
+    }
+  }
+}

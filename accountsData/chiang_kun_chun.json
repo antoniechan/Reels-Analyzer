@@ -1,0 +1,55 @@
+{
+  "account_id": "chiang_kun_chun",
+  "full_name": "江坤俊 醫師",
+  "followers": 17671,
+  "follows": 2,
+  "posts_count": 236,
+  "verified": false,
+  "total_videos_analyzed": 40,
+  "metrics": {
+    "VFR": 0.20949578405296815,
+    "ERV": 0.018638573738887474,
+    "CLR": 0.014705882136678205,
+    "SRV": 0.006077795784419828,
+    "SLR": 0.3308823480752596,
+    "VFR_mean": 0.9167605115726332,
+    "CV_views": 3.398478738983059,
+    "CV_likes": 2.0866767248930262,
+    "CV_comments": 3.3202691010223737,
+    "CV_shares": 4.177277324496169
+  },
+  "median_stats": {
+    "median_views": 3702.0,
+    "median_likes": 68.0,
+    "median_comments": 1.0,
+    "median_shares": 22.5
+  },
+  "mean_stats": {
+    "mean_views": 16200.075,
+    "mean_likes": 162.5,
+    "mean_comments": 2.3,
+    "mean_shares": 189.95
+  },
+  "std_stats": {
+    "std_views": 55055.61045743099,
+    "std_likes": 339.08496779511677,
+    "std_comments": 7.636618932351459,
+    "std_shares": 793.4738277880472
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 56.41,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 59.2,
+      "P_VFR": 24.14,
+      "P_SRV": 84.48,
+      "P_CLR": 57.47
+    }
+  }
+}

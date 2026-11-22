@@ -1,0 +1,55 @@
+{
+  "account_id": "alfalfamedical",
+  "full_name": "初苜中醫診所｜提供多元化中醫治療",
+  "followers": 8981,
+  "follows": 9,
+  "posts_count": 295,
+  "verified": false,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.7611624540697027,
+    "ERV": 0.005924517260689801,
+    "CLR": 0.012499999687500008,
+    "SRV": 0.002852545347739534,
+    "SLR": 0.4874999878125003,
+    "VFR_mean": 12.019272167167724,
+    "CV_views": 2.187039481531253,
+    "CV_likes": 2.2887023905940187,
+    "CV_comments": 3.076409430018254,
+    "CV_shares": 2.326047653303373
+  },
+  "median_stats": {
+    "median_views": 6836.0,
+    "median_likes": 40.0,
+    "median_comments": 0.5,
+    "median_shares": 19.5
+  },
+  "mean_stats": {
+    "mean_views": 107945.08333333333,
+    "mean_likes": 1534.9166666666667,
+    "mean_comments": 85.83333333333333,
+    "mean_shares": 3451.0
+  },
+  "std_stats": {
+    "std_views": 236080.1590871812,
+    "std_likes": 3512.9674443626027,
+    "std_comments": 264.05847607656676,
+    "std_shares": 8027.190451549941
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 47.39,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 15.52,
+      "P_VFR": 78.16,
+      "P_SRV": 47.7,
+      "P_CLR": 56.32
+    }
+  }
+}

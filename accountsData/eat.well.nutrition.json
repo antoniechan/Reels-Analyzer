@@ -1,38 +1,55 @@
 {
   "account_id": "eat.well.nutrition",
-  "followers": 54000,
-  "total_videos_analyzed": 10,
+  "full_name": "Nutri Life 🧡 智悅營養顧問中心｜註冊營養師",
+  "followers": 54519,
+  "follows": 227,
+  "posts_count": 352,
+  "verified": false,
+  "total_videos_analyzed": 13,
   "metrics": {
-    "VFR": 0.7208981481481481,
-    "ERV": 0.01346057515667286,
-    "CLR": 0.020447906484035237,
-    "VFR_mean": 1.4284277777777779,
-    "CV_views": 1.0271513711257396,
-    "CV_likes": 1.206885931414201,
-    "CV_comments": 2.3506336533287397
+    "VFR": 0.5995707918340395,
+    "ERV": 0.011655653450451062,
+    "CLR": 0.005277044840957665,
+    "SRV": 0.008106950562649689,
+    "SLR": 0.6992084414268906,
+    "VFR_mean": 0.917647623199816,
+    "CV_views": 0.9658571010828849,
+    "CV_likes": 1.5303240483780545,
+    "CV_comments": 2.7432487993074215,
+    "CV_shares": 1.658634028954141
   },
   "median_stats": {
-    "median_views": 38928.5,
-    "median_likes": 513.5,
-    "median_comments": 10.5
+    "median_views": 32688.0,
+    "median_likes": 379.0,
+    "median_comments": 2.0,
+    "median_shares": 265.0
   },
   "mean_stats": {
-    "mean_views": 77135.1,
-    "mean_likes": 1481.4,
-    "mean_comments": 40.7
+    "mean_views": 50029.230769230766,
+    "mean_likes": 851.6923076923077,
+    "mean_comments": 30.923076923076923,
+    "mean_shares": 706.0769230769231
   },
   "std_stats": {
-    "std_views": 79229.42372692104,
-    "std_likes": 1787.8808187969976,
-    "std_comments": 95.67078969047972
+    "std_views": 48321.0878001759,
+    "std_likes": 1303.36522028014,
+    "std_comments": 84.8296936401218,
+    "std_shares": 1171.12321167462
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 57.25,
+    "quality_score": 58.28,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 35.29,
-      "P_VFR": 78.43,
-      "P_CLR": 62.75
+      "P_ERV": 31.61,
+      "P_VFR": 67.82,
+      "P_SRV": 89.66,
+      "P_CLR": 47.13
     }
   }
 }

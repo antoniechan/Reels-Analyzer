@@ -1,38 +1,55 @@
 {
   "account_id": "donna_dietitian",
-  "followers": 2900,
-  "total_videos_analyzed": 29,
+  "full_name": "Donna 營養師",
+  "followers": 2905,
+  "follows": 178,
+  "posts_count": 785,
+  "verified": false,
+  "total_videos_analyzed": 30,
   "metrics": {
-    "VFR": 0.13724137931034483,
-    "ERV": 0.02763819088533118,
+    "VFR": 0.13012048192771083,
+    "ERV": 0.029100529023543573,
     "CLR": 0.0,
-    "VFR_mean": 0.14724137931034484,
-    "CV_views": 0.4063827169137189,
-    "CV_likes": 0.5729154479693239,
-    "CV_comments": 2.715563608955922
+    "SRV": 0.0,
+    "SLR": 0.0,
+    "VFR_mean": 0.14663224325874927,
+    "CV_views": 0.3994865788695471,
+    "CV_likes": 0.5742457806504351,
+    "CV_comments": 2.7667982242644844,
+    "CV_shares": 1.5920058915156972
   },
   "median_stats": {
-    "median_views": 398.0,
+    "median_views": 378.0,
     "median_likes": 11.0,
-    "median_comments": 0.0
+    "median_comments": 0.0,
+    "median_shares": 0.0
   },
   "mean_stats": {
-    "mean_views": 427.0,
-    "mean_likes": 12.96551724137931,
-    "mean_comments": 0.3448275862068966
+    "mean_views": 425.96666666666664,
+    "mean_likes": 12.8,
+    "mean_comments": 0.3333333333333333,
+    "mean_shares": 0.6666666666666666
   },
   "std_stats": {
-    "std_views": 173.52542012215798,
-    "std_likes": 7.428145118498819,
-    "std_comments": 0.9364012444675595
+    "std_views": 170.1679663791314,
+    "std_likes": 7.350345992325569,
+    "std_comments": 0.922266074754828,
+    "std_shares": 1.0613372610104648
   },
   "quality_evaluation": {
     "classification": "neutral",
-    "quality_score": 48.31,
+    "quality_score": 37.2,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
     "percentiles": {
-      "P_ERV": 87.25,
-      "P_VFR": 22.55,
-      "P_CLR": 22.06
+      "P_ERV": 89.08,
+      "P_VFR": 16.67,
+      "P_SRV": 6.61,
+      "P_CLR": 23.28
     }
   }
 }

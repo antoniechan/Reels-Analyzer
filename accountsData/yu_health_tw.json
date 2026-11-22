@@ -1,0 +1,55 @@
+{
+  "account_id": "yu_health_tw",
+  "full_name": "庭宇健康生活 YU HEALTH",
+  "followers": 1383,
+  "follows": 0,
+  "posts_count": 25,
+  "verified": false,
+  "total_videos_analyzed": 12,
+  "metrics": {
+    "VFR": 0.7545191612436731,
+    "ERV": 0.011499760410637506,
+    "CLR": 0.0,
+    "SRV": 0.0009583133675531255,
+    "SLR": 0.08333332638888948,
+    "VFR_mean": 2.128585201253314,
+    "CV_views": 2.303349549807111,
+    "CV_likes": 2.1922837456614017,
+    "CV_comments": 1.8090680674665818,
+    "CV_shares": 2.4111291129381445
+  },
+  "median_stats": {
+    "median_views": 1043.5,
+    "median_likes": 12.0,
+    "median_comments": 0.0,
+    "median_shares": 1.0
+  },
+  "mean_stats": {
+    "mean_views": 2943.8333333333335,
+    "mean_likes": 34.333333333333336,
+    "mean_comments": 0.25,
+    "mean_shares": 4.666666666666667
+  },
+  "std_stats": {
+    "std_views": 6780.6771830405005,
+    "std_likes": 75.26840860104146,
+    "std_comments": 0.45226701686664544,
+    "std_shares": 11.251935860378008
+  },
+  "quality_evaluation": {
+    "classification": "neutral",
+    "quality_score": 38.68,
+    "weights": {
+      "ERV": 0.3,
+      "VFR": 0.25,
+      "SRV": 0.25,
+      "CLR": 0.2
+    },
+    "percentiles": {
+      "P_ERV": 31.03,
+      "P_VFR": 77.01,
+      "P_SRV": 21.84,
+      "P_CLR": 23.28
+    }
+  }
+}
