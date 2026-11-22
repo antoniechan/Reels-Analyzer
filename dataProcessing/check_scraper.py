@@ -11,7 +11,7 @@ OUTPUT_REPORT_JSON = str(DATA_PROC_DIR / "zero_engagement_videos_report.json")
 EXCLUDE_JSON_NAMES = {
     "account_classification_summary.json",
     "accounts_followers.json",
-    "video_classification_summary.json",
+    "reels_classification_summary.json",
     "merged_accounts_data.json",
     "zero_engagement_videos_report.json",
 }

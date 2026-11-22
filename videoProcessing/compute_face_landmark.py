@@ -4,7 +4,7 @@
 Unified Face Landmark Extraction & Kabsch Rigid Alignment Engine
 -----------------------------------------------------------------
 功能：
-1. 依據 video_classification_summary.json 篩選目標影片 (支援 good/neutral/bad/all)。
+1. 依據 reels_classification_summary.json 篩選目標影片 (支援 good/neutral/bad/all)。
 2. 使用 MediaPipe Face Landmarker 每秒提取第 1 幀之 478 個 3D 特徵點。
 3. 記憶體內即時使用 Kabsch Algorithm (SVD) 剛體對齊至基準人臉 M_0。
 4. 一步到位輸出標準化的 *_face_aligned.json，包含人臉出現率、剛體運動參數與品質評級標籤。
@@ -27,7 +27,7 @@ from config import VIDEO_PROC_DIR, DATA_PROC_DIR, DEFAULT_REELS_DIR, NEW_REELS_D
 # ---------------------------------------------------------------------------
 MODEL_FILE_NAME = str(VIDEO_PROC_DIR / "face_landmarker.task")
 MODEL_URL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
-DEFAULT_VIDEO_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+DEFAULT_VIDEO_CLASS_JSON = str(DATA_PROC_DIR / "reels_classification_summary.json")
 
 # MediaPipe Face Mesh 中不受表情牽動的解剖剛性錨點 (Rigid Anchors)
 RIGID_ANCHOR_INDICES = [

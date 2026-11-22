@@ -5,7 +5,7 @@ Part 1: Independent Visual Color & Lighting Statistical Analysis (Updated for Ne
 ----------------------------------------------------------------------------------------------------------------------
 更新重點：
 1. 預設掃描目錄更新為 NEW_REELS_DIR (D:\\NewReels)，並支援透過 --reels_dir 與 --class_json 傳入自訂路徑。
-2. 完整支援新版 `video_residual_classification.py` 產出的 `video_classification_summary.json`（含 `shares`、`SRV`、`SLR` 與新殘差評分）。
+2. 完整支援新版 `reels_classification.py` 產出的 `reels_classification_summary.json`（含 `shares`、`SRV`、`SLR` 與新殘差評分）。
 3. 增強雙鍵值索引 `(account_id, video_stem)`：支援直接由 `video_xxx_color_lighting.json` 的父資料夾名稱精準定位 `account_id`，徹底避免巢狀路徑誤配。
 4. 擴充相關性與迴歸診斷：除了 Good / Neutral / Bad 三組分層 ANOVA、Welch's t-test 與 Mann-Whitney U 檢定外，額外計算各光影特徵與 `video_quality_score`、`SRV`（分享率）、`ERV`、`VFR` 的 Spearman 相關係數。
 """
@@ -24,7 +24,7 @@ from config import VIDEO_PROC_DIR, DATA_PROC_DIR, AUDIO_PROC_DIR, NEW_REELS_DIR
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_CLASS_JSON = DATA_PROC_DIR / "video_classification_summary.json"
+DEFAULT_CLASS_JSON = DATA_PROC_DIR / "reels_classification_summary.json"
 OUTPUT_DIR = VIDEO_PROC_DIR / "color_lighting_analysis"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -69,7 +69,7 @@ def build_color_lighting_lookup(root_dir: Path) -> dict:
 
 def load_video_metadata(class_json_path: Path = DEFAULT_CLASS_JSON) -> tuple[list, dict]:
     """
-    載入新版影片分類清單 (video_classification_summary.json)，並保留與舊版別名映射的相容性。
+    載入新版影片分類清單 (reels_classification_summary.json)，並保留與舊版別名映射的相容性。
     """
     alias_map = {}
     items_list = []
@@ -159,7 +159,7 @@ def collect_matched_dataset(root_dir: Path, class_json_path: Path = DEFAULT_CLAS
 def main():
     parser = argparse.ArgumentParser(description="短影音色彩與光影特徵統計分析 (新版 NewReels & Shares 指標適配)")
     parser.add_argument("--reels_dir", type=str, default=str(NEW_REELS_DIR), help="影片與特徵 JSON 存放根目錄 (預設 D:\\NewReels)")
-    parser.add_argument("--class_json", type=str, default=str(DEFAULT_CLASS_JSON), help="新版 video_classification_summary.json 路徑")
+    parser.add_argument("--class_json", type=str, default=str(DEFAULT_CLASS_JSON), help="新版 reels_classification_summary.json 路徑")
     parser.add_argument("--output_dir", type=str, default=str(OUTPUT_DIR), help="統計報告與圖表輸出目錄")
     args = parser.parse_args()
 

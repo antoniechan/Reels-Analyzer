@@ -13,7 +13,7 @@ plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicod
 plt.rcParams["axes.unicode_minus"] = False
 
 DEFAULT_AUDIO_JSON = str(AUDIO_PROC_DIR / "local_transcript_audio_saliency_summary_all_tiers.json")
-DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "reels_classification_summary.json")
 OUTPUT_DIR = str(CROSS_MODAL_PROC_DIR)
 
 # 口周與眼周表情關鍵點（嘴角提肌 61, 291；口輪匝肌 0, 13, 14, 17；眼角 33, 263, 130, 359）
@@ -54,7 +54,7 @@ def build_qc_lookup_dict(root_dir: str) -> dict:
 
 def load_alias_map(class_json_path: str) -> dict:
     """
-    讀取 video_classification_summary.json，建立 (account_id, video_id) -> local_index_name 的映射
+    讀取 reels_classification_summary.json，建立 (account_id, video_id) -> local_index_name 的映射
     """
     alias_map = {}
     if not class_json_path or not os.path.exists(class_json_path):

@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 # DEFAULT_REELS_AUDIO_DIR = DEFAULT_REELS_DIR
 DEFAULT_REELS_AUDIO_DIR = str(NEW_REELS_DIR)
 DEFAULT_TRANSCRIPT_DATA_DIR = str(REELS_DATA_DIR)
-DEFAULT_VIDEO_CLASSIFICATION_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+DEFAULT_VIDEO_CLASSIFICATION_JSON = str(DATA_PROC_DIR / "reels_classification_summary.json")
 OUTPUT_JSON_DIR = str(AUDIO_PROC_DIR)
 
 # ==============================================================================
@@ -116,7 +116,7 @@ def load_all_transcripts_from_dir(transcript_dir: str) -> dict:
         if fname in [
             "account_classification_summary.json",
             "accounts_followers.json",
-            "video_classification_summary.json",
+            "reels_classification_summary.json",
             "merged_accounts_data.json",
         ] or fname.endswith(("_audio_saliency.json", "_qc.json", "_face.json", "_color_lighting.json")):
             continue
@@ -175,7 +175,7 @@ def load_all_transcripts_from_dir(transcript_dir: str) -> dict:
 
 
 def load_video_classification_map(json_path: str) -> dict:
-    """讀取 video_classification_summary.json，若不存在則回傳空字典 (自動進入全量模式)"""
+    """讀取 reels_classification_summary.json，若不存在則回傳空字典 (自動進入全量模式)"""
     if not os.path.exists(json_path):
         print(f"  [提示] 找不到 {json_path}，將不限制分類直接處理所有匹配到 Transcript 的音訊。")
         return {}
@@ -645,7 +645,7 @@ def collect_audio_tasks(
                 missing_tx_count += 1
                 continue
 
-            # 2. 配對 video_classification_summary.json
+            # 2. 配對 reels_classification_summary.json
             class_info = (
                 class_lookup.get((account_folder, video_stem))
                 or class_lookup.get((norm_acc, video_stem))

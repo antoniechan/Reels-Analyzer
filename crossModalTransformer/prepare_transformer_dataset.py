@@ -33,7 +33,7 @@ except ImportError:
     AUDIO_PROC_DIR = PROJECT_ROOT / "audioProcessing"
     DEFAULT_REELS_DIR = Path(r"D:\reels")
 
-DEFAULT_CLASS_JSON = DATA_PROC_DIR / "video_classification_summary.json"
+DEFAULT_CLASS_JSON = DATA_PROC_DIR / "reels_classification_summary.json"
 DEFAULT_AUDIO_JSON = AUDIO_PROC_DIR / "local_transcript_audio_saliency_summary_all_tiers.json"
 OUTPUT_DIR = CURRENT_DIR / "transformer_engine"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

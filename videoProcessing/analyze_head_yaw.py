@@ -13,7 +13,7 @@ from config import VIDEO_PROC_DIR, DATA_PROC_DIR, DEFAULT_REELS_DIR
 plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicode MS", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "video_classification_summary.json")
+DEFAULT_CLASS_JSON = str(DATA_PROC_DIR / "reels_classification_summary.json")
 OUTPUT_DIR = str(VIDEO_PROC_DIR)
 
 TIER_ORDER = ["good", "neutral", "bad"]
@@ -21,7 +21,7 @@ TIER_COLORS = {"good": "#2ca02c", "neutral": "#ff7f0e", "bad": "#d62728"}
 
 
 def load_video_tier_lookup(summary_json_path: str) -> dict:
-    """讀取 video_classification_summary.json 建立檢索字典"""
+    """讀取 reels_classification_summary.json 建立檢索字典"""
     if not os.path.exists(summary_json_path):
         raise FileNotFoundError(f"找不到影片分類檔: {summary_json_path}")
     with open(summary_json_path, "r", encoding="utf-8") as f:
