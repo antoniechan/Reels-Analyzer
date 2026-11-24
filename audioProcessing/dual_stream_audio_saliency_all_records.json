@@ -1,6 +1,6 @@
 {
   "transcript_source_dir": "C:\\Users\\anton\\PycharmProjects\\Reels-Analyzer\\reelsData",
-  "classification_source": "C:\\Users\\anton\\PycharmProjects\\Reels-Analyzer\\dataProcessing\\video_classification_summary.json",
+  "classification_source": "C:\\Users\\anton\\PycharmProjects\\Reels-Analyzer\\dataProcessing\\reels_classification_summary.json",
   "total_matched": 3000,
   "newly_processed": 3000,
   "skipped_existing": 0,

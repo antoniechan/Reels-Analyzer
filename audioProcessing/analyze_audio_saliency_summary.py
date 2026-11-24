@@ -14,7 +14,7 @@ plt.rcParams["font.sans-serif"] = ["Microsoft JhengHei", "SimHei", "Arial Unicod
 plt.rcParams["axes.unicode_minus"] = False
 
 TARGET_DIR = str(AUDIO_PROC_DIR)
-DEFAULT_JSON_NAME = str(AUDIO_PROC_DIR / "local_transcript_audio_saliency_summary_all_tiers.json")
+DEFAULT_JSON_NAME = str(AUDIO_PROC_DIR / "dual_stream_audio_saliency_all_records.json")
 
 METRICS = [
     ("mean_engagement_score", "全片平均吸睛度 (Mean Engagement)"),

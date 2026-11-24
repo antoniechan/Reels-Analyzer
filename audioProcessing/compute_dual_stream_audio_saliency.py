@@ -550,7 +550,7 @@ def analyze_single_audio_with_local_transcript(
     file_name = os.path.basename(audio_path)
     video_id = os.path.splitext(file_name)[0]
 
-    # 整合來自 reelsData 與 video_classification_summary 的雙邊中繼資料
+    # 整合來自 reelsData 與 reels_classification_summary 的雙邊中繼資料
     plays = class_info.get("plays") if class_info else transcript_record.get("videoPlayCount")
     likes = class_info.get("likes") if class_info else transcript_record.get("likesCount")
     comments = class_info.get("comments") if class_info else transcript_record.get("commentsCount")
@@ -858,7 +858,7 @@ def run_pipeline(
     os.makedirs(OUTPUT_JSON_DIR, exist_ok=True)
     suffix = f"_{target_tier.lower()}" if target_tier.lower() != "all" else "_all_tiers"
     summary_file_path = os.path.join(
-        OUTPUT_JSON_DIR, f"local_transcript_audio_saliency_summary{suffix}.json"
+        OUTPUT_JSON_DIR, f"transcript_audio_saliency_summary{suffix}.json"
     )
     with open(summary_file_path, "w", encoding="utf-8") as f:
         json.dump(
